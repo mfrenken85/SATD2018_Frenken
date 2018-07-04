@@ -1,0 +1,14 @@
+Invoked on Wed Jul 04 17:25:01 CEST 2018 with arguments: -loadClassifier classifier/serialized_classifier.ser.gz -testFile classifier/output/classified_seq.test
+Loading classifier from classifier/serialized_classifier.ser.gz ... done [0.8 sec].
+Setting ColumnDataClassifier properties
+testFile = classifier/output/classified_seq.test
+loadClassifier = classifier/serialized_classifier.ser.gz
+WARNING: Number of tab-separated columns in classifier/output/classified_seq.test varies between 3 and 7
+Reading dataset from classifier/output/classified_seq.test ... done [1.8s, 3431 items].
+Output format: dataColumn1	goldAnswer	classifierAnswer	P(clAnswer)	P(goldAnswer)
+
+3431 examples in test set
+Cls WITHOUT_CLASSIFICATION: TP=0 FN=0 FP=3354 TN=77; Acc 0.022 P 0.000 R 1.000 F1 0.000
+Cls DESIGN: TP=0 FN=0 FP=77 TN=3354; Acc 0.978 P 0.000 R 1.000 F1 0.000
+Accuracy/micro-averaged F1: 0.00000
+Macro-averaged F1: 0.00000
