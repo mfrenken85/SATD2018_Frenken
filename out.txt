@@ -1,5 +1,0 @@
-hello world 
-==============================================================
-File name: FP2-Launcher/src/com/fairphone/fplauncher3/AccessibleTabView.java
-ln: 20 to 71
---------------------------------------------------------------
