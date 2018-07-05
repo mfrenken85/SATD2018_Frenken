@@ -40,7 +40,7 @@ For reference, these are the averages from the projects of the Maldonado study:
 - \# (%) of positives: number of comments classified as design TD by classifier
 
 ### Analysis of the FP2-Launcher on design debt:
-- Project: Fairphone 2 Launcher: https://github.com/WeAreFairphone/FP2-Launcher
+- GitHub: https://github.com/WeAreFairphone/FP2-Launcher
 - \# of Classes: 131
 - \# LOC: 136,191
 - \# of Contributors: 47
@@ -48,7 +48,7 @@ For reference, these are the averages from the projects of the Maldonado study:
 - \# (%) of positives: 63 (1.83%)
 
 ### Analysis of the reddit-android-appstore on design debt:
-- Project: /r/Android App: https://github.com/d4rken/reddit-android-appstore
+- GitHub: https://github.com/d4rken/reddit-android-appstore
 - \# of Classes: 21
 - \# LOC: 6,756
 - \# of Contributors: 14
@@ -56,7 +56,7 @@ For reference, these are the averages from the projects of the Maldonado study:
 - \# (%) of positives: 40 (86.96%)
 
 ### Analysis of the VocableTrainer-Android on design debt:
-- Project: VocableTrainer-Android: https://github.com/0xpr03/VocableTrainer-Android
+- GitHub: https://github.com/0xpr03/VocableTrainer-Android
 - \# of Classes: 55
 - \# LOC: 14,475
 - \# of Contributors: 3
@@ -64,14 +64,15 @@ For reference, these are the averages from the projects of the Maldonado study:
 - \# (%) of positives: 18 (3.73%)
 
 ### Analysis of the NewPipe on design debt:
-- Project: NewPipe: https://github.com/TeamNewPipe/NewPipe
+- GitHub: https://github.com/TeamNewPipe/NewPipe
 - \# of Classes: 108
 - \# LOC: 35,352
 - \# of Contributors: 243
 - \# comments extracted: 993
 - \# (%) of positives: 15 (1.51%)
 
-### Project: android-oss: https://github.com/kickstarter/android-oss
+### Analysis of the android-oss on design debt:
+- GitHub: https://github.com/kickstarter/android-oss
 - \# of Classes: 133
 - \# LOC: 51,305
 - \# of Contributors: 23
