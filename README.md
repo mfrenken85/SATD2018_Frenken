@@ -10,7 +10,7 @@ tables are included in tables.sql.
 4. Classify comments manually.
 5. Run classify_comments.py to check performance of the classifier.
 
-##Analysis of android projects
+## Analysis of android projects
 The goal of this analysis is to test the scripts and workflow that are to be used for verifying the classifier on different ecosystems, and to get an impression of how much design TD the classifier is able to identify given projects in the android ecosystem. This is a limit analysis due to time constraints. For the full analysis the projects under inspection should be more carefully chosen, and a significant sample of the extracted comments should be manually classified.
 
 Moreover, the comment extraction script currently in use is very primitive. The script simply exactracts comments all comments found directly before methods or within the method body. Maldonado used the following filtering heuristics in his study:
