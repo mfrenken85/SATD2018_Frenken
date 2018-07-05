@@ -1,9 +1,7 @@
 import os
-import shutil
-import sys
 import psycopg2
 import subprocess
-from subprocess import Popen, PIPE
+from subprocess import PIPE
 
 # This class can be used to classify comments using a serialized classifier.
 
@@ -17,6 +15,9 @@ password = "111111"#sys.argv[1]
 username = 'postgres'
 dbname = 'postgres'
 
+# name of the project as refered to in database
+project = "android-oss"
+
 execution_options = {1: {'DOCUMENTATION', 'DESIGN', 'DEFECT', 'IMPLEMENTATION', 'TEST', 'WITHOUT_CLASSIFICATION'},
                      2: {'DEFECT', 'WITHOUT_CLASSIFICATION'},
                      3: {'DESIGN', 'WITHOUT_CLASSIFICATION'},
@@ -25,7 +26,6 @@ execution_options = {1: {'DOCUMENTATION', 'DESIGN', 'DEFECT', 'IMPLEMENTATION', 
                      6: {'TEST', 'WITHOUT_CLASSIFICATION'},
                      7: {'UNKNOWN'}
 }
-project = "fp2-launcher"  #fp2-launcher
 
 # create the files used by the stanford classifier, train and test both.
 def write_classifier_file(file_name, result):

@@ -1,0 +1,993 @@
+need a larger delta since step size / granularity is too small and causes	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+floating point round-off errors during conversion	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+read from file	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+test writing to an output	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+read again	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if both lists have the exact same items	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+reverse order by timestamp	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+create a temp file and delete it so we have a temp directory	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+unsupported	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+unsupported	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+for (videostream videostream result) system.out.println(videostream.resolution + > + mediaformat.getsuffixbyid(videostream.format) + > + videostream.isvideoonly)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+reverse order	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+dont show higher resolutions	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+have resolution and the format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+have resolution but not the format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+have resolution and the format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the best resolution	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+doesnt have the 60fps variant and format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+doesnt have the 60fps variant	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+doesnt have the resolution will return the best one	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+doesnt contain the preferred format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+list doesnt contains this format it should fallback to the highest bitrate audio no matter what format it is	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+multiple not-preferred-formats and equal bitrates	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+list doesnt contains this format it should fallback to the highest bitrate audio and	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the highest quality format.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+adding a new format and bitrate. adding another stream will have no impact since	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+its not a prefered format.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+doesnt contain the preferred format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+list doesnt contains this format it should fallback to the most compact audio no matter what format it is.	UNKNOWN	WITHOUT_CLASSIFICATION	0.981	0.000
+webma is more compact than m4a	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+multiple not-preferred-formats and equal bitrates	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+list doesnt contains this format it should fallback to the most compact audio no matter what format it is.	UNKNOWN	WITHOUT_CLASSIFICATION	0.981	0.000
+should be same as above	UNKNOWN	WITHOUT_CLASSIFICATION	0.953	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exact matches	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+match but not refresh	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+match but not format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+match but not format and not refresh	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+match closest lower resolution	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+cant find a match	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+what to do?	UNKNOWN	WITHOUT_CLASSIFICATION	0.790	0.000
+bind the service	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+views	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+added in api level 23.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+bug in api< 23 this is never called	UNKNOWN	WITHOUT_CLASSIFICATION	0.987	0.000
+so mactivity=null	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+so app crashes with nullpointer exception	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deprecated in api level 23 but must remain to allow compatibility with api<23	UNKNOWN	WITHOUT_CLASSIFICATION	0.905	0.000
+switch (item.getitemid()) { case r.id.switch_modemlinear = !mlinearupdatelist()return truedefaultreturn super.onoptionsitemselected(item)}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+nothing to do	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+nothing to do	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+nothing to do	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+nothing to do	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+hex	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+notify media scanner on downloaded media file	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+already downloaded or downloading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+overwrite mission	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+rename file (?)	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+sort a list of mission by its timestamp. oldest first @param missions the missions to sort	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+loads finished missions from the data source	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+ensure its sorted	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if (i > 0) i--	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get a mission by its location and name @param location the location @param name the name @return the mission or null if no such mission exists	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+splits the filename into name and extension <p> dots are ignored if they appear not at all at the beginning of the file at the end of the file @param name the name to split @return a string array with a length of 2 containing the name and the extension	UNKNOWN	WITHOUT_CLASSIFICATION	0.964	0.000
+generates a unique file name. <p> e.g. myname (1).txt if the name myname.txt exists. @param location the location (to check for existing files) @param name the name of the file @return the unique file name @throws illegalargumentexception if the location is not a directory @throws securityexception if the location is not readable	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+probably an error on our side	UNKNOWN	WITHOUT_CLASSIFICATION	0.968	0.000
+mission.notifyerror(downloadmission.error_server_unsupported)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+open again	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fallback to single thread if no partial content support	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo notify	UNKNOWN	DESIGN	0.697	0.000
+mission.notifyerror(downloadmission.error_server_unsupported)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+open again	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fallback to single thread if no partial content support	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo notify	UNKNOWN	DESIGN	0.697	0.000
+h.itemview.setonclicklistener(new view.onclicklistener() { @overridepublic void onclick(view v) {showdetail(h)}})	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set to false first	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+mcontext.granturipermission(packagename uri intent.flag_grant_read_uri_permission)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+madapter.mmanager.deletemission(mholder.position)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+todo notification	UNKNOWN	DESIGN	0.773	0.000
+madapter.notifydatasetchanged()	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+create dialog	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+madapter.mmanager.deletemission(mholder.position)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+todo notification	UNKNOWN	DESIGN	0.773	0.000
+madapter.notifydatasetchanged()	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+create dialog	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+check if a block is reserved @param block the block identifier @return true if the block is reserved and false if otherwise	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set the download position of the file @param threadid the identifier of the thread @param position the download position of the thread	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get the position of a thread @param threadid the identifier of the thread @return the position for the thread	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called by a download thread when it finished.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called when all parts are downloaded	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start downloading with multiple threads.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+in fallback mode resuming is not supported.	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+todo notify & write state to info file	UNKNOWN	DESIGN	0.624	0.000
+if (err)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+removes the file and the meta file	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+write this {@link downloadmission} to the meta file asynchronously if no thread is already running.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+write this {@link downloadmission} to the meta file.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get the path of the meta file @return the path to the meta file	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns all values of the download mission as contentvalues. @param downloadmission the download mission @return the content values	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+currently nothing to do	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+wait for an unblocked position	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+a server may be ignoring the range request	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+todo we should save progress for each thread	UNKNOWN	WITHOUT_CLASSIFICATION	0.631	0.000
+todo retry count limit & notify error	UNKNOWN	DESIGN	0.588	0.000
+fragments lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+its recommended to call exactly once in the entire lifetime of the application. @param builder if null default builder will be used	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+get the size of the content that the url is pointing by firing a head request. @param url an url pointing to the content @return the size of the content in bytes	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+download the text file at the supplied url as in download(string) but set the http header field accept-language to the supplied string. @param siteurl the url of the text file to return the contents of @param language the language (usually a 2-character code) to set as the preferred language @return the contents of the specified text file	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+download the text file at the supplied url as in download(string) but set the http headers included in the customproperties map. @param siteurl the url of the text file to return the contents of @param customproperties set request header properties @return the contents of the specified text file @throws ioexception	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+download (via http) the text file located at the supplied url and return its contents. primarily intended for downloading web pages. @param siteurl the url of the text file to download @return the contents of the specified text file	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+todo explicitly clear the search results once they are restored when the app restarts	UNKNOWN	WITHOUT_CLASSIFICATION	0.657	0.000
+or if the app reloads the current video after being killed that should be cleared also	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this process is dedicated to leakcanary for heap analysis.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+you should not init your app in this process.	UNKNOWN	WITHOUT_CLASSIFICATION	0.923	0.000
+initialize settings first because others inits can use its values	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+initialize image loader	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+httpsgithub.com/reactivex/rxjava/wiki/whats-different-in-2.0#error-handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+as undeliverableexception is a wrapper get the cause of it to get the real exception	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+out-of-lifecycle exceptions should only be reported if a debug user wishes so	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+when exception is not reported log it	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+dont crash the application over a simple network problem	UNKNOWN	WITHOUT_CLASSIFICATION	0.980	0.000
+network api cancellation	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+blocking code disposed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+though these exceptions cannot be ignored	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+bug in app	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+bug in operator	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+throw uncaught exception that will trigger the report system	UNKNOWN	WITHOUT_CLASSIFICATION	0.909	0.000
+as undeliverableexception is a wrapper get the cause of it to get the real exception	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+out-of-lifecycle exceptions should only be reported if a debug user wishes so	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+when exception is not reported log it	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+dont crash the application over a simple network problem	UNKNOWN	WITHOUT_CLASSIFICATION	0.980	0.000
+network api cancellation	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+blocking code disposed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+though these exceptions cannot be ignored	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+bug in app	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+bug in operator	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+throw uncaught exception that will trigger the report system	UNKNOWN	WITHOUT_CLASSIFICATION	0.909	0.000
+keep this below default to avoid making noise on every notification update	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+set return to cancel by default	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+enable javascript	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+cleaning cache history and cookies from webview	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+todo start loader	UNKNOWN	WITHOUT_CLASSIFICATION	0.861	0.000
+todo stop loader	UNKNOWN	WITHOUT_CLASSIFICATION	0.878	0.000
+find cookies s_gl & goojf and add cookies to downloader	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+give cookies to downloader class	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+closing activity and return to parent	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+mcookies = c_s_gl + + c_goojf	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+youtube seems to also need the other cookies	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+todo start loader	UNKNOWN	WITHOUT_CLASSIFICATION	0.861	0.000
+todo stop loader	UNKNOWN	WITHOUT_CLASSIFICATION	0.878	0.000
+find cookies s_gl & goojf and add cookies to downloader	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+give cookies to downloader class	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+closing activity and return to parent	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+mcookies = c_s_gl + + c_goojf	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+youtube seems to also need the other cookies	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+this method recalculates the height of this view so it <b>must</b> be called when some child changes (e.g. add new views change text).	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+add a listener which will be listening for changes in this view (i.e. collapsed or expanded).	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+remove a listener so it doesnt receive more state changes.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+state saving	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+internal	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activitys lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+close drawer on return and dont show animation so its looks like the drawer isnt open	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when the user returns to mainactivity	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+httpsstackoverflow.com/questions/10844112/runtimeexception-performing-pause-of-activity-that-is-not-resumed	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+briefly let the activity resume properly posting the recreate call to end of the message queue	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return if launched from a launcher (e.g. nova launcher pixel launcher )	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+to not destroy the already created backstack	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+if current fragment implements backpressable (i.e. can/wanna handle back press) delegate the back press to it	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+implement the following diagram behavior for the up button <pre> +---------------+ | main screen +----+ +-------+-------+ | | | â² up | search button | | +----+-----+ | +------------+ search |â-----+ | +----+-----+ | open | | something â² up | | | +------------+-------------+ | | | | | video <-> channel | +---âº| channel <-> playlist | | video <-> . | | | +--------------------------+ </pre>	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if search fragment wasnt found in the backstack	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+go to the main fragment	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+menu	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if we can load it from the cache (forceload parameter) if we cant load from the network (single loadfromnetwork) and put the results in the cache.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+take the first valid	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+default implementation uses the {@link infocache} to get cached results	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection unchecked	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+only return info if its not null (it is cached)	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+a simple and general error handler that show a toast for known exceptions and for others opens the report error activity with the (optional) error message.	UNKNOWN	WITHOUT_CLASSIFICATION	0.850	0.000
+starting recaptcha challenge activity	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+check if throwable have the cause that can be assignable from the causes to check. @see class#isassignablefrom(class)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if getcause is not the same as cause (the getcause is already the root)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+as it will cause a infinite loop if it is	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if throwable is a subclass of any of the filtered classes	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+iteratively checks if the root cause of the throwable is a subclass of the filtered class	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+check if throwable have the exact cause from one of the causes to check.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if getcause is not the same as cause (the getcause is already the root)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+as it will cause a infinite loop if it is	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if throwable have interrupted exception as one of its causes.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+#143 #44 #42 #22 make sure that the filename does not contain illegal chars. @param context the context to retrieve strings and preferences from @param title the title to create a filename from @return the filename	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+create a valid filename @param title the title to create a filename from @param invalidcharacters patter matching invalid characters @param replacementchar the replacement @return the filename	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+animate the view @param view view that will be animated @param animationtype {@link type} of the animation @param enterorexit true to enter false to exit @param duration how long the animation will take in milliseconds @param delay how long the animation will wait to start in milliseconds @param execonend runnable that will be executed when the animation ends	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+animate the background color of a view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+animate the text color of any view that extends {@link textview} (buttons edittext)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+internals	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection codeblock2expr	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+stop and bypass fetcherservice if infoscreen was selected since	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+streamdetailfragment can fetch data itself	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+if at top most level normal behaviour	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+else go up	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+here thisactivity is the current activity	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+should we show an explanation?	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+if (activitycompat.shouldshowrequestpermissionrationale(activity manifest.permission.write_external_storage)) { show an explanation to the user asynchronously -- dont block this thread waiting for the users response! after the user sees the explanation try again to request the permission. } else {	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+no explanation needed we can request the permission.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+permission_write_storage is an	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+app-defined int constant. the callback method gets the	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+result of the request.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+in order to be able to draw over other apps the permission android.permission.system_alert_window have to be granted. <p> on < api 23 (marshmallow) the permission was granted when the user installed the application (via androidmanifest) on > 23 however it have to start a activity asking the user if he agrees. <p> this method just return if the app has permission to draw over other apps and if it doesnt it will try to get the permission. @return returns {@link settings#candrawoverlays(context)}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+as we use the already formatted count is not the responsibility of this method handle long numbers	UNKNOWN	WITHOUT_CLASSIFICATION	0.786	0.000
+(it probably will fall in the other category or some language have some specific rule then we have to change it)	UNKNOWN	WITHOUT_CLASSIFICATION	0.986	0.000
+greater than a day	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+greater than an hour	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+handle days	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+get a resource string with instructions for importing subscriptions for each service. @return the string resource containing the instructions or -1 if the service dont support it	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+for services that support importing from a channel url return a hint that will be used in the edittext that the user will type in his channel url. @return the hints string resource or -1 if the service dont support it	UNKNOWN	WITHOUT_CLASSIFICATION	0.749	0.000
+@see #getdefaultresolutionindex(string string mediaformat list)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see #getdefaultresolutionindex(string string mediaformat list)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see #getdefaultresolutionindex(string string mediaformat list)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see #getdefaultresolutionindex(string string mediaformat list)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if the user has chosen to limit resolution to conserve mobile data	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+usage then we should also limit our audio usage.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+join the two lists of video streams (video_only and normal videos) and sort them according with default format chosen by the user @param context context to search for the format to give preference @param videostreams normal videos list @param videoonlystreams video only stream list @param ascendingorder true -> smallest to greatest | false -> greatest to smallest @return the sorted list	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load the prefered resolution otherwise the best available	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+return the index of the default stream in the list based on the parameters defaultresolution and defaultformat @return index of the default resolution&format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this is actually an error	UNKNOWN	WITHOUT_CLASSIFICATION	0.978	0.000
+but maybe there is really no stream fitting to the default value.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+join the two lists of video streams (video_only and normal videos) and sort them according with default format chosen by the user @param defaultformat format to give preference @param showhigherresolutions show >1080p resolutions @param videostreams normal videos list @param videoonlystreams video only stream list @param ascendingorder true -> smallest to greatest | false -> greatest to smallest @return the sorted list @return the sorted list	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add all to the hashmap	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+override the values when the key == resolution with the defaultformat	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sort the streams list depending on the parameter ascendingorder <p> it works like that<br> - take a string resolution remove the letters replace 0p60 (for 60fps videos) with 1 and sort by the greatest<br> <blockquote><pre> 720p -> 720 720p60 -> 721 360p -> 360 1080p -> 1080 1080p60 -> 1081 <br> ascendingorder ? 360 < 720 < 721 < 1080 < 1081 !ascendingorder ? 1081 < 1080 < 721 < 720 < 360</pre></blockquote> @param videostreams list that the sorting will be applied @param ascendingorder true -> smallest to greatest | false -> greatest to smallest	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get the audio from the list with the highest quality. format will be ignored if it yields no results. @param audiostreams list the audio streams @return index of the audio with the highest average bitrate of the default format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get the audio from the list with the lowest bitrate and efficient format. format will be ignored if it yields no results. @param format the target format type or null if it doesnt matter @param audiostreams list the audio streams @return index of the audio stream that can produce the most compact results or -1 if not found.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+locates a possible match for the given resolution and format in the provided list. in this order 1. find a format and resolution match 2. find a format and resolution match and ignore the refresh 3. find a resolution match 4. find a resolution match and ignore the refresh 5. find a resolution just below the requested resolution and ignore the refresh 6. give up	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fetches the desired resolution or returns the default if it is not found. the resolution will be reduced if video chocking is active.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+compares the quality of two audio streams	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+same bitrate and format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+compares the quality of two video streams.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+same bitrate and format	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the maximum resolution allowed @param context app context @return maximum resolution allowed or null if there is no maximum	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+are we connected to wifi? @param context app context @return true if connected to wifi	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+apply the selected theme (on newpipe settings) in the context with the default style (see {@link #settheme(context int)}). @param context context that the theme will be applied	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+apply the selected theme (on newpipe settings) in the context themed according with the styles defined for the service . @param context context that the theme will be applied @param serviceid the theme will be styled to the service with this id pass -1 to get the default style	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return true if the selected theme (on newpipe settings) is the light theme @param context context to get the preference	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+create and return a wrapped context with the default selected theme set. @param basecontext the base context for the wrapper @return a wrapped-styled context	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return the selected theme without being styled to any service (see {@link #getthemeforservice(context int)}). @param context context to get the selected theme @return the selected style (the default one)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return a dialog theme styled according to the (default) selected theme. @param context context to get the selected theme @return the dialog style (the default one)	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+return the selected theme styled according to the serviceid. @param context context to get the selected theme @param serviceid return a theme styled to this service -1 to get the default @return the selected style (styled)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fallback	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get a resource id from a resource styled according to the the contexts theme.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get a color from an attr styled according to the the contexts theme.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this will get the r.drawable. resource to which attr is currently pointing to. @param attr a r.attribute. resource value @param context the context to use @return a r.drawable. resource value	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+this function helps to create zip files. caution this will override the original file. @param outzip the zipoutputstream where the data should be stored in @param file the path of the file that should be added to zip. @param name the path of the file inside the zip. @throws exception	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this will extract data from zipfiles. caution this will override the original file. @param inzip the zipoutputstream where the data is stored in @param file the path of the file on the disk where the data should be extracted to. @param name the path of the file inside the zip. @return will return true if the file was found within the zip file @throws exception	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+delete old file first	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if its not the current theme	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+players	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+external players	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+log.e(navigationhelper either no streaming player for audio was installed or something important crashed)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+through fragmentmanager	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+through intents	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+link handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+try market scheme	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fall back to google play url (dont worry f-droid can handle it )	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start an activity to install kore @param context the context	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start kore app to show a video on kodi for a list of supported urls see the <a href=httpsgithub.com/xbmc/kore/blob/master/app/src/main/androidmanifest.xml> kore source code </a>. @param context the context to use @param videourl the url to the video	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initialize the statesaver usually you want to call this in the application class @param context used to get the available cache dir	UNKNOWN	DESIGN	0.873	0.000
+@see #trytorestore(savedstate writeread)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+try to restore the state from memory and disk using the {@link statesaver.writeread#readfrom(queue)} from the writeread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection unchecked	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+@see #trytosave(boolean string string writeread)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+generate unique prefix	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+reuse prefix	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if its not changing configuration (i.e. rotating screen) try to write the state from {@link statesaver.writeread#writeto(queue)} to the file with the name of prefixfilename + suffixfilename in a cache folder got from the {@link #init(context)}. <p> it checks if the file already exists and if it does just return the path so a good way to save is <ul> <li> a fixed prefix for the file</li> <li> a changing suffix</li> </ul> @param ischangingconfig @param prefixfilename @param suffixfilename @param writeread	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if the file already exists just return it	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+delete any file that contains the prefix	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+delete the cache file contained in the savedstate and remove any possible-existing value in the memory-cache.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+noinspection resultofmethodcallignored	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+clear all the files in cache (in memory and disk).	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get the prefix of the saved file @return the file prefix	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+get the path to the saved file @return the path to the saved file	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get the prefix of the saved file @return the file prefix	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+get the path to the saved file @return the path to the saved file	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+handle actions	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+item handling	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+error	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+handle actions	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+error	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+check if file is supported	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if settings file exist ask if it should be imported.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+restart app to properly load db	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+restart app to properly load db	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+restart app to properly load db	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+error	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+async call	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+async call	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get key first (dont ask about this solution)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+errorlist to stringlist	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+important add guru meditation	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+do nothing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+normal bugreport	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+print stack trace once again for debugging	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get the checked activity. @param returnactivity the activity to return to @return the casted return activity or null	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+just an easter egg	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+super.onbackpressed()	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+services lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+actions	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+notification	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+starts background player activity -- attempts to unlock lockscreen	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+updates the notification and the play/pause button in it. used for changes on the remoteview @param drawableid if != -1 sets the drawable with that id on the play/pause button	UNKNOWN	WITHOUT_CLASSIFICATION	0.947	0.000
+if (debug) log.d(tag updatenotification() called with drawableid = [ + drawableid + ])	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+thumbnail loading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states implementation	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+disable default behavior	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playback listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activity event listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+broadcast receiver	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+thumbnail loading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states implementation	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+disable default behavior	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playback listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activity event listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+broadcast receiver	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+serdes	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+getters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activity lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+we have saved states stop here to restore it	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+upon going in or out of multiwindow mode isinmultiwindow will always be false	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+since the first onresume needs to restore the player.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+subsequent onresume calls while multiwindow mode remains the same and the player is	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prepared should be ignored.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+state saving	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+1 screen orientation changes using acelerometer	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+0 screen orientatino is locked	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playback parameters listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+no action	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer video listener	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+playback listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+player overrides	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+visible=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+visible=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+delaymillis=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+getters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo improve video gesture controls	UNKNOWN	WITHOUT_CLASSIFICATION	0.543	0.000
+noinspection pointlessbooleanexpression	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+boolean up = !((e2.gety() - e1.gety()) > 0) && distancey > 0 androids origin point is on top	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if (playerimpl.getvolumetextview().getvisibility() == view.visible) playerimpl.getvolumetextview().setvisibility(view.gone) if (playerimpl.getbrightnesstextview().getvisibility() == view.visible) playerimpl.getbrightnesstextview().setvisibility(view.gone)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection pointlessbooleanexpression	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+no action	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer video listener	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+playback listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+player overrides	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+visible=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+visible=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+delaymillis=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+getters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo improve video gesture controls	UNKNOWN	WITHOUT_CLASSIFICATION	0.543	0.000
+noinspection pointlessbooleanexpression	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+boolean up = !((e2.gety() - e1.gety()) > 0) && distancey > 0 androids origin point is on top	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if (playerimpl.getvolumetextview().getvisibility() == view.visible) playerimpl.getvolumetextview().setvisibility(view.gone) if (playerimpl.getbrightnesstextview().getvisibility() == view.visible) playerimpl.getbrightnesstextview().setvisibility(view.gone)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection pointlessbooleanexpression	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activity lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+service connection	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+component building	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+pos=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+pos=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+pos=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+pos=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+component helpers	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+component on-click listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playback parameters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+seekbar listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playlist append	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+share	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+binding service listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set buffer progress	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set duration	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+set current time if not seeking	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+binding service helper	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playoninit=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+resolve play queue	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+resolve append intents	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+good to go	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+playoninit=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+thumbnail loading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+broadcast receiver	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add your action in the intentfilter @param intentfilter intent filter that will be used for register the receiver	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+repeat and shuffle	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+1	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+2	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+3	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+4	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+has another start position?	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+processes the exceptions produced by {@link com.google.android.exoplayer2.exoplayer exoplayer}. there are multiple types of errors <br><br> {@link exoplaybackexception#type_source type_source} <br><br> {@link exoplaybackexception#type_unexpected type_unexpected} <br><br> if a runtime error occurred then we can try to recover it by restarting the playback after setting the timestamp recovery. <br><br> {@link exoplaybackexception#type_renderer type_renderer} <br><br> if the renderer failed treat the error as unrecoverable. @see #processsourceerror(ioexception) @see player.eventlistener#onplayererror(exoplaybackexception)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+isnetworkproblem=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+istransitioningtobadstream=	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+recoverablewithnoavailablestream=	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+recoverableifloadfailswhennetworkisfine=	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+noideawhathappenedandletuserchoosewhattodo=	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+refresh the playback if there is a transition to the next video	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when player is in single repeat mode and a period transition occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+we need to register a view count here since no metadata has changed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playback listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if live then not near playback edge	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if not playing then not approaching playback edge	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if nothing to synchronize	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if on wrong window	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if bad seek position	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+general player	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if current playback has run for play_prev_activation_limit_millis milliseconds restart current track. also restart the track if the current track is the first in a queue.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+successful	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+successful	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+auto queue when starting playback on the last item when not repeating	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+getters and setters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks if the current playback is a livestream and is playing at or beyond the live edge	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+why would this even happen =(	UNKNOWN	WITHOUT_CLASSIFICATION	0.956	0.000
+create video stream source	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+create optional audio stream source	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+use the audio stream if there is no video stream or	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+merge with audio stream in case if video does not contain audio	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+if there is no audio or video sources then this media source cannot be played back	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+below are auxiliary media sources	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+create subtitle sources	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+service lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+notification	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+starts popup player activity -- attempts to unlock lockscreen	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+updates the notification and the play/pause button in it. used for changes on the remoteview @param drawableid if != -1 sets the drawable with that id on the play/pause button	UNKNOWN	WITHOUT_CLASSIFICATION	0.947	0.000
+misc	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if (debug) log.d(tag getminimumvideoheight() called with width = [ + width + ] returned + height)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+respect the 169 ratio that most videos have	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+thumbnail loading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+rebuild notification here since remote view does not release bitmaps	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+causing memory leaks	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activity event listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer video listener	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+playback listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+broadcast receiver	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+getters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection pointlessbooleanexpression	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+second pointer is the anchor (the leftmost pointer)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+first pointer is the anchor	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+thumbnail loading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+rebuild notification here since remote view does not release bitmaps	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+causing memory leaks	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activity event listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer video listener	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+playback listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+broadcast receiver	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+states	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+getters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection pointlessbooleanexpression	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+second pointer is the anchor (the leftmost pointer)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+first pointer is the anchor	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+item states keep external access out	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+package-private	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+build the list item	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check if the current item should be selected/highlighted	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playlist actions	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initializes the play queue message buses. also starts a self reporter for logging if debug mode is enabled.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+dispose the play queue by stopping all message buses.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+readonly ops	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the current index that should be played.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+returns the current item that should be played.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the item at the given index. may throw {@link indexoutofboundsexception}.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the index of the given item using referential equality. may be null despite play queue contains identical item.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+referential equality cant think of a better way to do this	UNKNOWN	DESIGN	0.941	0.000
+todo better than this	UNKNOWN	DESIGN	0.996	0.000
+returns the current size of play queue.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks if the play queue is empty.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+determines if the current play queue is shuffled.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns an immutable view of the play queue.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the play queues update broadcast. may be null if the play queue message bus is not initialized.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+write ops	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+changes the current playing index to a new index. this method is guarded using in a circular manner for index exceeding the play queue size. will emit a {@link selectevent} if the index is not the current playing index.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+changes the current playing index by an offset amount. will emit a {@link selectevent} if offset is non-zero.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+appends the given {@link playqueueitem}s to the current play queue. @see #append(list items)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+appends the given {@link playqueueitem}s to the current play queue. if the play queue is shuffled then append the items to the backup queue as is and append the shuffle items to the play queue. will emit a {@link appendevent} on any given context.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+removes the item at the given index from the play queue. the current playing index will decrement if it is greater than the index being removed. on cases where the current playing index exceeds the playlist range it is set to 0. will emit a {@link removeevent} if the index is within the play queue index range.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+report an exception for the item at the current index in order and the course of action if the error can be skipped or the current item should be removed. this is done as a separate event as the underlying manager may have different implementation regarding exceptions.	UNKNOWN	DESIGN	0.995	0.000
+moves a queue item at the source index to the target index. if the item being moved is the currently playing then the current playing index is set to that of the target. if the moved item is not the currently playing and moves to an index <b>after</b> the current playing index then the current playing index is decremented. vice versa if the an item after the currently playing is moved <b>before</b>.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets the recovery record of the item at the index. broadcasts a recovery event.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+revoke the recovery record of the item at the index. broadcasts a recovery event.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+shuffles the current play queue. this method first backs up the existing play queue and item being played. then a newly shuffled play queue will be generated along with currently playing item placed at the beginning of the queue. will emit a {@link reorderevent} in any context.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+unshuffles the current play queue if a backup play queue exists. this method undoes shuffling and index will be set to the previously playing item if found otherwise the index will reset to 0. will emit a {@link reorderevent} if a backup exists.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+rx broadcast	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see defaulttrackselector#formathaslanguage(format string)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see defaulttrackselector#formathasnolanguage(format)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see defaulttrackselector#selecttexttrack(trackgrouparray int[][] parameters)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prefer non-forced to forced if a preferred text language has been specified. where	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+both are provided the non-forced track will usually contain the forced subtitles as	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+a subset.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+track should not be selected.	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+this.aspectratioframelayout.setaspectratio(16.0f / 9.0f)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup video view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup subtitle view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup audio session with onboard equalizer	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+ui builders	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+add option for turning off caption	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add all available captions	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+states implementation	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+bug on lower api disabling and enabling the seekbar resets the thumb color -.- so sets the color again	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+bug on lower api disabling and enabling the seekbar resets the thumb color -.- so sets the color again	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer video listener	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+exoplayer track updates	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+extract all loaded languages	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+normalize mismatching language strings	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+build ui	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+general player	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+limit log	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+onclick related	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+called when an item of the quality selector or the playback speed selector is selected	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+called when some popup menu is dismissed	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+seekbar listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if (fromuser) playbackcurrenttime.settext(gettimestring(progress))	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show a animation and depending on goneonend will stay on the screen or be gone @param drawableid the drawable that will be used to animate pass -1 to clear any animation that is visible @param goneonend will set the animation view to gone on the end of the animation	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+getters and setters	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing so this will stall the playback	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+mediasource delegations	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the {@link managedmediasource} at the given index of the playlist. if the index is invalid then null is returned.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+playlist manipulation	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+expands the {@link concatenatingmediasource} by appending it with a {@link placeholdermediasource}. @see #append(managedmediasource)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+appends a {@link managedmediasource} to the end of {@link concatenatingmediasource}. @see concatenatingmediasource#addmediasource	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+removes a {@link managedmediasource} from {@link concatenatingmediasource} at the given index. if this index is out of bound then the removal is ignored. @see concatenatingmediasource#removemediasource(int)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+moves a {@link managedmediasource} in {@link concatenatingmediasource} from the given source index to the target index. if either index is out of bound then the call is ignored. @see concatenatingmediasource#movemediasource(int int)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+invalidates the {@link managedmediasource} at the given index by replacing it with a {@link placeholdermediasource}. @see #update(int managedmediasource runnable)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+updates the {@link managedmediasource} in {@link concatenatingmediasource} at the given index with a given {@link managedmediasource}. @see #update(int managedmediasource runnable)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+donothing=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+updates the {@link managedmediasource} in {@link concatenatingmediasource} at the given index with a given {@link managedmediasource}. if the index is out of bound then the replacement is ignored. @see concatenatingmediasource#addmediasource @see concatenatingmediasource#removemediasource(int runnable)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add and remove are sequential on the same thread therefore here the exoplayer	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+message queue must receive and process add before remove effectively treating them	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+as atomic.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+since the finalizing action occurs strictly after the timeline has completed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+all its changes on the playback thread thus it is possible in the meantime	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+other calls that modifies the playlist media source occur in between. this makes	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+it unsafe to call remove as the finalizing action of add.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+because of the above race condition it is thus only safe to synchronize the player	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+in the finalizing action after the removal is complete and the timeline has changed.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+yes this is almost a copypasta got a problem with that? =\	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+set background arrow style	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prevents back button hiding media controller controls (after showing them)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+instead of exiting video	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+see httpstackoverflow.com/questions/6051825	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+also solves httpsgithub.com/thescrabi/newpipe/issues/99	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+convert from seconds to milliseconds	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+savedinstancestate.putint(position videoview.getcurrentposition())	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+videoview.pause()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+videoview.seekto(position)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+audio manager	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+audiofocus	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set the volume to 1/10 on ducking	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+audio processing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exposed methods	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+dispose the manager and releases all message buses and loaders.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+event reactor	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+event specific action	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+need to move to ensure the playing index from play queue matches that of	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the source timeline and then window correction can take care of the rest	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+loading and syncing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+low frequency critical events	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+high frequency or noncritical events	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playback locking	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+metadata synchronization	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+mediasource loading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+evict the previous items being loaded to free up memory before start loading new ones	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+no exception handling since getloadedmediasource guarantees nonnull return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+only update the playlist timeline for items at the current index or after.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks if the corresponding mediasource in {@link com.google.android.exoplayer2.source.concatenatingmediasource} for a given {@link playqueueitem} needs replacement either due to gapless playback readiness or playlist desynchronization. <br><br> if the given {@link playqueueitem} is currently being played and is already loaded then correction is not only needed if the playlist is desynchronized. otherwise the check depends on the status (e.g. expiration or placeholder) of the {@link managedmediasource}.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+mightbeinprogress=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks if the current playing index contains an expired {@link managedmediasource}. if so the expired source is replaced by a {@link placeholdermediasource} and {@link #loadimmediate()} is called to reload the current item. <br><br> if not then the media source at the current index is ready for playback and {@link #maybesynchronizeplayer()} is called. <br><br> under both cases {@link #maybesync()} will be called to ensure the listener is up-to-date.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+caninterruptonrenew=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+mediasource playlist helpers	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+manager helpers	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the current item has higher priority	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the rest are just for seamless playback	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+although timeline is not updated prior to the current index these sources are still	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+loaded into the cache for faster retrieval at a potentially later time.	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+do a round robin	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+custom behaviours	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+should be called on player destruction to prevent leakage.	UNKNOWN	WITHOUT_CLASSIFICATION	0.979	0.000
+if header isnt null offset the items by -1	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+read a json source through the input stream and return the parsed subscription items. @param in the input stream (e.g. a file) @param eventlistener listener for the events generated	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+write the subscriptions items list as json to the output. @param items the list of subscriptions items @param out the output stream (e.g. a file) @param eventlistener listener for the events generated	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see #writeto(list outputstream importexporteventlistener)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+dialog	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+control views	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when unchecked slide back to the minimum of current tempo or pitch	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sliders	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this change is first in chain	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this change is first in chain	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+helper	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exposed helpers	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a {@link streaminfo} and the existing queue items provide the {@link singleplayqueue} consisting of the next video for auto queuing. <br><br> this method detects and prevents cycle by naively checking if a candidate next videos url already exists in the existing items. <br><br> to select the next video {@link streaminfo#getnextvideo()} is first checked. if it is nonnull and is not part of the existing items then it will be used as the next video. otherwise an random item with non-repeating url will be selected from the {@link streaminfo#getrelatedstreams()}.	UNKNOWN	DESIGN	0.547	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+settings resolution	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the number of milliseconds the player buffers for before starting playback.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the minimum number of milliseconds the player always buffers to after starting playback.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the maximum/optimal number of milliseconds the player will buffer to once the buffer hits the point of {@link #getplaybackminimumbufferms(context)}.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+bufferdurationrequiredforqualityincrease=	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+system font scaling very small - 0.25f small - 0.5f normal - 1.0f large - 1.5f very large - 2.0f	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+a value of less than 0 the default means to use the preferred screen brightness	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+private helpers	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+hypothesis 4h covers a viewing block eg evening. external lightning conditions will change in the next	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+viewing block so we fall back to the default brightness	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+part of subscription observation pipeline @see subscriptionservice#getsubscription()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+wait for a period of infrequent updates and return the latest update	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+share allows multiple subscribers on the same observable	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+replay synchronizes subscribers to the last emitted result	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+provides an observer to the latest update to the subscription table. <p> this observer may be subscribed multiple times where each subscriber obtains the latest synchronized changes available effectively share the same data across all subscribers. <p> this observer has a debounce cooldown meaning if multiple updates are observed in the cooldown interval only the latest changes are emitted to the subscribers. this reduces the amount of observations caused by frequent updates to the database.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the database access interface for subscription table.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+subscriber count changes very often making this check almost unnecessary.	UNKNOWN	DESIGN	0.694	0.000
+consider removing it later.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+subscriber count changes very often making this check almost unnecessary.	UNKNOWN	DESIGN	0.694	0.000
+consider removing it later.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.987	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/ fragment views /	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+todo support services that can import from more than one source (show the option to the user)	UNKNOWN	WITHOUT_CLASSIFICATION	0.521	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+subscriptions	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+error handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.987	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/ menu /	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/ fragment views /	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+requires the parent fragment to find holder for fragment replacement	UNKNOWN	WITHOUT_CLASSIFICATION	0.925	0.000
+noinspection constantconditions	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+requires the parent fragment to find holder for fragment replacement	UNKNOWN	WITHOUT_CLASSIFICATION	0.925	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+subscriptions loader	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+contract	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment error handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.907	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+disallow creation of empty playlists	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+default thumbnail is shown on error while loading and if the url is empty	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+default thumbnail is shown on error while loading and if the url is empty	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+watch history	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - creation	UNKNOWN	WITHOUT_CLASSIFICATION	0.929	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - views	UNKNOWN	WITHOUT_CLASSIFICATION	0.918	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - loading	UNKNOWN	WITHOUT_CLASSIFICATION	0.971	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - destruction	UNKNOWN	WITHOUT_CLASSIFICATION	0.965	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+save on exit	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playlist stream loader	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+skip handling the result after it has been modified	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+skip handling the result after it has been modified	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment error handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.907	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+playlist metadata/streams manipulation	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+list must be loaded and modified in order to save	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lifecycle - creation	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+lifecycle - destruction	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+helper	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+dialog	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - creation	UNKNOWN	WITHOUT_CLASSIFICATION	0.929	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - views	UNKNOWN	WITHOUT_CLASSIFICATION	0.918	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - loading	UNKNOWN	WITHOUT_CLASSIFICATION	0.971	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - destruction	UNKNOWN	WITHOUT_CLASSIFICATION	0.965	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+statistics loader	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment error handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.907	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+state saving	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.987	0.000
+do not monitor for updates when user is not viewing the feed fragment.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this is a waste of bandwidth.	UNKNOWN	WITHOUT_CLASSIFICATION	0.988	0.000
+@override protected recyclerview.layoutmanager getlistlayoutmanager() { boolean isportrait = getresources().getdisplaymetrics().heightpixels > getresources().getdisplaymetrics().widthpixels return new gridlayoutmanager(activity isportrait ? 1 2) }	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+supportactionbar.setdisplayshowtitleenabled(false)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+statesaving	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+feed loader	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+responsible for reacting to user pulling request and starting a request for new feed stream. <p> on initialization it automatically requests the amount of feed needed to display a minimum amount required (feed_load_size). <p> upon receiving a user pull it creates a single observer to fetch the channelinfo containing the feed streams.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+on each request a subscription item from the updated table is transformed into a channelinfo containing the latest streams from the channel. <p> currently the feed uses the first into from the list of streams. <p> if chosen feed already displayed then we request another feed from another subscription until the subscription table runs out of new items. <p> this observer is self-contained and will dispose itself when complete. however this does not obey the fragment lifecycle and may continue running in the background until it is complete. this is done due to rxjava2 no longer propagate errors once an observer is unsubscribed while the thread process is still running. <p> to solve the above issue we can either set a global rxjava error handler or manage exceptions case by case. this should be done if the current implementation is too costly when dealing with larger subscription sets. @param url + serviceid to put in {@link #allitemsloaded} to signal that this specific entity has been loaded.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+called only when response is non-empty	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+keep requesting new items if the current one already exists	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+updatesubscription(channelinfo)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called only when response is empty	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called only when response is non-empty	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+keep requesting new items if the current one already exists	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+updatesubscription(channelinfo)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called only when response is empty	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+add a little of a delay when requesting more items because the cache is so fast	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+that the view seems stuck to the user when he scroll to the bottom	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment error handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.907	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - creation	UNKNOWN	WITHOUT_CLASSIFICATION	0.929	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - views	UNKNOWN	WITHOUT_CLASSIFICATION	0.918	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+requires the parent fragment to find holder for fragment replacement	UNKNOWN	WITHOUT_CLASSIFICATION	0.925	0.000
+requires the parent fragment to find holder for fragment replacement	UNKNOWN	WITHOUT_CLASSIFICATION	0.925	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - loading	UNKNOWN	WITHOUT_CLASSIFICATION	0.971	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment lifecycle - destruction	UNKNOWN	WITHOUT_CLASSIFICATION	0.965	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+subscriptions loader	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragment error handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.907	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+leave this inline. will make it harder for copy cats.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+if you are a copy cat fuck you.	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+i will find you and i will	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+default thumbnail is shown on error while loading and if the url is empty	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+already covers the gridlayoutmanager case	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+if header isnt null offset the items by -1	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragments lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+nested fragment use child fragment here to maintain backstack in view pager.	UNKNOWN	WITHOUT_CLASSIFICATION	0.942	0.000
+menu	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+tabs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return getstring(this.tabtitles[position])	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+main page content	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+select kiosk	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return getstring(this.tabtitles[position])	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+remove history items if history is disabled	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+views	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+menu	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+load and handle	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+contract	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load and handle	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+contract	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+onerror	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noitemtoupdate=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+menu	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+some updates are very rapid (when calling the updatesubscription(info) for example)	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+so only update the ui for the latest emission (sync the subscribe buttons state)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+emit clicks from main thread unto io thread	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+ignore rapid clicks	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load and handle	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+contract	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+onerror	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+service	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+convert a long value to a date @param value the long value @return the date	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+convert a date to a long value @param date the date @return the long value	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+unfortunately these queries must be hardcoded due to the possibility of schema and names changing at a later date thus invalidating the older migration scripts if they are not hardcoded.	UNKNOWN	DESIGN	0.954	0.000
+not much we can do about this since room doesnt create tables before migration.	UNKNOWN	WITHOUT_CLASSIFICATION	0.988	0.000
+its either this or blasting the entire database anew.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+populate streams table with existing entries in watch history	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+latest data first thus ignoring older entries with the same indices	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+once the streams have pks join them with the normalized history table	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+and populate it with the remaining data from watch history	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set wasloading to true so when the fragment onresume is called the initial search is done.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+fragments lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+state saving	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+inits	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+menu	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+only pass through if the query length is equal or greater than threshold_network_suggestion	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+remove duplicates	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+no-op	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exception occurred its not a url	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+todo no way to tell if search has more items in the moment	UNKNOWN	DESIGN	0.916	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+suggestion results	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+contract	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+search results	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+inits	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+radio group video&audio options - listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+streams spinner listener	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+shows a popup containing the license @param context the context to use @param license the license to show	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+sort components by name	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+item.getmenuinfo() is null so we use the tag of the view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@param context the context to use @param license the license @return string which contains a html formatted license page styled according to the contexts theme	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+split the html file and insert the stylesheet into the head of the file	UNKNOWN	WITHOUT_CLASSIFICATION	0.985	0.000
+@param context @return string which is a css stylesheet according to the contexts theme	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+cast r.color to a hexadecimal color value @param context the context to use @param color the color number from r.color @return a six characters long string with hexadecimal rgb values	UNKNOWN	WITHOUT_CLASSIFICATION	0.989	0.000
+create the adapter that will return a fragment for each of the three	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+primary sections of the activity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set up the viewpager with the sections adapter.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+inflate the menu this adds items to the action bar if it is present.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a new instance of this fragment for the given section number.	UNKNOWN	WITHOUT_CLASSIFICATION	0.988	0.000
+show 2 total pages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a new instance of this fragment for the given section number.	UNKNOWN	WITHOUT_CLASSIFICATION	0.988	0.000
+show 2 total pages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+obtain a parcel object and write the parcelable object to it	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+create an initializerbuilder	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+enable chrome devtools	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+enable command line interface	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+use the initializerbuilder to generate an initializer	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+initialize stetho with the initializer	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+give each object 10 seconds to be gced before leak canary gets nosy on it	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+/	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fragments lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+check if it was loading when the fragment was stopped/paused	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+check if the next video label and video is visible	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if it is include the two elements in the next check	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection unchecked	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+noinspection unchecked	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+onclick	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+log.d(tag toggleexpandrelatedvideos() called with info = [ + info + ] from = [ + initial_related_videos + ])	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+log.d(tag i = + i)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+thumbsrootlayout = rootview.findviewbyid(r.id.detail_thumbs_root_layout)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+long first = system.nanotime() each	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+each = system.nanotime()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if (debug) log.d(tag each took + ((system.nanotime() - each) / 1000000l) + ms)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if (debug) log.d(tag total time + ((system.nanotime() - first) / 1000000l) + ms)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+menu	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+caution set item properties programmatically otherwise it would not be accepted by	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+appcompat itemsinflater.inflate(r.menu.videoitem_detail menu)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+show kodi if set in settings	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+if is still loading block menu	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+that means that we are on the start of the stack	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return false to let the mainactivity handle the onback	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+remove top	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+get stack item from the new top	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+info loading and handling	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+play utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+exoplayer	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+internal player	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utils	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+successful	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection deprecation	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+contract	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+only auto play in the first open	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+stream results	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000

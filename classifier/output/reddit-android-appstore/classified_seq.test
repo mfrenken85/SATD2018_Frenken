@@ -1,0 +1,46 @@
+UNKNOWN	given	100559
+UNKNOWN	when	100560
+UNKNOWN	then	100561
+UNKNOWN	google play link	100562
+UNKNOWN	unknown/parsing failed link	100563
+UNKNOWN	amazon link	100564
+UNKNOWN	todo this along with other download types in namecolumnparser	100565
+UNKNOWN	test app with bold and link markdown in description	100566
+UNKNOWN	test app with subreddit link conversion	100567
+UNKNOWN	randomapp.addtag(randomenum(apptags.class))	100568
+UNKNOWN	ensures that an object reference passed as a parameter to the calling method is not null. @param reference an object reference @return the non-null reference that was validated @throws nullpointerexception if {@code reference} is null	100569
+UNKNOWN	httpstackoverflow.com/a/6702029/1251958	100570
+UNKNOWN	compares two version strings. <p> use this instead of string.compareto() for a non-lexicographical comparison that works for version strings. e.g. 1.10.compareto(1.6). <p> @param current a string of ordinal numbers separated by decimal points. @param newversion a string of ordinal numbers separated by decimal points. @return the result is a negative integer if str1 is _numerically_ less than str2. the result is a positive integer if str1 is _numerically_ greater than str2. the result is zero if the strings are _numerically_ equal. @note it does not work if 1.10 is supposed to be equal to 1.10.0.	100571
+UNKNOWN	set index to first non-equal ordinal or length of shortest version string	100572
+UNKNOWN	compare first non-equal ordinal number	100573
+UNKNOWN	the strings are equal or one string is a substring of the other	100574
+UNKNOWN	e.g. 1.2.3 = 1.2.3 or 1.2.3 < 1.2.3.4	100575
+UNKNOWN	builder.setdefaultrequestoptions(requestoptions.diskcachestrategyof(diskcachestrategy.none))	100576
+UNKNOWN	@return {@code false} @see com.bumptech.glide.module.libraryglidemodule	100577
+UNKNOWN	should return false as long as no modules use the androidmanifest.	100578
+UNKNOWN	only modules for pre glide 4 will use the manifest	100579
+UNKNOWN	todo okhttp	100580
+UNKNOWN	do nothing.	100581
+UNKNOWN	todo okhttp	100582
+UNKNOWN	do nothing.	100583
+UNKNOWN	todo order this	100584
+UNKNOWN	todo we could directory use androids downloadmanager.class	100585
+UNKNOWN	always called from background thread	100586
+UNKNOWN	always called from background thread	100587
+UNKNOWN	only one checked	100588
+UNKNOWN	todo	100589
+UNKNOWN	todo	100590
+UNKNOWN	get list of revision ids	100591
+UNKNOWN	todo do reddit apps recognize a specific message intent?	100592
+UNKNOWN	noinspection deprecation	100593
+UNKNOWN	converts subreddit mentions to links in html	100594
+UNKNOWN	converts string with link markdown to html	100595
+UNKNOWN	converts string with bold markdown to html	100596
+UNKNOWN	todo more parsing of different types	100597
+UNKNOWN	i.e. ## action blocks	100598
+UNKNOWN	skip table headers.	100599
+UNKNOWN	one more so we skip what we matched (the table headers)	100600
+UNKNOWN	empty block?	100601
+UNKNOWN	now these should be the apps followed by a few empty lines.	100602
+UNKNOWN	todo invalidate old data at some point?	100603
+UNKNOWN	@return can return null if type is unknown	100604

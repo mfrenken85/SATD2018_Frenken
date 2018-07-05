@@ -4,6 +4,16 @@
 # Comments are inserted with classification = 'UNKNOWN'
 
 # TODO: Check if line number work correctly
+# TODO: NoneType errors sometimes happen, how to prevent this?
+# TODO: Check if all extracted comments are relevant, and if all relevant comments are extracted
+
+# Filtering heuristics by Maldonado:
+# - Remove licence comments
+# - Long comments can be created by multiple single lines. Merge consecutive line comments.
+# - remove commented source code
+# - remove auto-generated comments
+# - remove java doc comments
+# Note that none of the above are applied.
 
 import psycopg2
 
@@ -40,14 +50,17 @@ username = 'postgres'
 dbname = 'postgres'
 
 # projectname in comment_class table
-project_name = "fp2-launcher"
+project_name = "android-oss"
 
-# Path to source files in project. Only files in this folder and its children are inspected.
-file_path = "FP2-Launcher/src/"
+# Path to source files within project. Only files in this folder and its children are inspected.
+file_path = "android-oss/app/src/"
 
 # Location of the xml file
-xml_file = "projects/fp2-launcher.xml"
+xml_file = "projects/android-oss.xml"
 # srcml command to create xml:  srcml <project folder name> -o <filename>.xml
+
+# TIP: set to False to print the queries for testing, else queries are inserted into db
+insert_into_db = False
 
 try:
     connection = None
@@ -58,16 +71,23 @@ try:
 
     file_counter = 0
 
-    # get proper key for comment_class
+    # get proper key for comment_class, set to 0 for new database
     cursor.execute("select max(id) from comment_class")
     cl_key = cursor.fetchone()[0]
 
-    # get proper key for processed_comment
+    # get proper key for processed_comment, set to 0 for new database
     cursor.execute("select max(id) from processed_comment")
     comment_key = cursor.fetchone()[0]
 
+    # Print queries to quickly revert the insert
+    print("Queries to quickly revert this insert, and all inserts after this insert:")
+    print("USE WITH CAUTION!")
+    print("delete from processed_comment where id > ", comment_key)
+    print("delete from comment_class where id > ", cl_key)
+
+
     # Load xml file
-    tree = etree.parse('projects/fp2-launcher.xml')
+    tree = etree.parse(xml_file)
     root = tree.getroot()
 
     for file in root.iter("{http://www.srcML.org/srcML/src}unit"):
@@ -96,97 +116,105 @@ try:
 
                 # Iterate over classes in file.
                 for cl in file.iter("{http://www.srcML.org/srcML/src}class"):
-                    # Prevent iterating over classes with Nonetype name
+                    # Prevent iterating over classes with Nonetype name, strange bug
                     if cl.find('{http://www.srcML.org/srcML/src}name') != None:
-                        # Class name, start line, end line
-                        cl_name = cl.find('{http://www.srcML.org/srcML/src}name').text
-                        cl_start = cl.sourceline - file_start + add_lines
-                        cl_end = cl_start + (len(etree.tostring(cl).strip().splitlines()) - 1)
+                        if cl.find('{http://www.srcML.org/srcML/src}name').text != None:
+                            # Class name, start line, end line
+                            cl_name = cl.find('{http://www.srcML.org/srcML/src}name').text
+                            cl_start = cl.sourceline - file_start + add_lines
+                            cl_end = cl_start + (len(etree.tostring(cl).strip().splitlines()) - 1)
 
-                        # Increment comment_class table key, will be decremented if no comments are found
-                        cl_key += 1
+                            # Increment comment_class table key, will be decremented if no comments are found
+                            cl_key += 1
 
-                        # Check if class contains comments
-                        comment_found = False
+                            # Check if class contains comments
+                            comment_found = False
 
-                        # Iterate over methods
-                        for method in cl.iter("{http://www.srcML.org/srcML/src}function"):
-                            # Method name, start line, end line
-                            method_name = method.find('{http://www.srcML.org/srcML/src}name').text
-                            method_start = method.sourceline - file_start + add_lines
-                            method_end = method_start + (len(etree.tostring(method).strip().splitlines()) - 1)
+                            # Iterate over methods
+                            for method in cl.iter("{http://www.srcML.org/srcML/src}function"):
+                                # Prevent iterating over methods with Nonetype name, strange bug
+                                if method.find('{http://www.srcML.org/srcML/src}name') != None:
+                                    if method.find('{http://www.srcML.org/srcML/src}name').text != None:
+                                        # Method name, start line, end line
+                                        method_name = method.find('{http://www.srcML.org/srcML/src}name').text
+                                        method_start = method.sourceline - file_start + add_lines
+                                        method_end = method_start + (len(etree.tostring(method).strip().splitlines()) - 1)
 
-                            # Container for all comments of this method
-                            method_comments = []
+                                        # Container for all comments of this method
+                                        method_comments = []
 
-                            # Check for preceding comments
-                            prevItem = method.getprevious()
-                            while prevItem != None:
-                                if prevItem.tag == "{http://www.srcML.org/srcML/src}comment":
-                                    method_comments.append(prevItem)
-                                    prevItem = prevItem.getprevious()
-                                else:
-                                    break
+                                        # Check for preceding comments
+                                        prevItem = method.getprevious()
+                                        while prevItem != None:
+                                            if prevItem.tag == "{http://www.srcML.org/srcML/src}comment":
+                                                method_comments.append(prevItem)
+                                                prevItem = prevItem.getprevious()
+                                            else:
+                                                break
 
-                            # Sort preceding comments by sourceline
-                            method_comments.sort(key=lambda x: x.sourceline)
+                                        # Sort preceding comments by sourceline
+                                        method_comments.sort(key=lambda x: x.sourceline)
 
-                            # Method body
-                            method_block = method.find('{http://www.srcML.org/srcML/src}block')
+                                        # Method body
+                                        method_block = method.find('{http://www.srcML.org/srcML/src}block')
 
-                            # Check for comments in method body
-                            for comment in method_block.iter("{http://www.srcML.org/srcML/src}comment"):
-                                method_comments.append(comment)
+                                        # Check for comments in method body
+                                        for comment in method_block.iter("{http://www.srcML.org/srcML/src}comment"):
+                                            method_comments.append(comment)
 
-                            # Iterate over comments and insert
-                            for comment in method_comments:
-                                # Comment was found
-                                comment_found = True
+                                        # Iterate over comments and insert
+                                        for comment in method_comments:
+                                            # Comment was found
+                                            comment_found = True
 
-                                comment_text = comment.text.replace('\'','').replace('\"', '')
-                                comment_text_treated = " ".join(comment_text .lower().replace('\n','').replace('\r\n', '').replace('\r', '').replace('\t', '').replace('//','').replace('/**','').replace('*/','').replace('/*','').replace('*','').replace(',','').replace(':','').replace('...','').replace(';','').split())
-                                comment_type = comment.get('type')
-                                comment_format = comment.get('format')
-                                comment_start = comment.sourceline - file_start + add_lines
-                                comment_end = comment_start + (len(etree.tostring(comment).strip().splitlines()) - 1)
+                                            comment_text = comment.text.replace('\'','').replace('\"', '')
+                                            comment_text_treated = " ".join(comment_text .lower().replace('\n','').replace('\r\n', '').replace('\r', '').replace('\t', '').replace('//','').replace('/**','').replace('*/','').replace('/*','').replace('*','').replace(',','').replace(':','').replace('...','').replace(';','').split())
+                                            comment_type = comment.get('type')
+                                            comment_format = comment.get('format')
+                                            comment_start = comment.sourceline - file_start + add_lines
+                                            comment_end = comment_start + (len(etree.tostring(comment).strip().splitlines()) - 1)
 
-                                # Increment comment_key
-                                comment_key += 1
+                                            # Increment comment_key
+                                            comment_key += 1
 
-                                # Insert into processed_comment
+                                            # Insert into processed_comment
+                                            query = str(
+                                                "insert into processed_comment (id,commentclassid,startline,endline,commenttext,type,description,classification,treated_commenttext) values (" +
+                                                str(comment_key) + "," +
+                                                str(cl_key) + "," +
+                                                str(comment_start) + "," +
+                                                str(comment_end) + ",'" +
+                                                comment_text + "','" +
+                                                comment_type + "','" +
+                                                method_name + "','" +
+                                                "UNKNOWN" + "','" +
+                                                comment_text_treated + "')"
+                                            )
+                                            if insert_into_db:
+                                                cursor.execute(query)
+                                                connection.commit()
+                                            else:
+                                                print(query)
+
+                            # insert class into comment_class
+                            if comment_found:
                                 query = str(
-                                    "insert into processed_comment (id,commentclassid,startline,endline,commenttext,type,description,classification,treated_commenttext) values (" +
-                                    str(comment_key) + "," +
-                                    str(cl_key) + "," +
-                                    str(comment_start) + "," +
-                                    str(comment_end) + ",'" +
-                                    comment_text + "','" +
-                                    comment_type + "','" +
-                                    method_name + "','" +
-                                    "UNKNOWN" + "','" +
-                                    comment_text_treated + "')"
+                                    "insert into comment_class (id,projectname,filename,classname,startline,endline) values (" +
+                                    str(cl_key)+ ",'" +
+                                    project_name + "','" +
+                                    file_name + "','" +
+                                    cl_name + "'," +
+                                    str(cl_start) + "," +
+                                    str(cl_end) + ")"
                                 )
-                                cursor.execute(query)
-                                connection.commit()
-                                #print(query)
-
-                        # insert class into comment_class
-                        if comment_found:
-                            query = str(
-                                "insert into comment_class (id,projectname,filename,classname,startline,endline) values (" +
-                                str(cl_key)+ ",'" +
-                                project_name + "','" +
-                                file_name + "','" +
-                                cl_name + "'," +
-                                str(cl_start) + "," +
-                                str(cl_end) + ")"
-                            )
-                            cursor.execute(query)
-                            connection.commit()
-                            #print(query)
-                        else:
-                            # Decrement key since no class was added.
-                            cl_key -= 1
+                                if insert_into_db:
+                                    cursor.execute(query)
+                                    connection.commit()
+                                else:
+                                    print(query)
+                            else:
+                                # Decrement key since no class was added.
+                                cl_key -= 1
     print("Finised")
 
 except Exception as e:

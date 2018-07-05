@@ -1,0 +1,747 @@
+todo roboelectric is incompatible with play services 7.8.0+.	UNKNOWN	WITHOUT_CLASSIFICATION	0.574	0.000
+see issue httpsgithub.com/robolectric/robolectric/issues/1995	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+for now we just return that play services is disabled.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+swipe refresh.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activities should emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+paginate.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+empty activity feed clicks do not trigger events yet.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+empty activity feed with login button should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+login.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+empty states are not shown when activities emit on successful login.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with an update.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+only viewed comments event should fire.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+paginate for older comments.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+modern and deprecated events emit for loading older project comments.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+start the view model with an update.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load older comments event should not fire yet.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+paginate for older comments.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+comments should emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+click the comment button and write a comment.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+post comment. error should be shown. comment posted toast should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+comment button should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+click comment button. comment dialog should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+write a comment. the post button should be enabled with valid comment body.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+post comment. dialog should be dismissed.	UNKNOWN	WITHOUT_CLASSIFICATION	0.966	0.000
+comment posted toast should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+a koala event for commenting should be tracked.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+the comment dialog should be hidden from logged out user.	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+login.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the comment dialog should be shown to backer.	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+start the view model with a backed project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the comment button should be shown to backer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+comment button is shown for the creator.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+comment button should be hidden if not backing and not creator.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+the comment dialog should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.980	0.000
+dismiss the comment dialog.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the comment dialog should be dismissed.	UNKNOWN	WITHOUT_CLASSIFICATION	0.985	0.000
+start the view model with a backed project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+click the comment button.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the comment dialog should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+start the view model with an update.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+comments should emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+project context click doesnt start project activity if not from messages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns an environment with a backing and the backings current user.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+messages button is gone if current user is not the project creator (e.g. a collaborator).	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+messages button is shown to project creator messages activity starts.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load initial params and root categories from activity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+should emit current fragments projects.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+select a new category.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+projects are cleared new projects load.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initial load.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+popular tab clicked.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initial load.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+projects should emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+log in.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+projects should emit again.	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+initial home all projects params.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+should show onboarding view.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+change params. onboarding view should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.977	0.000
+login.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activity sampler should be shown rather than onboarding view.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+change params. activity sampler should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+clicking see activity feed button on sampler should show activity feed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clicking activity update on sampler should show activity update.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clicking login on onboarding view should show login tout.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+pass in params and sort to fetch projects.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clicking on a project card should show project activity.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+button should not be enabled until both a valid email and password are entered.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with an email to prefill.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+dismiss the confirmation dialog.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+simulate rotating the device first by sending a new intent (similar to what happens after rotation).	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+create new test subscribers â this emulates a new activity subscribing to the vms outputs.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+email should still be pre-filled.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+dialog should not be shown again â the user has already dismissed it.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+configure the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+configure the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+configure the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+emits participants avatar url and name.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+configure the view model with a message thread with no unread messages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+configure the view model with a message thread with unread messages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+configure the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+avatar shown for sender who is the creator.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+avatar hidden for sender who is the backer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+same message threads should not emit again.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+same message threads should not emit again.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+unread count text view is shown.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+build check should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.973	0.000
+build check should be shown when newer build is available.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+initialize activity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+drawer data should emit. drawer should be closed.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+open drawer and click the top pwl filter.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+drawer data should emit. drawer should open then close upon selection.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open drawer and click a child filter.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+drawer data should emit. drawer should open then close upon selection.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initialize activity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initial home page selected.	UNKNOWN	WITHOUT_CLASSIFICATION	0.963	0.000
+sort tab should be expanded.	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+toolbar params should be loaded with initial params.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+select popular sort.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sort tab should be expanded.	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+unchanged toolbar params should not emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+select all projects filter from drawer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sort tab should be expanded.	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+select art category from drawer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sort tab should be expanded.	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+simulate rotating the device and hitting initial inputs again.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+simulate recreating and setting popular fragment the previous position before rotation.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sort tab and toolbar params should emit again with same params.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start initial activity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initial home page selected.	UNKNOWN	WITHOUT_CLASSIFICATION	0.963	0.000
+initial params should emit. page should not be updated yet.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+select popular sort position.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+params and page should update with new popular sort values.	UNKNOWN	WITHOUT_CLASSIFICATION	0.986	0.000
+select art category from the drawer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+params should update with new category page should remain the same.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+select home sort position.	UNKNOWN	WITHOUT_CLASSIFICATION	0.871	0.000
+params and page should update with new home sort value.	UNKNOWN	WITHOUT_CLASSIFICATION	0.677	0.000
+simulate rotating the device and hitting initial inputs again.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+should emit again with same params.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+start initial activity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+select art category from the drawer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+select music category from the drawer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start initial activity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initial home page selected.	UNKNOWN	WITHOUT_CLASSIFICATION	0.963	0.000
+root categories should emit for the initial home sort this.position.	UNKNOWN	WITHOUT_CLASSIFICATION	0.898	0.000
+select popular sort position.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+root categories should emit for the popular sort position.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+select art category from the drawer.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+root categories should not emit again for the same position.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+backed text views are displayed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+created text views are displayed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+divider view is displayed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+backed text views are displayed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+created text views are hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+divider view is hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+backed text views are hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+created text views are displayed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+divider view is hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start with an enabled notification.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+project name and enabled values should match enabled notification.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+change to a disabled notification.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+project name and enabled values should match disabled notification.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start with a disabled notification.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+enabled switch should be disabled.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+enable the previously disabled notification.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+enabled switch should now be enabled.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+start with a disabled notification.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+switch should be disabled.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+attempt to toggle the notification to true. this should error and the switch should still be disabled.	UNKNOWN	WITHOUT_CLASSIFICATION	0.960	0.000
+initial updates index url is loaded.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+activate an external link.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+external url is not loaded in our web view.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+start the intent with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+initial project updates index emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+make a request for another update index.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+new updates index url emits. event is not tracked again.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+friends view is not hidden for project with friend backings	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+back button is gone if navigating from non-backer modal view.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+back button is visible if navigating from backer modal view.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a backing and a project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creator name is the project creator edit text hint is always the participant.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+messages emit keyboard not shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a backing and a project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+all data except for messages should emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+view initially loaded with a 0 (expanded) offset.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+only initial bottom padding emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+user scrolls.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+default padding emits initial padding does not emit again.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+user scrolls.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+padding does not change.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+send a message unsuccessfully.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+error toast is displayed errored message body remains in edit text no new message is emitted.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+no sent message event tracked.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a message thread.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+initial messages emit.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+send a message successfully.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+new message list emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+reply edit text should be cleared and view should be scrolled to new message.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a backing and project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a backing and project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+toolbar stays expanded when keyboard opens and no messages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a backing and project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+toolbar collapsed when keyboard opens and there are messages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+view pledge button is hidden when context is from the backer modal.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+view pledge button is shown when context is from anywhere but the backer modal.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set users country to us.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+todo flaky tests	UNKNOWN	WITHOUT_CLASSIFICATION	0.536	0.000
+disclaimer is not shown for completed projects.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+on click listener should be set for view with > 2 friends.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+on click listener should be not set for view with < 2 friends.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+set the current config for a us user. kscurrency needs this config for conversions.	UNKNOWN	WITHOUT_CLASSIFICATION	0.977	0.000
+usd conversion shown for non us project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+usd conversion not shown for us project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a project	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+try starring while logged out	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the project shouldnt be saved and a login prompt should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+a koala event for starring should not be tracked	UNKNOWN	WITHOUT_CLASSIFICATION	0.961	0.000
+login	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the project should be saved and a star prompt should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.989	0.000
+a koala event for starring should be tracked	UNKNOWN	WITHOUT_CLASSIFICATION	0.989	0.000
+start the view model with an almost completed project	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+login	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+star the project	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the project should be saved and a save prompt should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.966	0.000
+start the view model with a successful project	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+login	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+star the project	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the project should be saved and a save prompt should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.966	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+click on manage pledge button.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+click on updates button.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the view model with a project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+popular projects emit immediately.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+searching shouldnt emit values immediately	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+waiting a small amount time shouldnt emit values	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+waiting the rest of the time makes the search happen	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+typing more search terms doesnt emit more values	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+waiting enough time emits search results	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clearing search terms brings back popular projects.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+populate search and overcome debounce	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+populate search and overcome debounce	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+populate search and overcome debounce	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+populate search and overcome debounce	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+survey loads. successful submit redirects to project uri.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+success confirmation dialog is shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+when an unlimited reward is not backed hide the all gone header.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when an unlimited reward is backed hide the all gone header (distinct until changed).	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when a backed rewards limit has been reached hide the all gone header â the selected banner will be shown instead.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when a rewards limit has been reached and it has not been backed show the all gone header.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show reward backer count.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if reward has no estimated delivery no value should be emitted.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+reward with estimated delivery should emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+reward with no estimated delivery should not show estimated delivery label.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+reward with estimated delivery should show estimated delivery label.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+when a reward from a live project is clicked start checkout.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+when the project is still live dont go to view pledge. should go to checkout instead.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+when project is successful but not backed dont go to view pledge.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+when project is successful and backed go to view pledge.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+a reward from a live project should be clickable.	UNKNOWN	WITHOUT_CLASSIFICATION	0.989	0.000
+a reward from a successful project should not be clickable.	UNKNOWN	WITHOUT_CLASSIFICATION	0.947	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+a backed reward from a live project should be clickable.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+a backed reward from a finished project should be clickable (distinct until changed).	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+a reward with its limit reached should not be clickable.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+when reward has no limit or backers separator should be hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when reward has no limit and backers separator should be hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when reward has limit and no backers separator should be hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when reward has limit and backers separator should be visible.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when reward is limited quantity should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+when rewards limit has been reached dont show quantity.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when reward has no limit dont show quantity (distinct until changed).	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if the reward is limited and has not been backed show the limit header.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if the reward is limited and has been backed dont show the limit header.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if the reward is not limited dont show the limit header.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+items section should be hidden when there are no items.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+reward with no title should be hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+reward with title should be visible.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+reward with no shipping should hide shipping summary section and not emit a shipping summary string.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+reward with shipping should show shipping summary section and emit a shipping summary string.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+set users country to us.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+set projects country to ca.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+usd conversion should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+set users country to ca (any country except the us is fine).	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+usd conversion should now be hidden.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+set users country to us.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+set projects country to us.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+usd conversion should not be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+set users country to ca.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+usd conversion should still not be shown (distinct until changed).	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set users country to us.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+set projects country to ca and reward minimum to $0.30.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+usd conversion should be rounded up.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+configure the view model with a project intent.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+configure the view model with a project intent.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the intent with a project param and update.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start the intent with a project and update.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+initial updates url emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+make a request for another update.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+new update url emits.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the intent with a project and update.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the intent with a project and update.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the intent with a project and update.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+start the intent with a project and update.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+initial updates sequence number emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+new sequence should emit for new update page.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+start the intent with a project and update.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+initial update index url emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+nothing to do here	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+catch issue with regexp substitution where `$` needs to be escaped.	UNKNOWN	WITHOUT_CLASSIFICATION	0.971	0.000
+emits when endpoints on the client are called. the key in the pair is the underscore-separated name of the method and the value is a map of argument names/values.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+ten days	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set the cookie and retrieve the ref tag	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set and retrieve the cookie	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+retrieve the cookie	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+only emit when a completed notification occurs.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+only emit when an error is thrown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+main looper is paused so value should not change.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+since the work used the immediate scheduler it is unaffected by the main looper being paused.	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+the main looper is paused but the code is executing on the main thread so observeforui() should schedule the	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+work immediately rather than queueing it up.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+run the queued work.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+code observed using `androidschedulers.mainthread()` is now run.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+onnext should emit values.	UNKNOWN	WITHOUT_CLASSIFICATION	0.976	0.000
+completing the source stream should not emit values.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+an error in the source stream should not emit values.	UNKNOWN	WITHOUT_CLASSIFICATION	0.984	0.000
+send crash reports in release builds	UNKNOWN	WITHOUT_CLASSIFICATION	0.985	0.000
+only log for internal builds	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+only log in debug mode to avoid leaking sensitive information.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+continue	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+continue	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+parses a request for project and update params. @param request comments or update request. @return pair of project param string and update param string.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo build a navigation helper for better param extraction	UNKNOWN	DESIGN	0.887	0.000
+returns a project and its appropriate ref tag given its location in a list of popular projects or search results. @param searchterm the search term entered to determine list of search results. @param projects the list of popular or search result projects. @param selectedproject the project selected by the user. @return the project and its appropriate ref tag.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns if a project request tags url is a survey url which indicates a redirect from a successful submit.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+parses a request for project and update params. @param request comments or update request. @return pair of project param string and update param string.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo build a navigation helper for better param extraction	UNKNOWN	DESIGN	0.887	0.000
+set the title on the textview with id title_text_view. note default visibility is gone since we may not always want a title.	UNKNOWN	WITHOUT_CLASSIFICATION	0.654	0.000
+set the message on the textview with id message_text_view.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+dismiss the dialog on click ok_button.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+for accessibility purposes make this view behaves like a button. for example if an {@link iconbutton} has the content description star talkback will read out star button. talkback also communicates that it is a button in other languages using the appropriate grammar.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a project returns an observable that emits the projects root category.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a shuffled list of 3 recommended projects with fallbacks to similar and staff picked projects for users with fewer than 3 recommendations.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+temp until followable	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo bold username	UNKNOWN	WITHOUT_CLASSIFICATION	0.634	0.000
+no-op click implementation. subclasses should override this method to implement click handling.	UNKNOWN	WITHOUT_CLASSIFICATION	0.960	0.000
+populate a view with data that was bound in `binddata`. @deprecated prefer creating subscriptions to a viewmodel in the constructor then using #{link #binddata} to send new data to the viewmodel.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this method is intended to be called only from `ksadapter` in order for it to inform the view holder of its lifecycle.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+completes an observable when an {@link activityevent} occurs in the activitys lifecycle.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+completes an observable when the lifecycle event opposing the current lifecyle event is emitted. for example if a subscription is made during {@link activityevent#create} the observable will be completed in {@link activityevent#destroy}.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+called when the viewholder is being detached. subclasses should override if they need to do any work when the viewholder is being de-allocated.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+no data to bind this viewholder is just a static title	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo switch to you launched a project if current user launched	UNKNOWN	WITHOUT_CLASSIFICATION	0.965	0.000
+return context.getstring(r.string.creator_launched_a_project activity.user().name() activity.project().name())	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+required to fit properly into apis < 18	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+adjust spacing between cards when metadata label is present.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+adjust card content spacing when metadata label is present.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+if the toolbar has a textview with id title_text_view set its title.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+attempts to extract a uri from the intent data. there may be a uri in intent data if the intent launched from a url e.g. with a deep link.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+returns `true` if the app_banner query param is set in the intent uri.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns params where category and location params have been converted into {@link category} and {@link location} objects.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creates observables that will perform api requests to retrieve additional data needed to fill out a full discovery params object. for example if `params` holds only a category slug and no actual category data we will perform a request to get the full category from the api. @param params the discovery params that is potentially missing full data. @return a list of observables each responsible for retrieving more data from the api. the observables emit builders of params and hence can later be merged into a single params object.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+account for the grid2 start and end margins.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set landscape project action buttons in the viewholder rather than activity.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+set top margin of overlay text based on landscape screen height scaled by screen density.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+offset for toolbar	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns an observable of projects retrieved from intent data. may hit the api if the intent only contains a project param rather than a parceled project.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a {@link reftag} observable. if there is no parceled reftag emit `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns an observable of push notification envelopes from the intent data. this will emit only when the project is launched from a push notification.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+gets a parceled project from the intent data may return `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.986	0.000
+gets a project param from the intent data may return `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+extract the project param from a uri. e.g. a uri like `ksrwww.kickstarter.com/projects/1186238668/skull-graphic-tee` returns `skull-graphic-tee`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+add reward stats sections	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+passes along root categories to its fragment position to help fetch appropriate projects.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+take current params from activity and pass to the appropriate fragment.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+call when the view model tells us to clear specific pages.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+divider	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+group messages by start of day.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+view holders are stopped when they are detached from the window for recycling	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+view holders are destroy when they are detached from the window and no adapter is listening	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+to events so ostensibly the view holder is being deallocated.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+view holders are started when they are attached to the new window because this means	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+it has been recycled.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+todo alter the exception message to say we are just reporting it and its not a real crash.	UNKNOWN	DESIGN	0.595	0.000
+gets the data object associated with a sectionrow.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+gets the data object associated with a position.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+binds project notifications to the adapter.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+populate adapter data when we know were working with a project object.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+only allow refreshing if theres a current user	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set up the bottom sheet recycler view.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+we need to remove the first intent so its not duplicated when we add the extra_initial_intents intents.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+nb we dont want to bind to lifecycle because we want the destroy event.	UNKNOWN	WITHOUT_CLASSIFICATION	0.956	0.000
+.compose(bindtolifecycle())	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+toolbar ui actions	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+handle cancel-click region outside of dialog modal.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+httpsstackoverflow.com/questions/29916962/javax-net-ssl-sslhandshakeexception-javax-net-ssl-sslprotocolexception-ssl-han/36892715#36892715	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+thrown when google play services is not installed up-to-date or enabled	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show dialog to allow users to install update or otherwise enable google play services.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this method is called from {@link com.kickstarter.services.kswebviewclient} when an android pay payload has been obtained from the webview.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+call when the android pay sheet should be shown.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+creates and injects a wallet fragment into the activity.	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+call when a masked wallet has been obtained and the content in the android pay confirmation should be rendered.	UNKNOWN	WITHOUT_CLASSIFICATION	0.932	0.000
+todo is this an injection problem?	UNKNOWN	DESIGN	0.883	0.000
+lazily creates a reset password success confirmation dialog and stores it in an instance variable.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo sent mailbox logic enum	UNKNOWN	WITHOUT_CLASSIFICATION	0.830	0.000
+todo limit the apps you can share to	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+sets an offsetchangedlistener for the views appbarlayout to 1. determine the toolbars alpha based on scroll range 2. adjust the views bottom padding via inputs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+default padding is the height of the reply layout	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+skip scroll events when y is 0 usually indicates new data	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+nothing to do!	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+this logic is sound only for web view activities without requesthandlers.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo refactor the client to update web history properly for activities with requesthandlers.	UNKNOWN	DESIGN	0.928	0.000
+lazily creates a logout confirmation dialog and stores it in an instance variable.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utility to create a new {@link apierroroperator} saves us from littering references to gson throughout the client.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+persist token to app servers. @param token the new token.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+subscribe to generic global topic - not using more specific topics.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+todo check whether device is mobile or tablet append to user agent	UNKNOWN	WITHOUT_CLASSIFICATION	0.957	0.000
+called if the instanceid token is updated. this can occur in a variety of scenarios - the instanceid service might periodically request that we refresh a token every 6 months or it could force a refresh if a token is invalidated (e.g. security issues device information is no longer valid. when a token refresh event is received we create a new register intent to fetch the latest token and update it on the backend. this call is generated by the instanceid service not by the app.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called when a message is received from firebase. @param remotemessage object containing message information.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns a {@link discoveryparams} constructed by parsing data out of the given {@link uri}.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a builder containing the contents of this builder and `otherbuilder`. if a value for the same property exists in both builders the returned builder will contain the value from `otherbuilder`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+determines if the `include_featured` flag should be included in a discovery request so that we guarantee that the featured project for the category comes back.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+determines the correct string to display for a filter depending on where it is shown. @param context context @param ksstring ksstring for string formatting @param istoolbar true if string is being displayed in the {@link com.kickstarter.ui.toolbars.discoverytoolbar} @param isparentfilter true if string is being displayed as a {@link com.kickstarter.ui.viewholders.discoverydrawer.parentfilterviewholder} @return the appropriate filter string	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+determines if params are for all projects i.e. discovery without params. @return true if is all projects.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a builder containing the contents of this builder and `otherbuilder`. if a value for the same property exists in both builders the returned builder will contain the value from `otherbuilder`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+tries to extract an {@link errorenvelope} from an exception and if it cant returns null.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when logging in the only two possible errors are invalid_xauth_login and tfa_required so we consider anything else an unknown error.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the first error message available or `null` if there are none.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when we display an android notification we can give it a id. if the server sends a notification with the same	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+id android updates the existing notification with new information rather than creating a new notification.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the server doesnt send unique notification ids so hashing the alert text is a weak substitute. probably wont	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+make use of this feature anyhow.	UNKNOWN	WITHOUT_CLASSIFICATION	0.989	0.000
+deserialize the referrer type string names into the corresponding	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+enum type.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deserialize the referrer type string names into the corresponding	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+enum type.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+leakcanary is currently broken on 23+. see httpsgithub.com/square/leakcanary/issues/285 and	UNKNOWN	WITHOUT_CLASSIFICATION	0.987	0.000
+httpsgithub.com/square/leakcanary/issues/267.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+for {@link viewgroup#setnestedscrollingenabled}.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a canceled state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a failed state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a live state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a purged state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a live state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a submitted state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a suspended state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the project is in a successful state.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo just use http with local env	UNKNOWN	DESIGN	0.883	0.000
+need to catch these exceptions separately otherwise the compiler turns them into `reflectiveoperationexception`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.988	0.000
+that exception is only available in api19+	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns `true` if the build is compiled in debug mode `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the build is compiled in release mode `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+e.g. internaldebug externalrelease	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+a currency needs a code if its symbol is ambiguous e.g. `$` is used for currencies such as usd cad aud.	UNKNOWN	WITHOUT_CLASSIFICATION	0.947	0.000
+unlaunched country default to showing the code.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get an observable representation of the current config. emits immediately with the freshes copy of the config and then emits again for any fresher values.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@return the most recent config.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+@param assetpath path where `server-config.json` lives. @param assetmanager asset manager to use to load `server-config.json`. @return a string representation of the config json.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo this should probably be fatal?	UNKNOWN	DESIGN	0.999	0.000
+returns a boolean that determines if there is a currently logged in user or not. @deprecated prefer {@link #observable()}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+emits a boolean that determines if the user is logged in or not. the returned observable will emit immediately with the logged in state and then again each time the current user is updated.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+emits only values of a logged in user. the returned observable may never emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+emits only values of a logged out user. the returned observable may never emit.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+if play services is available on this device start a service to register it with google cloud messaging.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+if play services is available on this device start a service to unregister it with google cloud messaging.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+returns a currency string appropriate to the users locale and location relative to a project. @param initialvalue value to display local to the projects currency. @param project the project to use to look up currency information.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a currency string appropriate to the users locale and location relative to a project. @param initialvalue value to display local to the projects currency. @param project the project to use to look up currency information. @param excludecurrencycode if true hide the currency code even if that makes the returned value ambiguous. this is used when space is constrained and the currency code can be determined elsewhere.	UNKNOWN	WITHOUT_CLASSIFICATION	0.941	0.000
+returns a currency string appropriate to the users locale and location relative to a project. @param initialvalue value to display local to the projects currency. @param project the project to use to look up currency information. @param excludecurrencycode if true hide the currency code even if that makes the returned value ambiguous. this is used when space is constrained and the currency code can be determined elsewhere. @param preferusd attempt to convert a project from its local currency to usd if the user is located in the us.	UNKNOWN	WITHOUT_CLASSIFICATION	0.968	0.000
+build {@link currencyoptions} based on the project and whether we would prefer to show usd. even if usd is preferred we only show usd if the user is in the us.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+determines whether the currency code should be shown. if the currency is ambiguous (e.g. cad and usd both use `$`) we show the currency code if the user is not in the us or the project is not in the us.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+need to catch these exceptions separately otherwise the compiler turns them into `reflectiveoperationexception`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.988	0.000
+that exception is only available in api19+	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+derives the devices orientation (portrait/landscape) from the `context`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+derives the availability of google play services from the `context`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+replace each key found in the string with its corresponding value.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+replace each key found in the string with its corresponding value.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+replace each key found in the string with its corresponding value.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+replace each key found in the string with its corresponding value.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on. this particular version is for strings that have no replaceable sections	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+takes a variable length of {@link string} arguments joins them together to form a single path then looks up a string resource given that path. if the resource cannot be found returns an empty string.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+for a given string replaces occurrences of each key with its corresponding value. in the string keys are wrapped with `%{}` e.g. `%{backers_count} backers`. in this instance the substitutions hash might contain one entry with the key `backers_count` and value `2`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+begin listening to the recycler view scroll events to determine when pagination should happen.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+nb we think this operation is suffering from back pressure problems due to the volume of scroll events	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+httpsrink.hockeyapp.net/manage/apps/239008/crash_reasons/88318986	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+if it continues to happen we can also try `debounce`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+stop listening to recycler view scroll events and discard the associated resources. this should be done when the object that created `this` is released.	UNKNOWN	WITHOUT_CLASSIFICATION	0.893	0.000
+returns a (visibleitem totalitemcount) pair given a linear layout manager.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets text for tweet intent no length validation is performed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets uri for tweet intent no length validation is performed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets image {@link android.net.uri} for the tweet. only valid if the twitter app is installed. the uri should be a file uri to a local file (e.g. <pre><code>uri.fromfile(someexternalstoragefile)</code></pre>))	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creates {@link android.content.intent} based on data in {@link tweetcomposer.builder} @return an intent to the twitter for android or a web intent.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+starts the intent created in {@link tweetcomposer.builder#createintent()}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets text for tweet intent no length validation is performed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets uri for tweet intent no length validation is performed	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets image {@link android.net.uri} for the tweet. only valid if the twitter app is installed. the uri should be a file uri to a local file (e.g. <pre><code>uri.fromfile(someexternalstoragefile)</code></pre>))	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creates {@link android.content.intent} based on data in {@link tweetcomposer.builder} @return an intent to the twitter for android or a web intent.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+starts the intent created in {@link tweetcomposer.builder#createintent()}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+application lifecycle	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+android pay	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+backing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+discovery	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+tracks a project show event. @param intentreftag (nullable) the ref tag present in the activity upon displaying the project. @param cookiereftag (nullable) the ref tag extracted from the cookie store upon viewing the project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deprecated event	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+project star	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deprecated events	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+comments	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@deprecated use {@link #trackloadedoldercomments(project update koalacontext.comments)} instead.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+@deprecated use {@link #trackpostedcomment(project update koalacontext.commentdialog)} instead.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+@deprecated use {@link #trackviewedcomments(project update koalacontext.comments)} instead.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+activity	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+search	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deprecated	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+deprecated	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+deprecated	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+session events	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+settings	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+checkout	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+rewards webview and top nav	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo set up error props	UNKNOWN	DESIGN	0.703	0.000
+share	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deprecated	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+messages	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+profile	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deprecated	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+rating	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+video	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+project updates	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+push notifications	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deprecated	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+webviews	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deep link	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creator dashboard	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns true if the activity result contains data for a full wallet.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the error code contained in a wallet request. if no such error is found `null` is returned.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+constructs an authorized payload that can be sent back to our server from an android pay full wallet.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+attempts to programmatically trigger an android pay sheet from a wallet fragment. it does this by crawling the subviews of the fragment and clicking them. nb this is very hacky.	UNKNOWN	WITHOUT_CLASSIFICATION	0.531	0.000
+recursive crawls the view hierarchy of `viewgroup` in order to find a clickable child and click it.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+tries to parse a payload string into a {@link androidpaypayload} object. @param payloadstring an (optional) string of json that represents the payload. @return the parsed {@link androidpaypayload} object if successful and `null` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+facebook logs install and app activate app events.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+refresh the config file	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+refresh the user	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+handles a config api error by logging the user out in the case of a 401. we will interpret 401s on the config request as meaning the users current access token is no longer valid as that endpoint should never 401 othewise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+facebook logs app deactivate app event.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+memory availability callback. trim_memory_ui_hidden means the apps ui is no longer visible. this is triggered when the user navigates out of the app and primarily used to free resources used by the ui. httpdeveloper.android.com/training/articles/memory.html	UNKNOWN	WITHOUT_CLASSIFICATION	0.984	0.000
+starts the main activity at the top of a task stack clearing all previous activities. `action_main` does not expect to receive any data in the intent it should be the same intent as if a user had just launched the app.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clears all activities from the task stack except discovery.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the input boolean negated.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `false` if the boolean is `null` or `false` and `true` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the boolean is `null` or `false` and `true` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+important this sorts in descending order.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+important this sorts in descending order.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+create the notificationchannel but only on api 26+ because	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the notificationchannel class is new and not in the support library	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+register the channels with the system you cant change the importance	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+or other notification behaviors after this	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+a `ref_tag` representation of some discovery params. this tag can be used to attribute a checkout when a user pledges from discovery using these particular params.	UNKNOWN	WITHOUT_CLASSIFICATION	0.967	0.000
+rethrows `exception` if its already a {@link runtimeexception} otherwise it wraps `exception` in a {@link runtimeexception} and then rethrows. i would be remiss if i didnt mention that this is basically a flatmap operation )	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+gets the language set on the device or if none is found just return en for english. this value can be changed while an app is running so the value shouldnt be cached.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts all the disparate data representing the state of the menu data into a `navigationdrawerdata` object that can be used to populate a view. @param categories the full list of categories that can be displayed. @param selected the params that correspond to what is currently selected in the menu. @param expandedcategory the category that correspond to what is currently expanded in the menu. @param user the currently logged in user.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a doubly nested list of all possible category params and an (optional) expanded category this will create a list of sections that can be used in the drawer.	UNKNOWN	WITHOUT_CLASSIFICATION	0.802	0.000
+converts a list of params into a list of rows that the drawer can use to display rows.	UNKNOWN	WITHOUT_CLASSIFICATION	0.975	0.000
+from a list of rows and the currently expanded category figures out if the rows are expanded.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+determines if a category is visible given what is the currently expanded category. @param category the category to determine its visibility. @param expandedcategory the category that is currently expandable possible `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+since there are two rows that correspond to a root category in an expanded section (e.g. art & all of art) this method will double up that root category in such a situation. @param category the category that might potentially be doubled up. @param expandedcategory the currently expanded category.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a list of top-level section filters that can be used based on the current user which could be `null`. each filter is its own section containing one single row. @param user the currently logged in user can be `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+converts the full list of category discovery params into a grouped list of params. a group corresponds to a root category and the list contains all subcategories.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return the corresponding tab position for a given sort param.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return the corresponding sort for a given tab position.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+given a list of projects and root categories this will determine if the first project is featured and is in need of its root category. if that is the case we will find its root and fill in that data and return a new list of projects.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+guard against no projects	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+guard against bad category data on first project	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+guard against not needing to find the root category	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+find the root category for the featured projects category	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sub in the found root category in our featured project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+determines if the project and supplied require us to find the root category.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `false` if `value` is `null` or `0` and `true` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if `value` is zero and false otherwise including when `value` is `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `value` if not null and `0` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. december 2015.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. december 2015.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a boolean indicating whether or not a datetime value is the epoch. returns `true` if the datetime equals 1970-01-01t000000z.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. tuesday june 20 2017	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+e.g. tuesday june 20 2017	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+jodatime doesnt support the cccc pattern triggered by fulldate and fulldatetime. see httpsgithub.com/dlew/joda-time-android/issues/30	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+instead just return a medium date.	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+returns the proper datetime format pattern for supported locales.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+nb japanese in general should show year before month	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. june 20 2017	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. june 20 2017	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. dec 17 2015.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. dec 17 2015.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. jan 14 2016 220 pm.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+e.g. jan 14 2016 220 pm.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+e.g. jan 14 2016 220 pm.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+e.g. dec 17 2015 63505 pm.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+e.g. dec 17 2015 63505 pm.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+e.g. dec 17 2015 63505 pm.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a string indicating the distance between {@link datetime}s. defaults to comparing the input {@link datetime} to the current time.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a string indicating the distance between {@link datetime}s. defaults to comparing the input {@link datetime} to the current time.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+couldnt find a good match just render the date.	UNKNOWN	WITHOUT_CLASSIFICATION	0.976	0.000
+e.g. 420 pm	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+e.g. 420 pm	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+utility to pair a unit (e.g. minutes hours days) with a measurement. returns `null` if the difference exceeds the threshold.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+1 hour	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+24 hours	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a new map with all keys prefixed with another string.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+early out on a case that can come up often.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a new map with all `null` values removed.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+returns an empty map.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+set the alpha portion of the color. @param color the (a)rgb color to set an alpha for. @param alpha the new alpha value between 0 and 255.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+darken the argb color by a percentage. @param color the argb color to lighten. @param percent percentage to darken by between 0.0 and 1.0.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+hsltocolor sets alpha to fully opaque so pluck the alpha from the original color.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+lighten the argb color by a percentage. @param color the argb color to lighten. @param percent percentage to lighten by between 0.0 and 1.0.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+hsltocolor sets alpha to fully opaque so pluck the alpha from the original color.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+check whether a color is light. @param color the argb color to check.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check whether a color is dark. @param color the argb color to check.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+return a value between 0.0 and 1.0 representing the perceived lightness of the color. more info here httpsrobots.thoughtbot.com/closer-look-color-lightness	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+returns the first non-`null` value of its arguments.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a function `t -> t` that coalesces values with `thedefault`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts a {@link string} to a {@link boolean} or null if the boolean cannot be parsed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts a {@link string} to an {@link integer} or null if the integer cannot be parsed.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts an {@link integer} to a {@link string} can be null if the integer is also null.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts a {@link long} to a {@link string} can be null if the long is also null.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts a {@link float} to a {@link string} can be null if the float is also null.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts a {@link double} to a {@link string} can be null if the double is also null.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+cast a `null`able value into a non-`null` value and throw a `nullpointerexception` if the value is `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+cast a `null`able value into a non-`null` value and throw a `nullpointerexception` if the value is `null`. provide a message for a better description of why you require this value to be non-`null`.	UNKNOWN	DESIGN	0.795	0.000
+cast a `null`able value into a non-`null` value and throw a `nullpointerexception` if the value is `null`. provide a message for a better description of why you require this value to be non-`null`.	UNKNOWN	DESIGN	0.795	0.000
+returns a formatted number for the users locale.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+returns a formatted number for the specified locale.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns a formatted number for the users locale. defaults to 0 precision with no bucketing.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a formatted number for the users locale. {@link numberoptions} can control whether the number is used as a currency if it is bucketed and the precision.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a formatted number for a given locale. {@link numberoptions} can control whether the number is used as a currency if it is bucketed and the precision.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo the bucketing logic works but the suffix should be translated.	UNKNOWN	DESIGN	0.742	0.000
+return a formatter that can output an appropriate number based on the input currency and locale.	UNKNOWN	WITHOUT_CLASSIFICATION	0.986	0.000
+returns the first of any input pair	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the second of any input pair	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clamps a value and converts it to an integer ready for use by setprogress.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo implement `duration`	UNKNOWN	DESIGN	0.974	0.000
+put(duration project.duration())	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+todo add `public` to `update` model	UNKNOWN	DESIGN	0.568	0.000
+put(public)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo how to convert update.publishedat() to seconds since 1970	UNKNOWN	WITHOUT_CLASSIFICATION	0.607	0.000
+put(published_at update.publishedat())	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+check the device to make sure it has the google play services apk.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+given a list of integers computes a list of consecutive monotonically non-descreasing ranges.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the reward has backers `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the reward has items `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the reward has a limit set and the limit has not been reached `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the rewards limit has been reached `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the reward is considered the non-reward option i.e. the reward is the option backers select when they want to pledge to a project without selecting a particular reward.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the reward is a specific reward for a project i.e. it is not the no-reward option.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns `true` if the reward has shipping enabled `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a new list with all elements in `xs` equal to `x` replaced by `newx`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+appends `x` to the end of the list `xs`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+concats the second argument onto the end of the first without mutating either list.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+concats the distinct elements of `ys` onto the end of the `xs` without mutating either list.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns true if `y` is equal to any of the values in `xs`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns true if `y` is equal to any of the values in `xs` where equality is determined by a given function.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a list containing elements of `lhs` that do not exist in `rhs`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns a list containing elements of `lhs` that do not exist in `rhs` where equality between elements is determined by a given function.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns an empty list.	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+returns the first element in `xs` that equals `x` or `null` if `x` is not found in `xs`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the first element in `xs` that equals `x` or `null` if `x` is not found in `xs`. equality is determined by the given function.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the first object or `null` if empty.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+combines a list of lists into a new single flat list.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns the index of the first element in `xs` that equals `x` or `-1` if `x` is not found in `xs`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the index of the first element in `xs` that equals `x` or `-1` if `x` is not found in `xs`. equality is determined by the given function.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a list containing the elements of `lhs` that exist in `rhs`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a list containing the elements of `lhs` that exist in `rhs` where equality is determined by the given function.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+concats the second argument onto the end of the first but also mutates the first argument.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+concats the distinct elements of `ys` onto the end of the `xs` but also mutates the first.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks the size of a list and returns `true` if the list is non empty.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prepends `x` to the beginning of the list `xs`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+replaces the element at index `idx` with the element `x`. does so by return a whole new list without mutating the original.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+uses fisher-yates algorithm to shuffle an array without mutating input arg. httpwww.dotnetperls.com/shuffle-java	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns time until project reaches deadline along with the unit e.g. `25 minutes` `8 days`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns unit of time remaining in a readable string e.g. `days to go` `hours to go`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the most appropriate unit for the time remaining until the project reaches its deadline. @param context an android context. @return the string unit.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns time remaining until project reaches deadline in either seconds minutes hours or days. a time unit is chosen such that the number is readable e.g. 5 minutes would be preferred to 300 seconds. @return the integer time remaining.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+seconds	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+minutes	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+hours	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+days	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the project is no longer live `false` otherwise.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns `true` if the project name ends with a punctuation character.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns 169 height relative to input width.	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+set correct button view based on project and backing status.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns time until project reaches deadline in seconds or 0 if the project has already finished.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set toggle state without any animations.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set toggle state without any animations.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the number of seconds since the epoch (1/1/1970).	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a string with only the first character capitalized.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a string wrapped in parentheses.	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+name of the cookie that should store the ref tag for a particular project. fits the template ref_{project_pid}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+value to store in the ref tag cookie. fits the template {ref_tag} + {separator} + {time_of_setting}	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if a ref tag cookie has been stored for this project this returns the ref tag embedded in the cookie. if a cookie has not yet been set it returns `null`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+constructs a cookie for the given ref tag and project. this method can return `null` if a cookie cannot be constructed e.g. the project has a malformed project url.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+constructs a cookie for the given cookie value and project. this method can return `null` if a cookie cannot be constructed e.g. the project has a malformed project url.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+try extracting the path and domain for the cookie from the project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+cookie expires on the project deadline or some days into the future if there is no deadline.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts a pair (params project) into a (project reftag) pair that does some extra logic around featured projects.	UNKNOWN	WITHOUT_CLASSIFICATION	0.963	0.000
+stores the ref tag in a cookie and shared preference for the project.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+finds the ref tag cookie associated with a project. returns `null` if no cookie has yet been set.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+first try finding the cookie in the cookie store	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if we cant find it in the cookie store lets look in shared prefs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+explicitly set a transition after starting an activity. @param context the activity that started the new intent. @param transition a pair of animation ids first is the enter animation second is the exit animation.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether the users location setting is in germany.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns whether two users are different where equality is determined by matching ids.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns a namepile for a list of friends.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+if there are 3 friends we should combine the first 2 friend names using the delimiter	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+and if there are more than 3 we should combine all of them	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+since we show 3 friends at max the remaining number needs to be adjusted	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set layout margins for a viewgroup with linearlayout parent.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+set layout margins for a viewgroup with relativelayout parent.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+show a dialog box to the user.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+opens the play store native app or the play store web site.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+first try to load the play store native application	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+fallback to the play store web site	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show a toast with default bottom gravity to the user.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets the visiblity of a view to {@link view#visible} or {@link view#gone}. setting the view to gone removes it from the layout so that it no longer takes up any space.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sets the visiblity of a view to {@link view#visible} or {@link view#invisible}. setting the view to invisible makes it hidden but it still takes up space.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+when a response errors send an {@link apiexception} or {@link responseexception} to {@link subscriber#onerror} otherwise send the response to {@link subscriber#onnext}.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+transforms `null` values emitted from an observable into `thedefault`.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+emits when a materialized stream is completed.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+emits when an error is thrown in a materialized stream.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+prevents an observable from erroring by chaining `onerrorresumenext`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prevents an observable from erroring by chaining `onerrorresumenext` and any errors that occur will be piped into the supplied errors publish subject. `null` values will never be sent to the publish subject. @deprecated use {@link observable#materialize()} instead.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prevents an observable from erroring by chaining `onerrorresumenext` and any errors that occur will be piped into the supplied errors action. `null` values will never be sent to the publish subject. @deprecated use {@link observable#materialize()} instead.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prevents an observable from erroring on any {@link apiexception} exceptions.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+prevents an observable from erroring on any {@link apiexception} exceptions and any errors that do occur will be piped into the supplied errors publish subject. `null` values will never be sent to the publish subject. @deprecated use {@link observable#materialize()} instead.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+prevents an observable from erroring on any {@link apiexception} exceptions and any errors that do occur will be piped into the supplied errors actions. `null` values will never be sent to the action. @deprecated use {@link observable#materialize()} instead.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+emits the latest value of the source observable whenever the `when` observable emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+emits the latest value of the source `when` observable whenever the `when` observable emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+zips two observables up into an observable of pairs.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+emits the latest values from two observables whenever either emits.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+waits until `until` emits one single item and then switches context to the source. this can be useful to delay work until a user logs in ``` somethingthatrequiresauth .compose(waituntil(currentuser.loggedinuser())) .subscribe(show) ```	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+converts an observable of any type into an observable of `null`s. this is useful for forcing javas type system into knowing we have a stream of `void`. simply doing `.map(__ -> null)` is not enough since java doesnt know if that is a `null` string integer void etc. this transformer allows the following pattern ``` myobservable .compose(takewhen(click)) .compose(ignorevalues()) .subscribe(subjectonnext) ```	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+emits the number of times the source has emitted for every emission of the source. the first emitted value will be `1`.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+emits an observable of values from a materialized stream.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+if called on the main thread schedule the work immediately. otherwise delay execution of the work by adding it to a message queue where it will be executed on the main thread. this is particularly useful for recyclerviews if subscriptions in these views are delayed for a frame then the view temporarily shows recycled content and frame rate stutters. to address that we can use `observeforui()` to execute the work immediately rather than wait for a frame.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+no-op distribution through play store	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+create a different signature for each push notification	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000

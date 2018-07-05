@@ -1,0 +1,482 @@
+join string array @param array array of string @param c join char @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+convert dp to pixels @param r resource @param dp dp to convert @return pixels float	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a string representation of the multi-value char @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a string representation of the escape multi-value char @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns ignoresurroundingspaces state for trimming<br> can be set in csvformat with ignoresurroundingspaces @return state	UNKNOWN	WITHOUT_CLASSIFICATION	0.931	0.000
+this version is called for android devices >= api-11. thank to @damccull for fixing this.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+this version is called for android devices < api-11	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+sqlitedatabase result = super.openorcreatedatabase(name mode factory)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+format bytes to human readable string @param i bytes amount @return string for ex. 54mib	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+format file length @param file @return (empty) string with the file length	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+change si notation usage @param use_si	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+convert multi-meaning formatted string to a list of meanings<br> does nothing if no escape / multi-value char is set @param input input string @return list of meanings	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+reset builder	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+convert multi meanings to multi-meaning formatted string @param meanings list of meanings to format @return multi-meaning formatted string	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do not use streams for builder performance?	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+read boolean from parcel @param in @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+write boolean to pacel @param in @param data	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+read date from parcel @param in @return null if -1 as value	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+write date to parcel @param in @param data date can be null	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+save session settings @param settings @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.986	0.000
+load trainersettings @return null on failure	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+write vocable @param entry @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.989	0.000
+save table selection for session @param lists @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+load table selection of session @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+does the actual loading @return null on errors	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get int from map @param key @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get boolean from map @param key @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prepares writing init statement	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+end write @param success commits changes on true	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+writes data to db @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+inner writing function not caring about transactions stm etc @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.938	0.000
+write vocable<br> public method doing prepare & commit @param entry @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.888	0.000
+write vocable to session<br> internal does not preapre & commit changes @param entry @return true on success	UNKNOWN	DESIGN	0.611	0.000
+@see {exec} @param key @param value @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see {exec} @param key @param value @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+execute write for key value @param key @param value @return false if <b>no errors</b> occoured	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+does the actual loading @return null on errors	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get int from map @param key @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get boolean from map @param key @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prepares writing init statement	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+end write @param success commits changes on true	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+writes data to db @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+inner writing function not caring about transactions stm etc @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.938	0.000
+write vocable<br> public method doing prepare & commit @param entry @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.888	0.000
+write vocable to session<br> internal does not preapre & commit changes @param entry @return true on success	UNKNOWN	DESIGN	0.611	0.000
+@see {exec} @param key @param value @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see {exec} @param key @param value @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+execute write for key value @param key @param value @return false if <b>no errors</b> occoured	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+save vocable state<br> saves last vocable in question for later continue	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+wipe db from (previous) session @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.967	0.000
+calculate totals etc	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+retrieve information from db	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the solution of the current vocable @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.983	0.000
+get addition for current vocable @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+get whether the vocable has an addition or not @return true if addition !=	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the solution to the current vocable<br> does not count it as failed. <br><br> not to be confused with getsolutionunchecked @return solution	UNKNOWN	WITHOUT_CLASSIFICATION	0.912	0.000
+returns all possible solutions<br> no null checks are done or failed counter changes are made @return solution	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+returns possible solutions @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.981	0.000
+check two strings for equality taking case sensitive & space ignore settings into account @param a @param b @return true if they are equals according to this trainings settings	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check is candidate is one of the possible solutions @param candidate @return solution if candidate is a correct null otherwise todo use an java.util.optional when api min version is >= 24	UNKNOWN	DESIGN	1.000	0.000
+check a multi-meaning input for correctness @param tinput @return true if all is valid	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+do not count retrieved solution as correct	UNKNOWN	WITHOUT_CLASSIFICATION	0.971	0.000
+returns the amount of solution meanings @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.943	0.000
+checks for correct solution <br> retrieves next vocable if correct @param tsolution input to be checked against the solution @return true on tsolution is correct	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+do not count retrieved solution as correct	UNKNOWN	WITHOUT_CLASSIFICATION	0.971	0.000
+accounts vocable as passed based on the parameter.<br> this function is called from external when checksolution does not apply. @param correct true when the vocable was answered correct	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+function for modes where checksolution doesnt apply<br> reads next vocable & accounts passed=false as solution showed & failed @param passed vocable answered correctly	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns true when all vocables are solved as many times as expected @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+update cvocable points @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get next vocable	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+selected table has only one entry left	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prevent repeating last vocable of table	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the non-solution column of the vocable<br> returns an empty string when there is no current vocable @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the tip increasing the counter<br> returns an empty string when there is no current vocable @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the column name of the question<br> returns an empty string when there is no current vocable @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the column name of the solution<br> returns an empty string when there is no current vocable @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+@return remaining vocables	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+@return solved vocables	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+ssm	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+db	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns meanings for a column @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.991	0.000
+set a-meanings @param ameanings	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns meanings for b column @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+set b-meanings @param bmeanings	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get tip @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get addition @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+set tip @param tip	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+test for equality based on entry & list id if both have no list it is ignored. if one has no list they are not seen as equal. @param entry @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check whether this entry is existing according to its id<br> <b>note</b> this is not a check whether this entity exists in the database @return true if the id is valid	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+returns whether the data of this ventry was changed @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check whether this entry is existing according to its id<br> <b>note</b> this is not a check whether this entity exists in the database @return true if the id is valid	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+checks whether a given id is valid according to min_id_treshold @param id id to check @return true if id is valid	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+tests for equality based on list id @param list @return true when list ids are equal	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the amount of vocables this table has<br> the value can be -1 when not set! @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.730	0.000
+returns the amount of unfinished vocables<br> the value can be -1 when not set! @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.849	0.000
+set a new id @param id new id @throws illegalaccesserror if a valid id is already set	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+catch this as display view change could lead to re-initializations	UNKNOWN	WITHOUT_CLASSIFICATION	0.510	0.000
+dont spam the ui thread	UNKNOWN	WITHOUT_CLASSIFICATION	0.984	0.000
+ignore not enough values	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+warn too many values	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection statementwithemptybody	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+do nothing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prepend to start	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns formatted import_amount with param @param amount @return formatted string	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+returns formatted import_amount with param @param amount @return formatted string	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+finalize builder create importfetcher @return importfetcher	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+todo allow addition column	UNKNOWN	DESIGN	0.688	0.000
+returns amount of rows detected @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.939	0.000
+is parsed list raw data without list metadata @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+is parsed list a multilist @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+raw data or single list with create flag	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+flushes the buffer and inserts everything	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the fragmentactivity<br> this assumes the parent activity is instance of fragmentactivity @return fragmentactivity	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns the current appcompatactivity casted via getactivity @return appcompatactivity	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load csvformat to preferences	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load preferences from csv cformat @param cformat csvcustomformat to load	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+verify the csv format input and return true on success<br> shows a warning dialog on errors @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+we have to initialize this..	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+creates a csvformat object out of the settings @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.975	0.000
+hack for custom dialog to allow for edittext filters	UNKNOWN	DESIGN	0.959	0.000
+dialog shown	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+retrieve vocable by id & list id @param vocid @param listid @return ventry with set list<br> null on failure	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+fill meaning list of vocable entry @param table table to use @param vocable vocable as identifier @param list list in which to insert	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+wipe all session points @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+retruns a list of entries for the specified list<br> <u>no point data is being loaded</u> @param list vlist for which all entries should be retrieved @return list<ventry>	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+sort meanings from cursor into correct liststring from map @param cursor expected as [0] = string meaning [1] = int id @param map	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+debug function to retrieve points of entry @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get a list of all lists @return arraylist<\vlist>	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+update or insert the provided vlist data @param tbl @return true on succuess	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+test is table exists @param db writeable database @param tbl vlist @return true if it exists	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+update and/or insert all entries<br> this function uses delete and changed flags in entries<br> <u>does not update vocable metadata such as last used etc on changed flag.</u> @param lst @return true on success	UNKNOWN	DESIGN	0.616	0.000
+log.d(tag processing + entry + of + entry.getlist())	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+skip spacer	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+we need to clear meanings anyway	UNKNOWN	WITHOUT_CLASSIFICATION	0.974	0.000
+vocable created & deleted in editor	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+make last id to new id	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+returns the id of a table with the exact same naming <br> this also updates the vlist element itself to contains the right id @param tbl vlist to be used a search source @return id or -1 if not found -2 if an error occurred	UNKNOWN	DESIGN	0.982	0.000
+returns the highest vocable id for the specified table @param db @param table table id<br> this is on purpose no vlist object @return highest id <b>or -1 if none is found</b>	UNKNOWN	WITHOUT_CLASSIFICATION	0.989	0.000
+returns the highest table id @param db @return highest id <b>-1 is none if found</b>	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+deletes the given table and all its vocables @param tbl vlist to delete @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+directly calls table empty sql<br> <u>does not handle any transactions</u> @param arg string array containing the tbl id at [0]	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+clear vocable list from all entries @param tbl @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+deletes the current session @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+updates a transaction ventry @param entry ventry to update @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+todo update date	UNKNOWN	WITHOUT_CLASSIFICATION	0.758	0.000
+possible problem ( insert / update..)	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+starts a new session based on the table entries<br> overriding any old session data! @param lists the vlist to use for this sessions @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the table selection from the stored session @return never null	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+set total and unfinished vocables for each table generate list of finished @param lists list of vlist to process @param unfinishedlists list into which unfinished vlist are added into @param settings trainersettings used for points threshold etc @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+returns a random entry from the specified table which matche the trainer settings criteria<br> the ventry is guaranteed to be not the lastentry provided here @param list @param ts @param allowrepetition set to true to allow selecting the same vocable as lastentry again @return null on error	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+get session meta value for specified key @param key @return null if no entry is found	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set session key-value pair @param key @param value @return true on success	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+possible problem ( insert / update..)	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+returns a statement to insert / replace session meta storage values @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.971	0.000
+ends a transaction created by the getsessioninsert statement	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a cursor on the session data @return map of all key-value pairs or <b>null</b> on errors	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check for illegal id entries below the threshold @param key key to compare @param table table to look into	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check for illegal id entries below the threshold @param key key to compare @param table table to look into	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+init list view @param savedinstancestate	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+called on file select click	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+calls select lists activity	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called upon ok press	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	UNKNOWN	WITHOUT_CLASSIFICATION	0.713	0.000
+helper to return the currently selected csvcustomformat @return selected csvcustomformat	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+validate input & set export button accordingly	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clear state	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup spinners	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the selected csvcustomformat @return csvcustomformat to be used to parsing	UNKNOWN	WITHOUT_CLASSIFICATION	0.958	0.000
+refresh preview parsing change view accordingly	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+little space downside	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	UNKNOWN	WITHOUT_CLASSIFICATION	0.713	0.000
+0 is just to pass smth	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the {@link importer.import_list_mode} of the relevant adapter @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+called when import was clicked	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	UNKNOWN	WITHOUT_CLASSIFICATION	0.713	0.000
+0 is just to pass smth	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+refresh visibility of all options based on the input<br> also calls checkinput	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+called on file select click	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+update ui with current targetlist	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called on list select click	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+verify user input and enable import button if appropriate	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noinspection statementwithemptybody	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+dont check the rest	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+single list	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show next vocable of trainer	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+show vocable addition field view @param show	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+display addition view with timeout	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+rotation during countdown	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+rotation during countdown	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+verify input against solution	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+solve current vocable	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+function updates ttip enabled status	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set vocable as correct/wrong and show next one @param correct	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+change visibility according to parameter @param newguistate display mode	UNKNOWN	WITHOUT_CLASSIFICATION	0.904	0.000
+create new listpickerfragment instance @param multiselect multi select enabled @param delete delete mode @param selected list of pre-selected vlist @param showokbutton true for ok-submit button @return listpickerfragment	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+lambdas without lambdas	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+setup listview	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+update sorting type	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+load lists from db @param tickedlists already selected lists can be null	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup list view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo title settitle(r.string.listselector_title_training)	UNKNOWN	WITHOUT_CLASSIFICATION	0.671	0.000
+settitle(r.string.listselector_title_delete)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+settitle(r.string.listselector_title_edit)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+get selected items can be used to query the selected items at any time @return list of vlist which are selected	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+update enabled state of ok button	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show delete dialog for table @param listtodelete	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do nothing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+save values	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creates a new instance	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creates a new instance @param trainer trainer instance to use @return vlisteditordialog	UNKNOWN	WITHOUT_CLASSIFICATION	0.990	0.000
+set finish action @param callable	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+set trainer to use for data gathering<br> should not be called directly @param trainer	UNKNOWN	WITHOUT_CLASSIFICATION	0.935	0.000
+calls finish action	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+tinput = (edittext) view.findviewbyid(r.id.ttrainerinput)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+maincontainer.setdescendantfocusability(viewgroup.focus_block_descendants)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+happens after onactivitycreated	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+has to wait for inputs being created in the view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show vocable addition field view @param show	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+display addition view with timeout	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+rotation during countdown	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+rotation during countdown	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+input input list/group	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+delete previous views	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+generate input view with element @return view with input element	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+show next vocable of trainer	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+verify input against solution	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+tinput.setselectallonfocus(true)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+tinput.requestfocus() todo	UNKNOWN	DESIGN	0.616	0.000
+solve current vocable	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+function updates ttip enabled status	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+create new trainersettingsfragment the attached context has to implement {@link finishhandler} @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.975	0.000
+radio button clicked handler @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+update testmode based on selected view @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns position of the currently checked radio button in the list @return	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+load past values	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+use string to show the hint at first via empty string	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+update here to init testmode	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+save values	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+make a link clickable @param strbuilder @param span	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set text view content to html @param text @param html html sourcecode	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo use api level 24 or above to correct this	UNKNOWN	DESIGN	1.000	0.000
+called by ok button<br> go back to main activity @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creates a new instance<br> see {@link #getlistprovider()} for vlist provider requirements @param isnew true if a new list is created @return vlisteditordialog	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set ok action to run afterwards @param okaction	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set cancel action to run afterwards @param cancelaction	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get listeditordataprovider<br> allows provider to be a targetfragment parentfragment or the activity @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+calls cancel action	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+creates a new instance @return vlisteditordialog	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+set ok action to run afterwards @param okaction	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set cancel action to run afterwards @param cancelaction	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+retrieves meanings from layout input @param layout layout to traverse @return list of meanings found in layout	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+generate view with all meanings for specified list @param meanings list of meanings to process @param hint hint for input @param layout layout to add views into	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+generate view for meaning entry @param meaning @param hint @param image button image resource id @param description button description @param listener button listener @return view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+get editor ventry @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.979	0.000
+calls cancel action	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+init	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+otherwise let android handle the restore	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+returns the custom format<br> this can be user defined @param settings required to load preferences @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.982	0.000
+update format to new one @param newformat	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+save custom format settings @param editor editor to store stuff to	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+static method to populate format spinner adapter @param adapter adapter to populate @param context context for string resolve	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the action bar<br> used by fragments @return actionbar or null if none exists	UNKNOWN	WITHOUT_CLASSIFICATION	0.883	0.000
+pops the stack & handles fragment back @return false when its impossible to go back	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the current fragment @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.960	0.000
+set fragment to show<br> replaces current fragment @param fragment	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+check back button listener @param fragment	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+adds a new fragment as top element @param fragment	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+handle passed params	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+restore the fragments instance	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+save the fragments instance	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check whether we have this permission or not<br> should be called before this activity to check whether this is necessary @param context @param perm @return true when context has specified permission	UNKNOWN	WITHOUT_CLASSIFICATION	0.517	0.000
+request permissions for generic context & activity @param context @param activity @param perm	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+should we show an explanation?	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+no explanation needed we can request the permission.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+handle passed params	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo allow resource ids as message	UNKNOWN	WITHOUT_CLASSIFICATION	0.945	0.000
+called upon retry click @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+wrapper around requestperm for unique calls	UNKNOWN	WITHOUT_CLASSIFICATION	0.983	0.000
+permission to read storage	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+allow for retry	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+called upon cancel pressed @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup listview	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+just a good guess	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+does sorting<br> notifies data change	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+go on directory up in navigation if possible	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+check whether were at root dir and cant go further above @return true on root	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+action for cancel button press @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+cancel file activity	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+action for ok button press @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+required !?	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+finishes & returns file if selected	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks current media state @return true when media is ready	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+load default or last path / file into dialog	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+old value not valid anymore	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+change directory in view to the one specified in currentdir<br> if currentdir is null were assuming that the overview is required	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+cant do anything no access to base dir	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+go back entry	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+save values	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup listview	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+handle passed params	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+viewport changed during creation phase	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+do not call updatecolumnnames as weve to wait for oncreateoptionsmenu calling it	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+dialogfragment re-adds itself	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+clear current edit state	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+clear	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+handles list column name changes	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+changes ccomp to current selection	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+save editorentry to db & update listview	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+setup listview	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add new ventry	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show entry delete dialog @param entry @param position	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show entry edit dialog for new vocable @param entry	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+show entry edit dialog @param entry ventry to edit/create @param position edit position in list if existing	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+setup editor dialog actions	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+setup list editor actions	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show list title editor dialog<br> exit editor when newtbl is set and user cancels the dialog	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show undo view<br> on viewchange during the animation were not deleting the vocable	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+pivot point of x scaling	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+unsaved new entry (empty entry as filled by editor)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+unsaved new table still in creation dialog	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open trainer to continue the last session @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open new table intent @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open edit table intent @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open trainer intent @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open list delete @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open about activity @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open export activity @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+open import activity @param view	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+start import activity does not check for permissions	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+start export activity does not check for permissions	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+@see android.widget.checkable#ischecked()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see android.widget.checkable#setchecked(boolean)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@see android.widget.checkable#toggle()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+read the custom xml attributes	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add to our checkable list all the children of the view that implement the interface checkable	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+init viewpager	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add fragment to viewpager @param fragment fragment @param title tab-title string resource	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add fragment to viewpager @param fragment fragment @param title title	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+add fragment to viewpager @param fragment fragment @param title tab-title string resource	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+add fragment to viewpager @param fragment fragment @param title title	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+todo fix selection rendering on scrolling	UNKNOWN	DESIGN	0.986	0.000
+updated sorting @param comparator comparator to use for sorting	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+do not show vocable now onpostcreate has to handle this	UNKNOWN	WITHOUT_CLASSIFICATION	0.949	0.000
+function to be called by fragments to request an update of the exercise question display	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set training mode to specified value<br> also sets trainingmode<br> @param mode mode to display	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+shows result dialog on training end	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+initialize trainer	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+show next vocable of trainer	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+function updates ttip enabled status	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set table data (column names) @param tbl	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+-1 required as onitemclicked counts from 1 but the list starts a 0	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo remove on drop of api 19 support	UNKNOWN	DESIGN	0.993	0.000
+update sorting @param comp comparator to use for sorting	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+set entry as deleted @param entry	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+add a new ventry to the view<br> does not update the view @param entry	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+add an ventry to the view at selected position.<br> does update the view rendering @param entry new ventry @param position position at which it should be inserted	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns all entries existing and deleted @return	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+set list as new list<br> updates the view @param entries	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+updates sort order @param comparator comparator to use	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+remove element from list<br> updates the view @param tbl	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns a value by {@link enum}. @param e an enum @return the string at the given enum string	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns a value by index. @param i a column index (0-based) @return the string at the given index	UNKNOWN	WITHOUT_CLASSIFICATION	0.937	0.000
+returns a value by name. @param name the name of the column to be retrieved. @return the column value maybe null depending on {@link csvformat#getnullstring()}. @throws illegalstateexception if no header mapping was provided @throws illegalargumentexception if {@code name} is not mapped or if the record is inconsistent @see #isconsistent() @see csvformat#withnullstring(string)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the start position of this record as a character position in the source stream. this may or may not correspond to the byte position depending on the character set. @return the position of this record in the source stream.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the comment for this record if any. note that comments are attached to the following record. if there is no following record (i.e. the comment is at eof) the comment will be ignored. @return the comment for this record or null if no comment for this record is available.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the number of this record in the parsed csv file. <p> <strong>attention</strong> if your csv input has multi-line values the returned number does not correspond to the current line number of the parser that created this record. </p> @return the number of this record. @see csvparser#getcurrentlinenumber()	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+tells whether the record size matches the header size. <p> returns true if the sizes for this record match and false if not. some programs can export files that fail this test but still produce parsable files. </p> @return true of this record is valid false if not	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks whether this record has a comment false otherwise. note that comments are attached to the following record. if there is no following record (i.e. the comment is at eof) the comment will be ignored. @return true if this record has a comment false otherwise @since 1.3	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks whether a given column is mapped i.e. its name has been defined to the parser. @param name the name of the column to be retrieved. @return whether a given column is mapped.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+checks whether a given columns is mapped and has a value. @param name the name of the column to be retrieved. @return whether a given columns is mapped and has a value	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns an iterator over the values of this record. @return an iterator over the values of this record.	UNKNOWN	WITHOUT_CLASSIFICATION	0.964	0.000
+puts all values of this record into the given map. @param map the map to populate. @return the given map.	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+returns the number of values in this record. @return the number of values.	UNKNOWN	WITHOUT_CLASSIFICATION	0.704	0.000
+converts the values to a list. todo maybe make this public? @return a new list	UNKNOWN	DESIGN	0.998	0.000
+copies this record into a new map. the new map is not connect @return a new map. the map is empty if the record has no headers.	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+returns a string representation of the contents of this record. the result is constructed by comment mapping recordnumber and by passing the internal values array to {@link arrays#tostring(object[])}. @return a string representation of this record.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+======================================================	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+printing implementation	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+======================================================	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+flushes the underlying stream. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+gets the target appendable. @return the target appendable.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prints the string as the next value on the line. the value will be escaped or encapsulated as needed. @param value value to be output. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prints a comment on a new line among the delimiter separated values. <p> comments will always begin on a new line and occupy a least one full line. the character specified to start comments and a space will be inserted at the beginning of each new line in the comment. </p> if comments are disabled in the current csv format this method does nothing. @param comment the comment to output @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+$fall-through$ break intentionally excluded.	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+outputs the record separator. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prints the given values a single record of delimiter separated values followed by the record separator. <p> the values will be quoted if needed. quotes and newline characters will be escaped. this method adds the record separator to the output after printing the record so there is no need to call {@link #println()}. </p> @param values values to output. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prints the given values a single record of delimiter separated values followed by the record separator. <p> the values will be quoted if needed. quotes and newline characters will be escaped. this method adds the record separator to the output after printing the record so there is no need to call {@link #println()}. </p> @param values values to output. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prints all the objects in the given collection handling nested collections/arrays as records. <p> if the given collection only contains simple objects this method will print a single record like {@link #printrecord(iterable)}. if the given collections contains nested collections/arrays those nested elements will each be printed as records using {@link #printrecord(object)}. </p> <p> given the following data structure </p> <pre> <code> list&ltstring[]&gt data = data.add(new string[]{ a b c }) data.add(new string[]{ 1 2 3 }) data.add(new string[]{ a1 b2 c3 }) </code> </pre> <p> calling this method will print </p> <pre> <code> a b c 1 2 3 a1 b2 c3 </code> </pre> @param values the values to print. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prints all the objects in the given array handling nested collections/arrays as records. <p> if the given array only contains simple objects this method will print a single record like {@link #printrecord(object)}. if the given collections contains nested collections/arrays those nested elements will each be printed as records using {@link #printrecord(object)}. </p> <p> given the following data structure </p> <pre> <code> string[][] data = new string[3][] data[0] = string[]{ a b c } data[1] = new string[]{ 1 2 3 } data[2] = new string[]{ a1 b2 c3 } </code> </pre> <p> calling this method will print </p> <pre> <code> a b c 1 2 3 a1 b2 c3 </code> </pre> @param values the values to print. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+prints all the objects in the given jdbc result set. @param resultset result set the values to print. @throws ioexception if an i/o error occurs @throws sqlexception if a database access error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the last character that was read as an integer (0 to 65535). this will be the last character returned by any of the read methods. this will not include a character read using the {@link #lookahead()} method. if no character has been read then this will return {@link constants#undefined}. if the end of the stream was reached on the last read then this will return {@link constants#end_of_stream}. @return the last character that was read	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+calls {@link bufferedreader#readline()} which drops the line terminator(s). this method should only be called when processing a comment otherwise information can be lost. <p> increments {@link #eolcounter} <p> sets {@link #lastchar} to {@link constants#end_of_stream} at eof otherwise to lf @return the line that was read or null if reached eof.	UNKNOWN	WITHOUT_CLASSIFICATION	0.987	0.000
+needed for detecting start of line	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the next character in the current reader without consuming it. so the next call to {@link #read()} will still return this value. does not affect line number or last character. @return the next character @throws ioexception if there is an error in reading	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the current line number @return the current line number	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+check if we are at eol or eof or just starting	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+counter is accurate	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+allow for counter being incremented only at eol	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+gets the character position in the reader. @return the current position in the reader (counting characters not bytes since this is a reader)	UNKNOWN	WITHOUT_CLASSIFICATION	0.986	0.000
+closes the stream. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+set ivars before calling super close() in case close() throws an ioexception.	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+creates a parser for the given {@link file}. <p><strong>note</strong> this method internally creates a filereader using {@link java.io.filereader#filereader(file)} which in turn relies on the default encoding of the jvm that is executing the code. if this is insufficient create a url to the file and use {@link #parse(url charset csvformat)}</p> @param file a csv file. must not be null. @param charset a charset @param format the csvformat used for csv parsing. must not be null. @return a new parser @throws illegalargumentexception if the parameters of the format are inconsistent or if either file or format are null. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+creates a parser for the given {@link string}. @param string a csv string. must not be null. @param format the csvformat used for csv parsing. must not be null. @return a new parser @throws illegalargumentexception if the parameters of the format are inconsistent or if either string or format are null. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+creates a parser for the given url. <p> if you do not read all records from the given {@code url} you should call {@link #close()} on the parser unless you close the {@code url}. </p> @param url a url. must not be null. @param charset the charset for the resource. must not be null. @param format the csvformat used for csv parsing. must not be null. @return a new parser @throws illegalargumentexception if the parameters of the format are inconsistent or if either url charset or format are null. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+closes resources. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the current line number in the input stream. <p> <strong>attention</strong> if your csv input has multi-line values the returned number does not correspond to the record number. </p> @return current line number	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+returns a copy of the header map that iterates in column order. <p> the map keys are column names. the map values are 0-based indices. </p> @return a copy of the header map that iterates in column order.	UNKNOWN	WITHOUT_CLASSIFICATION	0.992	0.000
+returns the current record number in the input stream. <p> <strong>attention</strong> if your csv input has multi-line values the returned number does not correspond to the line number. </p> @return current record number	UNKNOWN	WITHOUT_CLASSIFICATION	0.995	0.000
+parses the csv input according to the given format and returns the content as a list of {@link csvrecord csvrecords}. <p> the returned content starts at the current parse-position in the stream. </p> @return list of {@link csvrecord csvrecords} may be empty @throws ioexception on parse error or input read-failure	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+initializes the name to index mapping if the format defines a header. @return null if the format has no header. @throws ioexception if there is a problem reading the header or skipping the first record	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+read the header from the first line of the file	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+build the name to index mappings	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+gets whether this parser is closed. @return whether this parser is closed.	UNKNOWN	WITHOUT_CLASSIFICATION	0.846	0.000
+returns an iterator on the records. <p>ioexceptions occurring during the iteration are wrapped in a runtimeexception. if the parser is closed a call to {@code next()} will throw a nosuchelementexception.</p>	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+todo this is not great throw an ise instead?	UNKNOWN	DESIGN	0.996	0.000
+hasnext() wasnt called before	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+todo this is not great throw an ise instead?	UNKNOWN	DESIGN	0.996	0.000
+hasnext() wasnt called before	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+parses the next record from the current point in the stream. @return the record as an array of values or {@code null} if the end of the stream has been reached @throws ioexception on parse error or input read-failure	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+ignored currently	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+first comment for this record	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+read another token	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+eases ide debugging. @return a string helpful for debugging.	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000
+context of the app under test.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+database db = new database(instrumentationregistry.gettargetcontext())	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+test for db random select to be a) not repetitive given a previous element as param b) not selecting entries for which the points are matching the finished criteria	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the next token. <p> a token corresponds to a term a record change or an end-of-file indicator. </p> @param token an existing token object to reuse. the caller is responsible to initialize the token. @return the next token found @throws ioexception on stream access error	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
+get the last read char (required for empty line detection)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+read the next char and set eol	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+note the following call will swallow lf if c == cr. but we dont need to know if the last char was cr or lf - they are equivalent here.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+empty line detection eol and (last char was eol or beginning)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+go on char ahead	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+reached end of file without any content (empty line at the end)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+dont set token.isready here because no content	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+did we reach eof during the last iteration already ? eof	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+dont set token.isready here because no content	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+dont set token.isready here because no content	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+important make sure a new char gets consumed in each iteration	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+ignore whitespaces at beginning of a token	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+ok start of token reached encapsulated or token	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+empty token return token()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+empty token return eorecord()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noop token.content.append()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+consume encapsulated token	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+end of file return eof()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+noop token.content.append()	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+there is data at eof	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+next token must be a simple token	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+add removed blanks when not ignoring whitespace chars	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
+parses a simple token. <p/> simple token are tokens which are not surrounded by encapsulators. a simple token might contain escaped delimiters (as \ or \). the token is finished when one of the following conditions become true <ul> <li>end of line has been reached (eorecord)</li> <li>end of stream has been reached (eof)</li> <li>an unescaped delimiter has been reached (token)</li> </ul> @param token the current token @param ch the current character @return the filled token @throws ioexception on stream access error	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+faster to use while(true)+break than while(token.type == invalid)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+there is data at eof	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+unexpected char after escape	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+continue	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+continue	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+parses an encapsulated token. <p/> encapsulated tokens are surrounded by the given encapsulating-string. the encapsulator itself might be included in the token using a doubling syntax (as ) or using escaping (as in \ \). whitespaces before and after an encapsulated token are ignored. the token is finished when one of the following conditions become true <ul> <li>an unescaped encapsulator has been reached and is followed by optional whitespace then</li> <ul> <li>delimiter (token)</li> <li>end of line (eorecord)</li> </ul> <li>end of stream has been reached (eof)</li> </ul> @param token the current token @return a valid token object @throws ioexception on invalid state eof before closing encapsulator or invalid character before delimiter or eol	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+save current line number in case needed for ioe	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+unexpected char after escape	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+double or escaped encapsulator -> add single encapsulator to token	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+token finish mark (encapsulator) reached ignore whitespace till delimiter	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+there is data at eof	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+error invalid char between token and next delimiter	UNKNOWN	WITHOUT_CLASSIFICATION	0.994	0.000
+error condition (end of file before end of token)	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+consume character	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+returns the current line number @return the current line number	UNKNOWN	WITHOUT_CLASSIFICATION	0.996	0.000
+returns the current character position @return the current character position	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo escape handling needs more work	UNKNOWN	DESIGN	0.996	0.000
+handle an escape sequence. the current character must be the escape character. on return the next character is available by calling {@link extendedbufferedreader#getlastchar()} on the input stream. @return the unescaped character (as an int) or {@link constants#end_of_stream} if char following the escape is invalid. @throws ioexception if there is a problem reading the stream or the end of stream is detected the escape character is not allowed at end of strem	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+the escape char has just been read (normally a backslash)	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+todo is this correct?	UNKNOWN	DESIGN	0.993	0.000
+todo is this correct? do tabs need to be escaped?	UNKNOWN	DESIGN	0.999	0.000
+todo is this correct?	UNKNOWN	DESIGN	0.993	0.000
+now check for meta-characters	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+indicate unexpected char - available from in.getlastchar()	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+greedily accepts \n \r and \r\n this checker consumes silently the second control-character @return true if the given or next character is a line-terminator	UNKNOWN	WITHOUT_CLASSIFICATION	0.883	0.000
+check if we have \r\n	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+note does not change ch outside of this method!	UNKNOWN	WITHOUT_CLASSIFICATION	0.697	0.000
+@return true if the given char is a whitespace character	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+checks if the current character represents the start of a line a cr lf or is at the start of the file. @param ch the character to check @return true if the character is at the start of a line.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+@return true if the given character indicates end of file	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
+closes resources. @throws ioexception if an i/o error occurs	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
