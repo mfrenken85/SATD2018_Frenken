@@ -1,4 +1,3 @@
-drop table if exists processed_comment;
 CREATE TABLE processed_comment (
     id serial primary key,
     commentClassId integer,
@@ -16,7 +15,6 @@ CREATE TABLE processed_comment (
     classification text
 );
 
-drop table if exists comment_class;
 create table comment_class (
     id serial primary key,
     projectName text,
