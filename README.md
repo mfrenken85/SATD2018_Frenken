@@ -7,8 +7,8 @@ Use the Maldonado database or create a new database with the required tables spe
 ### 2. Set up the database.
 Use the Maldonado database or create a new database with the required tables specified in the database section below.
 ### 3. Extract comments from a project using srcML.
- 3.1 Download and install srcML: https://www.srcml.org
- 3.2 Use srcML to store the entire project
+3.1. Download and install srcML: https://www.srcml.org
+3.2. Use srcML to store the entire project
 
 Command: srcml android-oss -o android-oss.xml
 
