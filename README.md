@@ -8,7 +8,7 @@ Use the Maldonado database or create a new database with the required tables spe
 Choose a project to extract comments from. An informal analysis has already been done on five opens-source android projects. Details can be found here: https://github.com/mfrenken85/SATD2018_Frenken/blob/master/documentation/analysis_0.md
 ### 3. Convert project to xml using srcML.
 - Download and install srcML: https://www.srcml.org
-- Use srcML to convert an entire project to a single xml file. Use the following command: srcml <name of project folder> -o <name of project>.xml
+- Use srcML to convert an entire project to a single xml file. Use the following command: srcml \<name of project folder\> -o \<name of project\>.xml
 
 Some project have already been converted to xml, they can be found here: https://github.com/mfrenken85/SATD2018_Frenken/tree/master/projects
 ### 4. Extract comments from xml and insert into database.
