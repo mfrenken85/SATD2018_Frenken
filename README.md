@@ -3,7 +3,7 @@ CAPITA project by Mark Frenken on SATD.
 
 ## How to use
 ### 1. Set up the database.
-Use the Maldonado database or create a new database with the required tables specified in the database section [below](## Database).
+Use the Maldonado database or create a new database with the required tables specified in the database section [below][## Database].
 ### 2. Select a project.
 Choose a project to extract comments from. An informal analysis has already been done on five opens-source android projects. Details can be found here: https://github.com/mfrenken85/SATD2018_Frenken/blob/master/documentation/analysis_0.md
 ### 3. Convert project to xml using srcML.
