@@ -53,7 +53,7 @@ project_name = "android-oss"  # Example: "android-oss"
 # Example: srcml android-oss -o android-oss.xml
 
 # Location of the xml file
-xml_file = "projects/android-oss.xml"  # Example: "projects/android-oss.xml"
+xml_file = "../projects/android-oss.xml"  # Example: "../projects/android-oss.xml"
 
 # Path to source files within the project. Only files in this folder and its children are inspected.
 file_path = "android-oss/app/src/"  # Example: "android-oss/app/src/"

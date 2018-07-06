@@ -24,7 +24,7 @@ project = "android-oss"  # Example: "android-oss"
 ####################################################################################################
 ####################################################################################################
 
-loc_classifier = os.path.expanduser("classifier/")
+loc_classifier = os.path.expanduser("../classifier/")
 serialized_classifier = "serialized_classifier_tenfold.ser.gz"
 
 execution_options = {1: {'DOCUMENTATION', 'DESIGN', 'DEFECT', 'IMPLEMENTATION', 'TEST', 'WITHOUT_CLASSIFICATION'},

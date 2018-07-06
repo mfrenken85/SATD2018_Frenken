@@ -1,9 +1,9 @@
-Invoked on Thu Jul 05 16:17:14 CEST 2018 with arguments: -loadClassifier classifier/serialized_classifier_tenfold.ser.gz -testFile classifier/output/classified_seq.test
-Loading classifier from classifier/serialized_classifier_tenfold.ser.gz ... done [0.2 sec].
+Invoked on Fri Jul 06 15:28:55 CEST 2018 with arguments: -loadClassifier ../classifier/serialized_classifier_tenfold.ser.gz -testFile ../classifier/output/classified_seq.test
+Loading classifier from ../classifier/serialized_classifier_tenfold.ser.gz ... done [0.2 sec].
 Setting ColumnDataClassifier properties
-testFile = classifier/output/classified_seq.test
-loadClassifier = classifier/serialized_classifier_tenfold.ser.gz
-Reading dataset from classifier/output/classified_seq.test ... done [0.1s, 747 items].
+testFile = ../classifier/output/classified_seq.test
+loadClassifier = ../classifier/serialized_classifier_tenfold.ser.gz
+Reading dataset from ../classifier/output/classified_seq.test ... done [0.1s, 747 items].
 Output format: dataColumn1	goldAnswer	classifierAnswer	P(clAnswer)	P(goldAnswer)
 
 747 examples in test set
