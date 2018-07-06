@@ -12,7 +12,7 @@ Choose a project to extract comments from. An informal analysis has already been
 
 Some project have already been converted to xml, they can be found here: https://github.com/mfrenken85/SATD2018_Frenken/tree/master/projects
 ### 4. Extract comments from xml and insert into database.
-A script for comment extraction is included in the github. However, this script does not meet the requirements outlined by Maldonado. A more advanced script is needed. The basic script for comment extraction can be found in the py_scripts folder.
+A script for comment extraction is included in the github. However, this script does not meet the requirements outlined by Maldonado. A more advanced script is needed, as specified in the filtering heuristic section below. The basic script for comment extraction can be found in the py_scripts folder.
 ### 5. Populate treated_commenttext.
 Comments need to be cleaned in order for the classifier to work. The extraction script from this github automatically does this when inserting comments into the database. However, if a different script for comment extraction is used, the comments may need to be treated. The script populate_treated_commenttext.py found in the py_scripts folder can do this.
 ### 6. Classify comments manually.
@@ -56,3 +56,12 @@ Table: comment_class
 - startline integer
 - endline integer
 - analyzed integer
+
+## Filtering heuristics
+
+Maldonado used the following filtering heuristics in his study:
+1. Remove licence comments
+2. Long comments can be created by multiple single lines. Merge consecutive line comments.
+3. Remove commented source code
+4. Remove auto-generated comments
+5. Remove java doc comments
