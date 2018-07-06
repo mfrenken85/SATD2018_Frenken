@@ -26,3 +26,33 @@ Results are stored in classifier/output/ in the following three files:
 Please note that running the script again will overwrite these files. If the results need to be stored, move the files to a different folder. For example, create a new folder with the project name in classifier/output/ as was done with previous projects.
 
 ## Database
+The two tables needed from the Maldonado database are 'processed_comment' and 'comment_class'. Below is given an overview of the two tables. Examples and/or notes are included only where the contents are not completely obvious.
+
+Table: processed_comment
+- id serial primary key
+- commentClassId integer (note: foreign key from table comment_class)
+- startLine integer
+- endLine integer
+- commentText text (example: "/* BuildListener stuff */")
+- commentType text (example: "LINE" or "BLOCK")
+- location text (example: "CLASS" or "METHOD")
+- description text (example: "org.apache.tools.ant.ExecutorTest", note: this is the method name)
+- dictionary_hit text
+- jdeodorant_hit text
+- refactoring_list_name text
+- classification text (example: "UNKOWN", "WITHOUT_CLASSIFICATION", "DESIGN", etc)
+- textual_similarity numeric
+- treated_commenttext text (example: "buildlistener stuff")
+
+Table: comment_class
+- id serial primary key
+- projectName text (example: "apache-ant-1.7.0")
+- fileName text (example: "SpecialSeq.java")
+- className text (example: "test.SpecialSeq")
+- access text (example: "public", "private", etc)
+- isAbstract text: -
+- isEnum text: -
+- isInterface text: -
+- startline integer: -
+- endline integer: -
+- analyzed integer: -
