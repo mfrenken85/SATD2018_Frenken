@@ -3,20 +3,29 @@ import psycopg2
 import subprocess
 from subprocess import PIPE
 
-# This class can be used to classify comments using a serialized classifier.
+####################################################################################################
+# SETTINGS # SETTINGS # SETTINGS # SETTINGS # SETTINGS # SETTINGS # SETTINGS # SETTINGS # SETTINGS #
+####################################################################################################
 
-# When using serialized_classifier_tenfold.ser.gz, query a.treated_commenttext
-# When using serialized_classifier.ser.gz, query a.commenttext
+# Script originally from https://github.com/maldonado/tse2015_td_identification, modified by Mark Frenken
+# This script classifies comments using a serialized classifier.
+# To use this script, correctly set the variables in this section
+
+# Database login
+dbhost = 'localhost'
+dbport = '5432'
+dbname = 'postgres'
+username = 'postgres'
+password = '111111'
+
+# Specify the projectname as referred to in the database
+project = "android-oss"  # Example: "android-oss"
+
+####################################################################################################
+####################################################################################################
 
 loc_classifier = os.path.expanduser("classifier/")
-serialized_classifier = "serialized_classifier_tenfold.ser.gz" #_tenfold
-
-password = "111111"#sys.argv[1]
-username = 'postgres'
-dbname = 'postgres'
-
-# name of the project as refered to in database
-project = "android-oss"
+serialized_classifier = "serialized_classifier_tenfold.ser.gz"
 
 execution_options = {1: {'DOCUMENTATION', 'DESIGN', 'DEFECT', 'IMPLEMENTATION', 'TEST', 'WITHOUT_CLASSIFICATION'},
                      2: {'DEFECT', 'WITHOUT_CLASSIFICATION'},
@@ -44,7 +53,7 @@ try:
     connection = None
 
     # connect to the database
-    connection = psycopg2.connect(host='localhost', port='5432', database=dbname, user=username, password=password)
+    connection = psycopg2.connect(host=dbhost, port=dbport, database=dbname, user=username, password=password)
     cursor = connection.cursor()
 
     # Remove previous output files.
@@ -53,6 +62,8 @@ try:
     subprocess.call(["rm", loc_classifier + "output/classified_seq.test"])
 
     for td_type in execution_options[7]: # For now just query UNKNOWN
+        # When using serialized_classifier_tenfold.ser.gz, query a.treated_commenttext
+        # When using serialized_classifier.ser.gz, query a.commenttext
         cursor.execute(
             "select a.classification, a.treated_commenttext, a.id from processed_comment a, comment_class b "
             "where a.commentclassid = b.id  and b.projectname like '%" + project + "%' and a.classification = '"+td_type+"'")
@@ -69,9 +80,6 @@ try:
     print("Analysis finished")
     write_output_file(loc_classifier + "output/output.txt", output[0].strip().decode("utf-8"))
     write_output_file(loc_classifier + "output/results.txt", output[1].strip().decode("utf-8"))
-
-
-
 
 except Exception as e:
     print(e)

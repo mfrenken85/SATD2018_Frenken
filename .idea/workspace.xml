@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f851fe-192f-4baa-8617-57403e9cb599" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/queries.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/1/classified_seq.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/1/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/1/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/1/serialized_classifier_tenfold.ser.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/2/classified_seq.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/2/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/2/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/2/serialized_classifier.ser.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/3/classified_seq.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/3/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/3/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/3/serialized_classifier_tenfold.ser.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/classified_seq.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classify_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/classify_comments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extract_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tables.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +22,17 @@
       <file leaf-file-name="extract_comments.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extract_comments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="900">
+              <caret line="60" selection-start-line="60" selection-end-line="61" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="populate_treated_commenttext.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/populate_treated_commenttext.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -47,8 +40,8 @@
       <file leaf-file-name="classify_comments.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classify_comments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -65,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -77,8 +70,8 @@
       <file leaf-file-name="tables.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -88,18 +81,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydev_import_hook.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -142,11 +123,12 @@
       <list>
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/tables.sql" />
         <option value="$PROJECT_DIR$/queries.sql" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tables.sql" />
         <option value="$PROJECT_DIR$/extract_comments.py" />
         <option value="$PROJECT_DIR$/classify_comments.py" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/populate_treated_commenttext.py" />
       </list>
     </option>
   </component>
@@ -206,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classify_comments">
+  <component name="RunManager" selected="Python.populate_treated_commenttext">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="SATD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,6 +265,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="populate_treated_commenttext" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SATD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/populate_treated_commenttext.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SATD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,9 +308,11 @@
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.extract_comments" />
       <item itemvalue="Python.classify_comments" />
+      <item itemvalue="Python.populate_treated_commenttext" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.populate_treated_commenttext" />
         <item itemvalue="Python.classify_comments" />
         <item itemvalue="Python.extract_comments" />
         <item itemvalue="Python.test2" />
@@ -490,16 +493,6 @@
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/ant.xml" />
     <entry file="file://$PROJECT_DIR$/test2.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$USER_HOME$/anaconda/envs/satd/lib/python3.6/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -508,10 +501,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tables.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classify_comments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -534,15 +544,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extract_comments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="61" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/populate_treated_commenttext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
     </entry>

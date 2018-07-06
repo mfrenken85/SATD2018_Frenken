@@ -14,8 +14,6 @@ CREATE TABLE processed_comment (
     textual_similarity numeric,
     treated_commenttext text,
     classification text
-
-
 );
 
 drop table if exists comment_class;
