@@ -50,9 +50,9 @@ Table: comment_class
 - fileName text (example: "SpecialSeq.java")
 - className text (example: "test.SpecialSeq")
 - access text (example: "public", "private", etc)
-- isAbstract text: -
-- isEnum text: -
-- isInterface text: -
-- startline integer: -
-- endline integer: -
-- analyzed integer: -
+- isAbstract text
+- isEnum text
+- isInterface text
+- startline integer
+- endline integer
+- analyzed integer
