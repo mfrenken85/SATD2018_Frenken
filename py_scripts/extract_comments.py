@@ -166,37 +166,40 @@ try:
 
                                         # Iterate over comments and insert
                                         for comment in method_comments:
-                                            # Comment was found
-                                            comment_found = True
 
-                                            comment_text = comment.text.replace('\'','').replace('\"', '')
-                                            comment_text_treated = " ".join(comment_text .lower().replace('\n','').replace('\r\n', '').replace('\r', '').replace('\t', '').replace('//','').replace('/**','').replace('*/','').replace('/*','').replace('*','').replace(',','').replace(':','').replace('...','').replace(';','').split())
-                                            comment_type = comment.get('type')
-                                            comment_format = comment.get('format')
-                                            comment_start = comment.sourceline - file_start + add_lines
-                                            comment_end = comment_start + (len(etree.tostring(comment).strip().splitlines()) - 1)
+                                            # Ignore javadoc comments
+                                            if comment.get('format') != "javadoc":
 
-                                            # Increment comment_key
-                                            comment_key += 1
+                                                # Comment was found
+                                                comment_found = True
 
-                                            # Insert into processed_comment
-                                            query = str(
-                                                "insert into processed_comment (id,commentclassid,startline,endline,commenttext,type,description,classification,treated_commenttext) values (" +
-                                                str(comment_key) + "," +
-                                                str(cl_key) + "," +
-                                                str(comment_start) + "," +
-                                                str(comment_end) + ",'" +
-                                                comment_text + "','" +
-                                                comment_type + "','" +
-                                                method_name + "','" +
-                                                "UNKNOWN" + "','" +
-                                                comment_text_treated + "')"
-                                            )
-                                            if insert_into_db:
-                                                cursor.execute(query)
-                                                connection.commit()
-                                            else:
-                                                print(query)
+                                                comment_text = comment.text.replace('\'','').replace('\"', '')
+                                                comment_text_treated = " ".join(comment_text .lower().replace('\n','').replace('\r\n', '').replace('\r', '').replace('\t', '').replace('//','').replace('/**','').replace('*/','').replace('/*','').replace('*','').replace(',','').replace(':','').replace('...','').replace(';','').split())
+                                                comment_type = comment.get('type')
+                                                comment_start = comment.sourceline - file_start + add_lines
+                                                comment_end = comment_start + (len(etree.tostring(comment).strip().splitlines()) - 1)
+
+                                                # Increment comment_key
+                                                comment_key += 1
+
+                                                # Insert into processed_comment
+                                                query = str(
+                                                    "insert into processed_comment (id,commentclassid,startline,endline,commenttext,type,description,classification,treated_commenttext) values (" +
+                                                    str(comment_key) + "," +
+                                                    str(cl_key) + "," +
+                                                    str(comment_start) + "," +
+                                                    str(comment_end) + ",'" +
+                                                    comment_text + "','" +
+                                                    comment_type + "','" +
+                                                    method_name + "','" +
+                                                    "UNKNOWN" + "','" +
+                                                    comment_text_treated + "')"
+                                                )
+                                                if insert_into_db:
+                                                    cursor.execute(query)
+                                                    connection.commit()
+                                                else:
+                                                    print(query)
 
                             # insert class into comment_class
                             if comment_found:

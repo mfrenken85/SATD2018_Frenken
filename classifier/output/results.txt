@@ -1,5 +1,5 @@
-Invoked on Fri Jul 06 15:28:55 CEST 2018 with arguments: -loadClassifier ../classifier/serialized_classifier_tenfold.ser.gz -testFile ../classifier/output/classified_seq.test
-Loading classifier from ../classifier/serialized_classifier_tenfold.ser.gz ... done [0.2 sec].
+Invoked on Thu Jul 26 08:59:38 CEST 2018 with arguments: -loadClassifier ../classifier/serialized_classifier_tenfold.ser.gz -testFile ../classifier/output/classified_seq.test
+Loading classifier from ../classifier/serialized_classifier_tenfold.ser.gz ... done [0.3 sec].
 Setting ColumnDataClassifier properties
 testFile = ../classifier/output/classified_seq.test
 loadClassifier = ../classifier/serialized_classifier_tenfold.ser.gz
