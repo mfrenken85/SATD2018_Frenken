@@ -1,4 +1,4 @@
-Select b.id, b.commenttext, b.treated_commenttext, a.projectname, a.filename, a.classname, b.description, b.type
+Select b.id, b.commenttext, b.treated_commenttext, a.projectname, a.filename, a.classname, b.description, b.type, b.startline, b.endline
 from comment_class as a, processed_comment as b
 where a.id = b.commentclassid and a.projectname = 'fp2-launcher'
 
