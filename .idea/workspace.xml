@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f851fe-192f-4baa-8617-57403e9cb599" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/NewPipe/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/NewPipe/classified_seq.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/NewPipe/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/NewPipe/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/NewPipe/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/NewPipe/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/classified_seq.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/android-oss/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/android-oss/classified_seq.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/android-oss/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/android-oss/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/android-oss/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/android-oss/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/classified_seq.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/fp2-launcher/classified_seq.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/fp2-launcher/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/fp2-launcher/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/serialized_classifier_tenfold.ser.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/classified_seq.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/output/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_scripts/classify_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_scripts/classify_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_scripts/extract_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_scripts/extract_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_scripts/merge_linecomments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/comments_manually_classified" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/comments_manually_classified" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -140,7 +118,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -388,8 +366,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="989" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
