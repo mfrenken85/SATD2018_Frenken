@@ -1,482 +1,158 @@
-UNKNOWN	join string array @param array array of string @param c join char @return	100605
-UNKNOWN	convert dp to pixels @param r resource @param dp dp to convert @return pixels float	100606
-UNKNOWN	returns a string representation of the multi-value char @return	100607
-UNKNOWN	returns a string representation of the escape multi-value char @return	100608
-UNKNOWN	returns ignoresurroundingspaces state for trimming<br> can be set in csvformat with ignoresurroundingspaces @return state	100609
-UNKNOWN	this version is called for android devices >= api-11. thank to @damccull for fixing this.	100610
-UNKNOWN	this version is called for android devices < api-11	100611
-UNKNOWN	sqlitedatabase result = super.openorcreatedatabase(name mode factory)	100612
-UNKNOWN	format bytes to human readable string @param i bytes amount @return string for ex. 54mib	100613
-UNKNOWN	format file length @param file @return (empty) string with the file length	100614
-UNKNOWN	change si notation usage @param use_si	100615
-UNKNOWN	convert multi-meaning formatted string to a list of meanings<br> does nothing if no escape / multi-value char is set @param input input string @return list of meanings	100616
-UNKNOWN	reset builder	100617
-UNKNOWN	convert multi meanings to multi-meaning formatted string @param meanings list of meanings to format @return multi-meaning formatted string	100618
-UNKNOWN	do not use streams for builder performance?	100619
-UNKNOWN	read boolean from parcel @param in @return	100620
-UNKNOWN	write boolean to pacel @param in @param data	100621
-UNKNOWN	read date from parcel @param in @return null if -1 as value	100622
-UNKNOWN	write date to parcel @param in @param data date can be null	100623
-UNKNOWN	save session settings @param settings @return	100624
-UNKNOWN	load trainersettings @return null on failure	100625
-UNKNOWN	write vocable @param entry @return true on success	100626
-UNKNOWN	save table selection for session @param lists @return true on success	100627
-UNKNOWN	load table selection of session @return	100628
-UNKNOWN	does the actual loading @return null on errors	100629
-UNKNOWN	get int from map @param key @return	100630
-UNKNOWN	get boolean from map @param key @return	100631
-UNKNOWN	prepares writing init statement	100632
-UNKNOWN	end write @param success commits changes on true	100633
-UNKNOWN	writes data to db @return true on success	100634
-UNKNOWN	inner writing function not caring about transactions stm etc @return true on success	100635
-UNKNOWN	write vocable<br> public method doing prepare & commit @param entry @return true on success	100636
-UNKNOWN	write vocable to session<br> internal does not preapre & commit changes @param entry @return true on success	100637
-UNKNOWN	@see {exec} @param key @param value @return	100638
-UNKNOWN	@see {exec} @param key @param value @return	100639
-UNKNOWN	execute write for key value @param key @param value @return false if <b>no errors</b> occoured	100640
-UNKNOWN	does the actual loading @return null on errors	100641
-UNKNOWN	get int from map @param key @return	100642
-UNKNOWN	get boolean from map @param key @return	100643
-UNKNOWN	prepares writing init statement	100644
-UNKNOWN	end write @param success commits changes on true	100645
-UNKNOWN	writes data to db @return true on success	100646
-UNKNOWN	inner writing function not caring about transactions stm etc @return true on success	100647
-UNKNOWN	write vocable<br> public method doing prepare & commit @param entry @return true on success	100648
-UNKNOWN	write vocable to session<br> internal does not preapre & commit changes @param entry @return true on success	100649
-UNKNOWN	@see {exec} @param key @param value @return	100650
-UNKNOWN	@see {exec} @param key @param value @return	100651
-UNKNOWN	execute write for key value @param key @param value @return false if <b>no errors</b> occoured	100652
-UNKNOWN	save vocable state<br> saves last vocable in question for later continue	100653
-UNKNOWN	wipe db from (previous) session @return true on success	100654
-UNKNOWN	calculate totals etc	100655
-UNKNOWN	retrieve information from db	100656
-UNKNOWN	returns the solution of the current vocable @return	100657
-UNKNOWN	get addition for current vocable @return	100658
-UNKNOWN	get whether the vocable has an addition or not @return true if addition !=	100659
-UNKNOWN	returns the solution to the current vocable<br> does not count it as failed. <br><br> not to be confused with getsolutionunchecked @return solution	100660
-UNKNOWN	returns all possible solutions<br> no null checks are done or failed counter changes are made @return solution	100661
-UNKNOWN	returns possible solutions @return	100662
-UNKNOWN	check two strings for equality taking case sensitive & space ignore settings into account @param a @param b @return true if they are equals according to this trainings settings	100663
-UNKNOWN	check is candidate is one of the possible solutions @param candidate @return solution if candidate is a correct null otherwise todo use an java.util.optional when api min version is >= 24	100664
-UNKNOWN	check a multi-meaning input for correctness @param tinput @return true if all is valid	100665
-UNKNOWN	do not count retrieved solution as correct	100666
-UNKNOWN	returns the amount of solution meanings @return	100667
-UNKNOWN	checks for correct solution <br> retrieves next vocable if correct @param tsolution input to be checked against the solution @return true on tsolution is correct	100668
-UNKNOWN	do not count retrieved solution as correct	100669
-UNKNOWN	accounts vocable as passed based on the parameter.<br> this function is called from external when checksolution does not apply. @param correct true when the vocable was answered correct	100670
-UNKNOWN	function for modes where checksolution doesnt apply<br> reads next vocable & accounts passed=false as solution showed & failed @param passed vocable answered correctly	100671
-UNKNOWN	returns true when all vocables are solved as many times as expected @return	100672
-UNKNOWN	update cvocable points @return true on success	100673
-UNKNOWN	get next vocable	100674
-UNKNOWN	selected table has only one entry left	100675
-UNKNOWN	prevent repeating last vocable of table	100676
-UNKNOWN	returns the non-solution column of the vocable<br> returns an empty string when there is no current vocable @return	100677
-UNKNOWN	returns the tip increasing the counter<br> returns an empty string when there is no current vocable @return	100678
-UNKNOWN	returns the column name of the question<br> returns an empty string when there is no current vocable @return	100679
-UNKNOWN	returns the column name of the solution<br> returns an empty string when there is no current vocable @return	100680
-UNKNOWN	@return remaining vocables	100681
-UNKNOWN	@return solved vocables	100682
-UNKNOWN	ssm	100683
-UNKNOWN	db	100684
-UNKNOWN	returns meanings for a column @return	100685
-UNKNOWN	set a-meanings @param ameanings	100686
-UNKNOWN	returns meanings for b column @return	100687
-UNKNOWN	set b-meanings @param bmeanings	100688
-UNKNOWN	get tip @return	100689
-UNKNOWN	get addition @return	100690
-UNKNOWN	set tip @param tip	100691
-UNKNOWN	test for equality based on entry & list id if both have no list it is ignored. if one has no list they are not seen as equal. @param entry @return	100692
-UNKNOWN	check whether this entry is existing according to its id<br> <b>note</b> this is not a check whether this entity exists in the database @return true if the id is valid	100693
-UNKNOWN	returns whether the data of this ventry was changed @return	100694
-UNKNOWN	check whether this entry is existing according to its id<br> <b>note</b> this is not a check whether this entity exists in the database @return true if the id is valid	100695
-UNKNOWN	checks whether a given id is valid according to min_id_treshold @param id id to check @return true if id is valid	100696
-UNKNOWN	tests for equality based on list id @param list @return true when list ids are equal	100697
-UNKNOWN	returns the amount of vocables this table has<br> the value can be -1 when not set! @return	100698
-UNKNOWN	returns the amount of unfinished vocables<br> the value can be -1 when not set! @return	100699
-UNKNOWN	set a new id @param id new id @throws illegalaccesserror if a valid id is already set	100700
-UNKNOWN	catch this as display view change could lead to re-initializations	100701
-UNKNOWN	dont spam the ui thread	100702
-UNKNOWN	ignore not enough values	100703
-UNKNOWN	warn too many values	100704
-UNKNOWN	noinspection statementwithemptybody	100705
-UNKNOWN	do nothing	100706
-UNKNOWN	prepend to start	100707
-UNKNOWN	returns formatted import_amount with param @param amount @return formatted string	100708
-UNKNOWN	returns formatted import_amount with param @param amount @return formatted string	100709
-UNKNOWN	finalize builder create importfetcher @return importfetcher	100710
-UNKNOWN	todo allow addition column	100711
-UNKNOWN	returns amount of rows detected @return	100712
-UNKNOWN	is parsed list raw data without list metadata @return	100713
-UNKNOWN	is parsed list a multilist @return	100714
-UNKNOWN	raw data or single list with create flag	100715
-UNKNOWN	flushes the buffer and inserts everything	100716
-UNKNOWN	returns the fragmentactivity<br> this assumes the parent activity is instance of fragmentactivity @return fragmentactivity	100717
-UNKNOWN	returns the current appcompatactivity casted via getactivity @return appcompatactivity	100718
-UNKNOWN	load csvformat to preferences	100719
-UNKNOWN	load preferences from csv cformat @param cformat csvcustomformat to load	100720
-UNKNOWN	verify the csv format input and return true on success<br> shows a warning dialog on errors @return	100721
-UNKNOWN	we have to initialize this..	100722
-UNKNOWN	creates a csvformat object out of the settings @return	100723
-UNKNOWN	hack for custom dialog to allow for edittext filters	100724
-UNKNOWN	dialog shown	100725
-UNKNOWN	retrieve vocable by id & list id @param vocid @param listid @return ventry with set list<br> null on failure	100726
-UNKNOWN	fill meaning list of vocable entry @param table table to use @param vocable vocable as identifier @param list list in which to insert	100727
-UNKNOWN	wipe all session points @return	100728
-UNKNOWN	retruns a list of entries for the specified list<br> <u>no point data is being loaded</u> @param list vlist for which all entries should be retrieved @return list<ventry>	100729
-UNKNOWN	sort meanings from cursor into correct liststring from map @param cursor expected as [0] = string meaning [1] = int id @param map	100730
-UNKNOWN	debug function to retrieve points of entry @return	100731
-UNKNOWN	get a list of all lists @return arraylist<\vlist>	100732
-UNKNOWN	update or insert the provided vlist data @param tbl @return true on succuess	100733
-UNKNOWN	test is table exists @param db writeable database @param tbl vlist @return true if it exists	100734
-UNKNOWN	update and/or insert all entries<br> this function uses delete and changed flags in entries<br> <u>does not update vocable metadata such as last used etc on changed flag.</u> @param lst @return true on success	100735
-UNKNOWN	log.d(tag processing + entry + of + entry.getlist())	100736
-UNKNOWN	skip spacer	100737
-UNKNOWN	we need to clear meanings anyway	100738
-UNKNOWN	vocable created & deleted in editor	100739
-UNKNOWN	make last id to new id	100740
-UNKNOWN	returns the id of a table with the exact same naming <br> this also updates the vlist element itself to contains the right id @param tbl vlist to be used a search source @return id or -1 if not found -2 if an error occurred	100741
-UNKNOWN	returns the highest vocable id for the specified table @param db @param table table id<br> this is on purpose no vlist object @return highest id <b>or -1 if none is found</b>	100742
-UNKNOWN	returns the highest table id @param db @return highest id <b>-1 is none if found</b>	100743
-UNKNOWN	deletes the given table and all its vocables @param tbl vlist to delete @return true on success	100744
-UNKNOWN	directly calls table empty sql<br> <u>does not handle any transactions</u> @param arg string array containing the tbl id at [0]	100745
-UNKNOWN	clear vocable list from all entries @param tbl @return	100746
-UNKNOWN	deletes the current session @return	100747
-UNKNOWN	updates a transaction ventry @param entry ventry to update @return true on success	100748
-UNKNOWN	todo update date	100749
-UNKNOWN	possible problem ( insert / update..)	100750
-UNKNOWN	starts a new session based on the table entries<br> overriding any old session data! @param lists the vlist to use for this sessions @return true on success	100751
-UNKNOWN	returns the table selection from the stored session @return never null	100752
-UNKNOWN	set total and unfinished vocables for each table generate list of finished @param lists list of vlist to process @param unfinishedlists list into which unfinished vlist are added into @param settings trainersettings used for points threshold etc @return true on success	100753
-UNKNOWN	returns a random entry from the specified table which matche the trainer settings criteria<br> the ventry is guaranteed to be not the lastentry provided here @param list @param ts @param allowrepetition set to true to allow selecting the same vocable as lastentry again @return null on error	100754
-UNKNOWN	get session meta value for specified key @param key @return null if no entry is found	100755
-UNKNOWN	set session key-value pair @param key @param value @return true on success	100756
-UNKNOWN	possible problem ( insert / update..)	100757
-UNKNOWN	returns a statement to insert / replace session meta storage values @return	100758
-UNKNOWN	ends a transaction created by the getsessioninsert statement	100759
-UNKNOWN	returns a cursor on the session data @return map of all key-value pairs or <b>null</b> on errors	100760
-UNKNOWN	check for illegal id entries below the threshold @param key key to compare @param table table to look into	100761
-UNKNOWN	check for illegal id entries below the threshold @param key key to compare @param table table to look into	100762
-UNKNOWN	init list view @param savedinstancestate	100763
-UNKNOWN	called on file select click	100764
-UNKNOWN	calls select lists activity	100765
-UNKNOWN	called upon ok press	100766
-UNKNOWN	alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	100767
-UNKNOWN	helper to return the currently selected csvcustomformat @return selected csvcustomformat	100768
-UNKNOWN	validate input & set export button accordingly	100769
-UNKNOWN	clear state	100770
-UNKNOWN	setup spinners	100771
-UNKNOWN	returns the selected csvcustomformat @return csvcustomformat to be used to parsing	100772
-UNKNOWN	refresh preview parsing change view accordingly	100773
-UNKNOWN	little space downside	100774
-UNKNOWN	alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	100775
-UNKNOWN	0 is just to pass smth	100776
-UNKNOWN	returns the {@link importer.import_list_mode} of the relevant adapter @return	100777
-UNKNOWN	called when import was clicked	100778
-UNKNOWN	alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	100779
-UNKNOWN	0 is just to pass smth	100780
-UNKNOWN	refresh visibility of all options based on the input<br> also calls checkinput	100781
-UNKNOWN	called on file select click	100782
-UNKNOWN	update ui with current targetlist	100783
-UNKNOWN	called on list select click	100784
-UNKNOWN	verify user input and enable import button if appropriate	100785
-UNKNOWN	noinspection statementwithemptybody	100786
-UNKNOWN	dont check the rest	100787
-UNKNOWN	single list	100788
-UNKNOWN	show next vocable of trainer	100789
-UNKNOWN	show vocable addition field view @param show	100790
-UNKNOWN	display addition view with timeout	100791
-UNKNOWN	rotation during countdown	100792
-UNKNOWN	rotation during countdown	100793
-UNKNOWN	verify input against solution	100794
-UNKNOWN	solve current vocable	100795
-UNKNOWN	function updates ttip enabled status	100796
-UNKNOWN	set vocable as correct/wrong and show next one @param correct	100797
-UNKNOWN	change visibility according to parameter @param newguistate display mode	100798
-UNKNOWN	create new listpickerfragment instance @param multiselect multi select enabled @param delete delete mode @param selected list of pre-selected vlist @param showokbutton true for ok-submit button @return listpickerfragment	100799
-UNKNOWN	lambdas without lambdas	100800
-UNKNOWN	setup listview	100801
-UNKNOWN	update sorting type	100802
-UNKNOWN	load lists from db @param tickedlists already selected lists can be null	100803
-UNKNOWN	setup list view	100804
-UNKNOWN	todo title settitle(r.string.listselector_title_training)	100805
-UNKNOWN	settitle(r.string.listselector_title_delete)	100806
-UNKNOWN	settitle(r.string.listselector_title_edit)	100807
-UNKNOWN	get selected items can be used to query the selected items at any time @return list of vlist which are selected	100808
-UNKNOWN	update enabled state of ok button	100809
-UNKNOWN	show delete dialog for table @param listtodelete	100810
-UNKNOWN	do nothing	100811
-UNKNOWN	save values	100812
-UNKNOWN	creates a new instance	100813
-UNKNOWN	creates a new instance @param trainer trainer instance to use @return vlisteditordialog	100814
-UNKNOWN	set finish action @param callable	100815
-UNKNOWN	set trainer to use for data gathering<br> should not be called directly @param trainer	100816
-UNKNOWN	calls finish action	100817
-UNKNOWN	tinput = (edittext) view.findviewbyid(r.id.ttrainerinput)	100818
-UNKNOWN	maincontainer.setdescendantfocusability(viewgroup.focus_block_descendants)	100819
-UNKNOWN	happens after onactivitycreated	100820
-UNKNOWN	has to wait for inputs being created in the view	100821
-UNKNOWN	show vocable addition field view @param show	100822
-UNKNOWN	display addition view with timeout	100823
-UNKNOWN	rotation during countdown	100824
-UNKNOWN	rotation during countdown	100825
-UNKNOWN	input input list/group	100826
-UNKNOWN	delete previous views	100827
-UNKNOWN	generate input view with element @return view with input element	100828
-UNKNOWN	show next vocable of trainer	100829
-UNKNOWN	verify input against solution	100830
-UNKNOWN	tinput.setselectallonfocus(true)	100831
-UNKNOWN	tinput.requestfocus() todo	100832
-UNKNOWN	solve current vocable	100833
-UNKNOWN	function updates ttip enabled status	100834
-UNKNOWN	create new trainersettingsfragment the attached context has to implement {@link finishhandler} @return	100835
-UNKNOWN	radio button clicked handler @param view	100836
-UNKNOWN	update testmode based on selected view @param view	100837
-UNKNOWN	returns position of the currently checked radio button in the list @return	100838
-UNKNOWN	setup view	100839
-UNKNOWN	load past values	100840
-UNKNOWN	use string to show the hint at first via empty string	100841
-UNKNOWN	update here to init testmode	100842
-UNKNOWN	save values	100843
-UNKNOWN	make a link clickable @param strbuilder @param span	100844
-UNKNOWN	set text view content to html @param text @param html html sourcecode	100845
-UNKNOWN	todo use api level 24 or above to correct this	100846
-UNKNOWN	called by ok button<br> go back to main activity @param view	100847
-UNKNOWN	creates a new instance<br> see {@link #getlistprovider()} for vlist provider requirements @param isnew true if a new list is created @return vlisteditordialog	100848
-UNKNOWN	set ok action to run afterwards @param okaction	100849
-UNKNOWN	set cancel action to run afterwards @param cancelaction	100850
-UNKNOWN	get listeditordataprovider<br> allows provider to be a targetfragment parentfragment or the activity @return	100851
-UNKNOWN	calls cancel action	100852
-UNKNOWN	creates a new instance @return vlisteditordialog	100853
-UNKNOWN	set ok action to run afterwards @param okaction	100854
-UNKNOWN	set cancel action to run afterwards @param cancelaction	100855
-UNKNOWN	retrieves meanings from layout input @param layout layout to traverse @return list of meanings found in layout	100856
-UNKNOWN	generate view with all meanings for specified list @param meanings list of meanings to process @param hint hint for input @param layout layout to add views into	100857
-UNKNOWN	generate view for meaning entry @param meaning @param hint @param image button image resource id @param description button description @param listener button listener @return view	100858
-UNKNOWN	get editor ventry @return	100859
-UNKNOWN	calls cancel action	100860
-UNKNOWN	init	100861
-UNKNOWN	otherwise let android handle the restore	100862
-UNKNOWN	returns the custom format<br> this can be user defined @param settings required to load preferences @return	100863
-UNKNOWN	update format to new one @param newformat	100864
-UNKNOWN	save custom format settings @param editor editor to store stuff to	100865
-UNKNOWN	static method to populate format spinner adapter @param adapter adapter to populate @param context context for string resolve	100866
-UNKNOWN	returns the action bar<br> used by fragments @return actionbar or null if none exists	100867
-UNKNOWN	pops the stack & handles fragment back @return false when its impossible to go back	100868
-UNKNOWN	returns the current fragment @return	100869
-UNKNOWN	set fragment to show<br> replaces current fragment @param fragment	100870
-UNKNOWN	check back button listener @param fragment	100871
-UNKNOWN	adds a new fragment as top element @param fragment	100872
-UNKNOWN	handle passed params	100873
-UNKNOWN	restore the fragments instance	100874
-UNKNOWN	save the fragments instance	100875
-UNKNOWN	check whether we have this permission or not<br> should be called before this activity to check whether this is necessary @param context @param perm @return true when context has specified permission	100876
-UNKNOWN	request permissions for generic context & activity @param context @param activity @param perm	100877
-UNKNOWN	should we show an explanation?	100878
-UNKNOWN	no explanation needed we can request the permission.	100879
-UNKNOWN	handle passed params	100880
-UNKNOWN	todo allow resource ids as message	100881
-UNKNOWN	called upon retry click @param view	100882
-UNKNOWN	wrapper around requestperm for unique calls	100883
-UNKNOWN	permission to read storage	100884
-UNKNOWN	allow for retry	100885
-UNKNOWN	called upon cancel pressed @param view	100886
-UNKNOWN	setup listview	100887
-UNKNOWN	just a good guess	100888
-UNKNOWN	does sorting<br> notifies data change	100889
-UNKNOWN	go on directory up in navigation if possible	100890
-UNKNOWN	check whether were at root dir and cant go further above @return true on root	100891
-UNKNOWN	action for cancel button press @param view	100892
-UNKNOWN	cancel file activity	100893
-UNKNOWN	action for ok button press @param view	100894
-UNKNOWN	required !?	100895
-UNKNOWN	finishes & returns file if selected	100896
-UNKNOWN	checks current media state @return true when media is ready	100897
-UNKNOWN	load default or last path / file into dialog	100898
-UNKNOWN	old value not valid anymore	100899
-UNKNOWN	change directory in view to the one specified in currentdir<br> if currentdir is null were assuming that the overview is required	100900
-UNKNOWN	cant do anything no access to base dir	100901
-UNKNOWN	go back entry	100902
-UNKNOWN	save values	100903
-UNKNOWN	setup listview	100904
-UNKNOWN	handle passed params	100905
-UNKNOWN	viewport changed during creation phase	100906
-UNKNOWN	do not call updatecolumnnames as weve to wait for oncreateoptionsmenu calling it	100907
-UNKNOWN	dialogfragment re-adds itself	100908
-UNKNOWN	clear current edit state	100909
-UNKNOWN	clear	100910
-UNKNOWN	handles list column name changes	100911
-UNKNOWN	changes ccomp to current selection	100912
-UNKNOWN	save editorentry to db & update listview	100913
-UNKNOWN	setup listview	100914
-UNKNOWN	add new ventry	100915
-UNKNOWN	show entry delete dialog @param entry @param position	100916
-UNKNOWN	show entry edit dialog for new vocable @param entry	100917
-UNKNOWN	show entry edit dialog @param entry ventry to edit/create @param position edit position in list if existing	100918
-UNKNOWN	setup editor dialog actions	100919
-UNKNOWN	setup list editor actions	100920
-UNKNOWN	show list title editor dialog<br> exit editor when newtbl is set and user cancels the dialog	100921
-UNKNOWN	show undo view<br> on viewchange during the animation were not deleting the vocable	100922
-UNKNOWN	pivot point of x scaling	100923
-UNKNOWN	unsaved new entry (empty entry as filled by editor)	100924
-UNKNOWN	unsaved new table still in creation dialog	100925
-UNKNOWN	open trainer to continue the last session @param view	100926
-UNKNOWN	open new table intent @param view	100927
-UNKNOWN	open edit table intent @param view	100928
-UNKNOWN	open trainer intent @param view	100929
-UNKNOWN	open list delete @param view	100930
-UNKNOWN	open about activity @param view	100931
-UNKNOWN	open export activity @param view	100932
-UNKNOWN	open import activity @param view	100933
-UNKNOWN	start import activity does not check for permissions	100934
-UNKNOWN	start export activity does not check for permissions	100935
-UNKNOWN	@see android.widget.checkable#ischecked()	100936
-UNKNOWN	@see android.widget.checkable#setchecked(boolean)	100937
-UNKNOWN	@see android.widget.checkable#toggle()	100938
-UNKNOWN	read the custom xml attributes	100939
-UNKNOWN	add to our checkable list all the children of the view that implement the interface checkable	100940
-UNKNOWN	init viewpager	100941
-UNKNOWN	add fragment to viewpager @param fragment fragment @param title tab-title string resource	100942
-UNKNOWN	add fragment to viewpager @param fragment fragment @param title title	100943
-UNKNOWN	add fragment to viewpager @param fragment fragment @param title tab-title string resource	100944
-UNKNOWN	add fragment to viewpager @param fragment fragment @param title title	100945
-UNKNOWN	todo fix selection rendering on scrolling	100946
-UNKNOWN	updated sorting @param comparator comparator to use for sorting	100947
-UNKNOWN	do not show vocable now onpostcreate has to handle this	100948
-UNKNOWN	function to be called by fragments to request an update of the exercise question display	100949
-UNKNOWN	set training mode to specified value<br> also sets trainingmode<br> @param mode mode to display	100950
-UNKNOWN	shows result dialog on training end	100951
-UNKNOWN	initialize trainer	100952
-UNKNOWN	show next vocable of trainer	100953
-UNKNOWN	function updates ttip enabled status	100954
-UNKNOWN	set table data (column names) @param tbl	100955
-UNKNOWN	-1 required as onitemclicked counts from 1 but the list starts a 0	100956
-UNKNOWN	todo remove on drop of api 19 support	100957
-UNKNOWN	update sorting @param comp comparator to use for sorting	100958
-UNKNOWN	set entry as deleted @param entry	100959
-UNKNOWN	add a new ventry to the view<br> does not update the view @param entry	100960
-UNKNOWN	add an ventry to the view at selected position.<br> does update the view rendering @param entry new ventry @param position position at which it should be inserted	100961
-UNKNOWN	returns all entries existing and deleted @return	100962
-UNKNOWN	set list as new list<br> updates the view @param entries	100963
-UNKNOWN	updates sort order @param comparator comparator to use	100964
-UNKNOWN	remove element from list<br> updates the view @param tbl	100965
-UNKNOWN	returns a value by {@link enum}. @param e an enum @return the string at the given enum string	100966
-UNKNOWN	returns a value by index. @param i a column index (0-based) @return the string at the given index	100967
-UNKNOWN	returns a value by name. @param name the name of the column to be retrieved. @return the column value maybe null depending on {@link csvformat#getnullstring()}. @throws illegalstateexception if no header mapping was provided @throws illegalargumentexception if {@code name} is not mapped or if the record is inconsistent @see #isconsistent() @see csvformat#withnullstring(string)	100968
-UNKNOWN	returns the start position of this record as a character position in the source stream. this may or may not correspond to the byte position depending on the character set. @return the position of this record in the source stream.	100969
-UNKNOWN	returns the comment for this record if any. note that comments are attached to the following record. if there is no following record (i.e. the comment is at eof) the comment will be ignored. @return the comment for this record or null if no comment for this record is available.	100970
-UNKNOWN	returns the number of this record in the parsed csv file. <p> <strong>attention</strong> if your csv input has multi-line values the returned number does not correspond to the current line number of the parser that created this record. </p> @return the number of this record. @see csvparser#getcurrentlinenumber()	100971
-UNKNOWN	tells whether the record size matches the header size. <p> returns true if the sizes for this record match and false if not. some programs can export files that fail this test but still produce parsable files. </p> @return true of this record is valid false if not	100972
-UNKNOWN	checks whether this record has a comment false otherwise. note that comments are attached to the following record. if there is no following record (i.e. the comment is at eof) the comment will be ignored. @return true if this record has a comment false otherwise @since 1.3	100973
-UNKNOWN	checks whether a given column is mapped i.e. its name has been defined to the parser. @param name the name of the column to be retrieved. @return whether a given column is mapped.	100974
-UNKNOWN	checks whether a given columns is mapped and has a value. @param name the name of the column to be retrieved. @return whether a given columns is mapped and has a value	100975
-UNKNOWN	returns an iterator over the values of this record. @return an iterator over the values of this record.	100976
-UNKNOWN	puts all values of this record into the given map. @param map the map to populate. @return the given map.	100977
-UNKNOWN	returns the number of values in this record. @return the number of values.	100978
-UNKNOWN	converts the values to a list. todo maybe make this public? @return a new list	100979
-UNKNOWN	copies this record into a new map. the new map is not connect @return a new map. the map is empty if the record has no headers.	100980
-UNKNOWN	returns a string representation of the contents of this record. the result is constructed by comment mapping recordnumber and by passing the internal values array to {@link arrays#tostring(object[])}. @return a string representation of this record.	100981
-UNKNOWN	======================================================	100982
-UNKNOWN	printing implementation	100983
-UNKNOWN	======================================================	100984
-UNKNOWN	flushes the underlying stream. @throws ioexception if an i/o error occurs	100985
-UNKNOWN	gets the target appendable. @return the target appendable.	100986
-UNKNOWN	prints the string as the next value on the line. the value will be escaped or encapsulated as needed. @param value value to be output. @throws ioexception if an i/o error occurs	100987
-UNKNOWN	prints a comment on a new line among the delimiter separated values. <p> comments will always begin on a new line and occupy a least one full line. the character specified to start comments and a space will be inserted at the beginning of each new line in the comment. </p> if comments are disabled in the current csv format this method does nothing. @param comment the comment to output @throws ioexception if an i/o error occurs	100988
-UNKNOWN	$fall-through$ break intentionally excluded.	100989
-UNKNOWN	outputs the record separator. @throws ioexception if an i/o error occurs	100990
-UNKNOWN	prints the given values a single record of delimiter separated values followed by the record separator. <p> the values will be quoted if needed. quotes and newline characters will be escaped. this method adds the record separator to the output after printing the record so there is no need to call {@link #println()}. </p> @param values values to output. @throws ioexception if an i/o error occurs	100991
-UNKNOWN	prints the given values a single record of delimiter separated values followed by the record separator. <p> the values will be quoted if needed. quotes and newline characters will be escaped. this method adds the record separator to the output after printing the record so there is no need to call {@link #println()}. </p> @param values values to output. @throws ioexception if an i/o error occurs	100992
-UNKNOWN	prints all the objects in the given collection handling nested collections/arrays as records. <p> if the given collection only contains simple objects this method will print a single record like {@link #printrecord(iterable)}. if the given collections contains nested collections/arrays those nested elements will each be printed as records using {@link #printrecord(object)}. </p> <p> given the following data structure </p> <pre> <code> list&ltstring[]&gt data = data.add(new string[]{ a b c }) data.add(new string[]{ 1 2 3 }) data.add(new string[]{ a1 b2 c3 }) </code> </pre> <p> calling this method will print </p> <pre> <code> a b c 1 2 3 a1 b2 c3 </code> </pre> @param values the values to print. @throws ioexception if an i/o error occurs	100993
-UNKNOWN	prints all the objects in the given array handling nested collections/arrays as records. <p> if the given array only contains simple objects this method will print a single record like {@link #printrecord(object)}. if the given collections contains nested collections/arrays those nested elements will each be printed as records using {@link #printrecord(object)}. </p> <p> given the following data structure </p> <pre> <code> string[][] data = new string[3][] data[0] = string[]{ a b c } data[1] = new string[]{ 1 2 3 } data[2] = new string[]{ a1 b2 c3 } </code> </pre> <p> calling this method will print </p> <pre> <code> a b c 1 2 3 a1 b2 c3 </code> </pre> @param values the values to print. @throws ioexception if an i/o error occurs	100994
-UNKNOWN	prints all the objects in the given jdbc result set. @param resultset result set the values to print. @throws ioexception if an i/o error occurs @throws sqlexception if a database access error occurs	100995
-UNKNOWN	returns the last character that was read as an integer (0 to 65535). this will be the last character returned by any of the read methods. this will not include a character read using the {@link #lookahead()} method. if no character has been read then this will return {@link constants#undefined}. if the end of the stream was reached on the last read then this will return {@link constants#end_of_stream}. @return the last character that was read	100996
-UNKNOWN	calls {@link bufferedreader#readline()} which drops the line terminator(s). this method should only be called when processing a comment otherwise information can be lost. <p> increments {@link #eolcounter} <p> sets {@link #lastchar} to {@link constants#end_of_stream} at eof otherwise to lf @return the line that was read or null if reached eof.	100997
-UNKNOWN	needed for detecting start of line	100998
-UNKNOWN	returns the next character in the current reader without consuming it. so the next call to {@link #read()} will still return this value. does not affect line number or last character. @return the next character @throws ioexception if there is an error in reading	100999
-UNKNOWN	returns the current line number @return the current line number	101000
-UNKNOWN	check if we are at eol or eof or just starting	101001
-UNKNOWN	counter is accurate	101002
-UNKNOWN	allow for counter being incremented only at eol	101003
-UNKNOWN	gets the character position in the reader. @return the current position in the reader (counting characters not bytes since this is a reader)	101004
-UNKNOWN	closes the stream. @throws ioexception if an i/o error occurs	101005
-UNKNOWN	set ivars before calling super close() in case close() throws an ioexception.	101006
-UNKNOWN	creates a parser for the given {@link file}. <p><strong>note</strong> this method internally creates a filereader using {@link java.io.filereader#filereader(file)} which in turn relies on the default encoding of the jvm that is executing the code. if this is insufficient create a url to the file and use {@link #parse(url charset csvformat)}</p> @param file a csv file. must not be null. @param charset a charset @param format the csvformat used for csv parsing. must not be null. @return a new parser @throws illegalargumentexception if the parameters of the format are inconsistent or if either file or format are null. @throws ioexception if an i/o error occurs	101007
-UNKNOWN	creates a parser for the given {@link string}. @param string a csv string. must not be null. @param format the csvformat used for csv parsing. must not be null. @return a new parser @throws illegalargumentexception if the parameters of the format are inconsistent or if either string or format are null. @throws ioexception if an i/o error occurs	101008
-UNKNOWN	creates a parser for the given url. <p> if you do not read all records from the given {@code url} you should call {@link #close()} on the parser unless you close the {@code url}. </p> @param url a url. must not be null. @param charset the charset for the resource. must not be null. @param format the csvformat used for csv parsing. must not be null. @return a new parser @throws illegalargumentexception if the parameters of the format are inconsistent or if either url charset or format are null. @throws ioexception if an i/o error occurs	101009
-UNKNOWN	closes resources. @throws ioexception if an i/o error occurs	101010
-UNKNOWN	returns the current line number in the input stream. <p> <strong>attention</strong> if your csv input has multi-line values the returned number does not correspond to the record number. </p> @return current line number	101011
-UNKNOWN	returns a copy of the header map that iterates in column order. <p> the map keys are column names. the map values are 0-based indices. </p> @return a copy of the header map that iterates in column order.	101012
-UNKNOWN	returns the current record number in the input stream. <p> <strong>attention</strong> if your csv input has multi-line values the returned number does not correspond to the line number. </p> @return current record number	101013
-UNKNOWN	parses the csv input according to the given format and returns the content as a list of {@link csvrecord csvrecords}. <p> the returned content starts at the current parse-position in the stream. </p> @return list of {@link csvrecord csvrecords} may be empty @throws ioexception on parse error or input read-failure	101014
-UNKNOWN	initializes the name to index mapping if the format defines a header. @return null if the format has no header. @throws ioexception if there is a problem reading the header or skipping the first record	101015
-UNKNOWN	read the header from the first line of the file	101016
-UNKNOWN	build the name to index mappings	101017
-UNKNOWN	gets whether this parser is closed. @return whether this parser is closed.	101018
-UNKNOWN	returns an iterator on the records. <p>ioexceptions occurring during the iteration are wrapped in a runtimeexception. if the parser is closed a call to {@code next()} will throw a nosuchelementexception.</p>	101019
-UNKNOWN	todo this is not great throw an ise instead?	101020
-UNKNOWN	hasnext() wasnt called before	101021
-UNKNOWN	todo this is not great throw an ise instead?	101022
-UNKNOWN	hasnext() wasnt called before	101023
-UNKNOWN	parses the next record from the current point in the stream. @return the record as an array of values or {@code null} if the end of the stream has been reached @throws ioexception on parse error or input read-failure	101024
-UNKNOWN	ignored currently	101025
-UNKNOWN	first comment for this record	101026
-UNKNOWN	read another token	101027
-UNKNOWN	eases ide debugging. @return a string helpful for debugging.	101028
-UNKNOWN	context of the app under test.	101029
-UNKNOWN	database db = new database(instrumentationregistry.gettargetcontext())	101030
-UNKNOWN	test for db random select to be a) not repetitive given a previous element as param b) not selecting entries for which the points are matching the finished criteria	101031
-UNKNOWN	returns the next token. <p> a token corresponds to a term a record change or an end-of-file indicator. </p> @param token an existing token object to reuse. the caller is responsible to initialize the token. @return the next token found @throws ioexception on stream access error	101032
-UNKNOWN	get the last read char (required for empty line detection)	101033
-UNKNOWN	read the next char and set eol	101034
-UNKNOWN	note the following call will swallow lf if c == cr. but we dont need to know if the last char was cr or lf - they are equivalent here.	101035
-UNKNOWN	empty line detection eol and (last char was eol or beginning)	101036
-UNKNOWN	go on char ahead	101037
-UNKNOWN	reached end of file without any content (empty line at the end)	101038
-UNKNOWN	dont set token.isready here because no content	101039
-UNKNOWN	did we reach eof during the last iteration already ? eof	101040
-UNKNOWN	dont set token.isready here because no content	101041
-UNKNOWN	dont set token.isready here because no content	101042
-UNKNOWN	important make sure a new char gets consumed in each iteration	101043
-UNKNOWN	ignore whitespaces at beginning of a token	101044
-UNKNOWN	ok start of token reached encapsulated or token	101045
-UNKNOWN	empty token return token()	101046
-UNKNOWN	empty token return eorecord()	101047
-UNKNOWN	noop token.content.append()	101048
-UNKNOWN	consume encapsulated token	101049
-UNKNOWN	end of file return eof()	101050
-UNKNOWN	noop token.content.append()	101051
-UNKNOWN	there is data at eof	101052
-UNKNOWN	next token must be a simple token	101053
-UNKNOWN	add removed blanks when not ignoring whitespace chars	101054
-UNKNOWN	parses a simple token. <p/> simple token are tokens which are not surrounded by encapsulators. a simple token might contain escaped delimiters (as \ or \). the token is finished when one of the following conditions become true <ul> <li>end of line has been reached (eorecord)</li> <li>end of stream has been reached (eof)</li> <li>an unescaped delimiter has been reached (token)</li> </ul> @param token the current token @param ch the current character @return the filled token @throws ioexception on stream access error	101055
-UNKNOWN	faster to use while(true)+break than while(token.type == invalid)	101056
-UNKNOWN	there is data at eof	101057
-UNKNOWN	unexpected char after escape	101058
-UNKNOWN	continue	101059
-UNKNOWN	continue	101060
-UNKNOWN	parses an encapsulated token. <p/> encapsulated tokens are surrounded by the given encapsulating-string. the encapsulator itself might be included in the token using a doubling syntax (as ) or using escaping (as in \ \). whitespaces before and after an encapsulated token are ignored. the token is finished when one of the following conditions become true <ul> <li>an unescaped encapsulator has been reached and is followed by optional whitespace then</li> <ul> <li>delimiter (token)</li> <li>end of line (eorecord)</li> </ul> <li>end of stream has been reached (eof)</li> </ul> @param token the current token @return a valid token object @throws ioexception on invalid state eof before closing encapsulator or invalid character before delimiter or eol	101061
-UNKNOWN	save current line number in case needed for ioe	101062
-UNKNOWN	unexpected char after escape	101063
-UNKNOWN	double or escaped encapsulator -> add single encapsulator to token	101064
-UNKNOWN	token finish mark (encapsulator) reached ignore whitespace till delimiter	101065
-UNKNOWN	there is data at eof	101066
-UNKNOWN	error invalid char between token and next delimiter	101067
-UNKNOWN	error condition (end of file before end of token)	101068
-UNKNOWN	consume character	101069
-UNKNOWN	returns the current line number @return the current line number	101070
-UNKNOWN	returns the current character position @return the current character position	101071
-UNKNOWN	todo escape handling needs more work	101072
-UNKNOWN	handle an escape sequence. the current character must be the escape character. on return the next character is available by calling {@link extendedbufferedreader#getlastchar()} on the input stream. @return the unescaped character (as an int) or {@link constants#end_of_stream} if char following the escape is invalid. @throws ioexception if there is a problem reading the stream or the end of stream is detected the escape character is not allowed at end of strem	101073
-UNKNOWN	the escape char has just been read (normally a backslash)	101074
-UNKNOWN	todo is this correct?	101075
-UNKNOWN	todo is this correct? do tabs need to be escaped?	101076
-UNKNOWN	todo is this correct?	101077
-UNKNOWN	now check for meta-characters	101078
-UNKNOWN	indicate unexpected char - available from in.getlastchar()	101079
-UNKNOWN	greedily accepts \n \r and \r\n this checker consumes silently the second control-character @return true if the given or next character is a line-terminator	101080
-UNKNOWN	check if we have \r\n	101081
-UNKNOWN	note does not change ch outside of this method!	101082
-UNKNOWN	@return true if the given char is a whitespace character	101083
-UNKNOWN	checks if the current character represents the start of a line a cr lf or is at the start of the file. @param ch the character to check @return true if the character is at the start of a line.	101084
-UNKNOWN	@return true if the given character indicates end of file	101085
-UNKNOWN	closes resources. @throws ioexception if an i/o error occurs	101086
+UNKNOWN	this version is called for android devices >= api-11. thank to @damccull for fixing this.	101478
+UNKNOWN	this version is called for android devices < api-11	101479
+UNKNOWN	sqlitedatabase result = super.openorcreatedatabase(name mode factory)	101480
+UNKNOWN	reset builder	101481
+UNKNOWN	do not use streams for builder performance?	101482
+UNKNOWN	do not count retrieved solution as correct	101483
+UNKNOWN	do not count retrieved solution as correct	101484
+UNKNOWN	selected table has only one entry left	101485
+UNKNOWN	prevent repeating last vocable of table	101486
+UNKNOWN	ssm	101487
+UNKNOWN	db	101488
+UNKNOWN	catch this as display view change could lead to re-initializations	101489
+UNKNOWN	dont spam the ui thread	101490
+UNKNOWN	ignore not enough values	101491
+UNKNOWN	warn too many values	101492
+UNKNOWN	noinspection statementwithemptybody	101493
+UNKNOWN	do nothing	101494
+UNKNOWN	prepend to start	101495
+UNKNOWN	todo allow addition column	101496
+UNKNOWN	raw data or single list with create flag	101497
+UNKNOWN	we have to initialize this..	101498
+UNKNOWN	hack for custom dialog to allow for edittext filters	101499
+UNKNOWN	dialog shown	101500
+UNKNOWN	log.d(tag processing + entry + of + entry.getlist())	101501
+UNKNOWN	skip spacer	101502
+UNKNOWN	we need to clear meanings anyway	101503
+UNKNOWN	vocable created & deleted in editor	101504
+UNKNOWN	make last id to new id	101505
+UNKNOWN	todo update date	101506
+UNKNOWN	possible problem ( insert / update..)	101507
+UNKNOWN	possible problem ( insert / update..)	101508
+UNKNOWN	alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	101509
+UNKNOWN	clear state	101510
+UNKNOWN	little space downside	101511
+UNKNOWN	alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	101512
+UNKNOWN	0 is just to pass smth	101513
+UNKNOWN	alert.setnegativebutton(cancel new dialoginterface.onclicklistener() { public void onclick(dialoginterface dialog int whichbutton) { todo add cancel option } })	101514
+UNKNOWN	0 is just to pass smth	101515
+UNKNOWN	noinspection statementwithemptybody	101516
+UNKNOWN	dont check the rest	101517
+UNKNOWN	single list	101518
+UNKNOWN	rotation during countdown	101519
+UNKNOWN	rotation during countdown	101520
+UNKNOWN	lambdas without lambdas	101521
+UNKNOWN	setup listview	101522
+UNKNOWN	todo title settitle(r.string.listselector_title_training)	101523
+UNKNOWN	settitle(r.string.listselector_title_delete)	101524
+UNKNOWN	settitle(r.string.listselector_title_edit)	101525
+UNKNOWN	do nothing	101526
+UNKNOWN	save values	101527
+UNKNOWN	tinput = (edittext) view.findviewbyid(r.id.ttrainerinput)	101528
+UNKNOWN	maincontainer.setdescendantfocusability(viewgroup.focus_block_descendants)	101529
+UNKNOWN	happens after onactivitycreated	101530
+UNKNOWN	has to wait for inputs being created in the view	101531
+UNKNOWN	rotation during countdown	101532
+UNKNOWN	rotation during countdown	101533
+UNKNOWN	delete previous views	101534
+UNKNOWN	tinput.setselectallonfocus(true)	101535
+UNKNOWN	tinput.requestfocus() todo	101536
+UNKNOWN	load past values	101537
+UNKNOWN	use string to show the hint at first via empty string	101538
+UNKNOWN	update here to init testmode	101539
+UNKNOWN	save values	101540
+UNKNOWN	todo use api level 24 or above to correct this	101541
+UNKNOWN	init	101542
+UNKNOWN	otherwise let android handle the restore	101543
+UNKNOWN	handle passed params	101544
+UNKNOWN	restore the fragments instance	101545
+UNKNOWN	save the fragments instance	101546
+UNKNOWN	should we show an explanation?	101547
+UNKNOWN	no explanation needed we can request the permission.	101548
+UNKNOWN	handle passed params	101549
+UNKNOWN	todo allow resource ids as message	101550
+UNKNOWN	permission to read storage	101551
+UNKNOWN	allow for retry	101552
+UNKNOWN	just a good guess	101553
+UNKNOWN	required !?	101554
+UNKNOWN	old value not valid anymore	101555
+UNKNOWN	cant do anything no access to base dir	101556
+UNKNOWN	go back entry	101557
+UNKNOWN	save values	101558
+UNKNOWN	setup listview	101559
+UNKNOWN	handle passed params	101560
+UNKNOWN	viewport changed during creation phase	101561
+UNKNOWN	do not call updatecolumnnames as weve to wait for oncreateoptionsmenu calling it	101562
+UNKNOWN	dialogfragment re-adds itself	101563
+UNKNOWN	clear	101564
+UNKNOWN	pivot point of x scaling	101565
+UNKNOWN	unsaved new entry (empty entry as filled by editor)	101566
+UNKNOWN	unsaved new table still in creation dialog	101567
+UNKNOWN	todo fix selection rendering on scrolling	101568
+UNKNOWN	do not show vocable now onpostcreate has to handle this	101569
+UNKNOWN	-1 required as onitemclicked counts from 1 but the list starts a 0	101570
+UNKNOWN	todo remove on drop of api 19 support	101571
+UNKNOWN	======================================================	101572
+UNKNOWN	printing implementation	101573
+UNKNOWN	======================================================	101574
+UNKNOWN	$fall-through$ break intentionally excluded.	101575
+UNKNOWN	needed for detecting start of line	101576
+UNKNOWN	check if we are at eol or eof or just starting	101577
+UNKNOWN	counter is accurate	101578
+UNKNOWN	allow for counter being incremented only at eol	101579
+UNKNOWN	set ivars before calling super close() in case close() throws an ioexception.	101580
+UNKNOWN	read the header from the first line of the file	101581
+UNKNOWN	build the name to index mappings	101582
+UNKNOWN	todo this is not great throw an ise instead?	101583
+UNKNOWN	hasnext() wasnt called before	101584
+UNKNOWN	todo this is not great throw an ise instead?	101585
+UNKNOWN	hasnext() wasnt called before	101586
+UNKNOWN	ignored currently	101587
+UNKNOWN	first comment for this record	101588
+UNKNOWN	read another token	101589
+UNKNOWN	context of the app under test.	101590
+UNKNOWN	database db = new database(instrumentationregistry.gettargetcontext())	101591
+UNKNOWN	get the last read char (required for empty line detection)	101592
+UNKNOWN	read the next char and set eol	101593
+UNKNOWN	note the following call will swallow lf if c == cr. but we dont need to know if the last char was cr or lf - they are equivalent here.	101594
+UNKNOWN	empty line detection eol and (last char was eol or beginning)	101595
+UNKNOWN	go on char ahead	101596
+UNKNOWN	reached end of file without any content (empty line at the end)	101597
+UNKNOWN	dont set token.isready here because no content	101598
+UNKNOWN	did we reach eof during the last iteration already ? eof	101599
+UNKNOWN	dont set token.isready here because no content	101600
+UNKNOWN	dont set token.isready here because no content	101601
+UNKNOWN	important make sure a new char gets consumed in each iteration	101602
+UNKNOWN	ignore whitespaces at beginning of a token	101603
+UNKNOWN	ok start of token reached encapsulated or token	101604
+UNKNOWN	empty token return token()	101605
+UNKNOWN	empty token return eorecord()	101606
+UNKNOWN	noop token.content.append()	101607
+UNKNOWN	consume encapsulated token	101608
+UNKNOWN	end of file return eof()	101609
+UNKNOWN	noop token.content.append()	101610
+UNKNOWN	there is data at eof	101611
+UNKNOWN	next token must be a simple token	101612
+UNKNOWN	add removed blanks when not ignoring whitespace chars	101613
+UNKNOWN	faster to use while(true)+break than while(token.type == invalid)	101614
+UNKNOWN	there is data at eof	101615
+UNKNOWN	unexpected char after escape	101616
+UNKNOWN	continue	101617
+UNKNOWN	continue	101618
+UNKNOWN	save current line number in case needed for ioe	101619
+UNKNOWN	unexpected char after escape	101620
+UNKNOWN	double or escaped encapsulator -> add single encapsulator to token	101621
+UNKNOWN	token finish mark (encapsulator) reached ignore whitespace till delimiter	101622
+UNKNOWN	there is data at eof	101623
+UNKNOWN	error invalid char between token and next delimiter	101624
+UNKNOWN	error condition (end of file before end of token)	101625
+UNKNOWN	consume character	101626
+UNKNOWN	todo escape handling needs more work	101627
+UNKNOWN	the escape char has just been read (normally a backslash)	101628
+UNKNOWN	todo is this correct?	101629
+UNKNOWN	todo is this correct? do tabs need to be escaped?	101630
+UNKNOWN	todo is this correct?	101631
+UNKNOWN	now check for meta-characters	101632
+UNKNOWN	indicate unexpected char - available from in.getlastchar()	101633
+UNKNOWN	check if we have \r\n	101634
+UNKNOWN	note does not change ch outside of this method!	101635

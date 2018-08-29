@@ -3,9 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="d2f851fe-192f-4baa-8617-57403e9cb599" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/NewPipe/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/NewPipe/classified_seq.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/NewPipe/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/NewPipe/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/NewPipe/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/NewPipe/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/classified_seq.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/VocableTrainer-Android/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/android-oss/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/android-oss/classified_seq.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/android-oss/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/android-oss/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/android-oss/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/android-oss/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/classified_seq.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/fp2-launcher/classified_seq.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/fp2-launcher/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/fp2-launcher/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/fp2-launcher/serialized_classifier_tenfold.ser.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/classified_seq.test" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/classified_seq.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/output/reddit-android-appstore/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/output/results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_scripts/classify_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_scripts/classify_comments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_scripts/extract_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_scripts/extract_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_scripts/merge_linecomments.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_scripts/merge_linecomments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_scripts/queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_scripts/queries.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_scripts/merge_linecomments.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,29 +43,17 @@
       <file leaf-file-name="classify_comments.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_scripts/classify_comments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extract_comments.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="extract_comments.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_scripts/extract_comments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" lean-forward="true" selection-end-line="291" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="merge_linecomments.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_scripts/merge_linecomments.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4365">
-              <caret line="291" column="11" selection-start-line="291" selection-start-column="11" selection-end-line="291" selection-end-column="11" />
+            <state relative-caret-position="-119">
+              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,8 +61,8 @@
       <file leaf-file-name="queries.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_scripts/queries.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="64" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -117,10 +124,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/documentation/experiment_0.md" />
         <option value="$PROJECT_DIR$/documentation/analysis_0.md" />
-        <option value="$PROJECT_DIR$/py_scripts/classify_comments.py" />
         <option value="$PROJECT_DIR$/sql_scripts/queries.sql" />
-        <option value="$PROJECT_DIR$/py_scripts/extract_comments.py" />
         <option value="$PROJECT_DIR$/py_scripts/merge_linecomments.py" />
+        <option value="$PROJECT_DIR$/py_scripts/extract_comments.py" />
+        <option value="$PROJECT_DIR$/py_scripts/classify_comments.py" />
       </list>
     </option>
   </component>
@@ -133,7 +140,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -142,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.extract_comments">
+  <component name="RunManager" selected="Python.classify_comments (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SATD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +219,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="classify_comments (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SATD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_scripts/classify_comments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,13 +362,14 @@
       <item itemvalue="Python.extract_comments" />
       <item itemvalue="Python.populate_treated_commenttext" />
       <item itemvalue="Python.merge_linecomments" />
+      <item itemvalue="Python.classify_comments (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.classify_comments (1)" />
         <item itemvalue="Python.extract_comments" />
         <item itemvalue="Python.merge_linecomments" />
         <item itemvalue="Python.classify_comments" />
-        <item itemvalue="Python.populate_treated_commenttext" />
         <item itemvalue="Python.populate_treated_commenttext" />
       </list>
     </recent_temporary>
@@ -361,18 +388,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="5" side_tool="true" visible="true" weight="0.0053248135" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="5" side_tool="true" visible="true" weight="0.007987221" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32537314" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25373134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25373134" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10756124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16613418" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -503,34 +530,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_scripts/classify_comments.py">
+    <entry file="file://$PROJECT_DIR$/py_scripts/merge_linecomments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql_scripts/queries.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="64" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_scripts/classify_comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_scripts/extract_comments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="true" selection-end-line="291" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_scripts/merge_linecomments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4365">
-          <caret line="291" column="11" selection-start-line="291" selection-start-column="11" selection-end-line="291" selection-end-column="11" />
+        <state relative-caret-position="-119">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
         </state>
       </provider>
     </entry>

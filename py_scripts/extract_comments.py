@@ -46,17 +46,17 @@ username = 'postgres'
 password = '111111'
 
 # Specify the projectname to be inserted in comment_class table
-project_name = "android-oss"  # Example: "android-oss"
+project_name = "VocableTrainer-Android"  # Example: "android-oss"
 
 # srcML command to create xml file:  srcml <folder> -o <filename>.xml
 # Run this command in the terminal at the location of the project folder.
 # Example: srcml android-oss -o android-oss.xml
 
 # Location of the xml file
-xml_file = "../projects/android-oss.xml"  # Example: "../projects/android-oss.xml"
+xml_file = "../projects/VocableTrainer-Android.xml"  # Example: "../projects/android-oss.xml"
 
 # Path to source files within the project. Only files in this folder and its children are inspected.
-file_path = "android-oss/app/src/"  # Example: "android-oss/app/src/"
+file_path = "VocableTrainer-Android/app/src/"  # Example: "android-oss/app/src/"
 
 # Set to True for inserting into the database, set to False for printing the queries
 insert_into_db = False

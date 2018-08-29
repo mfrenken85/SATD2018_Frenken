@@ -1,747 +1,468 @@
-UNKNOWN	todo roboelectric is incompatible with play services 7.8.0+.	102080
-UNKNOWN	see issue httpsgithub.com/robolectric/robolectric/issues/1995	102081
-UNKNOWN	for now we just return that play services is disabled.	102082
-UNKNOWN	swipe refresh.	102083
-UNKNOWN	activities should emit.	102084
-UNKNOWN	paginate.	102085
-UNKNOWN	empty activity feed clicks do not trigger events yet.	102086
-UNKNOWN	empty activity feed with login button should be shown.	102087
-UNKNOWN	login.	102088
-UNKNOWN	empty states are not shown when activities emit on successful login.	102089
-UNKNOWN	start the view model with an update.	102090
-UNKNOWN	only viewed comments event should fire.	102091
-UNKNOWN	start the view model with a project.	102092
-UNKNOWN	paginate for older comments.	102093
-UNKNOWN	modern and deprecated events emit for loading older project comments.	102094
-UNKNOWN	start the view model with an update.	102095
-UNKNOWN	load older comments event should not fire yet.	102096
-UNKNOWN	paginate for older comments.	102097
-UNKNOWN	start the view model with a project.	102098
-UNKNOWN	comments should emit.	102099
-UNKNOWN	start the view model with a project.	102100
-UNKNOWN	click the comment button and write a comment.	102101
-UNKNOWN	post comment. error should be shown. comment posted toast should not be shown.	102102
-UNKNOWN	start the view model with a project.	102103
-UNKNOWN	comment button should be shown.	102104
-UNKNOWN	click comment button. comment dialog should be shown.	102105
-UNKNOWN	write a comment. the post button should be enabled with valid comment body.	102106
-UNKNOWN	post comment. dialog should be dismissed.	102107
-UNKNOWN	comment posted toast should be shown.	102108
-UNKNOWN	a koala event for commenting should be tracked.	102109
-UNKNOWN	start the view model with a project.	102110
-UNKNOWN	the comment dialog should be hidden from logged out user.	102111
-UNKNOWN	login.	102112
-UNKNOWN	the comment dialog should be shown to backer.	102113
-UNKNOWN	start the view model with a backed project.	102114
-UNKNOWN	the comment button should be shown to backer.	102115
-UNKNOWN	start the view model with a project.	102116
-UNKNOWN	comment button is shown for the creator.	102117
-UNKNOWN	start the view model with a project.	102118
-UNKNOWN	comment button should be hidden if not backing and not creator.	102119
-UNKNOWN	start the view model with a project.	102120
-UNKNOWN	the comment dialog should not be shown.	102121
-UNKNOWN	dismiss the comment dialog.	102122
-UNKNOWN	the comment dialog should be dismissed.	102123
-UNKNOWN	start the view model with a backed project.	102124
-UNKNOWN	click the comment button.	102125
-UNKNOWN	the comment dialog should be shown.	102126
-UNKNOWN	start the view model with an update.	102127
-UNKNOWN	comments should emit.	102128
-UNKNOWN	project context click doesnt start project activity if not from messages.	102129
-UNKNOWN	returns an environment with a backing and the backings current user.	102130
-UNKNOWN	messages button is gone if current user is not the project creator (e.g. a collaborator).	102131
-UNKNOWN	messages button is shown to project creator messages activity starts.	102132
-UNKNOWN	load initial params and root categories from activity.	102133
-UNKNOWN	should emit current fragments projects.	102134
-UNKNOWN	select a new category.	102135
-UNKNOWN	projects are cleared new projects load.	102136
-UNKNOWN	initial load.	102137
-UNKNOWN	popular tab clicked.	102138
-UNKNOWN	initial load.	102139
-UNKNOWN	projects should emit.	102140
-UNKNOWN	log in.	102141
-UNKNOWN	projects should emit again.	102142
-UNKNOWN	initial home all projects params.	102143
-UNKNOWN	should show onboarding view.	102144
-UNKNOWN	change params. onboarding view should not be shown.	102145
-UNKNOWN	login.	102146
-UNKNOWN	activity sampler should be shown rather than onboarding view.	102147
-UNKNOWN	change params. activity sampler should not be shown.	102148
-UNKNOWN	clicking see activity feed button on sampler should show activity feed.	102149
-UNKNOWN	clicking activity update on sampler should show activity update.	102150
-UNKNOWN	clicking login on onboarding view should show login tout.	102151
-UNKNOWN	pass in params and sort to fetch projects.	102152
-UNKNOWN	clicking on a project card should show project activity.	102153
-UNKNOWN	button should not be enabled until both a valid email and password are entered.	102154
-UNKNOWN	start the view model with an email to prefill.	102155
-UNKNOWN	dismiss the confirmation dialog.	102156
-UNKNOWN	simulate rotating the device first by sending a new intent (similar to what happens after rotation).	102157
-UNKNOWN	create new test subscribers â this emulates a new activity subscribing to the vms outputs.	102158
-UNKNOWN	email should still be pre-filled.	102159
-UNKNOWN	dialog should not be shown again â the user has already dismissed it.	102160
-UNKNOWN	configure the view model with a message thread.	102161
-UNKNOWN	configure the view model with a message thread.	102162
-UNKNOWN	configure the view model with a message thread.	102163
-UNKNOWN	emits participants avatar url and name.	102164
-UNKNOWN	configure the view model with a message thread with no unread messages.	102165
-UNKNOWN	configure the view model with a message thread with unread messages.	102166
-UNKNOWN	configure the view model with a message thread.	102167
-UNKNOWN	avatar shown for sender who is the creator.	102168
-UNKNOWN	avatar hidden for sender who is the backer.	102169
-UNKNOWN	same message threads should not emit again.	102170
-UNKNOWN	same message threads should not emit again.	102171
-UNKNOWN	unread count text view is shown.	102172
-UNKNOWN	build check should not be shown.	102173
-UNKNOWN	build check should be shown when newer build is available.	102174
-UNKNOWN	initialize activity.	102175
-UNKNOWN	drawer data should emit. drawer should be closed.	102176
-UNKNOWN	open drawer and click the top pwl filter.	102177
-UNKNOWN	drawer data should emit. drawer should open then close upon selection.	102178
-UNKNOWN	open drawer and click a child filter.	102179
-UNKNOWN	drawer data should emit. drawer should open then close upon selection.	102180
-UNKNOWN	initialize activity.	102181
-UNKNOWN	initial home page selected.	102182
-UNKNOWN	sort tab should be expanded.	102183
-UNKNOWN	toolbar params should be loaded with initial params.	102184
-UNKNOWN	select popular sort.	102185
-UNKNOWN	sort tab should be expanded.	102186
-UNKNOWN	unchanged toolbar params should not emit.	102187
-UNKNOWN	select all projects filter from drawer.	102188
-UNKNOWN	sort tab should be expanded.	102189
-UNKNOWN	select art category from drawer.	102190
-UNKNOWN	sort tab should be expanded.	102191
-UNKNOWN	simulate rotating the device and hitting initial inputs again.	102192
-UNKNOWN	simulate recreating and setting popular fragment the previous position before rotation.	102193
-UNKNOWN	sort tab and toolbar params should emit again with same params.	102194
-UNKNOWN	start initial activity.	102195
-UNKNOWN	initial home page selected.	102196
-UNKNOWN	initial params should emit. page should not be updated yet.	102197
-UNKNOWN	select popular sort position.	102198
-UNKNOWN	params and page should update with new popular sort values.	102199
-UNKNOWN	select art category from the drawer.	102200
-UNKNOWN	params should update with new category page should remain the same.	102201
-UNKNOWN	select home sort position.	102202
-UNKNOWN	params and page should update with new home sort value.	102203
-UNKNOWN	simulate rotating the device and hitting initial inputs again.	102204
-UNKNOWN	should emit again with same params.	102205
-UNKNOWN	start initial activity.	102206
-UNKNOWN	select art category from the drawer.	102207
-UNKNOWN	select music category from the drawer.	102208
-UNKNOWN	start initial activity.	102209
-UNKNOWN	initial home page selected.	102210
-UNKNOWN	root categories should emit for the initial home sort this.position.	102211
-UNKNOWN	select popular sort position.	102212
-UNKNOWN	root categories should emit for the popular sort position.	102213
-UNKNOWN	select art category from the drawer.	102214
-UNKNOWN	root categories should not emit again for the same position.	102215
-UNKNOWN	backed text views are displayed.	102216
-UNKNOWN	created text views are displayed.	102217
-UNKNOWN	divider view is displayed.	102218
-UNKNOWN	backed text views are displayed.	102219
-UNKNOWN	created text views are hidden.	102220
-UNKNOWN	divider view is hidden.	102221
-UNKNOWN	backed text views are hidden.	102222
-UNKNOWN	created text views are displayed.	102223
-UNKNOWN	divider view is hidden.	102224
-UNKNOWN	start with an enabled notification.	102225
-UNKNOWN	project name and enabled values should match enabled notification.	102226
-UNKNOWN	change to a disabled notification.	102227
-UNKNOWN	project name and enabled values should match disabled notification.	102228
-UNKNOWN	start with a disabled notification.	102229
-UNKNOWN	enabled switch should be disabled.	102230
-UNKNOWN	enable the previously disabled notification.	102231
-UNKNOWN	enabled switch should now be enabled.	102232
-UNKNOWN	start with a disabled notification.	102233
-UNKNOWN	switch should be disabled.	102234
-UNKNOWN	attempt to toggle the notification to true. this should error and the switch should still be disabled.	102235
-UNKNOWN	initial updates index url is loaded.	102236
-UNKNOWN	activate an external link.	102237
-UNKNOWN	external url is not loaded in our web view.	102238
-UNKNOWN	start the intent with a project.	102239
-UNKNOWN	initial project updates index emits.	102240
-UNKNOWN	make a request for another update index.	102241
-UNKNOWN	new updates index url emits. event is not tracked again.	102242
-UNKNOWN	friends view is not hidden for project with friend backings	102243
-UNKNOWN	back button is gone if navigating from non-backer modal view.	102244
-UNKNOWN	back button is visible if navigating from backer modal view.	102245
-UNKNOWN	start the view model with a message thread.	102246
-UNKNOWN	start the view model with a message thread.	102247
-UNKNOWN	start the view model with a message thread.	102248
-UNKNOWN	start the view model with a backing and a project.	102249
-UNKNOWN	start the view model with a message thread.	102250
-UNKNOWN	creator name is the project creator edit text hint is always the participant.	102251
-UNKNOWN	start the view model with a message thread.	102252
-UNKNOWN	start the view model with a message thread.	102253
-UNKNOWN	start the view model with a message thread.	102254
-UNKNOWN	messages emit keyboard not shown.	102255
-UNKNOWN	start the view model with a backing and a project.	102256
-UNKNOWN	all data except for messages should emit.	102257
-UNKNOWN	start the view model with a message thread.	102258
-UNKNOWN	view initially loaded with a 0 (expanded) offset.	102259
-UNKNOWN	only initial bottom padding emits.	102260
-UNKNOWN	user scrolls.	102261
-UNKNOWN	default padding emits initial padding does not emit again.	102262
-UNKNOWN	user scrolls.	102263
-UNKNOWN	padding does not change.	102264
-UNKNOWN	start the view model with a message thread.	102265
-UNKNOWN	send a message unsuccessfully.	102266
-UNKNOWN	error toast is displayed errored message body remains in edit text no new message is emitted.	102267
-UNKNOWN	no sent message event tracked.	102268
-UNKNOWN	start the view model with a message thread.	102269
-UNKNOWN	initial messages emit.	102270
-UNKNOWN	send a message successfully.	102271
-UNKNOWN	new message list emits.	102272
-UNKNOWN	reply edit text should be cleared and view should be scrolled to new message.	102273
-UNKNOWN	start the view model with a backing and project.	102274
-UNKNOWN	start the view model with a backing and project.	102275
-UNKNOWN	toolbar stays expanded when keyboard opens and no messages.	102276
-UNKNOWN	start the view model with a backing and project.	102277
-UNKNOWN	toolbar collapsed when keyboard opens and there are messages.	102278
-UNKNOWN	view pledge button is hidden when context is from the backer modal.	102279
-UNKNOWN	view pledge button is shown when context is from anywhere but the backer modal.	102280
-UNKNOWN	set users country to us.	102281
-UNKNOWN	todo flaky tests	102282
-UNKNOWN	disclaimer is not shown for completed projects.	102283
-UNKNOWN	on click listener should be set for view with > 2 friends.	102284
-UNKNOWN	on click listener should be not set for view with < 2 friends.	102285
-UNKNOWN	set the current config for a us user. kscurrency needs this config for conversions.	102286
-UNKNOWN	usd conversion shown for non us project.	102287
-UNKNOWN	usd conversion not shown for us project.	102288
-UNKNOWN	start the view model with a project	102289
-UNKNOWN	try starring while logged out	102290
-UNKNOWN	the project shouldnt be saved and a login prompt should be shown.	102291
-UNKNOWN	a koala event for starring should not be tracked	102292
-UNKNOWN	login	102293
-UNKNOWN	the project should be saved and a star prompt should be shown.	102294
-UNKNOWN	a koala event for starring should be tracked	102295
-UNKNOWN	start the view model with an almost completed project	102296
-UNKNOWN	login	102297
-UNKNOWN	star the project	102298
-UNKNOWN	the project should be saved and a save prompt should not be shown.	102299
-UNKNOWN	start the view model with a successful project	102300
-UNKNOWN	login	102301
-UNKNOWN	star the project	102302
-UNKNOWN	the project should be saved and a save prompt should not be shown.	102303
-UNKNOWN	start the view model with a project.	102304
-UNKNOWN	start the view model with a project.	102305
-UNKNOWN	start the view model with a project.	102306
-UNKNOWN	start the view model with a project.	102307
-UNKNOWN	click on manage pledge button.	102308
-UNKNOWN	start the view model with a project.	102309
-UNKNOWN	click on updates button.	102310
-UNKNOWN	start the view model with a project.	102311
-UNKNOWN	popular projects emit immediately.	102312
-UNKNOWN	searching shouldnt emit values immediately	102313
-UNKNOWN	waiting a small amount time shouldnt emit values	102314
-UNKNOWN	waiting the rest of the time makes the search happen	102315
-UNKNOWN	typing more search terms doesnt emit more values	102316
-UNKNOWN	waiting enough time emits search results	102317
-UNKNOWN	clearing search terms brings back popular projects.	102318
-UNKNOWN	populate search and overcome debounce	102319
-UNKNOWN	populate search and overcome debounce	102320
-UNKNOWN	populate search and overcome debounce	102321
-UNKNOWN	populate search and overcome debounce	102322
-UNKNOWN	survey loads. successful submit redirects to project uri.	102323
-UNKNOWN	success confirmation dialog is shown.	102324
-UNKNOWN	when an unlimited reward is not backed hide the all gone header.	102325
-UNKNOWN	when an unlimited reward is backed hide the all gone header (distinct until changed).	102326
-UNKNOWN	when a backed rewards limit has been reached hide the all gone header â the selected banner will be shown instead.	102327
-UNKNOWN	when a rewards limit has been reached and it has not been backed show the all gone header.	102328
-UNKNOWN	show reward backer count.	102329
-UNKNOWN	if reward has no estimated delivery no value should be emitted.	102330
-UNKNOWN	reward with estimated delivery should emit.	102331
-UNKNOWN	reward with no estimated delivery should not show estimated delivery label.	102332
-UNKNOWN	reward with estimated delivery should show estimated delivery label.	102333
-UNKNOWN	when a reward from a live project is clicked start checkout.	102334
-UNKNOWN	when the project is still live dont go to view pledge. should go to checkout instead.	102335
-UNKNOWN	when project is successful but not backed dont go to view pledge.	102336
-UNKNOWN	when project is successful and backed go to view pledge.	102337
-UNKNOWN	a reward from a live project should be clickable.	102338
-UNKNOWN	a reward from a successful project should not be clickable.	102339
-UNKNOWN		102340
-UNKNOWN	a backed reward from a live project should be clickable.	102341
-UNKNOWN	a backed reward from a finished project should be clickable (distinct until changed).	102342
-UNKNOWN	a reward with its limit reached should not be clickable.	102343
-UNKNOWN	when reward has no limit or backers separator should be hidden.	102344
-UNKNOWN	when reward has no limit and backers separator should be hidden.	102345
-UNKNOWN	when reward has limit and no backers separator should be hidden.	102346
-UNKNOWN	when reward has limit and backers separator should be visible.	102347
-UNKNOWN	when reward is limited quantity should be shown.	102348
-UNKNOWN	when rewards limit has been reached dont show quantity.	102349
-UNKNOWN	when reward has no limit dont show quantity (distinct until changed).	102350
-UNKNOWN	if the reward is limited and has not been backed show the limit header.	102351
-UNKNOWN	if the reward is limited and has been backed dont show the limit header.	102352
-UNKNOWN	if the reward is not limited dont show the limit header.	102353
-UNKNOWN	items section should be hidden when there are no items.	102354
-UNKNOWN	reward with no title should be hidden.	102355
-UNKNOWN	reward with title should be visible.	102356
-UNKNOWN	reward with no shipping should hide shipping summary section and not emit a shipping summary string.	102357
-UNKNOWN	reward with shipping should show shipping summary section and emit a shipping summary string.	102358
-UNKNOWN	set users country to us.	102359
-UNKNOWN	set projects country to ca.	102360
-UNKNOWN	usd conversion should be shown.	102361
-UNKNOWN	set users country to ca (any country except the us is fine).	102362
-UNKNOWN	usd conversion should now be hidden.	102363
-UNKNOWN	set users country to us.	102364
-UNKNOWN	set projects country to us.	102365
-UNKNOWN	usd conversion should not be shown.	102366
-UNKNOWN	set users country to ca.	102367
-UNKNOWN	usd conversion should still not be shown (distinct until changed).	102368
-UNKNOWN	set users country to us.	102369
-UNKNOWN	set projects country to ca and reward minimum to $0.30.	102370
-UNKNOWN	usd conversion should be rounded up.	102371
-UNKNOWN	configure the view model with a project intent.	102372
-UNKNOWN	configure the view model with a project intent.	102373
-UNKNOWN	start the intent with a project param and update.	102374
-UNKNOWN	start the intent with a project and update.	102375
-UNKNOWN	initial updates url emits.	102376
-UNKNOWN	make a request for another update.	102377
-UNKNOWN	new update url emits.	102378
-UNKNOWN	start the intent with a project and update.	102379
-UNKNOWN	start the intent with a project and update.	102380
-UNKNOWN	start the intent with a project and update.	102381
-UNKNOWN	start the intent with a project and update.	102382
-UNKNOWN	initial updates sequence number emits.	102383
-UNKNOWN	new sequence should emit for new update page.	102384
-UNKNOWN	start the intent with a project and update.	102385
-UNKNOWN	initial update index url emits.	102386
-UNKNOWN	nothing to do here	102387
-UNKNOWN	catch issue with regexp substitution where `$` needs to be escaped.	102388
-UNKNOWN	emits when endpoints on the client are called. the key in the pair is the underscore-separated name of the method and the value is a map of argument names/values.	102389
-UNKNOWN	ten days	102390
-UNKNOWN	set the cookie and retrieve the ref tag	102391
-UNKNOWN	set and retrieve the cookie	102392
-UNKNOWN	retrieve the cookie	102393
-UNKNOWN	only emit when a completed notification occurs.	102394
-UNKNOWN	only emit when an error is thrown.	102395
-UNKNOWN	main looper is paused so value should not change.	102396
-UNKNOWN	since the work used the immediate scheduler it is unaffected by the main looper being paused.	102397
-UNKNOWN	the main looper is paused but the code is executing on the main thread so observeforui() should schedule the	102398
-UNKNOWN	work immediately rather than queueing it up.	102399
-UNKNOWN	run the queued work.	102400
-UNKNOWN	code observed using `androidschedulers.mainthread()` is now run.	102401
-UNKNOWN	onnext should emit values.	102402
-UNKNOWN	completing the source stream should not emit values.	102403
-UNKNOWN		102404
-UNKNOWN	an error in the source stream should not emit values.	102405
-UNKNOWN	send crash reports in release builds	102406
-UNKNOWN	only log for internal builds	102407
-UNKNOWN	only log in debug mode to avoid leaking sensitive information.	102408
-UNKNOWN	continue	102409
-UNKNOWN	continue	102410
-UNKNOWN	parses a request for project and update params. @param request comments or update request. @return pair of project param string and update param string.	102411
-UNKNOWN	todo build a navigation helper for better param extraction	102412
-UNKNOWN	returns a project and its appropriate ref tag given its location in a list of popular projects or search results. @param searchterm the search term entered to determine list of search results. @param projects the list of popular or search result projects. @param selectedproject the project selected by the user. @return the project and its appropriate ref tag.	102413
-UNKNOWN	returns if a project request tags url is a survey url which indicates a redirect from a successful submit.	102414
-UNKNOWN	parses a request for project and update params. @param request comments or update request. @return pair of project param string and update param string.	102415
-UNKNOWN	todo build a navigation helper for better param extraction	102416
-UNKNOWN	set the title on the textview with id title_text_view. note default visibility is gone since we may not always want a title.	102417
-UNKNOWN	set the message on the textview with id message_text_view.	102418
-UNKNOWN	dismiss the dialog on click ok_button.	102419
-UNKNOWN	for accessibility purposes make this view behaves like a button. for example if an {@link iconbutton} has the content description star talkback will read out star button. talkback also communicates that it is a button in other languages using the appropriate grammar.	102420
-UNKNOWN	given a project returns an observable that emits the projects root category.	102421
-UNKNOWN	returns a shuffled list of 3 recommended projects with fallbacks to similar and staff picked projects for users with fewer than 3 recommendations.	102422
-UNKNOWN	temp until followable	102423
-UNKNOWN	todo bold username	102424
-UNKNOWN	no-op click implementation. subclasses should override this method to implement click handling.	102425
-UNKNOWN	populate a view with data that was bound in `binddata`. @deprecated prefer creating subscriptions to a viewmodel in the constructor then using #{link #binddata} to send new data to the viewmodel.	102426
-UNKNOWN	this method is intended to be called only from `ksadapter` in order for it to inform the view holder of its lifecycle.	102427
-UNKNOWN	completes an observable when an {@link activityevent} occurs in the activitys lifecycle.	102428
-UNKNOWN	completes an observable when the lifecycle event opposing the current lifecyle event is emitted. for example if a subscription is made during {@link activityevent#create} the observable will be completed in {@link activityevent#destroy}.	102429
-UNKNOWN	called when the viewholder is being detached. subclasses should override if they need to do any work when the viewholder is being de-allocated.	102430
-UNKNOWN	no data to bind this viewholder is just a static title	102431
-UNKNOWN	todo switch to you launched a project if current user launched	102432
-UNKNOWN	return context.getstring(r.string.creator_launched_a_project activity.user().name() activity.project().name())	102433
-UNKNOWN	required to fit properly into apis < 18	102434
-UNKNOWN	adjust spacing between cards when metadata label is present.	102435
-UNKNOWN	adjust card content spacing when metadata label is present.	102436
-UNKNOWN	if the toolbar has a textview with id title_text_view set its title.	102437
-UNKNOWN	attempts to extract a uri from the intent data. there may be a uri in intent data if the intent launched from a url e.g. with a deep link.	102438
-UNKNOWN	returns `true` if the app_banner query param is set in the intent uri.	102439
-UNKNOWN	returns params where category and location params have been converted into {@link category} and {@link location} objects.	102440
-UNKNOWN	creates observables that will perform api requests to retrieve additional data needed to fill out a full discovery params object. for example if `params` holds only a category slug and no actual category data we will perform a request to get the full category from the api. @param params the discovery params that is potentially missing full data. @return a list of observables each responsible for retrieving more data from the api. the observables emit builders of params and hence can later be merged into a single params object.	102441
-UNKNOWN	account for the grid2 start and end margins.	102442
-UNKNOWN	set landscape project action buttons in the viewholder rather than activity.	102443
-UNKNOWN	set top margin of overlay text based on landscape screen height scaled by screen density.	102444
-UNKNOWN	offset for toolbar	102445
-UNKNOWN	returns an observable of projects retrieved from intent data. may hit the api if the intent only contains a project param rather than a parceled project.	102446
-UNKNOWN	returns a {@link reftag} observable. if there is no parceled reftag emit `null`.	102447
-UNKNOWN	returns an observable of push notification envelopes from the intent data. this will emit only when the project is launched from a push notification.	102448
-UNKNOWN	gets a parceled project from the intent data may return `null`.	102449
-UNKNOWN	gets a project param from the intent data may return `null`.	102450
-UNKNOWN	extract the project param from a uri. e.g. a uri like `ksrwww.kickstarter.com/projects/1186238668/skull-graphic-tee` returns `skull-graphic-tee`.	102451
-UNKNOWN	add reward stats sections	102452
-UNKNOWN	passes along root categories to its fragment position to help fetch appropriate projects.	102453
-UNKNOWN	take current params from activity and pass to the appropriate fragment.	102454
-UNKNOWN	call when the view model tells us to clear specific pages.	102455
-UNKNOWN	divider	102456
-UNKNOWN	group messages by start of day.	102457
-UNKNOWN	view holders are stopped when they are detached from the window for recycling	102458
-UNKNOWN	view holders are destroy when they are detached from the window and no adapter is listening	102459
-UNKNOWN	to events so ostensibly the view holder is being deallocated.	102460
-UNKNOWN	view holders are started when they are attached to the new window because this means	102461
-UNKNOWN	it has been recycled.	102462
-UNKNOWN	todo alter the exception message to say we are just reporting it and its not a real crash.	102463
-UNKNOWN	gets the data object associated with a sectionrow.	102464
-UNKNOWN	gets the data object associated with a position.	102465
-UNKNOWN	binds project notifications to the adapter.	102466
-UNKNOWN	populate adapter data when we know were working with a project object.	102467
-UNKNOWN	only allow refreshing if theres a current user	102468
-UNKNOWN	set up the bottom sheet recycler view.	102469
-UNKNOWN	we need to remove the first intent so its not duplicated when we add the extra_initial_intents intents.	102470
-UNKNOWN	nb we dont want to bind to lifecycle because we want the destroy event.	102471
-UNKNOWN	.compose(bindtolifecycle())	102472
-UNKNOWN	toolbar ui actions	102473
-UNKNOWN	handle cancel-click region outside of dialog modal.	102474
-UNKNOWN	httpsstackoverflow.com/questions/29916962/javax-net-ssl-sslhandshakeexception-javax-net-ssl-sslprotocolexception-ssl-han/36892715#36892715	102475
-UNKNOWN	thrown when google play services is not installed up-to-date or enabled	102476
-UNKNOWN	show dialog to allow users to install update or otherwise enable google play services.	102477
-UNKNOWN	this method is called from {@link com.kickstarter.services.kswebviewclient} when an android pay payload has been obtained from the webview.	102478
-UNKNOWN	call when the android pay sheet should be shown.	102479
-UNKNOWN	creates and injects a wallet fragment into the activity.	102480
-UNKNOWN	call when a masked wallet has been obtained and the content in the android pay confirmation should be rendered.	102481
-UNKNOWN	todo is this an injection problem?	102482
-UNKNOWN	lazily creates a reset password success confirmation dialog and stores it in an instance variable.	102483
-UNKNOWN	todo sent mailbox logic enum	102484
-UNKNOWN	todo limit the apps you can share to	102485
-UNKNOWN	sets an offsetchangedlistener for the views appbarlayout to 1. determine the toolbars alpha based on scroll range 2. adjust the views bottom padding via inputs	102486
-UNKNOWN	default padding is the height of the reply layout	102487
-UNKNOWN	skip scroll events when y is 0 usually indicates new data	102488
-UNKNOWN	nothing to do!	102489
-UNKNOWN	this logic is sound only for web view activities without requesthandlers.	102490
-UNKNOWN	todo refactor the client to update web history properly for activities with requesthandlers.	102491
-UNKNOWN	lazily creates a logout confirmation dialog and stores it in an instance variable.	102492
-UNKNOWN	utility to create a new {@link apierroroperator} saves us from littering references to gson throughout the client.	102493
-UNKNOWN	persist token to app servers. @param token the new token.	102494
-UNKNOWN	subscribe to generic global topic - not using more specific topics.	102495
-UNKNOWN	todo check whether device is mobile or tablet append to user agent	102496
-UNKNOWN	called if the instanceid token is updated. this can occur in a variety of scenarios - the instanceid service might periodically request that we refresh a token every 6 months or it could force a refresh if a token is invalidated (e.g. security issues device information is no longer valid. when a token refresh event is received we create a new register intent to fetch the latest token and update it on the backend. this call is generated by the instanceid service not by the app.	102497
-UNKNOWN	called when a message is received from firebase. @param remotemessage object containing message information.	102498
-UNKNOWN	returns a {@link discoveryparams} constructed by parsing data out of the given {@link uri}.	102499
-UNKNOWN	returns a builder containing the contents of this builder and `otherbuilder`. if a value for the same property exists in both builders the returned builder will contain the value from `otherbuilder`.	102500
-UNKNOWN	determines if the `include_featured` flag should be included in a discovery request so that we guarantee that the featured project for the category comes back.	102501
-UNKNOWN	determines the correct string to display for a filter depending on where it is shown. @param context context @param ksstring ksstring for string formatting @param istoolbar true if string is being displayed in the {@link com.kickstarter.ui.toolbars.discoverytoolbar} @param isparentfilter true if string is being displayed as a {@link com.kickstarter.ui.viewholders.discoverydrawer.parentfilterviewholder} @return the appropriate filter string	102502
-UNKNOWN	determines if params are for all projects i.e. discovery without params. @return true if is all projects.	102503
-UNKNOWN	returns a builder containing the contents of this builder and `otherbuilder`. if a value for the same property exists in both builders the returned builder will contain the value from `otherbuilder`.	102504
-UNKNOWN	tries to extract an {@link errorenvelope} from an exception and if it cant returns null.	102505
-UNKNOWN	when logging in the only two possible errors are invalid_xauth_login and tfa_required so we consider anything else an unknown error.	102506
-UNKNOWN	returns the first error message available or `null` if there are none.	102507
-UNKNOWN	when we display an android notification we can give it a id. if the server sends a notification with the same	102508
-UNKNOWN	id android updates the existing notification with new information rather than creating a new notification.	102509
-UNKNOWN		102510
-UNKNOWN	the server doesnt send unique notification ids so hashing the alert text is a weak substitute. probably wont	102511
-UNKNOWN	make use of this feature anyhow.	102512
-UNKNOWN	deserialize the referrer type string names into the corresponding	102513
-UNKNOWN	enum type.	102514
-UNKNOWN	deserialize the referrer type string names into the corresponding	102515
-UNKNOWN	enum type.	102516
-UNKNOWN	leakcanary is currently broken on 23+. see httpsgithub.com/square/leakcanary/issues/285 and	102517
-UNKNOWN	httpsgithub.com/square/leakcanary/issues/267.	102518
-UNKNOWN	for {@link viewgroup#setnestedscrollingenabled}.	102519
-UNKNOWN	returns whether the project is in a canceled state.	102520
-UNKNOWN	returns whether the project is in a failed state.	102521
-UNKNOWN	returns whether the project is in a live state.	102522
-UNKNOWN	returns whether the project is in a purged state.	102523
-UNKNOWN	returns whether the project is in a live state.	102524
-UNKNOWN	returns whether the project is in a submitted state.	102525
-UNKNOWN	returns whether the project is in a suspended state.	102526
-UNKNOWN	returns whether the project is in a successful state.	102527
-UNKNOWN	todo just use http with local env	102528
-UNKNOWN	need to catch these exceptions separately otherwise the compiler turns them into `reflectiveoperationexception`.	102529
-UNKNOWN	that exception is only available in api19+	102530
-UNKNOWN	returns `true` if the build is compiled in debug mode `false` otherwise.	102531
-UNKNOWN	returns `true` if the build is compiled in release mode `false` otherwise.	102532
-UNKNOWN	e.g. internaldebug externalrelease	102533
-UNKNOWN	a currency needs a code if its symbol is ambiguous e.g. `$` is used for currencies such as usd cad aud.	102534
-UNKNOWN	unlaunched country default to showing the code.	102535
-UNKNOWN	get an observable representation of the current config. emits immediately with the freshes copy of the config and then emits again for any fresher values.	102536
-UNKNOWN	@return the most recent config.	102537
-UNKNOWN	@param assetpath path where `server-config.json` lives. @param assetmanager asset manager to use to load `server-config.json`. @return a string representation of the config json.	102538
-UNKNOWN	todo this should probably be fatal?	102539
-UNKNOWN	returns a boolean that determines if there is a currently logged in user or not. @deprecated prefer {@link #observable()}	102540
-UNKNOWN	emits a boolean that determines if the user is logged in or not. the returned observable will emit immediately with the logged in state and then again each time the current user is updated.	102541
-UNKNOWN	emits only values of a logged in user. the returned observable may never emit.	102542
-UNKNOWN	emits only values of a logged out user. the returned observable may never emit.	102543
-UNKNOWN	if play services is available on this device start a service to register it with google cloud messaging.	102544
-UNKNOWN	if play services is available on this device start a service to unregister it with google cloud messaging.	102545
-UNKNOWN	returns a currency string appropriate to the users locale and location relative to a project. @param initialvalue value to display local to the projects currency. @param project the project to use to look up currency information.	102546
-UNKNOWN	returns a currency string appropriate to the users locale and location relative to a project. @param initialvalue value to display local to the projects currency. @param project the project to use to look up currency information. @param excludecurrencycode if true hide the currency code even if that makes the returned value ambiguous. this is used when space is constrained and the currency code can be determined elsewhere.	102547
-UNKNOWN	returns a currency string appropriate to the users locale and location relative to a project. @param initialvalue value to display local to the projects currency. @param project the project to use to look up currency information. @param excludecurrencycode if true hide the currency code even if that makes the returned value ambiguous. this is used when space is constrained and the currency code can be determined elsewhere. @param preferusd attempt to convert a project from its local currency to usd if the user is located in the us.	102548
-UNKNOWN	build {@link currencyoptions} based on the project and whether we would prefer to show usd. even if usd is preferred we only show usd if the user is in the us.	102549
-UNKNOWN	determines whether the currency code should be shown. if the currency is ambiguous (e.g. cad and usd both use `$`) we show the currency code if the user is not in the us or the project is not in the us.	102550
-UNKNOWN	need to catch these exceptions separately otherwise the compiler turns them into `reflectiveoperationexception`.	102551
-UNKNOWN	that exception is only available in api19+	102552
-UNKNOWN	derives the devices orientation (portrait/landscape) from the `context`.	102553
-UNKNOWN	derives the availability of google play services from the `context`.	102554
-UNKNOWN	replace each key found in the string with its corresponding value.	102555
-UNKNOWN	replace each key found in the string with its corresponding value.	102556
-UNKNOWN	replace each key found in the string with its corresponding value.	102557
-UNKNOWN	replace each key found in the string with its corresponding value.	102558
-UNKNOWN	given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on. this particular version is for strings that have no replaceable sections	102559
-UNKNOWN	given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on.	102560
-UNKNOWN	given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on.	102561
-UNKNOWN	given a base key path and count find the appropriate string resource and replace each key found in the string resource with its corresponding value. for example given a base key of `foo` a count of 0 would give the string resource `foo_zero` a count of 1 `foo_one` and so on.	102562
-UNKNOWN	takes a variable length of {@link string} arguments joins them together to form a single path then looks up a string resource given that path. if the resource cannot be found returns an empty string.	102563
-UNKNOWN	for a given string replaces occurrences of each key with its corresponding value. in the string keys are wrapped with `%{}` e.g. `%{backers_count} backers`. in this instance the substitutions hash might contain one entry with the key `backers_count` and value `2`.	102564
-UNKNOWN	begin listening to the recycler view scroll events to determine when pagination should happen.	102565
-UNKNOWN	nb we think this operation is suffering from back pressure problems due to the volume of scroll events	102566
-UNKNOWN	httpsrink.hockeyapp.net/manage/apps/239008/crash_reasons/88318986	102567
-UNKNOWN	if it continues to happen we can also try `debounce`.	102568
-UNKNOWN	stop listening to recycler view scroll events and discard the associated resources. this should be done when the object that created `this` is released.	102569
-UNKNOWN	returns a (visibleitem totalitemcount) pair given a linear layout manager.	102570
-UNKNOWN	sets text for tweet intent no length validation is performed	102571
-UNKNOWN	sets uri for tweet intent no length validation is performed	102572
-UNKNOWN	sets image {@link android.net.uri} for the tweet. only valid if the twitter app is installed. the uri should be a file uri to a local file (e.g. <pre><code>uri.fromfile(someexternalstoragefile)</code></pre>))	102573
-UNKNOWN	creates {@link android.content.intent} based on data in {@link tweetcomposer.builder} @return an intent to the twitter for android or a web intent.	102574
-UNKNOWN	starts the intent created in {@link tweetcomposer.builder#createintent()}	102575
-UNKNOWN	sets text for tweet intent no length validation is performed	102576
-UNKNOWN	sets uri for tweet intent no length validation is performed	102577
-UNKNOWN	sets image {@link android.net.uri} for the tweet. only valid if the twitter app is installed. the uri should be a file uri to a local file (e.g. <pre><code>uri.fromfile(someexternalstoragefile)</code></pre>))	102578
-UNKNOWN	creates {@link android.content.intent} based on data in {@link tweetcomposer.builder} @return an intent to the twitter for android or a web intent.	102579
-UNKNOWN	starts the intent created in {@link tweetcomposer.builder#createintent()}	102580
-UNKNOWN	application lifecycle	102581
-UNKNOWN	android pay	102582
-UNKNOWN	backing	102583
-UNKNOWN	discovery	102584
-UNKNOWN	tracks a project show event. @param intentreftag (nullable) the ref tag present in the activity upon displaying the project. @param cookiereftag (nullable) the ref tag extracted from the cookie store upon viewing the project.	102585
-UNKNOWN	deprecated event	102586
-UNKNOWN	project star	102587
-UNKNOWN	deprecated events	102588
-UNKNOWN	comments	102589
-UNKNOWN	@deprecated use {@link #trackloadedoldercomments(project update koalacontext.comments)} instead.	102590
-UNKNOWN	@deprecated use {@link #trackpostedcomment(project update koalacontext.commentdialog)} instead.	102591
-UNKNOWN	@deprecated use {@link #trackviewedcomments(project update koalacontext.comments)} instead.	102592
-UNKNOWN	activity	102593
-UNKNOWN	search	102594
-UNKNOWN	deprecated	102595
-UNKNOWN	deprecated	102596
-UNKNOWN	deprecated	102597
-UNKNOWN	session events	102598
-UNKNOWN	settings	102599
-UNKNOWN	checkout	102600
-UNKNOWN	rewards webview and top nav	102601
-UNKNOWN	todo set up error props	102602
-UNKNOWN	share	102603
-UNKNOWN	deprecated	102604
-UNKNOWN	messages	102605
-UNKNOWN	profile	102606
-UNKNOWN	deprecated	102607
-UNKNOWN	rating	102608
-UNKNOWN	video	102609
-UNKNOWN	project updates	102610
-UNKNOWN	push notifications	102611
-UNKNOWN	deprecated	102612
-UNKNOWN	webviews	102613
-UNKNOWN	deep link	102614
-UNKNOWN	creator dashboard	102615
-UNKNOWN	returns true if the activity result contains data for a full wallet.	102616
-UNKNOWN	returns the error code contained in a wallet request. if no such error is found `null` is returned.	102617
-UNKNOWN	constructs an authorized payload that can be sent back to our server from an android pay full wallet.	102618
-UNKNOWN	attempts to programmatically trigger an android pay sheet from a wallet fragment. it does this by crawling the subviews of the fragment and clicking them. nb this is very hacky.	102619
-UNKNOWN	recursive crawls the view hierarchy of `viewgroup` in order to find a clickable child and click it.	102620
-UNKNOWN	tries to parse a payload string into a {@link androidpaypayload} object. @param payloadstring an (optional) string of json that represents the payload. @return the parsed {@link androidpaypayload} object if successful and `null` otherwise.	102621
-UNKNOWN	facebook logs install and app activate app events.	102622
-UNKNOWN	refresh the config file	102623
-UNKNOWN	refresh the user	102624
-UNKNOWN	handles a config api error by logging the user out in the case of a 401. we will interpret 401s on the config request as meaning the users current access token is no longer valid as that endpoint should never 401 othewise.	102625
-UNKNOWN	facebook logs app deactivate app event.	102626
-UNKNOWN	memory availability callback. trim_memory_ui_hidden means the apps ui is no longer visible. this is triggered when the user navigates out of the app and primarily used to free resources used by the ui. httpdeveloper.android.com/training/articles/memory.html	102627
-UNKNOWN	starts the main activity at the top of a task stack clearing all previous activities. `action_main` does not expect to receive any data in the intent it should be the same intent as if a user had just launched the app.	102628
-UNKNOWN	clears all activities from the task stack except discovery.	102629
-UNKNOWN	returns the input boolean negated.	102630
-UNKNOWN	returns `false` if the boolean is `null` or `false` and `true` otherwise.	102631
-UNKNOWN	returns `true` if the boolean is `null` or `false` and `true` otherwise.	102632
-UNKNOWN	important this sorts in descending order.	102633
-UNKNOWN	important this sorts in descending order.	102634
-UNKNOWN	create the notificationchannel but only on api 26+ because	102635
-UNKNOWN	the notificationchannel class is new and not in the support library	102636
-UNKNOWN	register the channels with the system you cant change the importance	102637
-UNKNOWN	or other notification behaviors after this	102638
-UNKNOWN	a `ref_tag` representation of some discovery params. this tag can be used to attribute a checkout when a user pledges from discovery using these particular params.	102639
-UNKNOWN	rethrows `exception` if its already a {@link runtimeexception} otherwise it wraps `exception` in a {@link runtimeexception} and then rethrows. i would be remiss if i didnt mention that this is basically a flatmap operation )	102640
-UNKNOWN	gets the language set on the device or if none is found just return en for english. this value can be changed while an app is running so the value shouldnt be cached.	102641
-UNKNOWN	converts all the disparate data representing the state of the menu data into a `navigationdrawerdata` object that can be used to populate a view. @param categories the full list of categories that can be displayed. @param selected the params that correspond to what is currently selected in the menu. @param expandedcategory the category that correspond to what is currently expanded in the menu. @param user the currently logged in user.	102642
-UNKNOWN	given a doubly nested list of all possible category params and an (optional) expanded category this will create a list of sections that can be used in the drawer.	102643
-UNKNOWN	converts a list of params into a list of rows that the drawer can use to display rows.	102644
-UNKNOWN	from a list of rows and the currently expanded category figures out if the rows are expanded.	102645
-UNKNOWN	determines if a category is visible given what is the currently expanded category. @param category the category to determine its visibility. @param expandedcategory the category that is currently expandable possible `null`.	102646
-UNKNOWN	since there are two rows that correspond to a root category in an expanded section (e.g. art & all of art) this method will double up that root category in such a situation. @param category the category that might potentially be doubled up. @param expandedcategory the currently expanded category.	102647
-UNKNOWN	returns a list of top-level section filters that can be used based on the current user which could be `null`. each filter is its own section containing one single row. @param user the currently logged in user can be `null`.	102648
-UNKNOWN	converts the full list of category discovery params into a grouped list of params. a group corresponds to a root category and the list contains all subcategories.	102649
-UNKNOWN	return the corresponding tab position for a given sort param.	102650
-UNKNOWN	return the corresponding sort for a given tab position.	102651
-UNKNOWN	given a list of projects and root categories this will determine if the first project is featured and is in need of its root category. if that is the case we will find its root and fill in that data and return a new list of projects.	102652
-UNKNOWN	guard against no projects	102653
-UNKNOWN	guard against bad category data on first project	102654
-UNKNOWN	guard against not needing to find the root category	102655
-UNKNOWN	find the root category for the featured projects category	102656
-UNKNOWN	sub in the found root category in our featured project.	102657
-UNKNOWN	determines if the project and supplied require us to find the root category.	102658
-UNKNOWN	returns `false` if `value` is `null` or `0` and `true` otherwise.	102659
-UNKNOWN	returns `true` if `value` is zero and false otherwise including when `value` is `null`.	102660
-UNKNOWN	returns `value` if not null and `0` otherwise.	102661
-UNKNOWN	e.g. december 2015.	102662
-UNKNOWN	e.g. december 2015.	102663
-UNKNOWN	returns a boolean indicating whether or not a datetime value is the epoch. returns `true` if the datetime equals 1970-01-01t000000z.	102664
-UNKNOWN	e.g. tuesday june 20 2017	102665
-UNKNOWN	e.g. tuesday june 20 2017	102666
-UNKNOWN	jodatime doesnt support the cccc pattern triggered by fulldate and fulldatetime. see httpsgithub.com/dlew/joda-time-android/issues/30	102667
-UNKNOWN	instead just return a medium date.	102668
-UNKNOWN	returns the proper datetime format pattern for supported locales.	102669
-UNKNOWN	nb japanese in general should show year before month	102670
-UNKNOWN	e.g. june 20 2017	102671
-UNKNOWN	e.g. june 20 2017	102672
-UNKNOWN	e.g. dec 17 2015.	102673
-UNKNOWN	e.g. dec 17 2015.	102674
-UNKNOWN	e.g. jan 14 2016 220 pm.	102675
-UNKNOWN	e.g. jan 14 2016 220 pm.	102676
-UNKNOWN	e.g. jan 14 2016 220 pm.	102677
-UNKNOWN	e.g. dec 17 2015 63505 pm.	102678
-UNKNOWN	e.g. dec 17 2015 63505 pm.	102679
-UNKNOWN	e.g. dec 17 2015 63505 pm.	102680
-UNKNOWN	returns a string indicating the distance between {@link datetime}s. defaults to comparing the input {@link datetime} to the current time.	102681
-UNKNOWN	returns a string indicating the distance between {@link datetime}s. defaults to comparing the input {@link datetime} to the current time.	102682
-UNKNOWN	couldnt find a good match just render the date.	102683
-UNKNOWN	e.g. 420 pm	102684
-UNKNOWN	e.g. 420 pm	102685
-UNKNOWN	utility to pair a unit (e.g. minutes hours days) with a measurement. returns `null` if the difference exceeds the threshold.	102686
-UNKNOWN	1 hour	102687
-UNKNOWN	24 hours	102688
-UNKNOWN	returns a new map with all keys prefixed with another string.	102689
-UNKNOWN	early out on a case that can come up often.	102690
-UNKNOWN	returns a new map with all `null` values removed.	102691
-UNKNOWN	returns an empty map.	102692
-UNKNOWN	set the alpha portion of the color. @param color the (a)rgb color to set an alpha for. @param alpha the new alpha value between 0 and 255.	102693
-UNKNOWN	darken the argb color by a percentage. @param color the argb color to lighten. @param percent percentage to darken by between 0.0 and 1.0.	102694
-UNKNOWN	hsltocolor sets alpha to fully opaque so pluck the alpha from the original color.	102695
-UNKNOWN	lighten the argb color by a percentage. @param color the argb color to lighten. @param percent percentage to lighten by between 0.0 and 1.0.	102696
-UNKNOWN	hsltocolor sets alpha to fully opaque so pluck the alpha from the original color.	102697
-UNKNOWN	check whether a color is light. @param color the argb color to check.	102698
-UNKNOWN	check whether a color is dark. @param color the argb color to check.	102699
-UNKNOWN	return a value between 0.0 and 1.0 representing the perceived lightness of the color. more info here httpsrobots.thoughtbot.com/closer-look-color-lightness	102700
-UNKNOWN	returns the first non-`null` value of its arguments.	102701
-UNKNOWN	returns a function `t -> t` that coalesces values with `thedefault`.	102702
-UNKNOWN	converts a {@link string} to a {@link boolean} or null if the boolean cannot be parsed.	102703
-UNKNOWN	converts a {@link string} to an {@link integer} or null if the integer cannot be parsed.	102704
-UNKNOWN	converts an {@link integer} to a {@link string} can be null if the integer is also null.	102705
-UNKNOWN	converts a {@link long} to a {@link string} can be null if the long is also null.	102706
-UNKNOWN	converts a {@link float} to a {@link string} can be null if the float is also null.	102707
-UNKNOWN	converts a {@link double} to a {@link string} can be null if the double is also null.	102708
-UNKNOWN	cast a `null`able value into a non-`null` value and throw a `nullpointerexception` if the value is `null`.	102709
-UNKNOWN	cast a `null`able value into a non-`null` value and throw a `nullpointerexception` if the value is `null`. provide a message for a better description of why you require this value to be non-`null`.	102710
-UNKNOWN	cast a `null`able value into a non-`null` value and throw a `nullpointerexception` if the value is `null`. provide a message for a better description of why you require this value to be non-`null`.	102711
-UNKNOWN	returns a formatted number for the users locale.	102712
-UNKNOWN	returns a formatted number for the specified locale.	102713
-UNKNOWN	returns a formatted number for the users locale. defaults to 0 precision with no bucketing.	102714
-UNKNOWN	returns a formatted number for the users locale. {@link numberoptions} can control whether the number is used as a currency if it is bucketed and the precision.	102715
-UNKNOWN	returns a formatted number for a given locale. {@link numberoptions} can control whether the number is used as a currency if it is bucketed and the precision.	102716
-UNKNOWN	todo the bucketing logic works but the suffix should be translated.	102717
-UNKNOWN	return a formatter that can output an appropriate number based on the input currency and locale.	102718
-UNKNOWN	returns the first of any input pair	102719
-UNKNOWN	returns the second of any input pair	102720
-UNKNOWN	clamps a value and converts it to an integer ready for use by setprogress.	102721
-UNKNOWN	todo implement `duration`	102722
-UNKNOWN	put(duration project.duration())	102723
-UNKNOWN	todo add `public` to `update` model	102724
-UNKNOWN	put(public)	102725
-UNKNOWN	todo how to convert update.publishedat() to seconds since 1970	102726
-UNKNOWN	put(published_at update.publishedat())	102727
-UNKNOWN	check the device to make sure it has the google play services apk.	102728
-UNKNOWN	given a list of integers computes a list of consecutive monotonically non-descreasing ranges.	102729
-UNKNOWN	returns `true` if the reward has backers `false` otherwise.	102730
-UNKNOWN	returns `true` if the reward has items `false` otherwise.	102731
-UNKNOWN	returns `true` if the reward has a limit set and the limit has not been reached `false` otherwise.	102732
-UNKNOWN	returns `true` if the rewards limit has been reached `false` otherwise.	102733
-UNKNOWN	returns `true` if the reward is considered the non-reward option i.e. the reward is the option backers select when they want to pledge to a project without selecting a particular reward.	102734
-UNKNOWN	returns `true` if the reward is a specific reward for a project i.e. it is not the no-reward option.	102735
-UNKNOWN	returns `true` if the reward has shipping enabled `false` otherwise.	102736
-UNKNOWN	returns a new list with all elements in `xs` equal to `x` replaced by `newx`.	102737
-UNKNOWN	appends `x` to the end of the list `xs`.	102738
-UNKNOWN	concats the second argument onto the end of the first without mutating either list.	102739
-UNKNOWN	concats the distinct elements of `ys` onto the end of the `xs` without mutating either list.	102740
-UNKNOWN	returns true if `y` is equal to any of the values in `xs`.	102741
-UNKNOWN	returns true if `y` is equal to any of the values in `xs` where equality is determined by a given function.	102742
-UNKNOWN	returns a list containing elements of `lhs` that do not exist in `rhs`.	102743
-UNKNOWN	returns a list containing elements of `lhs` that do not exist in `rhs` where equality between elements is determined by a given function.	102744
-UNKNOWN	returns an empty list.	102745
-UNKNOWN	returns the first element in `xs` that equals `x` or `null` if `x` is not found in `xs`.	102746
-UNKNOWN	returns the first element in `xs` that equals `x` or `null` if `x` is not found in `xs`. equality is determined by the given function.	102747
-UNKNOWN	returns the first object or `null` if empty.	102748
-UNKNOWN	combines a list of lists into a new single flat list.	102749
-UNKNOWN	returns the index of the first element in `xs` that equals `x` or `-1` if `x` is not found in `xs`.	102750
-UNKNOWN	returns the index of the first element in `xs` that equals `x` or `-1` if `x` is not found in `xs`. equality is determined by the given function.	102751
-UNKNOWN	returns a list containing the elements of `lhs` that exist in `rhs`.	102752
-UNKNOWN	returns a list containing the elements of `lhs` that exist in `rhs` where equality is determined by the given function.	102753
-UNKNOWN	concats the second argument onto the end of the first but also mutates the first argument.	102754
-UNKNOWN	concats the distinct elements of `ys` onto the end of the `xs` but also mutates the first.	102755
-UNKNOWN	checks the size of a list and returns `true` if the list is non empty.	102756
-UNKNOWN	prepends `x` to the beginning of the list `xs`.	102757
-UNKNOWN	replaces the element at index `idx` with the element `x`. does so by return a whole new list without mutating the original.	102758
-UNKNOWN	uses fisher-yates algorithm to shuffle an array without mutating input arg. httpwww.dotnetperls.com/shuffle-java	102759
-UNKNOWN	returns time until project reaches deadline along with the unit e.g. `25 minutes` `8 days`.	102760
-UNKNOWN	returns unit of time remaining in a readable string e.g. `days to go` `hours to go`.	102761
-UNKNOWN	returns the most appropriate unit for the time remaining until the project reaches its deadline. @param context an android context. @return the string unit.	102762
-UNKNOWN	returns time remaining until project reaches deadline in either seconds minutes hours or days. a time unit is chosen such that the number is readable e.g. 5 minutes would be preferred to 300 seconds. @return the integer time remaining.	102763
-UNKNOWN	seconds	102764
-UNKNOWN	minutes	102765
-UNKNOWN	hours	102766
-UNKNOWN	days	102767
-UNKNOWN	returns `true` if the project is no longer live `false` otherwise.	102768
-UNKNOWN	returns `true` if the project name ends with a punctuation character.	102769
-UNKNOWN	returns 169 height relative to input width.	102770
-UNKNOWN	set correct button view based on project and backing status.	102771
-UNKNOWN	returns time until project reaches deadline in seconds or 0 if the project has already finished.	102772
-UNKNOWN	set toggle state without any animations.	102773
-UNKNOWN	set toggle state without any animations.	102774
-UNKNOWN	returns the number of seconds since the epoch (1/1/1970).	102775
-UNKNOWN	returns a string with only the first character capitalized.	102776
-UNKNOWN	returns a string wrapped in parentheses.	102777
-UNKNOWN	name of the cookie that should store the ref tag for a particular project. fits the template ref_{project_pid}	102778
-UNKNOWN	value to store in the ref tag cookie. fits the template {ref_tag} + {separator} + {time_of_setting}	102779
-UNKNOWN	if a ref tag cookie has been stored for this project this returns the ref tag embedded in the cookie. if a cookie has not yet been set it returns `null`.	102780
-UNKNOWN	constructs a cookie for the given ref tag and project. this method can return `null` if a cookie cannot be constructed e.g. the project has a malformed project url.	102781
-UNKNOWN	constructs a cookie for the given cookie value and project. this method can return `null` if a cookie cannot be constructed e.g. the project has a malformed project url.	102782
-UNKNOWN	try extracting the path and domain for the cookie from the project.	102783
-UNKNOWN	cookie expires on the project deadline or some days into the future if there is no deadline.	102784
-UNKNOWN	converts a pair (params project) into a (project reftag) pair that does some extra logic around featured projects.	102785
-UNKNOWN	stores the ref tag in a cookie and shared preference for the project.	102786
-UNKNOWN	finds the ref tag cookie associated with a project. returns `null` if no cookie has yet been set.	102787
-UNKNOWN	first try finding the cookie in the cookie store	102788
-UNKNOWN	if we cant find it in the cookie store lets look in shared prefs	102789
-UNKNOWN	explicitly set a transition after starting an activity. @param context the activity that started the new intent. @param transition a pair of animation ids first is the enter animation second is the exit animation.	102790
-UNKNOWN	returns whether the users location setting is in germany.	102791
-UNKNOWN	returns whether two users are different where equality is determined by matching ids.	102792
-UNKNOWN	returns a namepile for a list of friends.	102793
-UNKNOWN	if there are 3 friends we should combine the first 2 friend names using the delimiter	102794
-UNKNOWN	and if there are more than 3 we should combine all of them	102795
-UNKNOWN	since we show 3 friends at max the remaining number needs to be adjusted	102796
-UNKNOWN	set layout margins for a viewgroup with linearlayout parent.	102797
-UNKNOWN	set layout margins for a viewgroup with relativelayout parent.	102798
-UNKNOWN	show a dialog box to the user.	102799
-UNKNOWN	opens the play store native app or the play store web site.	102800
-UNKNOWN	first try to load the play store native application	102801
-UNKNOWN	fallback to the play store web site	102802
-UNKNOWN	show a toast with default bottom gravity to the user.	102803
-UNKNOWN	sets the visiblity of a view to {@link view#visible} or {@link view#gone}. setting the view to gone removes it from the layout so that it no longer takes up any space.	102804
-UNKNOWN	sets the visiblity of a view to {@link view#visible} or {@link view#invisible}. setting the view to invisible makes it hidden but it still takes up space.	102805
-UNKNOWN	when a response errors send an {@link apiexception} or {@link responseexception} to {@link subscriber#onerror} otherwise send the response to {@link subscriber#onnext}.	102806
-UNKNOWN	transforms `null` values emitted from an observable into `thedefault`.	102807
-UNKNOWN	emits when a materialized stream is completed.	102808
-UNKNOWN	emits when an error is thrown in a materialized stream.	102809
-UNKNOWN	prevents an observable from erroring by chaining `onerrorresumenext`.	102810
-UNKNOWN	prevents an observable from erroring by chaining `onerrorresumenext` and any errors that occur will be piped into the supplied errors publish subject. `null` values will never be sent to the publish subject. @deprecated use {@link observable#materialize()} instead.	102811
-UNKNOWN	prevents an observable from erroring by chaining `onerrorresumenext` and any errors that occur will be piped into the supplied errors action. `null` values will never be sent to the publish subject. @deprecated use {@link observable#materialize()} instead.	102812
-UNKNOWN	prevents an observable from erroring on any {@link apiexception} exceptions.	102813
-UNKNOWN	prevents an observable from erroring on any {@link apiexception} exceptions and any errors that do occur will be piped into the supplied errors publish subject. `null` values will never be sent to the publish subject. @deprecated use {@link observable#materialize()} instead.	102814
-UNKNOWN	prevents an observable from erroring on any {@link apiexception} exceptions and any errors that do occur will be piped into the supplied errors actions. `null` values will never be sent to the action. @deprecated use {@link observable#materialize()} instead.	102815
-UNKNOWN	emits the latest value of the source observable whenever the `when` observable emits.	102816
-UNKNOWN	emits the latest value of the source `when` observable whenever the `when` observable emits.	102817
-UNKNOWN	zips two observables up into an observable of pairs.	102818
-UNKNOWN	emits the latest values from two observables whenever either emits.	102819
-UNKNOWN	waits until `until` emits one single item and then switches context to the source. this can be useful to delay work until a user logs in ``` somethingthatrequiresauth .compose(waituntil(currentuser.loggedinuser())) .subscribe(show) ```	102820
-UNKNOWN	converts an observable of any type into an observable of `null`s. this is useful for forcing javas type system into knowing we have a stream of `void`. simply doing `.map(__ -> null)` is not enough since java doesnt know if that is a `null` string integer void etc. this transformer allows the following pattern ``` myobservable .compose(takewhen(click)) .compose(ignorevalues()) .subscribe(subjectonnext) ```	102821
-UNKNOWN	emits the number of times the source has emitted for every emission of the source. the first emitted value will be `1`.	102822
-UNKNOWN	emits an observable of values from a materialized stream.	102823
-UNKNOWN	if called on the main thread schedule the work immediately. otherwise delay execution of the work by adding it to a message queue where it will be executed on the main thread. this is particularly useful for recyclerviews if subscriptions in these views are delayed for a frame then the view temporarily shows recycled content and frame rate stutters. to address that we can use `observeforui()` to execute the work immediately rather than wait for a frame.	102824
-UNKNOWN	no-op distribution through play store	102825
-UNKNOWN	create a different signature for each push notification	102826
+UNKNOWN	todo roboelectric is incompatible with play services 7.8.0+.	97128
+UNKNOWN	see issue httpsgithub.com/robolectric/robolectric/issues/1995	97129
+UNKNOWN	for now we just return that play services is disabled.	97130
+UNKNOWN	swipe refresh.	97131
+UNKNOWN	activities should emit.	97132
+UNKNOWN	paginate.	97133
+UNKNOWN	empty activity feed clicks do not trigger events yet.	97134
+UNKNOWN	empty activity feed with login button should be shown.	97135
+UNKNOWN	login.	97136
+UNKNOWN	empty states are not shown when activities emit on successful login.	97137
+UNKNOWN	start the view model with an update.	97138
+UNKNOWN	only viewed comments event should fire.	97139
+UNKNOWN	start the view model with a project.	97140
+UNKNOWN	paginate for older comments.	97141
+UNKNOWN	modern and deprecated events emit for loading older project comments.	97142
+UNKNOWN	start the view model with an update.	97143
+UNKNOWN	load older comments event should not fire yet.	97144
+UNKNOWN	paginate for older comments.	97145
+UNKNOWN	start the view model with a project.	97146
+UNKNOWN	comments should emit.	97147
+UNKNOWN	start the view model with a project.	97148
+UNKNOWN	click the comment button and write a comment.	97149
+UNKNOWN	post comment. error should be shown. comment posted toast should not be shown.	97150
+UNKNOWN	start the view model with a project.	97151
+UNKNOWN	comment button should be shown.	97152
+UNKNOWN	click comment button. comment dialog should be shown.	97153
+UNKNOWN	write a comment. the post button should be enabled with valid comment body.	97154
+UNKNOWN	post comment. dialog should be dismissed.	97155
+UNKNOWN	comment posted toast should be shown.	97156
+UNKNOWN	a koala event for commenting should be tracked.	97157
+UNKNOWN	start the view model with a project.	97158
+UNKNOWN	the comment dialog should be hidden from logged out user.	97159
+UNKNOWN	login.	97160
+UNKNOWN	the comment dialog should be shown to backer.	97161
+UNKNOWN	start the view model with a backed project.	97162
+UNKNOWN	the comment button should be shown to backer.	97163
+UNKNOWN	start the view model with a project.	97164
+UNKNOWN	comment button is shown for the creator.	97165
+UNKNOWN	start the view model with a project.	97166
+UNKNOWN	comment button should be hidden if not backing and not creator.	97167
+UNKNOWN	start the view model with a project.	97168
+UNKNOWN	the comment dialog should not be shown.	97169
+UNKNOWN	dismiss the comment dialog.	97170
+UNKNOWN	the comment dialog should be dismissed.	97171
+UNKNOWN	start the view model with a backed project.	97172
+UNKNOWN	click the comment button.	97173
+UNKNOWN	the comment dialog should be shown.	97174
+UNKNOWN	start the view model with an update.	97175
+UNKNOWN	comments should emit.	97176
+UNKNOWN	project context click doesnt start project activity if not from messages.	97177
+UNKNOWN	messages button is gone if current user is not the project creator (e.g. a collaborator).	97178
+UNKNOWN	messages button is shown to project creator messages activity starts.	97179
+UNKNOWN	load initial params and root categories from activity.	97180
+UNKNOWN	should emit current fragments projects.	97181
+UNKNOWN	select a new category.	97182
+UNKNOWN	projects are cleared new projects load.	97183
+UNKNOWN	initial load.	97184
+UNKNOWN	popular tab clicked.	97185
+UNKNOWN	initial load.	97186
+UNKNOWN	projects should emit.	97187
+UNKNOWN	log in.	97188
+UNKNOWN	projects should emit again.	97189
+UNKNOWN	initial home all projects params.	97190
+UNKNOWN	should show onboarding view.	97191
+UNKNOWN	change params. onboarding view should not be shown.	97192
+UNKNOWN	login.	97193
+UNKNOWN	activity sampler should be shown rather than onboarding view.	97194
+UNKNOWN	change params. activity sampler should not be shown.	97195
+UNKNOWN	clicking see activity feed button on sampler should show activity feed.	97196
+UNKNOWN	clicking activity update on sampler should show activity update.	97197
+UNKNOWN	clicking login on onboarding view should show login tout.	97198
+UNKNOWN	pass in params and sort to fetch projects.	97199
+UNKNOWN	clicking on a project card should show project activity.	97200
+UNKNOWN	button should not be enabled until both a valid email and password are entered.	97201
+UNKNOWN	start the view model with an email to prefill.	97202
+UNKNOWN	dismiss the confirmation dialog.	97203
+UNKNOWN	simulate rotating the device first by sending a new intent (similar to what happens after rotation).	97204
+UNKNOWN	create new test subscribers â this emulates a new activity subscribing to the vms outputs.	97205
+UNKNOWN	email should still be pre-filled.	97206
+UNKNOWN	dialog should not be shown again â the user has already dismissed it.	97207
+UNKNOWN	configure the view model with a message thread.	97208
+UNKNOWN	configure the view model with a message thread.	97209
+UNKNOWN	configure the view model with a message thread.	97210
+UNKNOWN	emits participants avatar url and name.	97211
+UNKNOWN	configure the view model with a message thread with no unread messages.	97212
+UNKNOWN	configure the view model with a message thread with unread messages.	97213
+UNKNOWN	configure the view model with a message thread.	97214
+UNKNOWN	avatar shown for sender who is the creator.	97215
+UNKNOWN	avatar hidden for sender who is the backer.	97216
+UNKNOWN	same message threads should not emit again.	97217
+UNKNOWN	same message threads should not emit again.	97218
+UNKNOWN	unread count text view is shown.	97219
+UNKNOWN	build check should not be shown.	97220
+UNKNOWN	build check should be shown when newer build is available.	97221
+UNKNOWN	initialize activity.	97222
+UNKNOWN	drawer data should emit. drawer should be closed.	97223
+UNKNOWN	open drawer and click the top pwl filter.	97224
+UNKNOWN	drawer data should emit. drawer should open then close upon selection.	97225
+UNKNOWN	open drawer and click a child filter.	97226
+UNKNOWN	drawer data should emit. drawer should open then close upon selection.	97227
+UNKNOWN	initialize activity.	97228
+UNKNOWN	initial home page selected.	97229
+UNKNOWN	sort tab should be expanded.	97230
+UNKNOWN	toolbar params should be loaded with initial params.	97231
+UNKNOWN	select popular sort.	97232
+UNKNOWN	sort tab should be expanded.	97233
+UNKNOWN	unchanged toolbar params should not emit.	97234
+UNKNOWN	select all projects filter from drawer.	97235
+UNKNOWN	sort tab should be expanded.	97236
+UNKNOWN	select art category from drawer.	97237
+UNKNOWN	sort tab should be expanded.	97238
+UNKNOWN	simulate rotating the device and hitting initial inputs again.	97239
+UNKNOWN	simulate recreating and setting popular fragment the previous position before rotation.	97240
+UNKNOWN	sort tab and toolbar params should emit again with same params.	97241
+UNKNOWN	start initial activity.	97242
+UNKNOWN	initial home page selected.	97243
+UNKNOWN	initial params should emit. page should not be updated yet.	97244
+UNKNOWN	select popular sort position.	97245
+UNKNOWN	params and page should update with new popular sort values.	97246
+UNKNOWN	select art category from the drawer.	97247
+UNKNOWN	params should update with new category page should remain the same.	97248
+UNKNOWN	select home sort position.	97249
+UNKNOWN	params and page should update with new home sort value.	97250
+UNKNOWN	simulate rotating the device and hitting initial inputs again.	97251
+UNKNOWN	should emit again with same params.	97252
+UNKNOWN	start initial activity.	97253
+UNKNOWN	select art category from the drawer.	97254
+UNKNOWN	select music category from the drawer.	97255
+UNKNOWN	start initial activity.	97256
+UNKNOWN	initial home page selected.	97257
+UNKNOWN	root categories should emit for the initial home sort this.position.	97258
+UNKNOWN	select popular sort position.	97259
+UNKNOWN	root categories should emit for the popular sort position.	97260
+UNKNOWN	select art category from the drawer.	97261
+UNKNOWN	root categories should not emit again for the same position.	97262
+UNKNOWN	backed text views are displayed.	97263
+UNKNOWN	created text views are displayed.	97264
+UNKNOWN	divider view is displayed.	97265
+UNKNOWN	backed text views are displayed.	97266
+UNKNOWN	created text views are hidden.	97267
+UNKNOWN	divider view is hidden.	97268
+UNKNOWN	backed text views are hidden.	97269
+UNKNOWN	created text views are displayed.	97270
+UNKNOWN	divider view is hidden.	97271
+UNKNOWN	start with an enabled notification.	97272
+UNKNOWN	project name and enabled values should match enabled notification.	97273
+UNKNOWN	change to a disabled notification.	97274
+UNKNOWN	project name and enabled values should match disabled notification.	97275
+UNKNOWN	start with a disabled notification.	97276
+UNKNOWN	enabled switch should be disabled.	97277
+UNKNOWN	enable the previously disabled notification.	97278
+UNKNOWN	enabled switch should now be enabled.	97279
+UNKNOWN	start with a disabled notification.	97280
+UNKNOWN	switch should be disabled.	97281
+UNKNOWN	attempt to toggle the notification to true. this should error and the switch should still be disabled.	97282
+UNKNOWN	initial updates index url is loaded.	97283
+UNKNOWN	activate an external link.	97284
+UNKNOWN	external url is not loaded in our web view.	97285
+UNKNOWN	start the intent with a project.	97286
+UNKNOWN	initial project updates index emits.	97287
+UNKNOWN	make a request for another update index.	97288
+UNKNOWN	new updates index url emits. event is not tracked again.	97289
+UNKNOWN	friends view is not hidden for project with friend backings	97290
+UNKNOWN	back button is gone if navigating from non-backer modal view.	97291
+UNKNOWN	back button is visible if navigating from backer modal view.	97292
+UNKNOWN	start the view model with a message thread.	97293
+UNKNOWN	start the view model with a message thread.	97294
+UNKNOWN	start the view model with a message thread.	97295
+UNKNOWN	start the view model with a backing and a project.	97296
+UNKNOWN	start the view model with a message thread.	97297
+UNKNOWN	creator name is the project creator edit text hint is always the participant.	97298
+UNKNOWN	start the view model with a message thread.	97299
+UNKNOWN	start the view model with a message thread.	97300
+UNKNOWN	start the view model with a message thread.	97301
+UNKNOWN	messages emit keyboard not shown.	97302
+UNKNOWN	start the view model with a backing and a project.	97303
+UNKNOWN	all data except for messages should emit.	97304
+UNKNOWN	start the view model with a message thread.	97305
+UNKNOWN	view initially loaded with a 0 (expanded) offset.	97306
+UNKNOWN	only initial bottom padding emits.	97307
+UNKNOWN	user scrolls.	97308
+UNKNOWN	default padding emits initial padding does not emit again.	97309
+UNKNOWN	user scrolls.	97310
+UNKNOWN	padding does not change.	97311
+UNKNOWN	start the view model with a message thread.	97312
+UNKNOWN	send a message unsuccessfully.	97313
+UNKNOWN	error toast is displayed errored message body remains in edit text no new message is emitted.	97314
+UNKNOWN	no sent message event tracked.	97315
+UNKNOWN	start the view model with a message thread.	97316
+UNKNOWN	initial messages emit.	97317
+UNKNOWN	send a message successfully.	97318
+UNKNOWN	new message list emits.	97319
+UNKNOWN	reply edit text should be cleared and view should be scrolled to new message.	97320
+UNKNOWN	start the view model with a backing and project.	97321
+UNKNOWN	start the view model with a backing and project.	97322
+UNKNOWN	toolbar stays expanded when keyboard opens and no messages.	97323
+UNKNOWN	start the view model with a backing and project.	97324
+UNKNOWN	toolbar collapsed when keyboard opens and there are messages.	97325
+UNKNOWN	view pledge button is hidden when context is from the backer modal.	97326
+UNKNOWN	view pledge button is shown when context is from anywhere but the backer modal.	97327
+UNKNOWN	set users country to us.	97328
+UNKNOWN	todo flaky tests	97329
+UNKNOWN	disclaimer is not shown for completed projects.	97330
+UNKNOWN	on click listener should be set for view with > 2 friends.	97331
+UNKNOWN	on click listener should be not set for view with < 2 friends.	97332
+UNKNOWN	set the current config for a us user. kscurrency needs this config for conversions.	97333
+UNKNOWN	usd conversion shown for non us project.	97334
+UNKNOWN	usd conversion not shown for us project.	97335
+UNKNOWN	start the view model with a project	97336
+UNKNOWN	try starring while logged out	97337
+UNKNOWN	the project shouldnt be saved and a login prompt should be shown.	97338
+UNKNOWN	a koala event for starring should not be tracked	97339
+UNKNOWN	login	97340
+UNKNOWN	the project should be saved and a star prompt should be shown.	97341
+UNKNOWN	a koala event for starring should be tracked	97342
+UNKNOWN	start the view model with an almost completed project	97343
+UNKNOWN	login	97344
+UNKNOWN	star the project	97345
+UNKNOWN	the project should be saved and a save prompt should not be shown.	97346
+UNKNOWN	start the view model with a successful project	97347
+UNKNOWN	login	97348
+UNKNOWN	star the project	97349
+UNKNOWN	the project should be saved and a save prompt should not be shown.	97350
+UNKNOWN	start the view model with a project.	97351
+UNKNOWN	start the view model with a project.	97352
+UNKNOWN	start the view model with a project.	97353
+UNKNOWN	start the view model with a project.	97354
+UNKNOWN	click on manage pledge button.	97355
+UNKNOWN	start the view model with a project.	97356
+UNKNOWN	click on updates button.	97357
+UNKNOWN	start the view model with a project.	97358
+UNKNOWN	popular projects emit immediately.	97359
+UNKNOWN	searching shouldnt emit values immediately	97360
+UNKNOWN	waiting a small amount time shouldnt emit values	97361
+UNKNOWN	waiting the rest of the time makes the search happen	97362
+UNKNOWN	typing more search terms doesnt emit more values	97363
+UNKNOWN	waiting enough time emits search results	97364
+UNKNOWN	clearing search terms brings back popular projects.	97365
+UNKNOWN	populate search and overcome debounce	97366
+UNKNOWN	populate search and overcome debounce	97367
+UNKNOWN	populate search and overcome debounce	97368
+UNKNOWN	populate search and overcome debounce	97369
+UNKNOWN	survey loads. successful submit redirects to project uri.	97370
+UNKNOWN	success confirmation dialog is shown.	97371
+UNKNOWN	when an unlimited reward is not backed hide the all gone header.	97372
+UNKNOWN	when an unlimited reward is backed hide the all gone header (distinct until changed).	97373
+UNKNOWN	when a backed rewards limit has been reached hide the all gone header â the selected banner will be shown instead.	97374
+UNKNOWN	when a rewards limit has been reached and it has not been backed show the all gone header.	97375
+UNKNOWN	show reward backer count.	97376
+UNKNOWN	if reward has no estimated delivery no value should be emitted.	97377
+UNKNOWN	reward with estimated delivery should emit.	97378
+UNKNOWN	reward with no estimated delivery should not show estimated delivery label.	97379
+UNKNOWN	reward with estimated delivery should show estimated delivery label.	97380
+UNKNOWN	when a reward from a live project is clicked start checkout.	97381
+UNKNOWN	when the project is still live dont go to view pledge. should go to checkout instead.	97382
+UNKNOWN	when project is successful but not backed dont go to view pledge.	97383
+UNKNOWN	when project is successful and backed go to view pledge.	97384
+UNKNOWN	a reward from a live project should be clickable.	97385
+UNKNOWN	a reward from a successful project should not be clickable.	97386
+UNKNOWN		97387
+UNKNOWN	a backed reward from a live project should be clickable.	97388
+UNKNOWN	a backed reward from a finished project should be clickable (distinct until changed).	97389
+UNKNOWN	a reward with its limit reached should not be clickable.	97390
+UNKNOWN	when reward has no limit or backers separator should be hidden.	97391
+UNKNOWN	when reward has no limit and backers separator should be hidden.	97392
+UNKNOWN	when reward has limit and no backers separator should be hidden.	97393
+UNKNOWN	when reward has limit and backers separator should be visible.	97394
+UNKNOWN	when reward is limited quantity should be shown.	97395
+UNKNOWN	when rewards limit has been reached dont show quantity.	97396
+UNKNOWN	when reward has no limit dont show quantity (distinct until changed).	97397
+UNKNOWN	if the reward is limited and has not been backed show the limit header.	97398
+UNKNOWN	if the reward is limited and has been backed dont show the limit header.	97399
+UNKNOWN	if the reward is not limited dont show the limit header.	97400
+UNKNOWN	items section should be hidden when there are no items.	97401
+UNKNOWN	reward with no title should be hidden.	97402
+UNKNOWN	reward with title should be visible.	97403
+UNKNOWN	reward with no shipping should hide shipping summary section and not emit a shipping summary string.	97404
+UNKNOWN	reward with shipping should show shipping summary section and emit a shipping summary string.	97405
+UNKNOWN	set users country to us.	97406
+UNKNOWN	set projects country to ca.	97407
+UNKNOWN	usd conversion should be shown.	97408
+UNKNOWN	set users country to ca (any country except the us is fine).	97409
+UNKNOWN	usd conversion should now be hidden.	97410
+UNKNOWN	set users country to us.	97411
+UNKNOWN	set projects country to us.	97412
+UNKNOWN	usd conversion should not be shown.	97413
+UNKNOWN	set users country to ca.	97414
+UNKNOWN	usd conversion should still not be shown (distinct until changed).	97415
+UNKNOWN	set users country to us.	97416
+UNKNOWN	set projects country to ca and reward minimum to $0.30.	97417
+UNKNOWN	usd conversion should be rounded up.	97418
+UNKNOWN	configure the view model with a project intent.	97419
+UNKNOWN	configure the view model with a project intent.	97420
+UNKNOWN	start the intent with a project param and update.	97421
+UNKNOWN	start the intent with a project and update.	97422
+UNKNOWN	initial updates url emits.	97423
+UNKNOWN	make a request for another update.	97424
+UNKNOWN	new update url emits.	97425
+UNKNOWN	start the intent with a project and update.	97426
+UNKNOWN	start the intent with a project and update.	97427
+UNKNOWN	start the intent with a project and update.	97428
+UNKNOWN	start the intent with a project and update.	97429
+UNKNOWN	initial updates sequence number emits.	97430
+UNKNOWN	new sequence should emit for new update page.	97431
+UNKNOWN	start the intent with a project and update.	97432
+UNKNOWN	initial update index url emits.	97433
+UNKNOWN	nothing to do here	97434
+UNKNOWN	ten days	97435
+UNKNOWN	set the cookie and retrieve the ref tag	97436
+UNKNOWN	set and retrieve the cookie	97437
+UNKNOWN	retrieve the cookie	97438
+UNKNOWN	only emit when a completed notification occurs.	97439
+UNKNOWN	only emit when an error is thrown.	97440
+UNKNOWN	main looper is paused so value should not change.	97441
+UNKNOWN	since the work used the immediate scheduler it is unaffected by the main looper being paused.	97442
+UNKNOWN	the main looper is paused but the code is executing on the main thread so observeforui() should schedule the	97443
+UNKNOWN	work immediately rather than queueing it up.	97444
+UNKNOWN	run the queued work.	97445
+UNKNOWN	code observed using `androidschedulers.mainthread()` is now run.	97446
+UNKNOWN	onnext should emit values.	97447
+UNKNOWN	completing the source stream should not emit values.	97448
+UNKNOWN		97449
+UNKNOWN	an error in the source stream should not emit values.	97450
+UNKNOWN	send crash reports in release builds	97451
+UNKNOWN	only log for internal builds	97452
+UNKNOWN	only log in debug mode to avoid leaking sensitive information.	97453
+UNKNOWN	continue	97454
+UNKNOWN	continue	97455
+UNKNOWN	todo build a navigation helper for better param extraction	97456
+UNKNOWN	todo build a navigation helper for better param extraction	97457
+UNKNOWN	temp until followable	97458
+UNKNOWN	todo bold username	97459
+UNKNOWN	no data to bind this viewholder is just a static title	97460
+UNKNOWN	todo switch to you launched a project if current user launched	97461
+UNKNOWN	return context.getstring(r.string.creator_launched_a_project activity.user().name() activity.project().name())	97462
+UNKNOWN	required to fit properly into apis < 18	97463
+UNKNOWN	account for the grid2 start and end margins.	97464
+UNKNOWN	offset for toolbar	97465
+UNKNOWN	add reward stats sections	97466
+UNKNOWN	divider	97467
+UNKNOWN	group messages by start of day.	97468
+UNKNOWN	view holders are stopped when they are detached from the window for recycling	97469
+UNKNOWN	view holders are destroy when they are detached from the window and no adapter is listening	97470
+UNKNOWN	to events so ostensibly the view holder is being deallocated.	97471
+UNKNOWN	view holders are started when they are attached to the new window because this means	97472
+UNKNOWN	it has been recycled.	97473
+UNKNOWN	todo alter the exception message to say we are just reporting it and its not a real crash.	97474
+UNKNOWN	only allow refreshing if theres a current user	97475
+UNKNOWN	set up the bottom sheet recycler view.	97476
+UNKNOWN	we need to remove the first intent so its not duplicated when we add the extra_initial_intents intents.	97477
+UNKNOWN	nb we dont want to bind to lifecycle because we want the destroy event.	97478
+UNKNOWN	.compose(bindtolifecycle())	97479
+UNKNOWN	toolbar ui actions	97480
+UNKNOWN	handle cancel-click region outside of dialog modal.	97481
+UNKNOWN	httpsstackoverflow.com/questions/29916962/javax-net-ssl-sslhandshakeexception-javax-net-ssl-sslprotocolexception-ssl-han/36892715#36892715	97482
+UNKNOWN	thrown when google play services is not installed up-to-date or enabled	97483
+UNKNOWN	show dialog to allow users to install update or otherwise enable google play services.	97484
+UNKNOWN	todo is this an injection problem?	97485
+UNKNOWN	todo sent mailbox logic enum	97486
+UNKNOWN	todo limit the apps you can share to	97487
+UNKNOWN	default padding is the height of the reply layout	97488
+UNKNOWN	skip scroll events when y is 0 usually indicates new data	97489
+UNKNOWN	nothing to do!	97490
+UNKNOWN	this logic is sound only for web view activities without requesthandlers.	97491
+UNKNOWN	todo refactor the client to update web history properly for activities with requesthandlers.	97492
+UNKNOWN	todo check whether device is mobile or tablet append to user agent	97493
+UNKNOWN	when logging in the only two possible errors are invalid_xauth_login and tfa_required so we consider anything else an unknown error.	97494
+UNKNOWN	when we display an android notification we can give it a id. if the server sends a notification with the same	97495
+UNKNOWN	id android updates the existing notification with new information rather than creating a new notification.	97496
+UNKNOWN		97497
+UNKNOWN	the server doesnt send unique notification ids so hashing the alert text is a weak substitute. probably wont	97498
+UNKNOWN	make use of this feature anyhow.	97499
+UNKNOWN	deserialize the referrer type string names into the corresponding	97500
+UNKNOWN	enum type.	97501
+UNKNOWN	deserialize the referrer type string names into the corresponding	97502
+UNKNOWN	enum type.	97503
+UNKNOWN	leakcanary is currently broken on 23+. see httpsgithub.com/square/leakcanary/issues/285 and	97504
+UNKNOWN	httpsgithub.com/square/leakcanary/issues/267.	97505
+UNKNOWN	todo just use http with local env	97506
+UNKNOWN	need to catch these exceptions separately otherwise the compiler turns them into `reflectiveoperationexception`.	97507
+UNKNOWN	that exception is only available in api19+	97508
+UNKNOWN	e.g. internaldebug externalrelease	97509
+UNKNOWN	unlaunched country default to showing the code.	97510
+UNKNOWN	todo this should probably be fatal?	97511
+UNKNOWN	need to catch these exceptions separately otherwise the compiler turns them into `reflectiveoperationexception`.	97512
+UNKNOWN	that exception is only available in api19+	97513
+UNKNOWN	nb we think this operation is suffering from back pressure problems due to the volume of scroll events	97514
+UNKNOWN	httpsrink.hockeyapp.net/manage/apps/239008/crash_reasons/88318986	97515
+UNKNOWN	if it continues to happen we can also try `debounce`.	97516
+UNKNOWN	application lifecycle	97517
+UNKNOWN	android pay	97518
+UNKNOWN	backing	97519
+UNKNOWN	discovery	97520
+UNKNOWN	deprecated event	97521
+UNKNOWN	project star	97522
+UNKNOWN	deprecated events	97523
+UNKNOWN	comments	97524
+UNKNOWN	activity	97525
+UNKNOWN	search	97526
+UNKNOWN	deprecated	97527
+UNKNOWN	deprecated	97528
+UNKNOWN	deprecated	97529
+UNKNOWN	session events	97530
+UNKNOWN	settings	97531
+UNKNOWN	checkout	97532
+UNKNOWN	rewards webview and top nav	97533
+UNKNOWN	todo set up error props	97534
+UNKNOWN	share	97535
+UNKNOWN	deprecated	97536
+UNKNOWN	messages	97537
+UNKNOWN	profile	97538
+UNKNOWN	deprecated	97539
+UNKNOWN	rating	97540
+UNKNOWN	video	97541
+UNKNOWN	project updates	97542
+UNKNOWN	push notifications	97543
+UNKNOWN	deprecated	97544
+UNKNOWN	webviews	97545
+UNKNOWN	deep link	97546
+UNKNOWN	creator dashboard	97547
+UNKNOWN	facebook logs install and app activate app events.	97548
+UNKNOWN	refresh the config file	97549
+UNKNOWN	refresh the user	97550
+UNKNOWN	facebook logs app deactivate app event.	97551
+UNKNOWN	important this sorts in descending order.	97552
+UNKNOWN	important this sorts in descending order.	97553
+UNKNOWN	create the notificationchannel but only on api 26+ because	97554
+UNKNOWN	the notificationchannel class is new and not in the support library	97555
+UNKNOWN	register the channels with the system you cant change the importance	97556
+UNKNOWN	or other notification behaviors after this	97557
+UNKNOWN	guard against no projects	97558
+UNKNOWN	guard against bad category data on first project	97559
+UNKNOWN	guard against not needing to find the root category	97560
+UNKNOWN	find the root category for the featured projects category	97561
+UNKNOWN	sub in the found root category in our featured project.	97562
+UNKNOWN	jodatime doesnt support the cccc pattern triggered by fulldate and fulldatetime. see httpsgithub.com/dlew/joda-time-android/issues/30	97563
+UNKNOWN	instead just return a medium date.	97564
+UNKNOWN	nb japanese in general should show year before month	97565
+UNKNOWN	couldnt find a good match just render the date.	97566
+UNKNOWN	1 hour	97567
+UNKNOWN	24 hours	97568
+UNKNOWN	early out on a case that can come up often.	97569
+UNKNOWN	hsltocolor sets alpha to fully opaque so pluck the alpha from the original color.	97570
+UNKNOWN	hsltocolor sets alpha to fully opaque so pluck the alpha from the original color.	97571
+UNKNOWN	return a value between 0.0 and 1.0 representing the perceived lightness of the color. more info here httpsrobots.thoughtbot.com/closer-look-color-lightness	97572
+UNKNOWN	todo the bucketing logic works but the suffix should be translated.	97573
+UNKNOWN	todo implement `duration`	97574
+UNKNOWN	put(duration project.duration())	97575
+UNKNOWN	todo add `public` to `update` model	97576
+UNKNOWN	put(public)	97577
+UNKNOWN	todo how to convert update.publishedat() to seconds since 1970	97578
+UNKNOWN	put(published_at update.publishedat())	97579
+UNKNOWN	returns unit of time remaining in a readable string e.g. `days to go` `hours to go`.	97580
+UNKNOWN	seconds	97581
+UNKNOWN	minutes	97582
+UNKNOWN	hours	97583
+UNKNOWN	days	97584
+UNKNOWN	try extracting the path and domain for the cookie from the project.	97585
+UNKNOWN	cookie expires on the project deadline or some days into the future if there is no deadline.	97586
+UNKNOWN	first try finding the cookie in the cookie store	97587
+UNKNOWN	if we cant find it in the cookie store lets look in shared prefs	97588
+UNKNOWN	if there are 3 friends we should combine the first 2 friend names using the delimiter	97589
+UNKNOWN	and if there are more than 3 we should combine all of them	97590
+UNKNOWN	since we show 3 friends at max the remaining number needs to be adjusted	97591
+UNKNOWN	first try to load the play store native application	97592
+UNKNOWN	fallback to the play store web site	97593
+UNKNOWN	no-op distribution through play store	97594
+UNKNOWN	create a different signature for each push notification	97595

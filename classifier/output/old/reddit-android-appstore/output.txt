@@ -8,12 +8,15 @@ todo this along with other download types in namecolumnparser	UNKNOWN	DESIGN	0.7
 test app with bold and link markdown in description	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 test app with subreddit link conversion	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 randomapp.addtag(randomenum(apptags.class))	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+ensures that an object reference passed as a parameter to the calling method is not null. @param reference an object reference @return the non-null reference that was validated @throws nullpointerexception if {@code reference} is null	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 httpstackoverflow.com/a/6702029/1251958	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+compares two version strings. <p> use this instead of string.compareto() for a non-lexicographical comparison that works for version strings. e.g. 1.10.compareto(1.6). <p> @param current a string of ordinal numbers separated by decimal points. @param newversion a string of ordinal numbers separated by decimal points. @return the result is a negative integer if str1 is _numerically_ less than str2. the result is a positive integer if str1 is _numerically_ greater than str2. the result is zero if the strings are _numerically_ equal. @note it does not work if 1.10 is supposed to be equal to 1.10.0.	UNKNOWN	DESIGN	0.689	0.000
 set index to first non-equal ordinal or length of shortest version string	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 compare first non-equal ordinal number	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 the strings are equal or one string is a substring of the other	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 e.g. 1.2.3 = 1.2.3 or 1.2.3 < 1.2.3.4	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 builder.setdefaultrequestoptions(requestoptions.diskcachestrategyof(diskcachestrategy.none))	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
+@return {@code false} @see com.bumptech.glide.module.libraryglidemodule	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
 should return false as long as no modules use the androidmanifest.	UNKNOWN	WITHOUT_CLASSIFICATION	1.000	0.000
 only modules for pre glide 4 will use the manifest	UNKNOWN	WITHOUT_CLASSIFICATION	0.998	0.000
 todo okhttp	UNKNOWN	WITHOUT_CLASSIFICATION	0.598	0.000
@@ -40,3 +43,4 @@ one more so we skip what we matched (the table headers)	UNKNOWN	WITHOUT_CLASSIFI
 empty block?	UNKNOWN	WITHOUT_CLASSIFICATION	0.999	0.000
 now these should be the apps followed by a few empty lines.	UNKNOWN	WITHOUT_CLASSIFICATION	0.993	0.000
 todo invalidate old data at some point?	UNKNOWN	WITHOUT_CLASSIFICATION	0.637	0.000
+@return can return null if type is unknown	UNKNOWN	WITHOUT_CLASSIFICATION	0.997	0.000

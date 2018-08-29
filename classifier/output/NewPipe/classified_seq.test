@@ -1,993 +1,845 @@
-UNKNOWN	need a larger delta since step size / granularity is too small and causes	101087
-UNKNOWN	floating point round-off errors during conversion	101088
-UNKNOWN	read from file	101089
-UNKNOWN	test writing to an output	101090
-UNKNOWN	read again	101091
-UNKNOWN	check if both lists have the exact same items	101092
-UNKNOWN	reverse order by timestamp	101093
-UNKNOWN	create a temp file and delete it so we have a temp directory	101094
-UNKNOWN	unsupported	101095
-UNKNOWN	unsupported	101096
-UNKNOWN	for (videostream videostream result) system.out.println(videostream.resolution + > + mediaformat.getsuffixbyid(videostream.format) + > + videostream.isvideoonly)	101097
-UNKNOWN		101098
-UNKNOWN	reverse order	101099
-UNKNOWN		101100
-UNKNOWN		101101
-UNKNOWN	dont show higher resolutions	101102
-UNKNOWN		101103
-UNKNOWN	/	101104
-UNKNOWN	/	101105
-UNKNOWN	/	101106
-UNKNOWN	/	101107
-UNKNOWN	/	101108
-UNKNOWN	/	101109
-UNKNOWN	/	101110
-UNKNOWN	/	101111
-UNKNOWN	have resolution and the format	101112
-UNKNOWN	have resolution but not the format	101113
-UNKNOWN	have resolution and the format	101114
-UNKNOWN	the best resolution	101115
-UNKNOWN	doesnt have the 60fps variant and format	101116
-UNKNOWN	doesnt have the 60fps variant	101117
-UNKNOWN	doesnt have the resolution will return the best one	101118
-UNKNOWN		101119
-UNKNOWN	doesnt contain the preferred format	101120
-UNKNOWN		101121
-UNKNOWN	/	101122
-UNKNOWN	/	101123
-UNKNOWN	list doesnt contains this format it should fallback to the highest bitrate audio no matter what format it is	101124
-UNKNOWN		101125
-UNKNOWN	multiple not-preferred-formats and equal bitrates	101126
-UNKNOWN		101127
-UNKNOWN	/	101128
-UNKNOWN	/	101129
-UNKNOWN	/	101130
-UNKNOWN	/	101131
-UNKNOWN	/	101132
-UNKNOWN	/	101133
-UNKNOWN	/	101134
-UNKNOWN	list doesnt contains this format it should fallback to the highest bitrate audio and	101135
-UNKNOWN	the highest quality format.	101136
-UNKNOWN	adding a new format and bitrate. adding another stream will have no impact since	101137
-UNKNOWN	its not a prefered format.	101138
-UNKNOWN	/	101139
-UNKNOWN		101140
-UNKNOWN	doesnt contain the preferred format	101141
-UNKNOWN		101142
-UNKNOWN	/	101143
-UNKNOWN	/	101144
-UNKNOWN	list doesnt contains this format it should fallback to the most compact audio no matter what format it is.	101145
-UNKNOWN	webma is more compact than m4a	101146
-UNKNOWN	/	101147
-UNKNOWN		101148
-UNKNOWN	multiple not-preferred-formats and equal bitrates	101149
-UNKNOWN		101150
-UNKNOWN	/	101151
-UNKNOWN	/	101152
-UNKNOWN	/	101153
-UNKNOWN	/	101154
-UNKNOWN	/	101155
-UNKNOWN	/	101156
-UNKNOWN	list doesnt contains this format it should fallback to the most compact audio no matter what format it is.	101157
-UNKNOWN	should be same as above	101158
-UNKNOWN	/	101159
-UNKNOWN	/	101160
-UNKNOWN	/	101161
-UNKNOWN	/	101162
-UNKNOWN	/	101163
-UNKNOWN	/	101164
-UNKNOWN	/	101165
-UNKNOWN	/	101166
-UNKNOWN	exact matches	101167
-UNKNOWN	match but not refresh	101168
-UNKNOWN	match but not format	101169
-UNKNOWN	match but not format and not refresh	101170
-UNKNOWN	match closest lower resolution	101171
-UNKNOWN	cant find a match	101172
-UNKNOWN	what to do?	101173
-UNKNOWN	bind the service	101174
-UNKNOWN	views	101175
-UNKNOWN	init	101176
-UNKNOWN	added in api level 23.	101177
-UNKNOWN	bug in api< 23 this is never called	101178
-UNKNOWN	so mactivity=null	101179
-UNKNOWN	so app crashes with nullpointer exception	101180
-UNKNOWN	deprecated in api level 23 but must remain to allow compatibility with api<23	101181
-UNKNOWN	switch (item.getitemid()) { case r.id.switch_modemlinear = !mlinearupdatelist()return truedefaultreturn super.onoptionsitemselected(item)}	101182
-UNKNOWN	nothing to do	101183
-UNKNOWN	nothing to do	101184
-UNKNOWN	nothing to do	101185
-UNKNOWN	nothing to do	101186
-UNKNOWN	hex	101187
-UNKNOWN	notify media scanner on downloaded media file	101188
-UNKNOWN	already downloaded or downloading	101189
-UNKNOWN	overwrite mission	101190
-UNKNOWN	rename file (?)	101191
-UNKNOWN	sort a list of mission by its timestamp. oldest first @param missions the missions to sort	101192
-UNKNOWN	loads finished missions from the data source	101193
-UNKNOWN	ensure its sorted	101194
-UNKNOWN	if (i > 0) i--	101195
-UNKNOWN	get a mission by its location and name @param location the location @param name the name @return the mission or null if no such mission exists	101196
-UNKNOWN	splits the filename into name and extension <p> dots are ignored if they appear not at all at the beginning of the file at the end of the file @param name the name to split @return a string array with a length of 2 containing the name and the extension	101197
-UNKNOWN	generates a unique file name. <p> e.g. myname (1).txt if the name myname.txt exists. @param location the location (to check for existing files) @param name the name of the file @return the unique file name @throws illegalargumentexception if the location is not a directory @throws securityexception if the location is not readable	101198
-UNKNOWN	probably an error on our side	101199
-UNKNOWN	mission.notifyerror(downloadmission.error_server_unsupported)	101200
-UNKNOWN	open again	101201
-UNKNOWN	fallback to single thread if no partial content support	101202
-UNKNOWN	todo notify	101203
-UNKNOWN	mission.notifyerror(downloadmission.error_server_unsupported)	101204
-UNKNOWN	open again	101205
-UNKNOWN	fallback to single thread if no partial content support	101206
-UNKNOWN	todo notify	101207
-UNKNOWN	h.itemview.setonclicklistener(new view.onclicklistener() { @overridepublic void onclick(view v) {showdetail(h)}})	101208
-UNKNOWN	set to false first	101209
-UNKNOWN	mcontext.granturipermission(packagename uri intent.flag_grant_read_uri_permission)	101210
-UNKNOWN	madapter.mmanager.deletemission(mholder.position)	101211
-UNKNOWN	todo notification	101212
-UNKNOWN	madapter.notifydatasetchanged()	101213
-UNKNOWN	create dialog	101214
-UNKNOWN	madapter.mmanager.deletemission(mholder.position)	101215
-UNKNOWN	todo notification	101216
-UNKNOWN	madapter.notifydatasetchanged()	101217
-UNKNOWN	create dialog	101218
-UNKNOWN	check if a block is reserved @param block the block identifier @return true if the block is reserved and false if otherwise	101219
-UNKNOWN	set the download position of the file @param threadid the identifier of the thread @param position the download position of the thread	101220
-UNKNOWN	get the position of a thread @param threadid the identifier of the thread @return the position for the thread	101221
-UNKNOWN	called by a download thread when it finished.	101222
-UNKNOWN	called when all parts are downloaded	101223
-UNKNOWN	start downloading with multiple threads.	101224
-UNKNOWN	in fallback mode resuming is not supported.	101225
-UNKNOWN	todo notify & write state to info file	101226
-UNKNOWN	if (err)	101227
-UNKNOWN	removes the file and the meta file	101228
-UNKNOWN	write this {@link downloadmission} to the meta file asynchronously if no thread is already running.	101229
-UNKNOWN	write this {@link downloadmission} to the meta file.	101230
-UNKNOWN	get the path of the meta file @return the path to the meta file	101231
-UNKNOWN	returns all values of the download mission as contentvalues. @param downloadmission the download mission @return the content values	101232
-UNKNOWN	currently nothing to do	101233
-UNKNOWN	wait for an unblocked position	101234
-UNKNOWN	a server may be ignoring the range request	101235
-UNKNOWN	todo we should save progress for each thread	101236
-UNKNOWN	todo retry count limit & notify error	101237
-UNKNOWN	fragments lifecycle	101238
-UNKNOWN	init	101239
-UNKNOWN	utils	101240
-UNKNOWN	its recommended to call exactly once in the entire lifetime of the application. @param builder if null default builder will be used	101241
-UNKNOWN	get the size of the content that the url is pointing by firing a head request. @param url an url pointing to the content @return the size of the content in bytes	101242
-UNKNOWN	download the text file at the supplied url as in download(string) but set the http header field accept-language to the supplied string. @param siteurl the url of the text file to return the contents of @param language the language (usually a 2-character code) to set as the preferred language @return the contents of the specified text file	101243
-UNKNOWN	download the text file at the supplied url as in download(string) but set the http headers included in the customproperties map. @param siteurl the url of the text file to return the contents of @param customproperties set request header properties @return the contents of the specified text file @throws ioexception	101244
-UNKNOWN	download (via http) the text file located at the supplied url and return its contents. primarily intended for downloading web pages. @param siteurl the url of the text file to download @return the contents of the specified text file	101245
-UNKNOWN	todo explicitly clear the search results once they are restored when the app restarts	101246
-UNKNOWN	or if the app reloads the current video after being killed that should be cleared also	101247
-UNKNOWN	this process is dedicated to leakcanary for heap analysis.	101248
-UNKNOWN	you should not init your app in this process.	101249
-UNKNOWN	initialize settings first because others inits can use its values	101250
-UNKNOWN	initialize image loader	101251
-UNKNOWN	httpsgithub.com/reactivex/rxjava/wiki/whats-different-in-2.0#error-handling	101252
-UNKNOWN	as undeliverableexception is a wrapper get the cause of it to get the real exception	101253
-UNKNOWN	out-of-lifecycle exceptions should only be reported if a debug user wishes so	101254
-UNKNOWN	when exception is not reported log it	101255
-UNKNOWN	dont crash the application over a simple network problem	101256
-UNKNOWN	network api cancellation	101257
-UNKNOWN	blocking code disposed	101258
-UNKNOWN	though these exceptions cannot be ignored	101259
-UNKNOWN	bug in app	101260
-UNKNOWN	bug in operator	101261
-UNKNOWN	throw uncaught exception that will trigger the report system	101262
-UNKNOWN	as undeliverableexception is a wrapper get the cause of it to get the real exception	101263
-UNKNOWN	out-of-lifecycle exceptions should only be reported if a debug user wishes so	101264
-UNKNOWN	when exception is not reported log it	101265
-UNKNOWN	dont crash the application over a simple network problem	101266
-UNKNOWN	network api cancellation	101267
-UNKNOWN	blocking code disposed	101268
-UNKNOWN	though these exceptions cannot be ignored	101269
-UNKNOWN	bug in app	101270
-UNKNOWN	bug in operator	101271
-UNKNOWN	throw uncaught exception that will trigger the report system	101272
-UNKNOWN	keep this below default to avoid making noise on every notification update	101273
-UNKNOWN	set return to cancel by default	101274
-UNKNOWN	enable javascript	101275
-UNKNOWN	cleaning cache history and cookies from webview	101276
-UNKNOWN	todo start loader	101277
-UNKNOWN	todo stop loader	101278
-UNKNOWN	find cookies s_gl & goojf and add cookies to downloader	101279
-UNKNOWN	give cookies to downloader class	101280
-UNKNOWN	closing activity and return to parent	101281
-UNKNOWN	mcookies = c_s_gl + + c_goojf	101282
-UNKNOWN	youtube seems to also need the other cookies	101283
-UNKNOWN	todo start loader	101284
-UNKNOWN	todo stop loader	101285
-UNKNOWN	find cookies s_gl & goojf and add cookies to downloader	101286
-UNKNOWN	give cookies to downloader class	101287
-UNKNOWN	closing activity and return to parent	101288
-UNKNOWN	mcookies = c_s_gl + + c_goojf	101289
-UNKNOWN	youtube seems to also need the other cookies	101290
-UNKNOWN	this method recalculates the height of this view so it <b>must</b> be called when some child changes (e.g. add new views change text).	101291
-UNKNOWN	add a listener which will be listening for changes in this view (i.e. collapsed or expanded).	101292
-UNKNOWN	remove a listener so it doesnt receive more state changes.	101293
-UNKNOWN	state saving	101294
-UNKNOWN	internal	101295
-UNKNOWN	activitys lifecycle	101296
-UNKNOWN	close drawer on return and dont show animation so its looks like the drawer isnt open	101297
-UNKNOWN	when the user returns to mainactivity	101298
-UNKNOWN	httpsstackoverflow.com/questions/10844112/runtimeexception-performing-pause-of-activity-that-is-not-resumed	101299
-UNKNOWN	briefly let the activity resume properly posting the recreate call to end of the message queue	101300
-UNKNOWN	return if launched from a launcher (e.g. nova launcher pixel launcher )	101301
-UNKNOWN	to not destroy the already created backstack	101302
-UNKNOWN	if current fragment implements backpressable (i.e. can/wanna handle back press) delegate the back press to it	101303
-UNKNOWN	implement the following diagram behavior for the up button <pre> +---------------+ | main screen +----+ +-------+-------+ | | | â² up | search button | | +----+-----+ | +------------+ search |â-----+ | +----+-----+ | open | | something â² up | | | +------------+-------------+ | | | | | video <-> channel | +---âº| channel <-> playlist | | video <-> . | | | +--------------------------+ </pre>	101304
-UNKNOWN	if search fragment wasnt found in the backstack	101305
-UNKNOWN	go to the main fragment	101306
-UNKNOWN	menu	101307
-UNKNOWN	init	101308
-UNKNOWN	utils	101309
-UNKNOWN	utils	101310
-UNKNOWN	check if we can load it from the cache (forceload parameter) if we cant load from the network (single loadfromnetwork) and put the results in the cache.	101311
-UNKNOWN	take the first valid	101312
-UNKNOWN	default implementation uses the {@link infocache} to get cached results	101313
-UNKNOWN	noinspection unchecked	101314
-UNKNOWN	only return info if its not null (it is cached)	101315
-UNKNOWN	a simple and general error handler that show a toast for known exceptions and for others opens the report error activity with the (optional) error message.	101316
-UNKNOWN	starting recaptcha challenge activity	101317
-UNKNOWN	check if throwable have the cause that can be assignable from the causes to check. @see class#isassignablefrom(class)	101318
-UNKNOWN	check if getcause is not the same as cause (the getcause is already the root)	101319
-UNKNOWN	as it will cause a infinite loop if it is	101320
-UNKNOWN	check if throwable is a subclass of any of the filtered classes	101321
-UNKNOWN	iteratively checks if the root cause of the throwable is a subclass of the filtered class	101322
-UNKNOWN	check if throwable have the exact cause from one of the causes to check.	101323
-UNKNOWN	check if getcause is not the same as cause (the getcause is already the root)	101324
-UNKNOWN	as it will cause a infinite loop if it is	101325
-UNKNOWN	check if throwable have interrupted exception as one of its causes.	101326
-UNKNOWN	#143 #44 #42 #22 make sure that the filename does not contain illegal chars. @param context the context to retrieve strings and preferences from @param title the title to create a filename from @return the filename	101327
-UNKNOWN	create a valid filename @param title the title to create a filename from @param invalidcharacters patter matching invalid characters @param replacementchar the replacement @return the filename	101328
-UNKNOWN	animate the view @param view view that will be animated @param animationtype {@link type} of the animation @param enterorexit true to enter false to exit @param duration how long the animation will take in milliseconds @param delay how long the animation will wait to start in milliseconds @param execonend runnable that will be executed when the animation ends	101329
-UNKNOWN	animate the background color of a view	101330
-UNKNOWN	animate the text color of any view that extends {@link textview} (buttons edittext)	101331
-UNKNOWN	internals	101332
-UNKNOWN	noinspection codeblock2expr	101333
-UNKNOWN	stop and bypass fetcherservice if infoscreen was selected since	101334
-UNKNOWN	streamdetailfragment can fetch data itself	101335
-UNKNOWN	if at top most level normal behaviour	101336
-UNKNOWN	else go up	101337
-UNKNOWN	here thisactivity is the current activity	101338
-UNKNOWN	should we show an explanation?	101339
-UNKNOWN	if (activitycompat.shouldshowrequestpermissionrationale(activity manifest.permission.write_external_storage)) { show an explanation to the user asynchronously -- dont block this thread waiting for the users response! after the user sees the explanation try again to request the permission. } else {	101340
-UNKNOWN	no explanation needed we can request the permission.	101341
-UNKNOWN	permission_write_storage is an	101342
-UNKNOWN	app-defined int constant. the callback method gets the	101343
-UNKNOWN	result of the request.	101344
-UNKNOWN	}	101345
-UNKNOWN	in order to be able to draw over other apps the permission android.permission.system_alert_window have to be granted. <p> on < api 23 (marshmallow) the permission was granted when the user installed the application (via androidmanifest) on > 23 however it have to start a activity asking the user if he agrees. <p> this method just return if the app has permission to draw over other apps and if it doesnt it will try to get the permission. @return returns {@link settings#candrawoverlays(context)}	101346
-UNKNOWN	as we use the already formatted count is not the responsibility of this method handle long numbers	101347
-UNKNOWN	(it probably will fall in the other category or some language have some specific rule then we have to change it)	101348
-UNKNOWN	greater than a day	101349
-UNKNOWN	greater than an hour	101350
-UNKNOWN	handle days	101351
-UNKNOWN	get a resource string with instructions for importing subscriptions for each service. @return the string resource containing the instructions or -1 if the service dont support it	101352
-UNKNOWN	for services that support importing from a channel url return a hint that will be used in the edittext that the user will type in his channel url. @return the hints string resource or -1 if the service dont support it	101353
-UNKNOWN	@see #getdefaultresolutionindex(string string mediaformat list)	101354
-UNKNOWN	@see #getdefaultresolutionindex(string string mediaformat list)	101355
-UNKNOWN	@see #getdefaultresolutionindex(string string mediaformat list)	101356
-UNKNOWN	@see #getdefaultresolutionindex(string string mediaformat list)	101357
-UNKNOWN	if the user has chosen to limit resolution to conserve mobile data	101358
-UNKNOWN	usage then we should also limit our audio usage.	101359
-UNKNOWN	join the two lists of video streams (video_only and normal videos) and sort them according with default format chosen by the user @param context context to search for the format to give preference @param videostreams normal videos list @param videoonlystreams video only stream list @param ascendingorder true -> smallest to greatest | false -> greatest to smallest @return the sorted list	101360
-UNKNOWN	utils	101361
-UNKNOWN	load the prefered resolution otherwise the best available	101362
-UNKNOWN	return the index of the default stream in the list based on the parameters defaultresolution and defaultformat @return index of the default resolution&format	101363
-UNKNOWN	this is actually an error	101364
-UNKNOWN	but maybe there is really no stream fitting to the default value.	101365
-UNKNOWN	join the two lists of video streams (video_only and normal videos) and sort them according with default format chosen by the user @param defaultformat format to give preference @param showhigherresolutions show >1080p resolutions @param videostreams normal videos list @param videoonlystreams video only stream list @param ascendingorder true -> smallest to greatest | false -> greatest to smallest @return the sorted list @return the sorted list	101366
-UNKNOWN	add all to the hashmap	101367
-UNKNOWN	override the values when the key == resolution with the defaultformat	101368
-UNKNOWN	sort the streams list depending on the parameter ascendingorder <p> it works like that<br> - take a string resolution remove the letters replace 0p60 (for 60fps videos) with 1 and sort by the greatest<br> <blockquote><pre> 720p -> 720 720p60 -> 721 360p -> 360 1080p -> 1080 1080p60 -> 1081 <br> ascendingorder ? 360 < 720 < 721 < 1080 < 1081 !ascendingorder ? 1081 < 1080 < 721 < 720 < 360</pre></blockquote> @param videostreams list that the sorting will be applied @param ascendingorder true -> smallest to greatest | false -> greatest to smallest	101369
-UNKNOWN	get the audio from the list with the highest quality. format will be ignored if it yields no results. @param audiostreams list the audio streams @return index of the audio with the highest average bitrate of the default format	101370
-UNKNOWN	get the audio from the list with the lowest bitrate and efficient format. format will be ignored if it yields no results. @param format the target format type or null if it doesnt matter @param audiostreams list the audio streams @return index of the audio stream that can produce the most compact results or -1 if not found.	101371
-UNKNOWN	locates a possible match for the given resolution and format in the provided list. in this order 1. find a format and resolution match 2. find a format and resolution match and ignore the refresh 3. find a resolution match 4. find a resolution match and ignore the refresh 5. find a resolution just below the requested resolution and ignore the refresh 6. give up	101372
-UNKNOWN	fetches the desired resolution or returns the default if it is not found. the resolution will be reduced if video chocking is active.	101373
-UNKNOWN	compares the quality of two audio streams	101374
-UNKNOWN	same bitrate and format	101375
-UNKNOWN	compares the quality of two video streams.	101376
-UNKNOWN	same bitrate and format	101377
-UNKNOWN	the maximum resolution allowed @param context app context @return maximum resolution allowed or null if there is no maximum	101378
-UNKNOWN	are we connected to wifi? @param context app context @return true if connected to wifi	101379
-UNKNOWN	apply the selected theme (on newpipe settings) in the context with the default style (see {@link #settheme(context int)}). @param context context that the theme will be applied	101380
-UNKNOWN	apply the selected theme (on newpipe settings) in the context themed according with the styles defined for the service . @param context context that the theme will be applied @param serviceid the theme will be styled to the service with this id pass -1 to get the default style	101381
-UNKNOWN	return true if the selected theme (on newpipe settings) is the light theme @param context context to get the preference	101382
-UNKNOWN	create and return a wrapped context with the default selected theme set. @param basecontext the base context for the wrapper @return a wrapped-styled context	101383
-UNKNOWN	return the selected theme without being styled to any service (see {@link #getthemeforservice(context int)}). @param context context to get the selected theme @return the selected style (the default one)	101384
-UNKNOWN	return a dialog theme styled according to the (default) selected theme. @param context context to get the selected theme @return the dialog style (the default one)	101385
-UNKNOWN	return the selected theme styled according to the serviceid. @param context context to get the selected theme @param serviceid return a theme styled to this service -1 to get the default @return the selected style (styled)	101386
-UNKNOWN	fallback	101387
-UNKNOWN	get a resource id from a resource styled according to the the contexts theme.	101388
-UNKNOWN	get a color from an attr styled according to the the contexts theme.	101389
-UNKNOWN	this will get the r.drawable. resource to which attr is currently pointing to. @param attr a r.attribute. resource value @param context the context to use @return a r.drawable. resource value	101390
-UNKNOWN	this function helps to create zip files. caution this will override the original file. @param outzip the zipoutputstream where the data should be stored in @param file the path of the file that should be added to zip. @param name the path of the file inside the zip. @throws exception	101391
-UNKNOWN	this will extract data from zipfiles. caution this will override the original file. @param inzip the zipoutputstream where the data is stored in @param file the path of the file on the disk where the data should be extracted to. @param name the path of the file inside the zip. @return will return true if the file was found within the zip file @throws exception	101392
-UNKNOWN	delete old file first	101393
-UNKNOWN	if its not the current theme	101394
-UNKNOWN	players	101395
-UNKNOWN	external players	101396
-UNKNOWN	log.e(navigationhelper either no streaming player for audio was installed or something important crashed)	101397
-UNKNOWN	through fragmentmanager	101398
-UNKNOWN	through intents	101399
-UNKNOWN	link handling	101400
-UNKNOWN	try market scheme	101401
-UNKNOWN	fall back to google play url (dont worry f-droid can handle it )	101402
-UNKNOWN	start an activity to install kore @param context the context	101403
-UNKNOWN	start kore app to show a video on kodi for a list of supported urls see the <a href=httpsgithub.com/xbmc/kore/blob/master/app/src/main/androidmanifest.xml> kore source code </a>. @param context the context to use @param videourl the url to the video	101404
-UNKNOWN	initialize the statesaver usually you want to call this in the application class @param context used to get the available cache dir	101405
-UNKNOWN	@see #trytorestore(savedstate writeread)	101406
-UNKNOWN	try to restore the state from memory and disk using the {@link statesaver.writeread#readfrom(queue)} from the writeread.	101407
-UNKNOWN	noinspection unchecked	101408
-UNKNOWN	@see #trytosave(boolean string string writeread)	101409
-UNKNOWN	generate unique prefix	101410
-UNKNOWN	reuse prefix	101411
-UNKNOWN	if its not changing configuration (i.e. rotating screen) try to write the state from {@link statesaver.writeread#writeto(queue)} to the file with the name of prefixfilename + suffixfilename in a cache folder got from the {@link #init(context)}. <p> it checks if the file already exists and if it does just return the path so a good way to save is <ul> <li> a fixed prefix for the file</li> <li> a changing suffix</li> </ul> @param ischangingconfig @param prefixfilename @param suffixfilename @param writeread	101412
-UNKNOWN	if the file already exists just return it	101413
-UNKNOWN	delete any file that contains the prefix	101414
-UNKNOWN	delete the cache file contained in the savedstate and remove any possible-existing value in the memory-cache.	101415
-UNKNOWN	noinspection resultofmethodcallignored	101416
-UNKNOWN	clear all the files in cache (in memory and disk).	101417
-UNKNOWN	get the prefix of the saved file @return the file prefix	101418
-UNKNOWN	get the path to the saved file @return the path to the saved file	101419
-UNKNOWN	get the prefix of the saved file @return the file prefix	101420
-UNKNOWN	get the path to the saved file @return the path to the saved file	101421
-UNKNOWN	init	101422
-UNKNOWN	handle actions	101423
-UNKNOWN	item handling	101424
-UNKNOWN	error	101425
-UNKNOWN	handle actions	101426
-UNKNOWN	error	101427
-UNKNOWN	check if file is supported	101428
-UNKNOWN	if settings file exist ask if it should be imported.	101429
-UNKNOWN	restart app to properly load db	101430
-UNKNOWN	restart app to properly load db	101431
-UNKNOWN	restart app to properly load db	101432
-UNKNOWN	utils	101433
-UNKNOWN	error	101434
-UNKNOWN	async call	101435
-UNKNOWN	async call	101436
-UNKNOWN	get key first (dont ask about this solution)	101437
-UNKNOWN	errorlist to stringlist	101438
-UNKNOWN	important add guru meditation	101439
-UNKNOWN	do nothing	101440
-UNKNOWN	normal bugreport	101441
-UNKNOWN	print stack trace once again for debugging	101442
-UNKNOWN	get the checked activity. @param returnactivity the activity to return to @return the casted return activity or null	101443
-UNKNOWN	just an easter egg	101444
-UNKNOWN	super.onbackpressed()	101445
-UNKNOWN	services lifecycle	101446
-UNKNOWN	actions	101447
-UNKNOWN	notification	101448
-UNKNOWN	starts background player activity -- attempts to unlock lockscreen	101449
-UNKNOWN	updates the notification and the play/pause button in it. used for changes on the remoteview @param drawableid if != -1 sets the drawable with that id on the play/pause button	101450
-UNKNOWN	if (debug) log.d(tag updatenotification() called with drawableid = [ + drawableid + ])	101451
-UNKNOWN	utils	101452
-UNKNOWN	thumbnail loading	101453
-UNKNOWN	states implementation	101454
-UNKNOWN	exoplayer listener	101455
-UNKNOWN	disable default behavior	101456
-UNKNOWN	playback listener	101457
-UNKNOWN	activity event listener	101458
-UNKNOWN	package-private	101459
-UNKNOWN	package-private	101460
-UNKNOWN	broadcast receiver	101461
-UNKNOWN	states	101462
-UNKNOWN	thumbnail loading	101463
-UNKNOWN	states implementation	101464
-UNKNOWN	exoplayer listener	101465
-UNKNOWN	disable default behavior	101466
-UNKNOWN	playback listener	101467
-UNKNOWN	activity event listener	101468
-UNKNOWN	package-private	101469
-UNKNOWN	package-private	101470
-UNKNOWN	broadcast receiver	101471
-UNKNOWN	states	101472
-UNKNOWN	serdes	101473
-UNKNOWN	getters	101474
-UNKNOWN	activity lifecycle	101475
-UNKNOWN	we have saved states stop here to restore it	101476
-UNKNOWN	upon going in or out of multiwindow mode isinmultiwindow will always be false	101477
-UNKNOWN	since the first onresume needs to restore the player.	101478
-UNKNOWN	subsequent onresume calls while multiwindow mode remains the same and the player is	101479
-UNKNOWN	prepared should be ignored.	101480
-UNKNOWN	state saving	101481
-UNKNOWN	view	101482
-UNKNOWN	1 screen orientation changes using acelerometer	101483
-UNKNOWN	0 screen orientatino is locked	101484
-UNKNOWN		101485
-UNKNOWN	playback parameters listener	101486
-UNKNOWN		101487
-UNKNOWN	no action	101488
-UNKNOWN	exoplayer video listener	101489
-UNKNOWN	playback listener	101490
-UNKNOWN	player overrides	101491
-UNKNOWN	visible=	101492
-UNKNOWN	visible=	101493
-UNKNOWN	states	101494
-UNKNOWN	utils	101495
-UNKNOWN	delaymillis=	101496
-UNKNOWN	/	101497
-UNKNOWN	getters	101498
-UNKNOWN	/	101499
-UNKNOWN	todo improve video gesture controls	101500
-UNKNOWN	noinspection pointlessbooleanexpression	101501
-UNKNOWN	boolean up = !((e2.gety() - e1.gety()) > 0) && distancey > 0 androids origin point is on top	101502
-UNKNOWN	if (playerimpl.getvolumetextview().getvisibility() == view.visible) playerimpl.getvolumetextview().setvisibility(view.gone) if (playerimpl.getbrightnesstextview().getvisibility() == view.visible) playerimpl.getbrightnesstextview().setvisibility(view.gone)	101503
-UNKNOWN	noinspection pointlessbooleanexpression	101504
-UNKNOWN	no action	101505
-UNKNOWN	exoplayer video listener	101506
-UNKNOWN	playback listener	101507
-UNKNOWN	player overrides	101508
-UNKNOWN	visible=	101509
-UNKNOWN	visible=	101510
-UNKNOWN	states	101511
-UNKNOWN	utils	101512
-UNKNOWN	delaymillis=	101513
-UNKNOWN	/	101514
-UNKNOWN	getters	101515
-UNKNOWN	/	101516
-UNKNOWN	todo improve video gesture controls	101517
-UNKNOWN	noinspection pointlessbooleanexpression	101518
-UNKNOWN	boolean up = !((e2.gety() - e1.gety()) > 0) && distancey > 0 androids origin point is on top	101519
-UNKNOWN	if (playerimpl.getvolumetextview().getvisibility() == view.visible) playerimpl.getvolumetextview().setvisibility(view.gone) if (playerimpl.getbrightnesstextview().getvisibility() == view.visible) playerimpl.getbrightnesstextview().setvisibility(view.gone)	101520
-UNKNOWN	noinspection pointlessbooleanexpression	101521
-UNKNOWN		101522
-UNKNOWN	activity lifecycle	101523
-UNKNOWN		101524
-UNKNOWN		101525
-UNKNOWN	service connection	101526
-UNKNOWN		101527
-UNKNOWN		101528
-UNKNOWN	component building	101529
-UNKNOWN		101530
-UNKNOWN	pos=	101531
-UNKNOWN	pos=	101532
-UNKNOWN	pos=	101533
-UNKNOWN	pos=	101534
-UNKNOWN		101535
-UNKNOWN	component helpers	101536
-UNKNOWN		101537
-UNKNOWN		101538
-UNKNOWN	component on-click listener	101539
-UNKNOWN		101540
-UNKNOWN		101541
-UNKNOWN	playback parameters	101542
-UNKNOWN		101543
-UNKNOWN		101544
-UNKNOWN	seekbar listener	101545
-UNKNOWN		101546
-UNKNOWN		101547
-UNKNOWN	playlist append	101548
-UNKNOWN		101549
-UNKNOWN		101550
-UNKNOWN	share	101551
-UNKNOWN		101552
-UNKNOWN		101553
-UNKNOWN	binding service listener	101554
-UNKNOWN		101555
-UNKNOWN	set buffer progress	101556
-UNKNOWN	set duration	101557
-UNKNOWN	set current time if not seeking	101558
-UNKNOWN		101559
-UNKNOWN	binding service helper	101560
-UNKNOWN		101561
-UNKNOWN	playoninit=	101562
-UNKNOWN	resolve play queue	101563
-UNKNOWN	resolve append intents	101564
-UNKNOWN	good to go	101565
-UNKNOWN	playoninit=	101566
-UNKNOWN	thumbnail loading	101567
-UNKNOWN	broadcast receiver	101568
-UNKNOWN	add your action in the intentfilter @param intentfilter intent filter that will be used for register the receiver	101569
-UNKNOWN	repeat and shuffle	101570
-UNKNOWN	exoplayer listener	101571
-UNKNOWN	1	101572
-UNKNOWN	2	101573
-UNKNOWN	3	101574
-UNKNOWN	4	101575
-UNKNOWN	has another start position?	101576
-UNKNOWN	processes the exceptions produced by {@link com.google.android.exoplayer2.exoplayer exoplayer}. there are multiple types of errors <br><br> {@link exoplaybackexception#type_source type_source} <br><br> {@link exoplaybackexception#type_unexpected type_unexpected} <br><br> if a runtime error occurred then we can try to recover it by restarting the playback after setting the timestamp recovery. <br><br> {@link exoplaybackexception#type_renderer type_renderer} <br><br> if the renderer failed treat the error as unrecoverable. @see #processsourceerror(ioexception) @see player.eventlistener#onplayererror(exoplaybackexception)	101577
-UNKNOWN	isnetworkproblem=	101578
-UNKNOWN	istransitioningtobadstream=	101579
-UNKNOWN	recoverablewithnoavailablestream=	101580
-UNKNOWN	recoverableifloadfailswhennetworkisfine=	101581
-UNKNOWN	noideawhathappenedandletuserchoosewhattodo=	101582
-UNKNOWN	refresh the playback if there is a transition to the next video	101583
-UNKNOWN	when player is in single repeat mode and a period transition occurs	101584
-UNKNOWN	we need to register a view count here since no metadata has changed	101585
-UNKNOWN	playback listener	101586
-UNKNOWN	if live then not near playback edge	101587
-UNKNOWN	if not playing then not approaching playback edge	101588
-UNKNOWN	if nothing to synchronize	101589
-UNKNOWN	check if on wrong window	101590
-UNKNOWN	check if bad seek position	101591
-UNKNOWN	general player	101592
-UNKNOWN	if current playback has run for play_prev_activation_limit_millis milliseconds restart current track. also restart the track if the current track is the first in a queue.	101593
-UNKNOWN	utils	101594
-UNKNOWN	successful	101595
-UNKNOWN	successful	101596
-UNKNOWN	auto queue when starting playback on the last item when not repeating	101597
-UNKNOWN	getters and setters	101598
-UNKNOWN	checks if the current playback is a livestream and is playing at or beyond the live edge	101599
-UNKNOWN	why would this even happen =(	101600
-UNKNOWN	create video stream source	101601
-UNKNOWN	create optional audio stream source	101602
-UNKNOWN	use the audio stream if there is no video stream or	101603
-UNKNOWN	merge with audio stream in case if video does not contain audio	101604
-UNKNOWN	if there is no audio or video sources then this media source cannot be played back	101605
-UNKNOWN	below are auxiliary media sources	101606
-UNKNOWN	create subtitle sources	101607
-UNKNOWN	service lifecycle	101608
-UNKNOWN	init	101609
-UNKNOWN	notification	101610
-UNKNOWN	starts popup player activity -- attempts to unlock lockscreen	101611
-UNKNOWN	updates the notification and the play/pause button in it. used for changes on the remoteview @param drawableid if != -1 sets the drawable with that id on the play/pause button	101612
-UNKNOWN	misc	101613
-UNKNOWN	utils	101614
-UNKNOWN	if (debug) log.d(tag getminimumvideoheight() called with width = [ + width + ] returned + height)	101615
-UNKNOWN	respect the 169 ratio that most videos have	101616
-UNKNOWN	thumbnail loading	101617
-UNKNOWN	rebuild notification here since remote view does not release bitmaps	101618
-UNKNOWN	causing memory leaks	101619
-UNKNOWN	activity event listener	101620
-UNKNOWN	package-private	101621
-UNKNOWN	package-private	101622
-UNKNOWN	exoplayer video listener	101623
-UNKNOWN	playback listener	101624
-UNKNOWN	broadcast receiver	101625
-UNKNOWN	states	101626
-UNKNOWN	utils	101627
-UNKNOWN	package-private	101628
-UNKNOWN	getters	101629
-UNKNOWN	noinspection pointlessbooleanexpression	101630
-UNKNOWN	second pointer is the anchor (the leftmost pointer)	101631
-UNKNOWN	first pointer is the anchor	101632
-UNKNOWN	thumbnail loading	101633
-UNKNOWN	rebuild notification here since remote view does not release bitmaps	101634
-UNKNOWN	causing memory leaks	101635
-UNKNOWN	activity event listener	101636
-UNKNOWN	package-private	101637
-UNKNOWN	package-private	101638
-UNKNOWN	exoplayer video listener	101639
-UNKNOWN	playback listener	101640
-UNKNOWN	broadcast receiver	101641
-UNKNOWN	states	101642
-UNKNOWN	utils	101643
-UNKNOWN	package-private	101644
-UNKNOWN	getters	101645
-UNKNOWN	noinspection pointlessbooleanexpression	101646
-UNKNOWN	second pointer is the anchor (the leftmost pointer)	101647
-UNKNOWN	first pointer is the anchor	101648
-UNKNOWN		101649
-UNKNOWN	item states keep external access out	101650
-UNKNOWN		101651
-UNKNOWN	package-private	101652
-UNKNOWN	do nothing.	101653
-UNKNOWN	build the list item	101654
-UNKNOWN	check if the current item should be selected/highlighted	101655
-UNKNOWN	playlist actions	101656
-UNKNOWN	initializes the play queue message buses. also starts a self reporter for logging if debug mode is enabled.	101657
-UNKNOWN	dispose the play queue by stopping all message buses.	101658
-UNKNOWN	readonly ops	101659
-UNKNOWN	returns the current index that should be played.	101660
-UNKNOWN	returns the current item that should be played.	101661
-UNKNOWN	returns the item at the given index. may throw {@link indexoutofboundsexception}.	101662
-UNKNOWN	returns the index of the given item using referential equality. may be null despite play queue contains identical item.	101663
-UNKNOWN	referential equality cant think of a better way to do this	101664
-UNKNOWN	todo better than this	101665
-UNKNOWN	returns the current size of play queue.	101666
-UNKNOWN	checks if the play queue is empty.	101667
-UNKNOWN	determines if the current play queue is shuffled.	101668
-UNKNOWN	returns an immutable view of the play queue.	101669
-UNKNOWN	returns the play queues update broadcast. may be null if the play queue message bus is not initialized.	101670
-UNKNOWN	write ops	101671
-UNKNOWN	changes the current playing index to a new index. this method is guarded using in a circular manner for index exceeding the play queue size. will emit a {@link selectevent} if the index is not the current playing index.	101672
-UNKNOWN	changes the current playing index by an offset amount. will emit a {@link selectevent} if offset is non-zero.	101673
-UNKNOWN	appends the given {@link playqueueitem}s to the current play queue. @see #append(list items)	101674
-UNKNOWN	appends the given {@link playqueueitem}s to the current play queue. if the play queue is shuffled then append the items to the backup queue as is and append the shuffle items to the play queue. will emit a {@link appendevent} on any given context.	101675
-UNKNOWN	removes the item at the given index from the play queue. the current playing index will decrement if it is greater than the index being removed. on cases where the current playing index exceeds the playlist range it is set to 0. will emit a {@link removeevent} if the index is within the play queue index range.	101676
-UNKNOWN	report an exception for the item at the current index in order and the course of action if the error can be skipped or the current item should be removed. this is done as a separate event as the underlying manager may have different implementation regarding exceptions.	101677
-UNKNOWN	moves a queue item at the source index to the target index. if the item being moved is the currently playing then the current playing index is set to that of the target. if the moved item is not the currently playing and moves to an index <b>after</b> the current playing index then the current playing index is decremented. vice versa if the an item after the currently playing is moved <b>before</b>.	101678
-UNKNOWN	sets the recovery record of the item at the index. broadcasts a recovery event.	101679
-UNKNOWN	revoke the recovery record of the item at the index. broadcasts a recovery event.	101680
-UNKNOWN	shuffles the current play queue. this method first backs up the existing play queue and item being played. then a newly shuffled play queue will be generated along with currently playing item placed at the beginning of the queue. will emit a {@link reorderevent} in any context.	101681
-UNKNOWN	unshuffles the current play queue if a backup play queue exists. this method undoes shuffling and index will be set to the previously playing item if found otherwise the index will reset to 0. will emit a {@link reorderevent} if a backup exists.	101682
-UNKNOWN	rx broadcast	101683
-UNKNOWN	@see defaulttrackselector#formathaslanguage(format string)	101684
-UNKNOWN	@see defaulttrackselector#formathasnolanguage(format)	101685
-UNKNOWN	@see defaulttrackselector#selecttexttrack(trackgrouparray int[][] parameters)	101686
-UNKNOWN	prefer non-forced to forced if a preferred text language has been specified. where	101687
-UNKNOWN	both are provided the non-forced track will usually contain the forced subtitles as	101688
-UNKNOWN	a subset.	101689
-UNKNOWN	track should not be selected.	101690
-UNKNOWN	this.aspectratioframelayout.setaspectratio(16.0f / 9.0f)	101691
-UNKNOWN	setup video view	101692
-UNKNOWN	setup subtitle view	101693
-UNKNOWN	setup audio session with onboard equalizer	101694
-UNKNOWN	ui builders	101695
-UNKNOWN	add option for turning off caption	101696
-UNKNOWN	add all available captions	101697
-UNKNOWN	states implementation	101698
-UNKNOWN	bug on lower api disabling and enabling the seekbar resets the thumb color -.- so sets the color again	101699
-UNKNOWN	bug on lower api disabling and enabling the seekbar resets the thumb color -.- so sets the color again	101700
-UNKNOWN	exoplayer video listener	101701
-UNKNOWN	exoplayer track updates	101702
-UNKNOWN	extract all loaded languages	101703
-UNKNOWN	normalize mismatching language strings	101704
-UNKNOWN	build ui	101705
-UNKNOWN	general player	101706
-UNKNOWN	limit log	101707
-UNKNOWN	onclick related	101708
-UNKNOWN	called when an item of the quality selector or the playback speed selector is selected	101709
-UNKNOWN	called when some popup menu is dismissed	101710
-UNKNOWN	seekbar listener	101711
-UNKNOWN	if (fromuser) playbackcurrenttime.settext(gettimestring(progress))	101712
-UNKNOWN	utils	101713
-UNKNOWN	show a animation and depending on goneonend will stay on the screen or be gone @param drawableid the drawable that will be used to animate pass -1 to clear any animation that is visible @param goneonend will set the animation view to gone on the end of the animation	101714
-UNKNOWN	getters and setters	101715
-UNKNOWN	do nothing so this will stall the playback	101716
-UNKNOWN	mediasource delegations	101717
-UNKNOWN	returns the {@link managedmediasource} at the given index of the playlist. if the index is invalid then null is returned.	101718
-UNKNOWN	playlist manipulation	101719
-UNKNOWN	expands the {@link concatenatingmediasource} by appending it with a {@link placeholdermediasource}. @see #append(managedmediasource)	101720
-UNKNOWN	appends a {@link managedmediasource} to the end of {@link concatenatingmediasource}. @see concatenatingmediasource#addmediasource	101721
-UNKNOWN	removes a {@link managedmediasource} from {@link concatenatingmediasource} at the given index. if this index is out of bound then the removal is ignored. @see concatenatingmediasource#removemediasource(int)	101722
-UNKNOWN	moves a {@link managedmediasource} in {@link concatenatingmediasource} from the given source index to the target index. if either index is out of bound then the call is ignored. @see concatenatingmediasource#movemediasource(int int)	101723
-UNKNOWN	invalidates the {@link managedmediasource} at the given index by replacing it with a {@link placeholdermediasource}. @see #update(int managedmediasource runnable)	101724
-UNKNOWN	updates the {@link managedmediasource} in {@link concatenatingmediasource} at the given index with a given {@link managedmediasource}. @see #update(int managedmediasource runnable)	101725
-UNKNOWN	donothing=	101726
-UNKNOWN	updates the {@link managedmediasource} in {@link concatenatingmediasource} at the given index with a given {@link managedmediasource}. if the index is out of bound then the replacement is ignored. @see concatenatingmediasource#addmediasource @see concatenatingmediasource#removemediasource(int runnable)	101727
-UNKNOWN	add and remove are sequential on the same thread therefore here the exoplayer	101728
-UNKNOWN	message queue must receive and process add before remove effectively treating them	101729
-UNKNOWN	as atomic.	101730
-UNKNOWN	since the finalizing action occurs strictly after the timeline has completed	101731
-UNKNOWN	all its changes on the playback thread thus it is possible in the meantime	101732
-UNKNOWN	other calls that modifies the playlist media source occur in between. this makes	101733
-UNKNOWN	it unsafe to call remove as the finalizing action of add.	101734
-UNKNOWN	because of the above race condition it is thus only safe to synchronize the player	101735
-UNKNOWN	in the finalizing action after the removal is complete and the timeline has changed.	101736
-UNKNOWN	yes this is almost a copypasta got a problem with that? =\	101737
-UNKNOWN	set background arrow style	101738
-UNKNOWN	prevents back button hiding media controller controls (after showing them)	101739
-UNKNOWN	instead of exiting video	101740
-UNKNOWN	see httpstackoverflow.com/questions/6051825	101741
-UNKNOWN	also solves httpsgithub.com/thescrabi/newpipe/issues/99	101742
-UNKNOWN	convert from seconds to milliseconds	101743
-UNKNOWN	savedinstancestate.putint(position videoview.getcurrentposition())	101744
-UNKNOWN	videoview.pause()	101745
-UNKNOWN	videoview.seekto(position)	101746
-UNKNOWN	audio manager	101747
-UNKNOWN	audiofocus	101748
-UNKNOWN	set the volume to 1/10 on ducking	101749
-UNKNOWN	audio processing	101750
-UNKNOWN	exposed methods	101751
-UNKNOWN	dispose the manager and releases all message buses and loaders.	101752
-UNKNOWN	event reactor	101753
-UNKNOWN	event specific action	101754
-UNKNOWN	need to move to ensure the playing index from play queue matches that of	101755
-UNKNOWN	the source timeline and then window correction can take care of the rest	101756
-UNKNOWN	loading and syncing	101757
-UNKNOWN	low frequency critical events	101758
-UNKNOWN	high frequency or noncritical events	101759
-UNKNOWN	playback locking	101760
-UNKNOWN	metadata synchronization	101761
-UNKNOWN	mediasource loading	101762
-UNKNOWN	evict the previous items being loaded to free up memory before start loading new ones	101763
-UNKNOWN	no exception handling since getloadedmediasource guarantees nonnull return	101764
-UNKNOWN	only update the playlist timeline for items at the current index or after.	101765
-UNKNOWN	checks if the corresponding mediasource in {@link com.google.android.exoplayer2.source.concatenatingmediasource} for a given {@link playqueueitem} needs replacement either due to gapless playback readiness or playlist desynchronization. <br><br> if the given {@link playqueueitem} is currently being played and is already loaded then correction is not only needed if the playlist is desynchronized. otherwise the check depends on the status (e.g. expiration or placeholder) of the {@link managedmediasource}.	101766
-UNKNOWN	mightbeinprogress=	101767
-UNKNOWN	checks if the current playing index contains an expired {@link managedmediasource}. if so the expired source is replaced by a {@link placeholdermediasource} and {@link #loadimmediate()} is called to reload the current item. <br><br> if not then the media source at the current index is ready for playback and {@link #maybesynchronizeplayer()} is called. <br><br> under both cases {@link #maybesync()} will be called to ensure the listener is up-to-date.	101768
-UNKNOWN	caninterruptonrenew=	101769
-UNKNOWN	mediasource playlist helpers	101770
-UNKNOWN	manager helpers	101771
-UNKNOWN	the current item has higher priority	101772
-UNKNOWN	the rest are just for seamless playback	101773
-UNKNOWN	although timeline is not updated prior to the current index these sources are still	101774
-UNKNOWN	loaded into the cache for faster retrieval at a potentially later time.	101775
-UNKNOWN	do a round robin	101776
-UNKNOWN	custom behaviours	101777
-UNKNOWN	should be called on player destruction to prevent leakage.	101778
-UNKNOWN	if header isnt null offset the items by -1	101779
-UNKNOWN	read a json source through the input stream and return the parsed subscription items. @param in the input stream (e.g. a file) @param eventlistener listener for the events generated	101780
-UNKNOWN	write the subscriptions items list as json to the output. @param items the list of subscriptions items @param out the output stream (e.g. a file) @param eventlistener listener for the events generated	101781
-UNKNOWN	@see #writeto(list outputstream importexporteventlistener)	101782
-UNKNOWN	lifecycle	101783
-UNKNOWN	dialog	101784
-UNKNOWN	control views	101785
-UNKNOWN	when unchecked slide back to the minimum of current tempo or pitch	101786
-UNKNOWN	sliders	101787
-UNKNOWN	do nothing.	101788
-UNKNOWN	do nothing.	101789
-UNKNOWN	do nothing.	101790
-UNKNOWN	do nothing.	101791
-UNKNOWN	this change is first in chain	101792
-UNKNOWN	do nothing.	101793
-UNKNOWN	do nothing.	101794
-UNKNOWN	this change is first in chain	101795
-UNKNOWN	do nothing.	101796
-UNKNOWN	do nothing.	101797
-UNKNOWN	helper	101798
-UNKNOWN		101799
-UNKNOWN	exposed helpers	101800
-UNKNOWN		101801
-UNKNOWN	given a {@link streaminfo} and the existing queue items provide the {@link singleplayqueue} consisting of the next video for auto queuing. <br><br> this method detects and prevents cycle by naively checking if a candidate next videos url already exists in the existing items. <br><br> to select the next video {@link streaminfo#getnextvideo()} is first checked. if it is nonnull and is not part of the existing items then it will be used as the next video. otherwise an random item with non-repeating url will be selected from the {@link streaminfo#getrelatedstreams()}.	101802
-UNKNOWN		101803
-UNKNOWN	settings resolution	101804
-UNKNOWN		101805
-UNKNOWN	returns the number of milliseconds the player buffers for before starting playback.	101806
-UNKNOWN	returns the minimum number of milliseconds the player always buffers to after starting playback.	101807
-UNKNOWN	returns the maximum/optimal number of milliseconds the player will buffer to once the buffer hits the point of {@link #getplaybackminimumbufferms(context)}.	101808
-UNKNOWN	bufferdurationrequiredforqualityincrease=	101809
-UNKNOWN	system font scaling very small - 0.25f small - 0.5f normal - 1.0f large - 1.5f very large - 2.0f	101810
-UNKNOWN	a value of less than 0 the default means to use the preferred screen brightness	101811
-UNKNOWN		101812
-UNKNOWN	private helpers	101813
-UNKNOWN		101814
-UNKNOWN	hypothesis 4h covers a viewing block eg evening. external lightning conditions will change in the next	101815
-UNKNOWN	viewing block so we fall back to the default brightness	101816
-UNKNOWN	part of subscription observation pipeline @see subscriptionservice#getsubscription()	101817
-UNKNOWN	wait for a period of infrequent updates and return the latest update	101818
-UNKNOWN	share allows multiple subscribers on the same observable	101819
-UNKNOWN	replay synchronizes subscribers to the last emitted result	101820
-UNKNOWN	provides an observer to the latest update to the subscription table. <p> this observer may be subscribed multiple times where each subscriber obtains the latest synchronized changes available effectively share the same data across all subscribers. <p> this observer has a debounce cooldown meaning if multiple updates are observed in the cooldown interval only the latest changes are emitted to the subscribers. this reduces the amount of observations caused by frequent updates to the database.	101821
-UNKNOWN	returns the database access interface for subscription table.	101822
-UNKNOWN	subscriber count changes very often making this check almost unnecessary.	101823
-UNKNOWN	consider removing it later.	101824
-UNKNOWN	subscriber count changes very often making this check almost unnecessary.	101825
-UNKNOWN	consider removing it later.	101826
-UNKNOWN	/	101827
-UNKNOWN	fragment lifecycle	101828
-UNKNOWN	/	101829
-UNKNOWN	/ fragment views /	101830
-UNKNOWN	todo support services that can import from more than one source (show the option to the user)	101831
-UNKNOWN	/	101832
-UNKNOWN	subscriptions	101833
-UNKNOWN	/	101834
-UNKNOWN	error handling	101835
-UNKNOWN	/	101836
-UNKNOWN	fragment lifecycle	101837
-UNKNOWN	/	101838
-UNKNOWN	/ menu /	101839
-UNKNOWN	/ fragment views /	101840
-UNKNOWN	requires the parent fragment to find holder for fragment replacement	101841
-UNKNOWN	noinspection constantconditions	101842
-UNKNOWN	requires the parent fragment to find holder for fragment replacement	101843
-UNKNOWN	/	101844
-UNKNOWN	subscriptions loader	101845
-UNKNOWN	/	101846
-UNKNOWN	contract	101847
-UNKNOWN	/	101848
-UNKNOWN	fragment error handling	101849
-UNKNOWN	/	101850
-UNKNOWN	disallow creation of empty playlists	101851
-UNKNOWN	default thumbnail is shown on error while loading and if the url is empty	101852
-UNKNOWN	default thumbnail is shown on error while loading and if the url is empty	101853
-UNKNOWN	/	101854
-UNKNOWN	watch history	101855
-UNKNOWN	/	101856
-UNKNOWN	/	101857
-UNKNOWN	fragment lifecycle - creation	101858
-UNKNOWN	/	101859
-UNKNOWN	/	101860
-UNKNOWN	fragment lifecycle - views	101861
-UNKNOWN	/	101862
-UNKNOWN	/	101863
-UNKNOWN	fragment lifecycle - loading	101864
-UNKNOWN	/	101865
-UNKNOWN	/	101866
-UNKNOWN	fragment lifecycle - destruction	101867
-UNKNOWN	/	101868
-UNKNOWN	save on exit	101869
-UNKNOWN	/	101870
-UNKNOWN	playlist stream loader	101871
-UNKNOWN	/	101872
-UNKNOWN	skip handling the result after it has been modified	101873
-UNKNOWN	skip handling the result after it has been modified	101874
-UNKNOWN	/	101875
-UNKNOWN	fragment error handling	101876
-UNKNOWN	/	101877
-UNKNOWN	playlist metadata/streams manipulation	101878
-UNKNOWN	do nothing on success	101879
-UNKNOWN	list must be loaded and modified in order to save	101880
-UNKNOWN	utils	101881
-UNKNOWN	lifecycle - creation	101882
-UNKNOWN	lifecycle - destruction	101883
-UNKNOWN	helper	101884
-UNKNOWN	dialog	101885
-UNKNOWN	/	101886
-UNKNOWN	fragment lifecycle - creation	101887
-UNKNOWN	/	101888
-UNKNOWN	/	101889
-UNKNOWN	fragment lifecycle - views	101890
-UNKNOWN	/	101891
-UNKNOWN	/	101892
-UNKNOWN	fragment lifecycle - loading	101893
-UNKNOWN	/	101894
-UNKNOWN	/	101895
-UNKNOWN	fragment lifecycle - destruction	101896
-UNKNOWN	/	101897
-UNKNOWN	/	101898
-UNKNOWN	statistics loader	101899
-UNKNOWN	/	101900
-UNKNOWN	/	101901
-UNKNOWN	fragment error handling	101902
-UNKNOWN	/	101903
-UNKNOWN	utils	101904
-UNKNOWN	lifecycle	101905
-UNKNOWN	state saving	101906
-UNKNOWN	fragment lifecycle	101907
-UNKNOWN	do not monitor for updates when user is not viewing the feed fragment.	101908
-UNKNOWN	this is a waste of bandwidth.	101909
-UNKNOWN	@override protected recyclerview.layoutmanager getlistlayoutmanager() { boolean isportrait = getresources().getdisplaymetrics().heightpixels > getresources().getdisplaymetrics().widthpixels return new gridlayoutmanager(activity isportrait ? 1 2) }	101910
-UNKNOWN	supportactionbar.setdisplayshowtitleenabled(false)	101911
-UNKNOWN	statesaving	101912
-UNKNOWN	feed loader	101913
-UNKNOWN	responsible for reacting to user pulling request and starting a request for new feed stream. <p> on initialization it automatically requests the amount of feed needed to display a minimum amount required (feed_load_size). <p> upon receiving a user pull it creates a single observer to fetch the channelinfo containing the feed streams.	101914
-UNKNOWN	on each request a subscription item from the updated table is transformed into a channelinfo containing the latest streams from the channel. <p> currently the feed uses the first into from the list of streams. <p> if chosen feed already displayed then we request another feed from another subscription until the subscription table runs out of new items. <p> this observer is self-contained and will dispose itself when complete. however this does not obey the fragment lifecycle and may continue running in the background until it is complete. this is done due to rxjava2 no longer propagate errors once an observer is unsubscribed while the thread process is still running. <p> to solve the above issue we can either set a global rxjava error handler or manage exceptions case by case. this should be done if the current implementation is too costly when dealing with larger subscription sets. @param url + serviceid to put in {@link #allitemsloaded} to signal that this specific entity has been loaded.	101915
-UNKNOWN	called only when response is non-empty	101916
-UNKNOWN	keep requesting new items if the current one already exists	101917
-UNKNOWN	updatesubscription(channelinfo)	101918
-UNKNOWN	called only when response is empty	101919
-UNKNOWN	called only when response is non-empty	101920
-UNKNOWN	keep requesting new items if the current one already exists	101921
-UNKNOWN	updatesubscription(channelinfo)	101922
-UNKNOWN	called only when response is empty	101923
-UNKNOWN	add a little of a delay when requesting more items because the cache is so fast	101924
-UNKNOWN	that the view seems stuck to the user when he scroll to the bottom	101925
-UNKNOWN	utils	101926
-UNKNOWN	fragment error handling	101927
-UNKNOWN	/	101928
-UNKNOWN	fragment lifecycle - creation	101929
-UNKNOWN	/	101930
-UNKNOWN	/	101931
-UNKNOWN	fragment lifecycle - views	101932
-UNKNOWN	/	101933
-UNKNOWN	requires the parent fragment to find holder for fragment replacement	101934
-UNKNOWN	requires the parent fragment to find holder for fragment replacement	101935
-UNKNOWN	/	101936
-UNKNOWN	fragment lifecycle - loading	101937
-UNKNOWN	/	101938
-UNKNOWN	/	101939
-UNKNOWN	fragment lifecycle - destruction	101940
-UNKNOWN	/	101941
-UNKNOWN	/	101942
-UNKNOWN	subscriptions loader	101943
-UNKNOWN	/	101944
-UNKNOWN	/	101945
-UNKNOWN	fragment error handling	101946
-UNKNOWN	/	101947
-UNKNOWN	/	101948
-UNKNOWN	utils	101949
-UNKNOWN	/	101950
-UNKNOWN	do nothing on success	101951
-UNKNOWN	leave this inline. will make it harder for copy cats.	101952
-UNKNOWN	if you are a copy cat fuck you.	101953
-UNKNOWN	i will find you and i will	101954
-UNKNOWN	default thumbnail is shown on error while loading and if the url is empty	101955
-UNKNOWN	already covers the gridlayoutmanager case	101956
-UNKNOWN	if header isnt null offset the items by -1	101957
-UNKNOWN	fragments lifecycle	101958
-UNKNOWN	nested fragment use child fragment here to maintain backstack in view pager.	101959
-UNKNOWN	menu	101960
-UNKNOWN	tabs	101961
-UNKNOWN	return getstring(this.tabtitles[position])	101962
-UNKNOWN	main page content	101963
-UNKNOWN	select kiosk	101964
-UNKNOWN	return getstring(this.tabtitles[position])	101965
-UNKNOWN	remove history items if history is disabled	101966
-UNKNOWN	views	101967
-UNKNOWN	lifecycle	101968
-UNKNOWN	menu	101969
-UNKNOWN	load and handle	101970
-UNKNOWN	contract	101971
-UNKNOWN	lifecycle	101972
-UNKNOWN	init	101973
-UNKNOWN	load and handle	101974
-UNKNOWN	contract	101975
-UNKNOWN	onerror	101976
-UNKNOWN	utils	101977
-UNKNOWN	noitemtoupdate=	101978
-UNKNOWN	do nothing	101979
-UNKNOWN	do nothing	101980
-UNKNOWN	lifecycle	101981
-UNKNOWN	init	101982
-UNKNOWN	menu	101983
-UNKNOWN	some updates are very rapid (when calling the updatesubscription(info) for example)	101984
-UNKNOWN	so only update the ui for the latest emission (sync the subscribe buttons state)	101985
-UNKNOWN	emit clicks from main thread unto io thread	101986
-UNKNOWN	ignore rapid clicks	101987
-UNKNOWN	load and handle	101988
-UNKNOWN	contract	101989
-UNKNOWN	onerror	101990
-UNKNOWN	utils	101991
-UNKNOWN	service	101992
-UNKNOWN	convert a long value to a date @param value the long value @return the date	101993
-UNKNOWN	convert a date to a long value @param date the date @return the long value	101994
-UNKNOWN	unfortunately these queries must be hardcoded due to the possibility of schema and names changing at a later date thus invalidating the older migration scripts if they are not hardcoded.	101995
-UNKNOWN	not much we can do about this since room doesnt create tables before migration.	101996
-UNKNOWN	its either this or blasting the entire database anew.	101997
-UNKNOWN	populate streams table with existing entries in watch history	101998
-UNKNOWN	latest data first thus ignoring older entries with the same indices	101999
-UNKNOWN	once the streams have pks join them with the normalized history table	102000
-UNKNOWN	and populate it with the remaining data from watch history	102001
-UNKNOWN	/	102002
-UNKNOWN	set wasloading to true so when the fragment onresume is called the initial search is done.	102003
-UNKNOWN	fragments lifecycle	102004
-UNKNOWN	init	102005
-UNKNOWN	state saving	102006
-UNKNOWN	inits	102007
-UNKNOWN	menu	102008
-UNKNOWN	only pass through if the query length is equal or greater than threshold_network_suggestion	102009
-UNKNOWN	remove duplicates	102010
-UNKNOWN	no-op	102011
-UNKNOWN	exception occurred its not a url	102012
-UNKNOWN	todo no way to tell if search has more items in the moment	102013
-UNKNOWN	utils	102014
-UNKNOWN	suggestion results	102015
-UNKNOWN	contract	102016
-UNKNOWN	search results	102017
-UNKNOWN	lifecycle	102018
-UNKNOWN	inits	102019
-UNKNOWN	radio group video&audio options - listener	102020
-UNKNOWN	streams spinner listener	102021
-UNKNOWN	utils	102022
-UNKNOWN	shows a popup containing the license @param context the context to use @param license the license to show	102023
-UNKNOWN	sort components by name	102024
-UNKNOWN	item.getmenuinfo() is null so we use the tag of the view	102025
-UNKNOWN	@param context the context to use @param license the license @return string which contains a html formatted license page styled according to the contexts theme	102026
-UNKNOWN	split the html file and insert the stylesheet into the head of the file	102027
-UNKNOWN	@param context @return string which is a css stylesheet according to the contexts theme	102028
-UNKNOWN	cast r.color to a hexadecimal color value @param context the context to use @param color the color number from r.color @return a six characters long string with hexadecimal rgb values	102029
-UNKNOWN	create the adapter that will return a fragment for each of the three	102030
-UNKNOWN	primary sections of the activity.	102031
-UNKNOWN	set up the viewpager with the sections adapter.	102032
-UNKNOWN	inflate the menu this adds items to the action bar if it is present.	102033
-UNKNOWN	returns a new instance of this fragment for the given section number.	102034
-UNKNOWN	show 2 total pages.	102035
-UNKNOWN	returns a new instance of this fragment for the given section number.	102036
-UNKNOWN	show 2 total pages.	102037
-UNKNOWN	obtain a parcel object and write the parcelable object to it	102038
-UNKNOWN	create an initializerbuilder	102039
-UNKNOWN	enable chrome devtools	102040
-UNKNOWN	enable command line interface	102041
-UNKNOWN	use the initializerbuilder to generate an initializer	102042
-UNKNOWN	initialize stetho with the initializer	102043
-UNKNOWN	give each object 10 seconds to be gced before leak canary gets nosy on it	102044
-UNKNOWN	/	102045
-UNKNOWN	fragments lifecycle	102046
-UNKNOWN	check if it was loading when the fragment was stopped/paused	102047
-UNKNOWN	check if the next video label and video is visible	102048
-UNKNOWN	if it is include the two elements in the next check	102049
-UNKNOWN	noinspection unchecked	102050
-UNKNOWN	noinspection unchecked	102051
-UNKNOWN	onclick	102052
-UNKNOWN	log.d(tag toggleexpandrelatedvideos() called with info = [ + info + ] from = [ + initial_related_videos + ])	102053
-UNKNOWN	log.d(tag i = + i)	102054
-UNKNOWN	init	102055
-UNKNOWN	thumbsrootlayout = rootview.findviewbyid(r.id.detail_thumbs_root_layout)	102056
-UNKNOWN	long first = system.nanotime() each	102057
-UNKNOWN	each = system.nanotime()	102058
-UNKNOWN	if (debug) log.d(tag each took + ((system.nanotime() - each) / 1000000l) + ms)	102059
-UNKNOWN	if (debug) log.d(tag total time + ((system.nanotime() - first) / 1000000l) + ms)	102060
-UNKNOWN	menu	102061
-UNKNOWN	caution set item properties programmatically otherwise it would not be accepted by	102062
-UNKNOWN	appcompat itemsinflater.inflate(r.menu.videoitem_detail menu)	102063
-UNKNOWN	show kodi if set in settings	102064
-UNKNOWN	if is still loading block menu	102065
-UNKNOWN	that means that we are on the start of the stack	102066
-UNKNOWN	return false to let the mainactivity handle the onback	102067
-UNKNOWN	remove top	102068
-UNKNOWN	get stack item from the new top	102069
-UNKNOWN	info loading and handling	102070
-UNKNOWN	play utils	102071
-UNKNOWN	exoplayer	102072
-UNKNOWN	internal player	102073
-UNKNOWN	utils	102074
-UNKNOWN	successful	102075
-UNKNOWN	noinspection deprecation	102076
-UNKNOWN	contract	102077
-UNKNOWN	only auto play in the first open	102078
-UNKNOWN	stream results	102079
+UNKNOWN	need a larger delta since step size / granularity is too small and causes	100591
+UNKNOWN	floating point round-off errors during conversion	100592
+UNKNOWN	read from file	100593
+UNKNOWN	test writing to an output	100594
+UNKNOWN	read again	100595
+UNKNOWN	check if both lists have the exact same items	100596
+UNKNOWN	reverse order by timestamp	100597
+UNKNOWN	create a temp file and delete it so we have a temp directory	100598
+UNKNOWN	unsupported	100599
+UNKNOWN	unsupported	100600
+UNKNOWN	for (videostream videostream result) system.out.println(videostream.resolution + > + mediaformat.getsuffixbyid(videostream.format) + > + videostream.isvideoonly)	100601
+UNKNOWN		100602
+UNKNOWN	reverse order	100603
+UNKNOWN		100604
+UNKNOWN		100605
+UNKNOWN	dont show higher resolutions	100606
+UNKNOWN		100607
+UNKNOWN	/	100608
+UNKNOWN	/	100609
+UNKNOWN	/	100610
+UNKNOWN	/	100611
+UNKNOWN	/	100612
+UNKNOWN	/	100613
+UNKNOWN	/	100614
+UNKNOWN	/	100615
+UNKNOWN	have resolution and the format	100616
+UNKNOWN	have resolution but not the format	100617
+UNKNOWN	have resolution and the format	100618
+UNKNOWN	the best resolution	100619
+UNKNOWN	doesnt have the 60fps variant and format	100620
+UNKNOWN	doesnt have the 60fps variant	100621
+UNKNOWN	doesnt have the resolution will return the best one	100622
+UNKNOWN		100623
+UNKNOWN	doesnt contain the preferred format	100624
+UNKNOWN		100625
+UNKNOWN	/	100626
+UNKNOWN	/	100627
+UNKNOWN	list doesnt contains this format it should fallback to the highest bitrate audio no matter what format it is	100628
+UNKNOWN		100629
+UNKNOWN	multiple not-preferred-formats and equal bitrates	100630
+UNKNOWN		100631
+UNKNOWN	/	100632
+UNKNOWN	/	100633
+UNKNOWN	/	100634
+UNKNOWN	/	100635
+UNKNOWN	/	100636
+UNKNOWN	/	100637
+UNKNOWN	/	100638
+UNKNOWN	list doesnt contains this format it should fallback to the highest bitrate audio and	100639
+UNKNOWN	the highest quality format.	100640
+UNKNOWN	adding a new format and bitrate. adding another stream will have no impact since	100641
+UNKNOWN	its not a prefered format.	100642
+UNKNOWN	/	100643
+UNKNOWN		100644
+UNKNOWN	doesnt contain the preferred format	100645
+UNKNOWN		100646
+UNKNOWN	/	100647
+UNKNOWN	/	100648
+UNKNOWN	list doesnt contains this format it should fallback to the most compact audio no matter what format it is.	100649
+UNKNOWN	webma is more compact than m4a	100650
+UNKNOWN	/	100651
+UNKNOWN		100652
+UNKNOWN	multiple not-preferred-formats and equal bitrates	100653
+UNKNOWN		100654
+UNKNOWN	/	100655
+UNKNOWN	/	100656
+UNKNOWN	/	100657
+UNKNOWN	/	100658
+UNKNOWN	/	100659
+UNKNOWN	/	100660
+UNKNOWN	list doesnt contains this format it should fallback to the most compact audio no matter what format it is.	100661
+UNKNOWN	should be same as above	100662
+UNKNOWN	/	100663
+UNKNOWN	/	100664
+UNKNOWN	/	100665
+UNKNOWN	/	100666
+UNKNOWN	/	100667
+UNKNOWN	/	100668
+UNKNOWN	/	100669
+UNKNOWN	/	100670
+UNKNOWN	exact matches	100671
+UNKNOWN	match but not refresh	100672
+UNKNOWN	match but not format	100673
+UNKNOWN	match but not format and not refresh	100674
+UNKNOWN	match closest lower resolution	100675
+UNKNOWN	cant find a match	100676
+UNKNOWN	what to do?	100677
+UNKNOWN	bind the service	100678
+UNKNOWN	views	100679
+UNKNOWN	init	100680
+UNKNOWN	bug in api< 23 this is never called	100681
+UNKNOWN	so mactivity=null	100682
+UNKNOWN	so app crashes with nullpointer exception	100683
+UNKNOWN	switch (item.getitemid()) { case r.id.switch_modemlinear = !mlinearupdatelist()return truedefaultreturn super.onoptionsitemselected(item)}	100684
+UNKNOWN	nothing to do	100685
+UNKNOWN	nothing to do	100686
+UNKNOWN	nothing to do	100687
+UNKNOWN	nothing to do	100688
+UNKNOWN	hex	100689
+UNKNOWN	notify media scanner on downloaded media file	100690
+UNKNOWN	already downloaded or downloading	100691
+UNKNOWN	overwrite mission	100692
+UNKNOWN	rename file (?)	100693
+UNKNOWN	ensure its sorted	100694
+UNKNOWN	if (i > 0) i--	100695
+UNKNOWN	probably an error on our side	100696
+UNKNOWN	mission.notifyerror(downloadmission.error_server_unsupported)	100697
+UNKNOWN	open again	100698
+UNKNOWN	fallback to single thread if no partial content support	100699
+UNKNOWN	todo notify	100700
+UNKNOWN	mission.notifyerror(downloadmission.error_server_unsupported)	100701
+UNKNOWN	open again	100702
+UNKNOWN	fallback to single thread if no partial content support	100703
+UNKNOWN	todo notify	100704
+UNKNOWN	h.itemview.setonclicklistener(new view.onclicklistener() { @overridepublic void onclick(view v) {showdetail(h)}})	100705
+UNKNOWN	set to false first	100706
+UNKNOWN	mcontext.granturipermission(packagename uri intent.flag_grant_read_uri_permission)	100707
+UNKNOWN	madapter.mmanager.deletemission(mholder.position)	100708
+UNKNOWN	todo notification	100709
+UNKNOWN	madapter.notifydatasetchanged()	100710
+UNKNOWN	create dialog	100711
+UNKNOWN	madapter.mmanager.deletemission(mholder.position)	100712
+UNKNOWN	todo notification	100713
+UNKNOWN	madapter.notifydatasetchanged()	100714
+UNKNOWN	create dialog	100715
+UNKNOWN	in fallback mode resuming is not supported.	100716
+UNKNOWN	todo notify & write state to info file	100717
+UNKNOWN	if (err)	100718
+UNKNOWN	currently nothing to do	100719
+UNKNOWN	wait for an unblocked position	100720
+UNKNOWN	a server may be ignoring the range request	100721
+UNKNOWN	todo we should save progress for each thread	100722
+UNKNOWN	todo retry count limit & notify error	100723
+UNKNOWN	fragments lifecycle	100724
+UNKNOWN	init	100725
+UNKNOWN	utils	100726
+UNKNOWN	todo explicitly clear the search results once they are restored when the app restarts	100727
+UNKNOWN	or if the app reloads the current video after being killed that should be cleared also	100728
+UNKNOWN	this process is dedicated to leakcanary for heap analysis.	100729
+UNKNOWN	you should not init your app in this process.	100730
+UNKNOWN	initialize settings first because others inits can use its values	100731
+UNKNOWN	initialize image loader	100732
+UNKNOWN	httpsgithub.com/reactivex/rxjava/wiki/whats-different-in-2.0#error-handling	100733
+UNKNOWN	as undeliverableexception is a wrapper get the cause of it to get the real exception	100734
+UNKNOWN	out-of-lifecycle exceptions should only be reported if a debug user wishes so	100735
+UNKNOWN	when exception is not reported log it	100736
+UNKNOWN	dont crash the application over a simple network problem	100737
+UNKNOWN	network api cancellation	100738
+UNKNOWN	blocking code disposed	100739
+UNKNOWN	though these exceptions cannot be ignored	100740
+UNKNOWN	bug in app	100741
+UNKNOWN	bug in operator	100742
+UNKNOWN	throw uncaught exception that will trigger the report system	100743
+UNKNOWN	as undeliverableexception is a wrapper get the cause of it to get the real exception	100744
+UNKNOWN	out-of-lifecycle exceptions should only be reported if a debug user wishes so	100745
+UNKNOWN	when exception is not reported log it	100746
+UNKNOWN	dont crash the application over a simple network problem	100747
+UNKNOWN	network api cancellation	100748
+UNKNOWN	blocking code disposed	100749
+UNKNOWN	though these exceptions cannot be ignored	100750
+UNKNOWN	bug in app	100751
+UNKNOWN	bug in operator	100752
+UNKNOWN	throw uncaught exception that will trigger the report system	100753
+UNKNOWN	keep this below default to avoid making noise on every notification update	100754
+UNKNOWN	set return to cancel by default	100755
+UNKNOWN	enable javascript	100756
+UNKNOWN	cleaning cache history and cookies from webview	100757
+UNKNOWN	todo start loader	100758
+UNKNOWN	todo stop loader	100759
+UNKNOWN	find cookies s_gl & goojf and add cookies to downloader	100760
+UNKNOWN	give cookies to downloader class	100761
+UNKNOWN	closing activity and return to parent	100762
+UNKNOWN	mcookies = c_s_gl + + c_goojf	100763
+UNKNOWN	youtube seems to also need the other cookies	100764
+UNKNOWN	todo start loader	100765
+UNKNOWN	todo stop loader	100766
+UNKNOWN	find cookies s_gl & goojf and add cookies to downloader	100767
+UNKNOWN	give cookies to downloader class	100768
+UNKNOWN	closing activity and return to parent	100769
+UNKNOWN	mcookies = c_s_gl + + c_goojf	100770
+UNKNOWN	youtube seems to also need the other cookies	100771
+UNKNOWN	state saving	100772
+UNKNOWN	internal	100773
+UNKNOWN	activitys lifecycle	100774
+UNKNOWN	close drawer on return and dont show animation so its looks like the drawer isnt open	100775
+UNKNOWN	when the user returns to mainactivity	100776
+UNKNOWN	httpsstackoverflow.com/questions/10844112/runtimeexception-performing-pause-of-activity-that-is-not-resumed	100777
+UNKNOWN	briefly let the activity resume properly posting the recreate call to end of the message queue	100778
+UNKNOWN	return if launched from a launcher (e.g. nova launcher pixel launcher )	100779
+UNKNOWN	to not destroy the already created backstack	100780
+UNKNOWN	if current fragment implements backpressable (i.e. can/wanna handle back press) delegate the back press to it	100781
+UNKNOWN	if search fragment wasnt found in the backstack	100782
+UNKNOWN	go to the main fragment	100783
+UNKNOWN	menu	100784
+UNKNOWN	init	100785
+UNKNOWN	utils	100786
+UNKNOWN	utils	100787
+UNKNOWN	take the first valid	100788
+UNKNOWN	noinspection unchecked	100789
+UNKNOWN	only return info if its not null (it is cached)	100790
+UNKNOWN	starting recaptcha challenge activity	100791
+UNKNOWN	check if getcause is not the same as cause (the getcause is already the root)	100792
+UNKNOWN	as it will cause a infinite loop if it is	100793
+UNKNOWN	check if throwable is a subclass of any of the filtered classes	100794
+UNKNOWN	iteratively checks if the root cause of the throwable is a subclass of the filtered class	100795
+UNKNOWN	check if getcause is not the same as cause (the getcause is already the root)	100796
+UNKNOWN	as it will cause a infinite loop if it is	100797
+UNKNOWN	internals	100798
+UNKNOWN	noinspection codeblock2expr	100799
+UNKNOWN	stop and bypass fetcherservice if infoscreen was selected since	100800
+UNKNOWN	streamdetailfragment can fetch data itself	100801
+UNKNOWN	if at top most level normal behaviour	100802
+UNKNOWN	else go up	100803
+UNKNOWN	here thisactivity is the current activity	100804
+UNKNOWN	should we show an explanation?	100805
+UNKNOWN	if (activitycompat.shouldshowrequestpermissionrationale(activity manifest.permission.write_external_storage)) { show an explanation to the user asynchronously -- dont block this thread waiting for the users response! after the user sees the explanation try again to request the permission. } else {	100806
+UNKNOWN	no explanation needed we can request the permission.	100807
+UNKNOWN	permission_write_storage is an	100808
+UNKNOWN	app-defined int constant. the callback method gets the	100809
+UNKNOWN	result of the request.	100810
+UNKNOWN	}	100811
+UNKNOWN	as we use the already formatted count is not the responsibility of this method handle long numbers	100812
+UNKNOWN	(it probably will fall in the other category or some language have some specific rule then we have to change it)	100813
+UNKNOWN	greater than a day	100814
+UNKNOWN	greater than an hour	100815
+UNKNOWN	handle days	100816
+UNKNOWN	if the user has chosen to limit resolution to conserve mobile data	100817
+UNKNOWN	usage then we should also limit our audio usage.	100818
+UNKNOWN	utils	100819
+UNKNOWN	load the prefered resolution otherwise the best available	100820
+UNKNOWN	this is actually an error	100821
+UNKNOWN	but maybe there is really no stream fitting to the default value.	100822
+UNKNOWN	add all to the hashmap	100823
+UNKNOWN	override the values when the key == resolution with the defaultformat	100824
+UNKNOWN	compares the quality of two audio streams	100825
+UNKNOWN	same bitrate and format	100826
+UNKNOWN	compares the quality of two video streams.	100827
+UNKNOWN	same bitrate and format	100828
+UNKNOWN	fallback	100829
+UNKNOWN	delete old file first	100830
+UNKNOWN	if its not the current theme	100831
+UNKNOWN	players	100832
+UNKNOWN	external players	100833
+UNKNOWN	log.e(navigationhelper either no streaming player for audio was installed or something important crashed)	100834
+UNKNOWN	through fragmentmanager	100835
+UNKNOWN	through intents	100836
+UNKNOWN	link handling	100837
+UNKNOWN	try market scheme	100838
+UNKNOWN	fall back to google play url (dont worry f-droid can handle it )	100839
+UNKNOWN	noinspection unchecked	100840
+UNKNOWN	generate unique prefix	100841
+UNKNOWN	reuse prefix	100842
+UNKNOWN	if the file already exists just return it	100843
+UNKNOWN	delete any file that contains the prefix	100844
+UNKNOWN	noinspection resultofmethodcallignored	100845
+UNKNOWN	init	100846
+UNKNOWN	handle actions	100847
+UNKNOWN	item handling	100848
+UNKNOWN	error	100849
+UNKNOWN	handle actions	100850
+UNKNOWN	error	100851
+UNKNOWN	check if file is supported	100852
+UNKNOWN	if settings file exist ask if it should be imported.	100853
+UNKNOWN	restart app to properly load db	100854
+UNKNOWN	restart app to properly load db	100855
+UNKNOWN	restart app to properly load db	100856
+UNKNOWN	utils	100857
+UNKNOWN	error	100858
+UNKNOWN	async call	100859
+UNKNOWN	async call	100860
+UNKNOWN	get key first (dont ask about this solution)	100861
+UNKNOWN	errorlist to stringlist	100862
+UNKNOWN	important add guru meditation	100863
+UNKNOWN	do nothing	100864
+UNKNOWN	normal bugreport	100865
+UNKNOWN	print stack trace once again for debugging	100866
+UNKNOWN	just an easter egg	100867
+UNKNOWN	super.onbackpressed()	100868
+UNKNOWN	services lifecycle	100869
+UNKNOWN	actions	100870
+UNKNOWN	notification	100871
+UNKNOWN	starts background player activity -- attempts to unlock lockscreen	100872
+UNKNOWN	if (debug) log.d(tag updatenotification() called with drawableid = [ + drawableid + ])	100873
+UNKNOWN	utils	100874
+UNKNOWN	thumbnail loading	100875
+UNKNOWN	states implementation	100876
+UNKNOWN	exoplayer listener	100877
+UNKNOWN	disable default behavior	100878
+UNKNOWN	playback listener	100879
+UNKNOWN	activity event listener	100880
+UNKNOWN	package-private	100881
+UNKNOWN	package-private	100882
+UNKNOWN	broadcast receiver	100883
+UNKNOWN	states	100884
+UNKNOWN	thumbnail loading	100885
+UNKNOWN	states implementation	100886
+UNKNOWN	exoplayer listener	100887
+UNKNOWN	disable default behavior	100888
+UNKNOWN	playback listener	100889
+UNKNOWN	activity event listener	100890
+UNKNOWN	package-private	100891
+UNKNOWN	package-private	100892
+UNKNOWN	broadcast receiver	100893
+UNKNOWN	states	100894
+UNKNOWN	serdes	100895
+UNKNOWN	getters	100896
+UNKNOWN	activity lifecycle	100897
+UNKNOWN	we have saved states stop here to restore it	100898
+UNKNOWN	upon going in or out of multiwindow mode isinmultiwindow will always be false	100899
+UNKNOWN	since the first onresume needs to restore the player.	100900
+UNKNOWN	subsequent onresume calls while multiwindow mode remains the same and the player is	100901
+UNKNOWN	prepared should be ignored.	100902
+UNKNOWN	state saving	100903
+UNKNOWN	view	100904
+UNKNOWN	1 screen orientation changes using acelerometer	100905
+UNKNOWN	0 screen orientatino is locked	100906
+UNKNOWN		100907
+UNKNOWN	playback parameters listener	100908
+UNKNOWN		100909
+UNKNOWN	no action	100910
+UNKNOWN	exoplayer video listener	100911
+UNKNOWN	playback listener	100912
+UNKNOWN	player overrides	100913
+UNKNOWN	visible=	100914
+UNKNOWN	visible=	100915
+UNKNOWN	states	100916
+UNKNOWN	utils	100917
+UNKNOWN	delaymillis=	100918
+UNKNOWN	/	100919
+UNKNOWN	getters	100920
+UNKNOWN	/	100921
+UNKNOWN	todo improve video gesture controls	100922
+UNKNOWN	noinspection pointlessbooleanexpression	100923
+UNKNOWN	boolean up = !((e2.gety() - e1.gety()) > 0) && distancey > 0 androids origin point is on top	100924
+UNKNOWN	if (playerimpl.getvolumetextview().getvisibility() == view.visible) playerimpl.getvolumetextview().setvisibility(view.gone) if (playerimpl.getbrightnesstextview().getvisibility() == view.visible) playerimpl.getbrightnesstextview().setvisibility(view.gone)	100925
+UNKNOWN	noinspection pointlessbooleanexpression	100926
+UNKNOWN	no action	100927
+UNKNOWN	exoplayer video listener	100928
+UNKNOWN	playback listener	100929
+UNKNOWN	player overrides	100930
+UNKNOWN	visible=	100931
+UNKNOWN	visible=	100932
+UNKNOWN	states	100933
+UNKNOWN	utils	100934
+UNKNOWN	delaymillis=	100935
+UNKNOWN	/	100936
+UNKNOWN	getters	100937
+UNKNOWN	/	100938
+UNKNOWN	todo improve video gesture controls	100939
+UNKNOWN	noinspection pointlessbooleanexpression	100940
+UNKNOWN	boolean up = !((e2.gety() - e1.gety()) > 0) && distancey > 0 androids origin point is on top	100941
+UNKNOWN	if (playerimpl.getvolumetextview().getvisibility() == view.visible) playerimpl.getvolumetextview().setvisibility(view.gone) if (playerimpl.getbrightnesstextview().getvisibility() == view.visible) playerimpl.getbrightnesstextview().setvisibility(view.gone)	100942
+UNKNOWN	noinspection pointlessbooleanexpression	100943
+UNKNOWN		100944
+UNKNOWN	activity lifecycle	100945
+UNKNOWN		100946
+UNKNOWN		100947
+UNKNOWN	service connection	100948
+UNKNOWN		100949
+UNKNOWN		100950
+UNKNOWN	component building	100951
+UNKNOWN		100952
+UNKNOWN	pos=	100953
+UNKNOWN	pos=	100954
+UNKNOWN	pos=	100955
+UNKNOWN	pos=	100956
+UNKNOWN		100957
+UNKNOWN	component helpers	100958
+UNKNOWN		100959
+UNKNOWN		100960
+UNKNOWN	component on-click listener	100961
+UNKNOWN		100962
+UNKNOWN		100963
+UNKNOWN	playback parameters	100964
+UNKNOWN		100965
+UNKNOWN		100966
+UNKNOWN	seekbar listener	100967
+UNKNOWN		100968
+UNKNOWN		100969
+UNKNOWN	playlist append	100970
+UNKNOWN		100971
+UNKNOWN		100972
+UNKNOWN	share	100973
+UNKNOWN		100974
+UNKNOWN		100975
+UNKNOWN	binding service listener	100976
+UNKNOWN		100977
+UNKNOWN	set buffer progress	100978
+UNKNOWN	set duration	100979
+UNKNOWN	set current time if not seeking	100980
+UNKNOWN		100981
+UNKNOWN	binding service helper	100982
+UNKNOWN		100983
+UNKNOWN	playoninit=	100984
+UNKNOWN	resolve play queue	100985
+UNKNOWN	resolve append intents	100986
+UNKNOWN	good to go	100987
+UNKNOWN	playoninit=	100988
+UNKNOWN	thumbnail loading	100989
+UNKNOWN	broadcast receiver	100990
+UNKNOWN	repeat and shuffle	100991
+UNKNOWN	exoplayer listener	100992
+UNKNOWN	1	100993
+UNKNOWN	2	100994
+UNKNOWN	3	100995
+UNKNOWN	4	100996
+UNKNOWN	has another start position?	100997
+UNKNOWN	isnetworkproblem=	100998
+UNKNOWN	istransitioningtobadstream=	100999
+UNKNOWN	recoverablewithnoavailablestream=	101000
+UNKNOWN	recoverableifloadfailswhennetworkisfine=	101001
+UNKNOWN	noideawhathappenedandletuserchoosewhattodo=	101002
+UNKNOWN	refresh the playback if there is a transition to the next video	101003
+UNKNOWN	when player is in single repeat mode and a period transition occurs	101004
+UNKNOWN	we need to register a view count here since no metadata has changed	101005
+UNKNOWN	playback listener	101006
+UNKNOWN	if live then not near playback edge	101007
+UNKNOWN	if not playing then not approaching playback edge	101008
+UNKNOWN	if nothing to synchronize	101009
+UNKNOWN	check if on wrong window	101010
+UNKNOWN	check if bad seek position	101011
+UNKNOWN	general player	101012
+UNKNOWN	if current playback has run for play_prev_activation_limit_millis milliseconds restart current track. also restart the track if the current track is the first in a queue.	101013
+UNKNOWN	utils	101014
+UNKNOWN	successful	101015
+UNKNOWN	successful	101016
+UNKNOWN	auto queue when starting playback on the last item when not repeating	101017
+UNKNOWN	getters and setters	101018
+UNKNOWN	why would this even happen =(	101019
+UNKNOWN	create video stream source	101020
+UNKNOWN	create optional audio stream source	101021
+UNKNOWN	use the audio stream if there is no video stream or	101022
+UNKNOWN	merge with audio stream in case if video does not contain audio	101023
+UNKNOWN	if there is no audio or video sources then this media source cannot be played back	101024
+UNKNOWN	below are auxiliary media sources	101025
+UNKNOWN	create subtitle sources	101026
+UNKNOWN	service lifecycle	101027
+UNKNOWN	init	101028
+UNKNOWN	notification	101029
+UNKNOWN	starts popup player activity -- attempts to unlock lockscreen	101030
+UNKNOWN	misc	101031
+UNKNOWN	utils	101032
+UNKNOWN	if (debug) log.d(tag getminimumvideoheight() called with width = [ + width + ] returned + height)	101033
+UNKNOWN	respect the 169 ratio that most videos have	101034
+UNKNOWN	thumbnail loading	101035
+UNKNOWN	rebuild notification here since remote view does not release bitmaps	101036
+UNKNOWN	causing memory leaks	101037
+UNKNOWN	activity event listener	101038
+UNKNOWN	package-private	101039
+UNKNOWN	package-private	101040
+UNKNOWN	exoplayer video listener	101041
+UNKNOWN	playback listener	101042
+UNKNOWN	broadcast receiver	101043
+UNKNOWN	states	101044
+UNKNOWN	utils	101045
+UNKNOWN	package-private	101046
+UNKNOWN	getters	101047
+UNKNOWN	noinspection pointlessbooleanexpression	101048
+UNKNOWN	second pointer is the anchor (the leftmost pointer)	101049
+UNKNOWN	first pointer is the anchor	101050
+UNKNOWN	thumbnail loading	101051
+UNKNOWN	rebuild notification here since remote view does not release bitmaps	101052
+UNKNOWN	causing memory leaks	101053
+UNKNOWN	activity event listener	101054
+UNKNOWN	package-private	101055
+UNKNOWN	package-private	101056
+UNKNOWN	exoplayer video listener	101057
+UNKNOWN	playback listener	101058
+UNKNOWN	broadcast receiver	101059
+UNKNOWN	states	101060
+UNKNOWN	utils	101061
+UNKNOWN	package-private	101062
+UNKNOWN	getters	101063
+UNKNOWN	noinspection pointlessbooleanexpression	101064
+UNKNOWN	second pointer is the anchor (the leftmost pointer)	101065
+UNKNOWN	first pointer is the anchor	101066
+UNKNOWN		101067
+UNKNOWN	item states keep external access out	101068
+UNKNOWN		101069
+UNKNOWN	package-private	101070
+UNKNOWN	do nothing.	101071
+UNKNOWN	build the list item	101072
+UNKNOWN	check if the current item should be selected/highlighted	101073
+UNKNOWN	playlist actions	101074
+UNKNOWN	readonly ops	101075
+UNKNOWN	referential equality cant think of a better way to do this	101076
+UNKNOWN	todo better than this	101077
+UNKNOWN	write ops	101078
+UNKNOWN	rx broadcast	101079
+UNKNOWN	prefer non-forced to forced if a preferred text language has been specified. where	101080
+UNKNOWN	both are provided the non-forced track will usually contain the forced subtitles as	101081
+UNKNOWN	a subset.	101082
+UNKNOWN	track should not be selected.	101083
+UNKNOWN	this.aspectratioframelayout.setaspectratio(16.0f / 9.0f)	101084
+UNKNOWN	setup video view	101085
+UNKNOWN	setup subtitle view	101086
+UNKNOWN	setup audio session with onboard equalizer	101087
+UNKNOWN	ui builders	101088
+UNKNOWN	add option for turning off caption	101089
+UNKNOWN	add all available captions	101090
+UNKNOWN	states implementation	101091
+UNKNOWN	bug on lower api disabling and enabling the seekbar resets the thumb color -.- so sets the color again	101092
+UNKNOWN	bug on lower api disabling and enabling the seekbar resets the thumb color -.- so sets the color again	101093
+UNKNOWN	exoplayer video listener	101094
+UNKNOWN	exoplayer track updates	101095
+UNKNOWN	extract all loaded languages	101096
+UNKNOWN	normalize mismatching language strings	101097
+UNKNOWN	build ui	101098
+UNKNOWN	general player	101099
+UNKNOWN	limit log	101100
+UNKNOWN	onclick related	101101
+UNKNOWN	seekbar listener	101102
+UNKNOWN	if (fromuser) playbackcurrenttime.settext(gettimestring(progress))	101103
+UNKNOWN	utils	101104
+UNKNOWN	getters and setters	101105
+UNKNOWN	do nothing so this will stall the playback	101106
+UNKNOWN	mediasource delegations	101107
+UNKNOWN	playlist manipulation	101108
+UNKNOWN	donothing=	101109
+UNKNOWN	add and remove are sequential on the same thread therefore here the exoplayer	101110
+UNKNOWN	message queue must receive and process add before remove effectively treating them	101111
+UNKNOWN	as atomic.	101112
+UNKNOWN	since the finalizing action occurs strictly after the timeline has completed	101113
+UNKNOWN	all its changes on the playback thread thus it is possible in the meantime	101114
+UNKNOWN	other calls that modifies the playlist media source occur in between. this makes	101115
+UNKNOWN	it unsafe to call remove as the finalizing action of add.	101116
+UNKNOWN	because of the above race condition it is thus only safe to synchronize the player	101117
+UNKNOWN	in the finalizing action after the removal is complete and the timeline has changed.	101118
+UNKNOWN	yes this is almost a copypasta got a problem with that? =\	101119
+UNKNOWN	set background arrow style	101120
+UNKNOWN	prevents back button hiding media controller controls (after showing them)	101121
+UNKNOWN	instead of exiting video	101122
+UNKNOWN	see httpstackoverflow.com/questions/6051825	101123
+UNKNOWN	also solves httpsgithub.com/thescrabi/newpipe/issues/99	101124
+UNKNOWN	convert from seconds to milliseconds	101125
+UNKNOWN	savedinstancestate.putint(position videoview.getcurrentposition())	101126
+UNKNOWN	videoview.pause()	101127
+UNKNOWN	videoview.seekto(position)	101128
+UNKNOWN	audio manager	101129
+UNKNOWN	audiofocus	101130
+UNKNOWN	set the volume to 1/10 on ducking	101131
+UNKNOWN	audio processing	101132
+UNKNOWN	exposed methods	101133
+UNKNOWN	event reactor	101134
+UNKNOWN	event specific action	101135
+UNKNOWN	need to move to ensure the playing index from play queue matches that of	101136
+UNKNOWN	the source timeline and then window correction can take care of the rest	101137
+UNKNOWN	loading and syncing	101138
+UNKNOWN	low frequency critical events	101139
+UNKNOWN	high frequency or noncritical events	101140
+UNKNOWN	playback locking	101141
+UNKNOWN	metadata synchronization	101142
+UNKNOWN	mediasource loading	101143
+UNKNOWN	evict the previous items being loaded to free up memory before start loading new ones	101144
+UNKNOWN	no exception handling since getloadedmediasource guarantees nonnull return	101145
+UNKNOWN	only update the playlist timeline for items at the current index or after.	101146
+UNKNOWN	mightbeinprogress=	101147
+UNKNOWN	caninterruptonrenew=	101148
+UNKNOWN	mediasource playlist helpers	101149
+UNKNOWN	manager helpers	101150
+UNKNOWN	the current item has higher priority	101151
+UNKNOWN	the rest are just for seamless playback	101152
+UNKNOWN	although timeline is not updated prior to the current index these sources are still	101153
+UNKNOWN	loaded into the cache for faster retrieval at a potentially later time.	101154
+UNKNOWN	do a round robin	101155
+UNKNOWN	custom behaviours	101156
+UNKNOWN	if header isnt null offset the items by -1	101157
+UNKNOWN	lifecycle	101158
+UNKNOWN	dialog	101159
+UNKNOWN	control views	101160
+UNKNOWN	when unchecked slide back to the minimum of current tempo or pitch	101161
+UNKNOWN	sliders	101162
+UNKNOWN	do nothing.	101163
+UNKNOWN	do nothing.	101164
+UNKNOWN	do nothing.	101165
+UNKNOWN	do nothing.	101166
+UNKNOWN	this change is first in chain	101167
+UNKNOWN	do nothing.	101168
+UNKNOWN	do nothing.	101169
+UNKNOWN	this change is first in chain	101170
+UNKNOWN	do nothing.	101171
+UNKNOWN	do nothing.	101172
+UNKNOWN	helper	101173
+UNKNOWN		101174
+UNKNOWN	exposed helpers	101175
+UNKNOWN		101176
+UNKNOWN		101177
+UNKNOWN	settings resolution	101178
+UNKNOWN		101179
+UNKNOWN	bufferdurationrequiredforqualityincrease=	101180
+UNKNOWN	a value of less than 0 the default means to use the preferred screen brightness	101181
+UNKNOWN		101182
+UNKNOWN	private helpers	101183
+UNKNOWN		101184
+UNKNOWN	hypothesis 4h covers a viewing block eg evening. external lightning conditions will change in the next	101185
+UNKNOWN	viewing block so we fall back to the default brightness	101186
+UNKNOWN	wait for a period of infrequent updates and return the latest update	101187
+UNKNOWN	share allows multiple subscribers on the same observable	101188
+UNKNOWN	replay synchronizes subscribers to the last emitted result	101189
+UNKNOWN	subscriber count changes very often making this check almost unnecessary.	101190
+UNKNOWN	consider removing it later.	101191
+UNKNOWN	subscriber count changes very often making this check almost unnecessary.	101192
+UNKNOWN	consider removing it later.	101193
+UNKNOWN	/	101194
+UNKNOWN	fragment lifecycle	101195
+UNKNOWN	/	101196
+UNKNOWN	/ fragment views /	101197
+UNKNOWN	todo support services that can import from more than one source (show the option to the user)	101198
+UNKNOWN	/	101199
+UNKNOWN	subscriptions	101200
+UNKNOWN	/	101201
+UNKNOWN	error handling	101202
+UNKNOWN	/	101203
+UNKNOWN	fragment lifecycle	101204
+UNKNOWN	/	101205
+UNKNOWN	/ menu /	101206
+UNKNOWN	/ fragment views /	101207
+UNKNOWN	requires the parent fragment to find holder for fragment replacement	101208
+UNKNOWN	noinspection constantconditions	101209
+UNKNOWN	requires the parent fragment to find holder for fragment replacement	101210
+UNKNOWN	/	101211
+UNKNOWN	subscriptions loader	101212
+UNKNOWN	/	101213
+UNKNOWN	contract	101214
+UNKNOWN	/	101215
+UNKNOWN	fragment error handling	101216
+UNKNOWN	/	101217
+UNKNOWN	disallow creation of empty playlists	101218
+UNKNOWN	default thumbnail is shown on error while loading and if the url is empty	101219
+UNKNOWN	default thumbnail is shown on error while loading and if the url is empty	101220
+UNKNOWN	/	101221
+UNKNOWN	watch history	101222
+UNKNOWN	/	101223
+UNKNOWN	/	101224
+UNKNOWN	fragment lifecycle - creation	101225
+UNKNOWN	/	101226
+UNKNOWN	/	101227
+UNKNOWN	fragment lifecycle - views	101228
+UNKNOWN	/	101229
+UNKNOWN	/	101230
+UNKNOWN	fragment lifecycle - loading	101231
+UNKNOWN	/	101232
+UNKNOWN	/	101233
+UNKNOWN	fragment lifecycle - destruction	101234
+UNKNOWN	/	101235
+UNKNOWN	save on exit	101236
+UNKNOWN	/	101237
+UNKNOWN	playlist stream loader	101238
+UNKNOWN	/	101239
+UNKNOWN	skip handling the result after it has been modified	101240
+UNKNOWN	skip handling the result after it has been modified	101241
+UNKNOWN	/	101242
+UNKNOWN	fragment error handling	101243
+UNKNOWN	/	101244
+UNKNOWN	playlist metadata/streams manipulation	101245
+UNKNOWN	do nothing on success	101246
+UNKNOWN	list must be loaded and modified in order to save	101247
+UNKNOWN	utils	101248
+UNKNOWN	lifecycle - creation	101249
+UNKNOWN	lifecycle - destruction	101250
+UNKNOWN	helper	101251
+UNKNOWN	dialog	101252
+UNKNOWN	/	101253
+UNKNOWN	fragment lifecycle - creation	101254
+UNKNOWN	/	101255
+UNKNOWN	/	101256
+UNKNOWN	fragment lifecycle - views	101257
+UNKNOWN	/	101258
+UNKNOWN	/	101259
+UNKNOWN	fragment lifecycle - loading	101260
+UNKNOWN	/	101261
+UNKNOWN	/	101262
+UNKNOWN	fragment lifecycle - destruction	101263
+UNKNOWN	/	101264
+UNKNOWN	/	101265
+UNKNOWN	statistics loader	101266
+UNKNOWN	/	101267
+UNKNOWN	/	101268
+UNKNOWN	fragment error handling	101269
+UNKNOWN	/	101270
+UNKNOWN	utils	101271
+UNKNOWN	lifecycle	101272
+UNKNOWN	state saving	101273
+UNKNOWN	fragment lifecycle	101274
+UNKNOWN	do not monitor for updates when user is not viewing the feed fragment.	101275
+UNKNOWN	this is a waste of bandwidth.	101276
+UNKNOWN	@override protected recyclerview.layoutmanager getlistlayoutmanager() { boolean isportrait = getresources().getdisplaymetrics().heightpixels > getresources().getdisplaymetrics().widthpixels return new gridlayoutmanager(activity isportrait ? 1 2) }	101277
+UNKNOWN	supportactionbar.setdisplayshowtitleenabled(false)	101278
+UNKNOWN	statesaving	101279
+UNKNOWN	feed loader	101280
+UNKNOWN	called only when response is non-empty	101281
+UNKNOWN	keep requesting new items if the current one already exists	101282
+UNKNOWN	updatesubscription(channelinfo)	101283
+UNKNOWN	called only when response is empty	101284
+UNKNOWN	called only when response is non-empty	101285
+UNKNOWN	keep requesting new items if the current one already exists	101286
+UNKNOWN	updatesubscription(channelinfo)	101287
+UNKNOWN	called only when response is empty	101288
+UNKNOWN	add a little of a delay when requesting more items because the cache is so fast	101289
+UNKNOWN	that the view seems stuck to the user when he scroll to the bottom	101290
+UNKNOWN	utils	101291
+UNKNOWN	fragment error handling	101292
+UNKNOWN	/	101293
+UNKNOWN	fragment lifecycle - creation	101294
+UNKNOWN	/	101295
+UNKNOWN	/	101296
+UNKNOWN	fragment lifecycle - views	101297
+UNKNOWN	/	101298
+UNKNOWN	requires the parent fragment to find holder for fragment replacement	101299
+UNKNOWN	requires the parent fragment to find holder for fragment replacement	101300
+UNKNOWN	/	101301
+UNKNOWN	fragment lifecycle - loading	101302
+UNKNOWN	/	101303
+UNKNOWN	/	101304
+UNKNOWN	fragment lifecycle - destruction	101305
+UNKNOWN	/	101306
+UNKNOWN	/	101307
+UNKNOWN	subscriptions loader	101308
+UNKNOWN	/	101309
+UNKNOWN	/	101310
+UNKNOWN	fragment error handling	101311
+UNKNOWN	/	101312
+UNKNOWN	/	101313
+UNKNOWN	utils	101314
+UNKNOWN	/	101315
+UNKNOWN	do nothing on success	101316
+UNKNOWN	leave this inline. will make it harder for copy cats.	101317
+UNKNOWN	if you are a copy cat fuck you.	101318
+UNKNOWN	i will find you and i will	101319
+UNKNOWN	default thumbnail is shown on error while loading and if the url is empty	101320
+UNKNOWN	already covers the gridlayoutmanager case	101321
+UNKNOWN	if header isnt null offset the items by -1	101322
+UNKNOWN	fragments lifecycle	101323
+UNKNOWN	nested fragment use child fragment here to maintain backstack in view pager.	101324
+UNKNOWN	menu	101325
+UNKNOWN	tabs	101326
+UNKNOWN	return getstring(this.tabtitles[position])	101327
+UNKNOWN	main page content	101328
+UNKNOWN	select kiosk	101329
+UNKNOWN	return getstring(this.tabtitles[position])	101330
+UNKNOWN	remove history items if history is disabled	101331
+UNKNOWN	views	101332
+UNKNOWN	lifecycle	101333
+UNKNOWN	menu	101334
+UNKNOWN	load and handle	101335
+UNKNOWN	contract	101336
+UNKNOWN	lifecycle	101337
+UNKNOWN	init	101338
+UNKNOWN	load and handle	101339
+UNKNOWN	contract	101340
+UNKNOWN	onerror	101341
+UNKNOWN	utils	101342
+UNKNOWN	noitemtoupdate=	101343
+UNKNOWN	do nothing	101344
+UNKNOWN	do nothing	101345
+UNKNOWN	lifecycle	101346
+UNKNOWN	init	101347
+UNKNOWN	menu	101348
+UNKNOWN	some updates are very rapid (when calling the updatesubscription(info) for example)	101349
+UNKNOWN	so only update the ui for the latest emission (sync the subscribe buttons state)	101350
+UNKNOWN	emit clicks from main thread unto io thread	101351
+UNKNOWN	ignore rapid clicks	101352
+UNKNOWN	load and handle	101353
+UNKNOWN	contract	101354
+UNKNOWN	onerror	101355
+UNKNOWN	utils	101356
+UNKNOWN	service	101357
+UNKNOWN	unfortunately these queries must be hardcoded due to the possibility of schema and names changing at a later date thus invalidating the older migration scripts if they are not hardcoded.	101358
+UNKNOWN	not much we can do about this since room doesnt create tables before migration.	101359
+UNKNOWN	its either this or blasting the entire database anew.	101360
+UNKNOWN	populate streams table with existing entries in watch history	101361
+UNKNOWN	latest data first thus ignoring older entries with the same indices	101362
+UNKNOWN	once the streams have pks join them with the normalized history table	101363
+UNKNOWN	and populate it with the remaining data from watch history	101364
+UNKNOWN	/	101365
+UNKNOWN	fragments lifecycle	101366
+UNKNOWN	init	101367
+UNKNOWN	state saving	101368
+UNKNOWN	inits	101369
+UNKNOWN	menu	101370
+UNKNOWN	only pass through if the query length is equal or greater than threshold_network_suggestion	101371
+UNKNOWN	remove duplicates	101372
+UNKNOWN	no-op	101373
+UNKNOWN	exception occurred its not a url	101374
+UNKNOWN	todo no way to tell if search has more items in the moment	101375
+UNKNOWN	utils	101376
+UNKNOWN	suggestion results	101377
+UNKNOWN	contract	101378
+UNKNOWN	search results	101379
+UNKNOWN	lifecycle	101380
+UNKNOWN	inits	101381
+UNKNOWN	radio group video&audio options - listener	101382
+UNKNOWN	streams spinner listener	101383
+UNKNOWN	utils	101384
+UNKNOWN	sort components by name	101385
+UNKNOWN	item.getmenuinfo() is null so we use the tag of the view	101386
+UNKNOWN	split the html file and insert the stylesheet into the head of the file	101387
+UNKNOWN	create the adapter that will return a fragment for each of the three	101388
+UNKNOWN	primary sections of the activity.	101389
+UNKNOWN	set up the viewpager with the sections adapter.	101390
+UNKNOWN	inflate the menu this adds items to the action bar if it is present.	101391
+UNKNOWN	show 2 total pages.	101392
+UNKNOWN	show 2 total pages.	101393
+UNKNOWN	obtain a parcel object and write the parcelable object to it	101394
+UNKNOWN	create an initializerbuilder	101395
+UNKNOWN	enable chrome devtools	101396
+UNKNOWN	enable command line interface	101397
+UNKNOWN	use the initializerbuilder to generate an initializer	101398
+UNKNOWN	initialize stetho with the initializer	101399
+UNKNOWN	give each object 10 seconds to be gced before leak canary gets nosy on it	101400
+UNKNOWN	/	101401
+UNKNOWN	fragments lifecycle	101402
+UNKNOWN	check if it was loading when the fragment was stopped/paused	101403
+UNKNOWN	check if the next video label and video is visible	101404
+UNKNOWN	if it is include the two elements in the next check	101405
+UNKNOWN	noinspection unchecked	101406
+UNKNOWN	noinspection unchecked	101407
+UNKNOWN	onclick	101408
+UNKNOWN	log.d(tag toggleexpandrelatedvideos() called with info = [ + info + ] from = [ + initial_related_videos + ])	101409
+UNKNOWN	log.d(tag i = + i)	101410
+UNKNOWN	init	101411
+UNKNOWN	thumbsrootlayout = rootview.findviewbyid(r.id.detail_thumbs_root_layout)	101412
+UNKNOWN	long first = system.nanotime() each	101413
+UNKNOWN	each = system.nanotime()	101414
+UNKNOWN	if (debug) log.d(tag each took + ((system.nanotime() - each) / 1000000l) + ms)	101415
+UNKNOWN	if (debug) log.d(tag total time + ((system.nanotime() - first) / 1000000l) + ms)	101416
+UNKNOWN	menu	101417
+UNKNOWN	caution set item properties programmatically otherwise it would not be accepted by	101418
+UNKNOWN	appcompat itemsinflater.inflate(r.menu.videoitem_detail menu)	101419
+UNKNOWN	show kodi if set in settings	101420
+UNKNOWN	if is still loading block menu	101421
+UNKNOWN	that means that we are on the start of the stack	101422
+UNKNOWN	return false to let the mainactivity handle the onback	101423
+UNKNOWN	remove top	101424
+UNKNOWN	get stack item from the new top	101425
+UNKNOWN	info loading and handling	101426
+UNKNOWN	play utils	101427
+UNKNOWN	exoplayer	101428
+UNKNOWN	internal player	101429
+UNKNOWN	utils	101430
+UNKNOWN	successful	101431
+UNKNOWN	noinspection deprecation	101432
+UNKNOWN	contract	101433
+UNKNOWN	only auto play in the first open	101434
+UNKNOWN	stream results	101435

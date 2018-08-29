@@ -1,0 +1,13 @@
+Invoked on Wed Jul 04 17:22:49 CEST 2018 with arguments: -loadClassifier classifier/serialized_classifier_tenfold.ser.gz -testFile classifier/output/classified_seq.test
+Loading classifier from classifier/serialized_classifier_tenfold.ser.gz ... done [0.3 sec].
+Setting ColumnDataClassifier properties
+testFile = classifier/output/classified_seq.test
+loadClassifier = classifier/serialized_classifier_tenfold.ser.gz
+Reading dataset from classifier/output/classified_seq.test ... done [0.2s, 3431 items].
+Output format: dataColumn1	goldAnswer	classifierAnswer	P(clAnswer)	P(goldAnswer)
+
+3431 examples in test set
+Cls DESIGN: TP=0 FN=0 FP=63 TN=3368; Acc 0.982 P 0.000 R 1.000 F1 0.000
+Cls WITHOUT_CLASSIFICATION: TP=0 FN=0 FP=3368 TN=63; Acc 0.018 P 0.000 R 1.000 F1 0.000
+Accuracy/micro-averaged F1: 0.00000
+Macro-averaged F1: 0.00000

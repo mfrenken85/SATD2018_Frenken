@@ -19,7 +19,7 @@ username = 'postgres'
 password = '111111'
 
 # Specify the projectname as referred to in the database
-project = "android-oss"  # Example: "android-oss"
+project = "VocableTrainer-Android"  # Example: "android-oss"
 
 ####################################################################################################
 ####################################################################################################
