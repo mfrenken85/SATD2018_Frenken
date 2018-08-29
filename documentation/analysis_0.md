@@ -44,7 +44,7 @@ For reference, these are the averages from the projects of the Maldonado study:
 - \# LOC: 6,756
 - \# of Contributors: 14
 - \# comments extracted: 46
-- \# (%) of positives: 40 (86.96%)
+- \# (%) of positives: 6 (13.04%)
 
 ### Analysis of the VocableTrainer-Android on design debt:
 - GitHub: https://github.com/0xpr03/VocableTrainer-Android
